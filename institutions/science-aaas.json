@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "science-aaas",
+  "name": "Science / AAAS",
+  "segment": "publisher",
+  "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-06-22",
+  "quote": "An AI program cannot be an author of a Science journal paper.",
+  "quote_label": "Editorial policy",
+  "provenance": {
+    "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+    "verify_status": "secondary-blocked"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/science-aaas",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/science-aaas",
+    "name": "Calibrated Authority rating — Science / AAAS",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Science / AAAS — public generative-AI policy",
+      "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+      "text": "An AI program cannot be an author of a Science journal paper.",
+      "abstract": "An AI program cannot be an author of a Science journal paper.",
+      "alternateName": "Editorial policy"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

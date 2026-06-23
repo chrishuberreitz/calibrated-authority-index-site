@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "princeton",
+  "name": "Princeton University",
+  "segment": "university",
+  "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 11,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-06-22",
+  "quote": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
+  "quote_label": "Rights, Rules, Responsibilities 2.4.7",
+  "provenance": {
+    "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/princeton",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/princeton",
+    "name": "Calibrated Authority rating — Princeton University",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Princeton University — public generative-AI policy",
+      "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
+      "text": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
+      "abstract": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
+      "alternateName": "Rights, Rules, Responsibilities 2.4.7"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 11,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

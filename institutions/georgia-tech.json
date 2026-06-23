@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "georgia-tech",
+  "name": "Georgia Institute of Technology",
+  "segment": "university",
+  "url": "https://provost.gatech.edu/sites/default/files/2025-10/AI%20Policy_draft_10.14.2025%202.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 12,
+  "posture": "Enabling",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "Core scholarly and research contributions are expected to remain under the full direction and responsibility of the GT community member.",
+  "quote_label": "AI Policy (draft, 2025-10-14)",
+  "provenance": {
+    "url": "https://provost.gatech.edu/sites/default/files/2025-10/AI%20Policy_draft_10.14.2025%202.pdf",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/georgia-tech",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/georgia-tech",
+    "name": "Calibrated Authority rating — Georgia Institute of Technology",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Georgia Institute of Technology — public generative-AI policy",
+      "url": "https://provost.gatech.edu/sites/default/files/2025-10/AI%20Policy_draft_10.14.2025%202.pdf",
+      "text": "Core scholarly and research contributions are expected to remain under the full direction and responsibility of the GT community member.",
+      "abstract": "Core scholarly and research contributions are expected to remain under the full direction and responsibility of the GT community member.",
+      "alternateName": "AI Policy (draft, 2025-10-14)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 12,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

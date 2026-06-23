@@ -1,0 +1,486 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "The Calibrated Authority Index — institution manifest",
+  "url": "https://calibrated-authority.chrishuberreitz.com/institutions/index.json",
+  "dataset": {
+    "title": "The Calibrated Authority Index",
+    "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
+    "version": "2026-06-22",
+    "n": 51,
+    "mean_ca": 9.8,
+    "ca_range": [
+      3,
+      12
+    ],
+    "creator": "Chris Huber Reitz",
+    "creator_url": "https://chrishuberreitz.com",
+    "license": "CC-BY-4.0",
+    "base_url": "https://calibrated-authority.chrishuberreitz.com",
+    "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
+    "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+    "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
+    "generated_at": "2026-06-23T04:14:38Z"
+  },
+  "institutions": [
+    {
+      "id": "uf-cpic",
+      "name": "UF Center for Public Interest Communications",
+      "segment": "research-center",
+      "ca": 12,
+      "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
+      "page": "/institutions/uf-cpic",
+      "atom": "/institutions/uf-cpic.json"
+    },
+    {
+      "id": "springer-nature",
+      "name": "Springer Nature / Nature",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
+      "page": "/institutions/springer-nature",
+      "atom": "/institutions/springer-nature.json"
+    },
+    {
+      "id": "elsevier",
+      "name": "Elsevier",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier",
+      "page": "/institutions/elsevier",
+      "atom": "/institutions/elsevier.json"
+    },
+    {
+      "id": "wiley",
+      "name": "Wiley",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
+      "page": "/institutions/wiley",
+      "atom": "/institutions/wiley.json"
+    },
+    {
+      "id": "taylor-francis",
+      "name": "Taylor & Francis",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://taylorandfrancis.com/our-policies/ai-policy/",
+      "page": "/institutions/taylor-francis",
+      "atom": "/institutions/taylor-francis.json"
+    },
+    {
+      "id": "science-aaas",
+      "name": "Science / AAAS",
+      "segment": "publisher",
+      "ca": 10,
+      "url": "https://www.science.org/content/page/science-journals-editorial-policies",
+      "page": "/institutions/science-aaas",
+      "atom": "/institutions/science-aaas.json"
+    },
+    {
+      "id": "icmje",
+      "name": "ICMJE",
+      "segment": "med-integrity",
+      "ca": 12,
+      "url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
+      "page": "/institutions/icmje",
+      "atom": "/institutions/icmje.json"
+    },
+    {
+      "id": "cope",
+      "name": "COPE",
+      "segment": "pub-ethics",
+      "ca": 7,
+      "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
+      "page": "/institutions/cope",
+      "atom": "/institutions/cope.json"
+    },
+    {
+      "id": "plos",
+      "name": "PLOS",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+      "page": "/institutions/plos",
+      "atom": "/institutions/plos.json"
+    },
+    {
+      "id": "poynter",
+      "name": "Poynter Institute",
+      "segment": "journalism",
+      "ca": 11,
+      "url": "https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/",
+      "page": "/institutions/poynter",
+      "atom": "/institutions/poynter.json"
+    },
+    {
+      "id": "reuters-institute",
+      "name": "Reuters Institute (Oxford)",
+      "segment": "journalism-research",
+      "ca": 5,
+      "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+      "page": "/institutions/reuters-institute",
+      "atom": "/institutions/reuters-institute.json"
+    },
+    {
+      "id": "columbia-tow",
+      "name": "Columbia / Tow Center",
+      "segment": "journalism-research",
+      "ca": 8,
+      "url": "https://journalism.columbia.edu/CJS2030/AI",
+      "page": "/institutions/columbia-tow",
+      "atom": "/institutions/columbia-tow.json"
+    },
+    {
+      "id": "ap",
+      "name": "Associated Press",
+      "segment": "journalism",
+      "ca": 10,
+      "url": "https://ds.svcs.associatedpress.com/standards-around-generative-ai",
+      "page": "/institutions/ap",
+      "atom": "/institutions/ap.json"
+    },
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "segment": "university",
+      "ca": 8,
+      "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
+      "page": "/institutions/harvard",
+      "atom": "/institutions/harvard.json"
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford University",
+      "segment": "university",
+      "ca": 9,
+      "url": "https://communitystandards.stanford.edu/policies-guidance",
+      "page": "/institutions/stanford",
+      "atom": "/institutions/stanford.json"
+    },
+    {
+      "id": "mit",
+      "name": "MIT",
+      "segment": "university",
+      "ca": 8,
+      "url": "https://ist.mit.edu/ai-guidance",
+      "page": "/institutions/mit",
+      "atom": "/institutions/mit.json"
+    },
+    {
+      "id": "umich",
+      "name": "University of Michigan",
+      "segment": "university",
+      "ca": 10,
+      "url": "https://genai.umich.edu/resources/faculty/course-policies",
+      "page": "/institutions/umich",
+      "atom": "/institutions/umich.json"
+    },
+    {
+      "id": "russell-group",
+      "name": "Russell Group (UK)",
+      "segment": "university-consortium",
+      "ca": 7,
+      "url": "https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education",
+      "page": "/institutions/russell-group",
+      "atom": "/institutions/russell-group.json"
+    },
+    {
+      "id": "mla-cccc",
+      "name": "MLA-CCCC Task Force",
+      "segment": "education",
+      "ca": 10,
+      "url": "https://aiandwriting.hcommons.org/working-paper-1/",
+      "page": "/institutions/mla-cccc",
+      "atom": "/institutions/mla-cccc.json"
+    },
+    {
+      "id": "acm",
+      "name": "ACM",
+      "segment": "computing-society",
+      "ca": 11,
+      "url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
+      "page": "/institutions/acm",
+      "atom": "/institutions/acm.json"
+    },
+    {
+      "id": "apa",
+      "name": "APA",
+      "segment": "society-publisher",
+      "ca": 11,
+      "url": "https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai",
+      "page": "/institutions/apa",
+      "atom": "/institutions/apa.json"
+    },
+    {
+      "id": "yale",
+      "name": "Yale University",
+      "segment": "university",
+      "ca": 9,
+      "url": "https://provost.yale.edu/news/guidelines-use-generative-ai-tools",
+      "page": "/institutions/yale",
+      "atom": "/institutions/yale.json"
+    },
+    {
+      "id": "princeton",
+      "name": "Princeton University",
+      "segment": "university",
+      "ca": 11,
+      "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
+      "page": "/institutions/princeton",
+      "atom": "/institutions/princeton.json"
+    },
+    {
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
+      "segment": "university",
+      "ca": 6,
+      "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
+      "page": "/institutions/uc-berkeley",
+      "atom": "/institutions/uc-berkeley.json"
+    },
+    {
+      "id": "cornell",
+      "name": "Cornell University",
+      "segment": "university",
+      "ca": 8,
+      "url": "https://it.cornell.edu/ai/ai-guidelines",
+      "page": "/institutions/cornell",
+      "atom": "/institutions/cornell.json"
+    },
+    {
+      "id": "carnegie-mellon",
+      "name": "Carnegie Mellon University",
+      "segment": "university",
+      "ca": 11,
+      "url": "https://www.cmu.edu/teaching/technology/aitools/academicintegrity/index.html",
+      "page": "/institutions/carnegie-mellon",
+      "atom": "/institutions/carnegie-mellon.json"
+    },
+    {
+      "id": "georgia-tech",
+      "name": "Georgia Institute of Technology",
+      "segment": "university",
+      "ca": 12,
+      "url": "https://provost.gatech.edu/sites/default/files/2025-10/AI%20Policy_draft_10.14.2025%202.pdf",
+      "page": "/institutions/georgia-tech",
+      "atom": "/institutions/georgia-tech.json"
+    },
+    {
+      "id": "u-toronto",
+      "name": "University of Toronto",
+      "segment": "university",
+      "ca": 11,
+      "url": "https://www.viceprovostundergrad.utoronto.ca/wp-content/uploads/2024/08/Syllabus-language-for-Gen-AI-2024-08-21.pdf",
+      "page": "/institutions/u-toronto",
+      "atom": "/institutions/u-toronto.json"
+    },
+    {
+      "id": "cambridge",
+      "name": "University of Cambridge",
+      "segment": "university",
+      "ca": 9,
+      "url": "https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/artificial-intelligence-ai",
+      "page": "/institutions/cambridge",
+      "atom": "/institutions/cambridge.json"
+    },
+    {
+      "id": "ucl",
+      "name": "University College London",
+      "segment": "university",
+      "ca": 9,
+      "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment",
+      "page": "/institutions/ucl",
+      "atom": "/institutions/ucl.json"
+    },
+    {
+      "id": "asu",
+      "name": "Arizona State University",
+      "segment": "university",
+      "ca": 8,
+      "url": "https://tlc.sols.asu.edu/teaching/toolkits/syllabus-and-policies-generative-ai",
+      "page": "/institutions/asu",
+      "atom": "/institutions/asu.json"
+    },
+    {
+      "id": "cambridge-up",
+      "name": "Cambridge University Press",
+      "segment": "publisher",
+      "ca": 9,
+      "url": "https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals",
+      "page": "/institutions/cambridge-up",
+      "atom": "/institutions/cambridge-up.json"
+    },
+    {
+      "id": "oxford-up",
+      "name": "Oxford University Press",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence",
+      "page": "/institutions/oxford-up",
+      "atom": "/institutions/oxford-up.json"
+    },
+    {
+      "id": "sage",
+      "name": "SAGE Publishing",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+      "page": "/institutions/sage",
+      "atom": "/institutions/sage.json"
+    },
+    {
+      "id": "ieee",
+      "name": "IEEE",
+      "segment": "computing-society",
+      "ca": 11,
+      "url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "page": "/institutions/ieee",
+      "atom": "/institutions/ieee.json"
+    },
+    {
+      "id": "pnas",
+      "name": "PNAS",
+      "segment": "publisher",
+      "ca": 12,
+      "url": "https://www.pnas.org/author-center/editorial-and-journal-policies",
+      "page": "/institutions/pnas",
+      "atom": "/institutions/pnas.json"
+    },
+    {
+      "id": "jama",
+      "name": "JAMA Network",
+      "segment": "med-journal",
+      "ca": 10,
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2807956",
+      "page": "/institutions/jama",
+      "atom": "/institutions/jama.json"
+    },
+    {
+      "id": "nejm",
+      "name": "New England Journal of Medicine",
+      "segment": "med-journal",
+      "ca": 9,
+      "url": "https://ai.nejm.org/about/editorial-policies",
+      "page": "/institutions/nejm",
+      "atom": "/institutions/nejm.json"
+    },
+    {
+      "id": "wame",
+      "name": "World Association of Medical Editors",
+      "segment": "med-integrity",
+      "ca": 12,
+      "url": "https://wame.org/page3.php?id=106",
+      "page": "/institutions/wame",
+      "atom": "/institutions/wame.json"
+    },
+    {
+      "id": "cse",
+      "name": "Council of Science Editors",
+      "segment": "science-editors",
+      "ca": 10,
+      "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
+      "page": "/institutions/cse",
+      "atom": "/institutions/cse.json"
+    },
+    {
+      "id": "royal-society",
+      "name": "The Royal Society",
+      "segment": "society-publisher",
+      "ca": 10,
+      "url": "https://royalsociety.org/journals/ethics-policies/openness/",
+      "page": "/institutions/royal-society",
+      "atom": "/institutions/royal-society.json"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "segment": "journalism",
+      "ca": 12,
+      "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
+      "page": "/institutions/bbc",
+      "atom": "/institutions/bbc.json"
+    },
+    {
+      "id": "reuters-news",
+      "name": "Reuters (news agency)",
+      "segment": "journalism",
+      "ca": 11,
+      "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
+      "page": "/institutions/reuters-news",
+      "atom": "/institutions/reuters-news.json"
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "segment": "journalism",
+      "ca": 11,
+      "url": "https://uploads.guim.co.uk/2026/03/03/Editorial_Code_of_Practice_Guidelines_March2026.pdf",
+      "page": "/institutions/guardian",
+      "atom": "/institutions/guardian.json"
+    },
+    {
+      "id": "nyt",
+      "name": "The New York Times",
+      "segment": "journalism",
+      "ca": 12,
+      "url": "https://www.nytco.com/press/principles-for-using-generative-a.i.-in-the-timess-newsroom/",
+      "page": "/institutions/nyt",
+      "atom": "/institutions/nyt.json"
+    },
+    {
+      "id": "spj",
+      "name": "Society of Professional Journalists",
+      "segment": "journalism",
+      "ca": 9,
+      "url": "https://www.spj.org/spj-code-of-ethics/",
+      "page": "/institutions/spj",
+      "atom": "/institutions/spj.json"
+    },
+    {
+      "id": "arl",
+      "name": "Association of Research Libraries",
+      "segment": "library",
+      "ca": 5,
+      "url": "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/",
+      "page": "/institutions/arl",
+      "atom": "/institutions/arl.json"
+    },
+    {
+      "id": "educause",
+      "name": "EDUCAUSE",
+      "segment": "edtech",
+      "ca": 3,
+      "url": "https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy",
+      "page": "/institutions/educause",
+      "atom": "/institutions/educause.json"
+    },
+    {
+      "id": "unesco",
+      "name": "UNESCO — GenAI in education & research",
+      "segment": "intergov",
+      "ca": 9,
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "page": "/institutions/unesco",
+      "atom": "/institutions/unesco.json"
+    },
+    {
+      "id": "oecd",
+      "name": "OECD AI Principles",
+      "segment": "intergov",
+      "ca": 10,
+      "url": "https://oecd.ai/en/ai-principles",
+      "page": "/institutions/oecd",
+      "atom": "/institutions/oecd.json"
+    },
+    {
+      "id": "us-doe-oet",
+      "name": "US Dept of Education (OET)",
+      "segment": "gov-education",
+      "ca": 8,
+      "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
+      "page": "/institutions/us-doe-oet",
+      "atom": "/institutions/us-doe-oet.json"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "arl",
+  "name": "Association of Research Libraries",
+  "segment": "library",
+  "url": "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 5,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "Libraries believe 'no human, no AI.'",
+  "quote_label": "Guiding Principles for AI",
+  "provenance": {
+    "url": "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/arl",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/arl",
+    "name": "Calibrated Authority rating — Association of Research Libraries",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Association of Research Libraries — public generative-AI policy",
+      "url": "https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/",
+      "text": "Libraries believe 'no human, no AI.'",
+      "abstract": "Libraries believe 'no human, no AI.'",
+      "alternateName": "Guiding Principles for AI"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "u-toronto",
+  "name": "University of Toronto",
+  "segment": "university",
+  "url": "https://www.viceprovostundergrad.utoronto.ca/wp-content/uploads/2024/08/Syllabus-language-for-Gen-AI-2024-08-21.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 11,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "Generative AI tools do not meet the criteria for authorship of scholarly works, because these tools cannot take responsibility or be held accountable for submitted work.",
+  "quote_label": "SGS guidance",
+  "provenance": {
+    "url": "https://www.viceprovostundergrad.utoronto.ca/wp-content/uploads/2024/08/Syllabus-language-for-Gen-AI-2024-08-21.pdf",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/u-toronto",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/u-toronto",
+    "name": "Calibrated Authority rating — University of Toronto",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "University of Toronto — public generative-AI policy",
+      "url": "https://www.viceprovostundergrad.utoronto.ca/wp-content/uploads/2024/08/Syllabus-language-for-Gen-AI-2024-08-21.pdf",
+      "text": "Generative AI tools do not meet the criteria for authorship of scholarly works, because these tools cannot take responsibility or be held accountable for submitted work.",
+      "abstract": "Generative AI tools do not meet the criteria for authorship of scholarly works, because these tools cannot take responsibility or be held accountable for submitted work.",
+      "alternateName": "SGS guidance"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 11,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

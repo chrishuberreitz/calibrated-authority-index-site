@@ -1,0 +1,4 @@
+.vercel
+.DS_Store
+# internal runbook — keep local, do not publish
+DEPLOY.md

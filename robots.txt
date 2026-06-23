@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://calibrated-authority.chrishuberreitz.com/sitemap.xml
+# Agent guide: /llms.txt  · Dataset: /index.json  · Manifest: /institutions/index.json  · Schema: /schema.json  · CSV: /data.csv  · Methodology: /methodology

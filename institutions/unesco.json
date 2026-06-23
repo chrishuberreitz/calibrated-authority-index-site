@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "unesco",
+  "name": "UNESCO — GenAI in education & research",
+  "segment": "intergov",
+  "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 9,
+  "posture": "Prohibitive",
+  "c2_fit": "partially",
+  "c3": "Relational",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
+  "quote_label": "Guidance for generative AI in education and research",
+  "provenance": {
+    "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
+    "name": "Calibrated Authority rating — UNESCO — GenAI in education & research",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "UNESCO — GenAI in education & research — public generative-AI policy",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "text": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
+      "abstract": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
+      "alternateName": "Guidance for generative AI in education and research"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 9,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Prohibitive. Verification-boundary fit: partially. Trust-logic: Relational."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

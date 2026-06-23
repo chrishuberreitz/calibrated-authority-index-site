@@ -1,0 +1,52 @@
+id,name,segment,url,D1,D2,D3,D4,D5,D6,ca,posture,c2_fit,c3,twilight,verify
+uf-cpic,UF Center for Public Interest Communications,research-center,https://realgoodcenter.jou.ufl.edu/about/ai/,2,2,2,2,2,2,12,Prohibitive,fits,Both-split,True,ok
+springer-nature,Springer Nature / Nature,publisher,https://www.nature.com/nature-portfolio/editorial-policies/ai,2,2,2,2,2,2,12,Prohibitive,fits,Both-split,True,ok
+elsevier,Elsevier,publisher,https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
+wiley,Wiley,publisher,https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-verified-2026-06-22
+taylor-francis,Taylor & Francis,publisher,https://taylorandfrancis.com/our-policies/ai-policy/,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-verified-2026-06-22
+science-aaas,Science / AAAS,publisher,https://www.science.org/content/page/science-journals-editorial-policies,1,2,2,2,2,1,10,Balanced,fits,Both-split,False,secondary-blocked
+icmje,ICMJE,med-integrity,https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
+cope,COPE,pub-ethics,https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools,1,2,2,0,1,1,7,Balanced,fits,Relational,False,ok
+plos,PLOS,publisher,https://journals.plos.org/plosone/s/ethical-publishing-practice,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-06-22
+poynter,Poynter Institute,journalism,https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/,2,1,2,2,2,2,11,Balanced,fits,Evidential,True,ok
+reuters-institute,Reuters Institute (Oxford),journalism-research,https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society,1,1,1,0,1,1,5,Balanced,partially,Both-split,True,ok
+columbia-tow,Columbia / Tow Center,journalism-research,https://journalism.columbia.edu/CJS2030/AI,1,2,1,1,2,1,8,Balanced,fits,Both-split,True,ok
+ap,Associated Press,journalism,https://ds.svcs.associatedpress.com/standards-around-generative-ai,1,2,1,2,2,2,10,Balanced,fits,Evidential,False,secondary-blocked
+harvard,Harvard University,university,https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard,1,2,1,1,2,1,8,Balanced,fits,Evidential,True,ok
+stanford,Stanford University,university,https://communitystandards.stanford.edu/policies-guidance,1,2,2,1,1,2,9,Balanced,fits,Both-split,True,ok
+mit,MIT,university,https://ist.mit.edu/ai-guidance,1,2,2,1,1,1,8,Balanced,fits,Evidential,True,ok
+umich,University of Michigan,university,https://genai.umich.edu/resources/faculty/course-policies,2,2,1,1,2,2,10,Enabling,fits,Evidential,True,ok
+russell-group,Russell Group (UK),university-consortium,https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education,1,1,1,1,1,2,7,Enabling,partially,Evidential,False,ok
+mla-cccc,MLA-CCCC Task Force,education,https://aiandwriting.hcommons.org/working-paper-1/,2,2,2,1,2,1,10,Balanced,fits,Both-split,False,ok
+acm,ACM,computing-society,https://www.acm.org/publications/policies/new-acm-policy-on-authorship,2,2,1,2,2,2,11,Balanced,fits,Both-split,False,primary-verified-2026-06-22
+apa,APA,society-publisher,https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai,2,2,2,2,2,1,11,Balanced,fits,Both-split,False,ok
+yale,Yale University,university,https://provost.yale.edu/news/guidelines-use-generative-ai-tools,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
+princeton,Princeton University,university,https://rrr.princeton.edu/students-and-university/24-academic-regulations,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,ok
+uc-berkeley,"University of California, Berkeley",university,https://oercs.berkeley.edu/appropriate-use-generative-ai-tools,1,1,1,1,1,1,6,Balanced,partially,Evidential,False,ok
+cornell,Cornell University,university,https://it.cornell.edu/ai/ai-guidelines,1,2,1,1,2,1,8,Enabling,fits,Both-split,False,ok
+carnegie-mellon,Carnegie Mellon University,university,https://www.cmu.edu/teaching/technology/aitools/academicintegrity/index.html,2,2,2,1,2,2,11,Prohibitive,fits,Both-split,False,ok
+georgia-tech,Georgia Institute of Technology,university,https://provost.gatech.edu/sites/default/files/2025-10/AI%20Policy_draft_10.14.2025%202.pdf,2,2,2,2,2,2,12,Enabling,fits,Evidential,True,ok
+u-toronto,University of Toronto,university,https://www.viceprovostundergrad.utoronto.ca/wp-content/uploads/2024/08/Syllabus-language-for-Gen-AI-2024-08-21.pdf,2,2,2,1,2,2,11,Balanced,fits,Evidential,True,ok
+cambridge,University of Cambridge,university,https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/artificial-intelligence-ai,1,2,2,1,2,1,9,Balanced,fits,Both-split,True,ok
+ucl,University College London,university,https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment,1,2,2,1,2,1,9,Enabling,fits,Both-split,True,ok
+asu,Arizona State University,university,https://tlc.sols.asu.edu/teaching/toolkits/syllabus-and-policies-generative-ai,1,2,2,0,2,1,8,Balanced,fits,Both-split,True,ok
+cambridge-up,Cambridge University Press,publisher,https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
+oxford-up,Oxford University Press,publisher,https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,ok
+sage,SAGE Publishing,publisher,https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,ok
+ieee,IEEE,computing-society,https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,ok
+pnas,PNAS,publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,ok
+jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
+nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
+wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,ok
+cse,Council of Science Editors,science-editors,https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
+royal-society,The Royal Society,society-publisher,https://royalsociety.org/journals/ethics-policies/openness/,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,ok
+bbc,BBC,journalism,https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,ok
+reuters-news,Reuters (news agency),journalism,https://www.thomsonreuters.com/en/about-us/trust-principles,2,2,1,2,2,2,11,Balanced,fits,Evidential,False,ok
+guardian,The Guardian,journalism,https://uploads.guim.co.uk/2026/03/03/Editorial_Code_of_Practice_Guidelines_March2026.pdf,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,ok
+nyt,The New York Times,journalism,https://www.nytco.com/press/principles-for-using-generative-a.i.-in-the-timess-newsroom/,2,2,2,2,2,2,12,Prohibitive,fits,Both-split,True,secondary-blocked
+spj,Society of Professional Journalists,journalism,https://www.spj.org/spj-code-of-ethics/,2,1,2,1,1,2,9,Balanced,fits,Evidential,False,ok
+arl,Association of Research Libraries,library,https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/,1,1,0,1,1,1,5,Enabling,partially,Both-split,True,ok
+educause,EDUCAUSE,edtech,https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy,0,1,1,0,0,1,3,Balanced,contradicts,Relational,True,ok
+unesco,UNESCO — GenAI in education & research,intergov,https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research,1,2,1,2,2,1,9,Prohibitive,partially,Relational,True,ok
+oecd,OECD AI Principles,intergov,https://oecd.ai/en/ai-principles,2,2,2,1,1,2,10,Enabling,fits,Evidential,False,ok
+us-doe-oet,US Dept of Education (OET),gov-education,https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf,1,2,1,1,2,1,8,Balanced,partially,Both-split,True,ok

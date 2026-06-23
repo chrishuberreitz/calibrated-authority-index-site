@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "reuters-news",
+  "name": "Reuters (news agency)",
+  "segment": "journalism",
+  "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 11,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-06-22",
+  "quote": "Our images and stories must reflect reality.",
+  "quote_label": "Handbook of Journalism",
+  "provenance": {
+    "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/reuters-news",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/reuters-news",
+    "name": "Calibrated Authority rating — Reuters (news agency)",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Reuters (news agency) — public generative-AI policy",
+      "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
+      "text": "Our images and stories must reflect reality.",
+      "abstract": "Our images and stories must reflect reality.",
+      "alternateName": "Handbook of Journalism"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 11,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

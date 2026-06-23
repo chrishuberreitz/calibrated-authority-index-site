@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "reuters-institute",
+  "name": "Reuters Institute (Oxford)",
+  "segment": "journalism-research",
+  "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "D4": 0,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 5,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "You cannot simply 'hack' your way to trust.",
+  "quote_label": "Generative AI and news report 2025",
+  "provenance": {
+    "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/reuters-institute",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/reuters-institute",
+    "name": "Calibrated Authority rating — Reuters Institute (Oxford)",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Reuters Institute (Oxford) — public generative-AI policy",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society",
+      "text": "You cannot simply 'hack' your way to trust.",
+      "abstract": "You cannot simply 'hack' your way to trust.",
+      "alternateName": "Generative AI and news report 2025"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

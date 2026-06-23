@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "harvard",
+  "name": "Harvard University",
+  "segment": "university",
+  "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 8,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
+  "quote_label": "Generative AI guidelines",
+  "provenance": {
+    "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/harvard",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/harvard",
+    "name": "Calibrated Authority rating — Harvard University",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Harvard University — public generative-AI policy",
+      "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
+      "text": "You are responsible for any content that you produce or publish that includes AI-generated material.",
+      "abstract": "You are responsible for any content that you produce or publish that includes AI-generated material.",
+      "alternateName": "Generative AI guidelines"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "generated": "2026-06-22",
+  "moves": [
+    {
+      "date": "2026-05-14",
+      "institution": "ACM",
+      "id": "acm",
+      "kind": "changed",
+      "headline": "ACM dropped its AI writing-disclosure requirement",
+      "detail": "Writing-assistance disclosure no longer required; research-use must still be described in Methods.",
+      "delta": "CA 10 → 11"
+    },
+    {
+      "date": "2025-10-14",
+      "institution": "Georgia Tech",
+      "id": "georgia-tech",
+      "kind": "new",
+      "headline": "Georgia Tech published a draft generative-AI policy",
+      "detail": "Core scholarly contributions must stay under full human direction; effective date TBD.",
+      "delta": "CA 12"
+    },
+    {
+      "date": "2026-06-22",
+      "institution": "",
+      "id": "",
+      "kind": "baseline",
+      "headline": "Index baseline set — 51 institutions coded",
+      "detail": "Mean CA 9.8/12. Weekly scan now live; new and changed policies append here.",
+      "delta": ""
+    }
+  ]
+}

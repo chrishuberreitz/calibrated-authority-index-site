@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "uc-berkeley",
+  "name": "University of California, Berkeley",
+  "segment": "university",
+  "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 6,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-06-22",
+  "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
+  "quote_label": "Appropriate use of generative AI",
+  "provenance": {
+    "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uc-berkeley",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uc-berkeley",
+    "name": "Calibrated Authority rating — University of California, Berkeley",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "University of California, Berkeley — public generative-AI policy",
+      "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
+      "text": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
+      "abstract": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
+      "alternateName": "Appropriate use of generative AI"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 6,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

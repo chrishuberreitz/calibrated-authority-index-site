@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "bbc",
+  "name": "BBC",
+  "segment": "journalism",
+  "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 12,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "BBC use of AI must never undermine the trust of audiences.",
+  "quote_label": "Editorial guidance on AI (2025-06-23)",
+  "provenance": {
+    "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/bbc",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/bbc",
+    "name": "Calibrated Authority rating — BBC",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "BBC — public generative-AI policy",
+      "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
+      "text": "BBC use of AI must never undermine the trust of audiences.",
+      "abstract": "BBC use of AI must never undermine the trust of audiences.",
+      "alternateName": "Editorial guidance on AI (2025-06-23)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 12,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "title": "Calibrated Authority Index — institution record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "segment",
+    "scores",
+    "ca",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug; permalink atom."
+    },
+    "name": {
+      "type": "string"
+    },
+    "segment": {
+      "type": "string",
+      "description": "Institution category (publisher, university, etc.)."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Source policy URL."
+    },
+    "scores": {
+      "type": "object",
+      "description": "The six instrument dimensions, 0-2 each.",
+      "properties": {
+        "D1": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2,
+          "description": "Traceability & inspectability"
+        },
+        "D2": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2,
+          "description": "Human authorship & accountability"
+        },
+        "D3": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2,
+          "description": "Disclosure & labeling"
+        },
+        "D4": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2,
+          "description": "Synthetic-identity / fabrication prohibition"
+        },
+        "D5": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2,
+          "description": "Human validation in loop"
+        },
+        "D6": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 2,
+          "description": "Evidential-trust emphasis"
+        }
+      },
+      "required": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ]
+    },
+    "ca": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 12,
+      "description": "Composite Calibrated Authority score (sum of D1-D6)."
+    },
+    "posture": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Prohibitive",
+        "Balanced",
+        "Enabling",
+        null
+      ]
+    },
+    "c2_fit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Verification-boundary fit (fits | deviates)."
+    },
+    "c3": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Evidential",
+        "Relational",
+        "Both-split",
+        "Neither",
+        null
+      ],
+      "description": "Trust-logic classification."
+    },
+    "twilight": {
+      "type": "boolean",
+      "description": "Uses precedent-collapse / twilight framing."
+    },
+    "quote": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Verbatim line from the institution's policy — the evidence."
+    },
+    "quote_label": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Short attribution/context for the quote."
+    },
+    "coded_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Evidential trail — no claim without a traceable source.",
+      "required": [
+        "url",
+        "verify_status"
+      ],
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "verify_status": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

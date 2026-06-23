@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "umich",
+  "name": "University of Michigan",
+  "segment": "university",
+  "url": "https://genai.umich.edu/resources/faculty/course-policies",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Enabling",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "All data shared with U-M's AI services is private and will not be used to train AI models.",
+  "quote_label": "ITS AI services",
+  "provenance": {
+    "url": "https://genai.umich.edu/resources/faculty/course-policies",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/umich",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/umich",
+    "name": "Calibrated Authority rating — University of Michigan",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "University of Michigan — public generative-AI policy",
+      "url": "https://genai.umich.edu/resources/faculty/course-policies",
+      "text": "All data shared with U-M's AI services is private and will not be used to train AI models.",
+      "abstract": "All data shared with U-M's AI services is private and will not be used to train AI models.",
+      "alternateName": "ITS AI services"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

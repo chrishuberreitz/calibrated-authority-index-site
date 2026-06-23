@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "educause",
+  "name": "EDUCAUSE",
+  "segment": "edtech",
+  "url": "https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy",
+  "scores": {
+    "D1": 0,
+    "D2": 1,
+    "D3": 1,
+    "D4": 0,
+    "D5": 0,
+    "D6": 1
+  },
+  "ca": 3,
+  "posture": "Balanced",
+  "c2_fit": "contradicts",
+  "c3": "Relational",
+  "twilight": true,
+  "coded_date": "2026-06-22",
+  "quote": "[The policy creates] an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
+  "quote_label": "Cross-Campus Approaches to a GenAI Policy",
+  "provenance": {
+    "url": "https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/educause",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/educause",
+    "name": "Calibrated Authority rating — EDUCAUSE",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "EDUCAUSE — public generative-AI policy",
+      "url": "https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy",
+      "text": "[The policy creates] an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
+      "abstract": "[The policy creates] an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
+      "alternateName": "Cross-Campus Approaches to a GenAI Policy"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 3,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 0; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 0; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: contradicts. Trust-logic: Relational."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

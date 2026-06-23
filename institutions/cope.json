@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "cope",
+  "name": "COPE",
+  "segment": "pub-ethics",
+  "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 7,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Relational",
+  "twilight": false,
+  "coded_date": "2026-06-22",
+  "quote": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
+  "quote_label": "Position: Authorship and AI tools",
+  "provenance": {
+    "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cope",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cope",
+    "name": "Calibrated Authority rating — COPE",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "COPE — public generative-AI policy",
+      "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
+      "text": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
+      "abstract": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
+      "alternateName": "Position: Authorship and AI tools"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 7,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Relational."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

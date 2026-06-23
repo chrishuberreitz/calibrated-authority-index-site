@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>The Calibrated Authority Index</title>
+<meta name="description" content="A living corpus coding how 51 knowledge institutions construct trust in generative AI — six dimensions, a 0–12 Calibrated Authority score, and the verification-economics thesis observed in the wild. By Chris Huber Reitz." />
+<link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/" />
+<meta name="robots" content="index,follow" />
+<meta name="author" content="Chris Huber Reitz" />
+
+<!-- OpenGraph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="The Calibrated Authority Index" />
+<meta property="og:title" content="The Calibrated Authority Index" />
+<meta property="og:description" content="How 51 knowledge institutions quietly rewrote the rules of trust in AI. We trust machines exactly as far as we can check them — and not one step further." />
+<meta property="og:url" content="https://calibrated-authority.chrishuberreitz.com/" />
+<meta property="og:image" content="https://calibrated-authority.chrishuberreitz.com/og.png" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="The Calibrated Authority Index" />
+<meta name="twitter:description" content="How 51 knowledge institutions quietly rewrote the rules of trust in AI. N=51 · mean CA 9.8/12." />
+<meta name="twitter:image" content="https://calibrated-authority.chrishuberreitz.com/og.png" />
+
+<!-- schema.org/Dataset JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Calibrated Authority Index",
+  "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
+  "version": "2026-06-22",
+  "creator": { "@type": "Person", "name": "Chris Huber Reitz", "url": "https://chrishuberreitz.com",
+    "sameAs": ["https://chrishuberreitz.com", "https://chrishuberreitz.com/frameworks/calibrated-authority", "https://www.linkedin.com/in/chrishuberreitz"] },
+  "isBasedOn": "https://chrishuberreitz.com/frameworks/calibrated-authority",
+  "keywords": ["Calibrated Authority","Anticipatory Reciprocity","AI trust","AI governance","generative AI policy","verification economics","trust formation"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://calibrated-authority.chrishuberreitz.com",
+  "variableMeasured": [
+    { "@type": "PropertyValue", "name": "D1", "description": "Traceability & inspectability" },
+    { "@type": "PropertyValue", "name": "D2", "description": "Human authorship & accountability" },
+    { "@type": "PropertyValue", "name": "D3", "description": "Disclosure & labeling" },
+    { "@type": "PropertyValue", "name": "D4", "description": "Synthetic-identity / fabrication prohibition" },
+    { "@type": "PropertyValue", "name": "D5", "description": "Human validation in loop" },
+    { "@type": "PropertyValue", "name": "D6", "description": "Evidential-trust emphasis" },
+    { "@type": "PropertyValue", "name": "ca", "description": "Composite Calibrated Authority score (0-12)." }
+  ],
+  "dateModified": "2026-06-22T18:31:26Z",
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://calibrated-authority.chrishuberreitz.com/index.json" },
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://calibrated-authority.chrishuberreitz.com/data.csv" }
+  ]
+}
+</script>
+
+<!-- DefinedTermSet — own the vocabulary agents retrieve when reasoning about AI trust -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Calibrated Authority — trust-formation vocabulary",
+  "url": "https://calibrated-authority.chrishuberreitz.com",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Calibrated Authority",
+      "description": "The mechanism by which agentic systems form trust: evidentially, in reverse — authority is granted in proportion to what a counterparty can prove (provenance, credentials, audit trail). Coined by Chris Huber Reitz.",
+      "url": "https://chrishuberreitz.com/frameworks/calibrated-authority",
+      "inDefinedTermSet": "https://calibrated-authority.chrishuberreitz.com"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Anticipatory Reciprocity",
+      "description": "The mechanism by which humans form trust: prospectively, ahead of evidence — extended on the expectation of fair, reciprocated exchange over an ongoing relationship. The human counterpart to Calibrated Authority.",
+      "url": "https://chrishuberreitz.com/frameworks/calibrated-authority",
+      "inDefinedTermSet": "https://calibrated-authority.chrishuberreitz.com"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Verification economics",
+      "description": "The claim that trust mechanism is determined by the cost of proof: where verification is cheap, trust is granted evidentially and is fungible; where proof is scarce, trust runs forward on relational grounds.",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "inDefinedTermSet": "https://calibrated-authority.chrishuberreitz.com"
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#0d1117;          /* deep slate ink */
+  --paper-2:#11171f;
+  --panel:#161d27;
+  --panel-edge:#222c39;
+  --line:#2a3543;
+  --ink:#e9e4d8;            /* warm bone text */
+  --ink-dim:#9aa5b1;
+  --ink-faint:#5c6775;
+  --signal:#e0533a;        /* hot signal — low tail / dissent */
+  --signal-soft:#f0a58e;
+  --evid:#5fb7c4;          /* evidential / cool */
+  --gold:#d8a64a;          /* high mass */
+  --grid-rgb:42,53,67;
+  --shadow:0 20px 60px -25px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:13px;
+  line-height:1.45;
+  overflow:hidden;            /* single screen, no scroll */
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  background-image:
+    radial-gradient(120% 80% at 80% -10%, rgba(95,183,196,.06), transparent 60%),
+    radial-gradient(100% 70% at -5% 110%, rgba(224,83,58,.05), transparent 55%);
+}
+.serif{font-family:"Fraunces",Georgia,serif}
+
+/* fine grid texture */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.4;
+  background-image:linear-gradient(rgba(var(--grid-rgb),.25) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(var(--grid-rgb),.25) 1px,transparent 1px);
+  background-size:44px 44px;
+  mask-image:radial-gradient(130% 100% at 50% 0%,#000 35%,transparent 95%);
+}
+
+#app{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;
+  padding:clamp(10px,1.6vh,20px) clamp(14px,2.2vw,30px);gap:clamp(8px,1.4vh,16px)}
+
+/* ---------- header ---------- */
+header{display:flex;justify-content:space-between;align-items:flex-end;
+  border-bottom:1px solid var(--line);padding-bottom:clamp(6px,1vh,12px);flex:0 0 auto}
+.brand h1{font-family:"Fraunces";font-weight:500;font-optical-sizing:auto;
+  font-size:clamp(20px,3.1vh,34px);line-height:1;letter-spacing:-.01em}
+.brand .sub{color:var(--ink-dim);font-size:clamp(10px,1.35vh,13px);margin-top:.4em;max-width:62ch}
+.brand .sub em{color:var(--signal-soft);font-style:normal}
+.stat{display:flex;gap:clamp(14px,2vw,28px);text-align:right;align-items:flex-end}
+.stat .k{font-family:"Fraunces";font-size:clamp(22px,3.4vh,38px);line-height:.9;font-weight:500}
+.stat .k.evid{color:var(--evid)}
+.stat .l{color:var(--ink-faint);font-size:9px;letter-spacing:.18em;text-transform:uppercase;margin-top:.5em}
+
+/* ---------- canvas grid ---------- */
+#canvas{flex:1 1 auto;display:grid;gap:clamp(8px,1.4vh,16px);min-height:0;
+  grid-template-columns:1.15fr 1fr;grid-template-rows:1fr 1fr}
+.zone{position:relative;background:var(--panel);border:1px solid var(--panel-edge);
+  border-radius:10px;padding:clamp(8px,1.3vh,15px) clamp(10px,1.3vw,18px);
+  display:flex;flex-direction:column;min-height:0;cursor:pointer;overflow:hidden;
+  transition:border-color .25s,transform .25s,box-shadow .25s}
+.zone:hover,.zone:focus-visible{border-color:var(--line);outline:none}
+.zone .ztag{display:flex;align-items:center;gap:.6em;flex:0 0 auto;margin-bottom:.5em}
+.zone .ztag .dot{width:7px;height:7px;border-radius:2px;background:var(--ink-faint)}
+.zone[data-z="A"] .dot{background:var(--gold)}
+.zone[data-z="B"] .dot{background:var(--evid)}
+.zone[data-z="C"] .dot{background:linear-gradient(90deg,var(--evid),var(--signal))}
+.zone[data-z="D"] .dot{background:var(--signal)}
+.zone .ztag .lbl{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim)}
+.zone .ztag .hint{margin-left:auto;font-size:9px;color:var(--ink-faint);letter-spacing:.08em}
+.zone h2{font-family:"Fraunces";font-weight:500;font-size:clamp(13px,1.85vh,18px);
+  letter-spacing:-.01em;color:var(--ink);flex:0 0 auto;margin-bottom:.3em}
+.zbody{flex:1 1 auto;min-height:0;position:relative}
+
+/* ---------- A · scoreboard ---------- */
+.sb{height:100%;overflow:hidden;display:flex;flex-direction:column;gap:2px;
+  font-size:clamp(9px,1.28vh,12px)}
+.sb-row{display:grid;grid-template-columns:1.6em 1fr auto;align-items:center;gap:.55em;
+  padding:.5px 0}
+.sb-row .rank{color:var(--ink-faint);font-size:.82em;text-align:right}
+.sb-row .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-dim)}
+.sb-bar{position:relative;display:flex;align-items:center;gap:.5em;justify-self:end;width:clamp(80px,9vw,150px)}
+.sb-bar .track{flex:1;height:6px;background:var(--paper-2);border-radius:3px;overflow:hidden}
+.sb-bar .fill{height:100%;border-radius:3px;background:var(--gold);transform-origin:left;
+  transform:scaleX(var(--w,0));transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.sb-bar .v{font-variant-numeric:tabular-nums;width:1.4em;text-align:right;color:var(--ink)}
+.sb-row.low .nm{color:var(--signal-soft)}
+.sb-row.low .fill{background:var(--signal)}
+.sb-row.low .v{color:var(--signal)}
+.sb-row.mid .fill{background:var(--evid)}
+
+/* ---------- B · 2x2 ---------- */
+.b2{height:100%;display:flex;flex-direction:column;position:relative;padding:.3em 0}
+.b2 .axis-top,.b2 .axis-bot{font-size:9px;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase}
+.b2 .axis-top{color:var(--ink-dim)}
+.b2 .field{flex:1;position:relative;margin:.45em 0;border-left:1px dashed var(--line)}
+.b2 .boundary{position:absolute;left:0;right:0;border-top:1px dashed var(--signal);opacity:.7}
+.b2 .boundary span{position:absolute;right:0;top:-1.45em;font-size:8.5px;color:var(--signal);
+  letter-spacing:.08em;text-transform:uppercase}
+.b2 .pt{position:absolute;width:6px;height:6px;border-radius:50%;background:var(--evid);
+  transform:translate(-50%,-50%);opacity:.85}
+.b2 .pt.dev{background:var(--signal);width:8px;height:8px;box-shadow:0 0 0 3px rgba(224,83,58,.18)}
+.b2 .punch{font-size:clamp(10px,1.35vh,13px);color:var(--ink);margin-top:.2em}
+.b2 .punch b{color:var(--evid)}
+
+/* ---------- C · gradient ---------- */
+.cg{height:100%;display:flex;flex-direction:column;justify-content:center;gap:.7em}
+.cg .ramp{height:clamp(16px,2.4vh,26px);border-radius:5px;
+  background:linear-gradient(90deg,var(--evid) 0%,#7d9a86 38%,var(--gold) 62%,var(--signal) 100%);
+  position:relative;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
+.cg .ramp .ends{position:absolute;inset:0;display:flex;justify-content:space-between;
+  align-items:center;padding:0 .7em;font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  color:#0d1117;font-weight:600;mix-blend-mode:luminosity}
+.cg .seglist{display:flex;justify-content:space-between;font-size:9px;color:var(--ink-faint);
+  letter-spacing:.04em;flex-wrap:wrap;gap:.3em}
+.cg .seglist b{color:var(--ink-dim);font-weight:500}
+.cg .read{font-size:clamp(10px,1.35vh,12.5px);color:var(--ink-dim);line-height:1.5}
+.cg .read em{color:var(--ink);font-style:normal}
+
+/* ---------- D · dissent ---------- */
+.dz{height:100%;display:flex;flex-direction:column;gap:clamp(5px,.9vh,10px);overflow:hidden}
+.cq{border-left:2px solid var(--signal);padding:.15em 0 .15em .7em;position:relative}
+.cq .who{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--signal)}
+.cq .who .sc{color:var(--ink-faint);margin-left:.5em}
+.cq blockquote{font-family:"Fraunces";font-style:italic;font-size:clamp(11px,1.55vh,15px);
+  line-height:1.32;color:var(--ink);margin-top:.18em}
+.cq.evidf{border-color:var(--evid)}
+.cq.evidf .who{color:var(--evid)}
+
+/* ---------- aphorism strip ---------- */
+.creed{flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;gap:1.5em;
+  border-top:1px solid var(--line);padding-top:clamp(6px,1vh,12px)}
+.creed .aph{font-family:"Fraunces";font-size:clamp(13px,1.95vh,21px);line-height:1.18;
+  letter-spacing:-.01em;max-width:60ch}
+.creed .aph b{color:var(--signal)}
+.creed .canon{text-align:right;flex:0 0 auto}
+.creed .canon .line{color:var(--evid);font-size:clamp(9px,1.25vh,12px);line-height:1.4}
+.creed .canon .by{color:var(--ink-faint);font-size:9px;letter-spacing:.12em;text-transform:uppercase;margin-top:.4em}
+
+/* ---------- footer endpoints ---------- */
+footer{flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;
+  font-size:9px;color:var(--ink-faint);letter-spacing:.06em;flex-wrap:wrap;gap:.4em 1.2em}
+footer a{color:var(--ink-dim);text-decoration:none;border-bottom:1px solid transparent}
+footer a:hover{color:var(--evid);border-bottom-color:var(--evid)}
+footer .sep{opacity:.4}
+
+/* ---------- recent-moves ticker ---------- */
+.ticker{flex:0 0 auto;display:flex;align-items:center;gap:.9em;overflow:hidden;
+  border:1px solid var(--panel-edge);background:var(--panel);border-radius:8px;
+  padding:.4em .8em;font-size:clamp(9px,1.2vh,11.5px);cursor:pointer}
+.ticker .live{flex:0 0 auto;display:flex;align-items:center;gap:.45em;color:var(--signal);
+  letter-spacing:.14em;text-transform:uppercase;font-size:.86em}
+.ticker .live .blip{width:6px;height:6px;border-radius:50%;background:var(--signal);
+  box-shadow:0 0 0 0 rgba(224,83,58,.5);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(224,83,58,.45)}70%{box-shadow:0 0 0 7px rgba(224,83,58,0)}100%{box-shadow:0 0 0 0 rgba(224,83,58,0)}}
+.ticker .feed{flex:1 1 auto;min-width:0;overflow:hidden;white-space:nowrap;position:relative;height:1.5em}
+.ticker .feed .item{position:absolute;inset:0;display:flex;align-items:center;gap:.55em;
+  opacity:0;transition:opacity .5s}
+.ticker .feed .item.on{opacity:1}
+.ticker .feed .when{color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.ticker .feed .kind{text-transform:uppercase;letter-spacing:.1em;font-size:.82em;padding:.05em .5em;border-radius:3px}
+.ticker .feed .kind.changed{color:var(--gold);border:1px solid var(--gold)}
+.ticker .feed .kind.new{color:var(--evid);border:1px solid var(--evid)}
+.ticker .feed .kind.baseline{color:var(--ink-faint);border:1px solid var(--line)}
+.ticker .feed .hd{color:var(--ink);overflow:hidden;text-overflow:ellipsis}
+.ticker .feed .dl{color:var(--signal-soft)}
+.ticker .more{flex:0 0 auto;color:var(--ink-faint);font-size:.86em}
+
+/* ---------- zoom overlay ---------- */
+#overlay{position:fixed;inset:0;z-index:50;background:rgba(8,11,15,.82);
+  backdrop-filter:blur(8px);display:none;padding:clamp(14px,3vh,40px) clamp(16px,4vw,60px);
+  opacity:0;transition:opacity .25s}
+#overlay.on{display:flex;flex-direction:column;opacity:1}
+#overlay .obar{display:flex;justify-content:space-between;align-items:center;flex:0 0 auto;
+  border-bottom:1px solid var(--line);padding-bottom:clamp(8px,1.4vh,16px);margin-bottom:clamp(8px,1.6vh,18px)}
+#overlay .obar .otag{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-dim)}
+#overlay .obar h2{font-family:"Fraunces";font-weight:500;font-size:clamp(18px,3.4vh,34px);margin-top:.1em}
+#zoomback{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);
+  font-family:"IBM Plex Mono";font-size:12px;letter-spacing:.06em;padding:.6em 1em;border-radius:999px;
+  cursor:pointer;display:flex;align-items:center;gap:.5em;transition:border-color .2s,background .2s}
+#zoomback:hover{border-color:var(--signal);background:#1c242f}
+#zoomback .x{font-size:15px;line-height:1}
+#ocontent{flex:1 1 auto;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch}
+
+/* sort toggle in scoreboard zoom */
+.sorts{display:flex;gap:.4em;margin-bottom:1em;flex-wrap:wrap}
+.sorts button{appearance:none;border:1px solid var(--line);background:transparent;color:var(--ink-dim);
+  font-family:"IBM Plex Mono";font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  padding:.45em .85em;border-radius:999px;cursor:pointer;transition:.2s}
+.sorts button.active{border-color:var(--gold);color:var(--gold)}
+.zoomsb{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));
+  gap:.35em 2.5em;font-size:13px}
+.zoomsb .sb-row{grid-template-columns:1.8em 1fr auto;padding:.28em 0;border-bottom:1px solid rgba(42,53,67,.5)}
+.zoomsb .sb-row .nm{color:var(--ink);cursor:pointer}
+.zoomsb .sb-row .nm:hover{color:var(--evid)}
+.zoomsb .sb-bar{width:clamp(120px,16vw,210px)}
+.zoomsb .seg{color:var(--ink-faint);font-size:.78em;letter-spacing:.04em}
+
+/* institution card */
+.card{max-width:760px}
+.card .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:1em;flex-wrap:wrap}
+.card .cseg{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint)}
+.card .cca{font-family:"Fraunces";font-size:clamp(40px,8vh,72px);line-height:.85;font-weight:500}
+.card .cca small{font-size:.32em;color:var(--ink-faint);font-family:"IBM Plex Mono"}
+.card .dims{display:grid;grid-template-columns:repeat(6,1fr);gap:.5em;margin:1.4em 0}
+.card .dim{background:var(--paper-2);border:1px solid var(--panel-edge);border-radius:7px;
+  padding:.7em .5em;text-align:center}
+.card .dim .dk{font-size:9px;color:var(--ink-faint);letter-spacing:.1em}
+.card .dim .dl{font-size:8.5px;color:var(--ink-faint);line-height:1.2;margin-top:.3em;min-height:2.4em}
+.card .dim .dv{font-family:"Fraunces";font-size:clamp(20px,3.6vh,30px);margin-top:.2em}
+.card .dim .pips{display:flex;gap:3px;justify-content:center;margin-top:.45em}
+.card .dim .pips i{width:14px;height:5px;border-radius:2px;background:var(--line)}
+.card .dim .pips i.on{background:var(--evid)}
+.card .meta{display:flex;gap:.5em;flex-wrap:wrap;margin-bottom:1.2em}
+.card .chip{font-size:10px;letter-spacing:.08em;border:1px solid var(--line);border-radius:999px;
+  padding:.4em .85em;color:var(--ink-dim)}
+.card .chip b{color:var(--ink)}
+.card .chip.fit{border-color:var(--evid);color:var(--evid)}
+.card .chip.dev{border-color:var(--signal);color:var(--signal)}
+.card .chip.tw{border-color:var(--gold);color:var(--gold)}
+.card .cquote{font-family:"Fraunces";font-style:italic;font-size:clamp(15px,2.4vh,22px);
+  line-height:1.4;color:var(--ink);border-left:3px solid var(--evid);padding:.1em 0 .1em .8em;margin:.2em 0 .4em}
+.card .cquote cite{display:block;font-family:"IBM Plex Mono";font-style:normal;font-size:11px;
+  color:var(--ink-faint);letter-spacing:.04em;margin-top:.6em}
+.card .src{font-size:11px;color:var(--ink-dim);word-break:break-all}
+.card .src a{color:var(--evid);text-decoration:none}
+.card .src a:hover{text-decoration:underline}
+.card .src .sep{opacity:.4;margin:0 .3em}
+.card .citeblock{display:flex;align-items:center;gap:.9em;flex-wrap:wrap;margin-top:1.3em}
+.card .citebtn{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink-dim);
+  font-family:"IBM Plex Mono";font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  padding:.55em 1.05em;border-radius:999px;cursor:pointer;transition:border-color .2s,color .2s}
+.card .citebtn:hover{border-color:var(--evid);color:var(--evid)}
+.card .citehint{font-size:10px;color:var(--ink-faint);letter-spacing:.04em}
+
+/* staggered entrance */
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.zone{animation:rise .6s both}
+.zone[data-z="A"]{animation-delay:.05s}
+.zone[data-z="B"]{animation-delay:.13s}
+.zone[data-z="C"]{animation-delay:.21s}
+.zone[data-z="D"]{animation-delay:.29s}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* portrait iPad: stack zones 1-col, 4 rows still single screen */
+@media (max-aspect-ratio:1/1){
+  #canvas{grid-template-columns:1fr;grid-template-rows:repeat(4,1fr)}
+  .creed{flex-direction:column;align-items:flex-start;gap:.5em}
+  .creed .canon{text-align:left}
+  .brand .sub{display:none}
+}
+/* phones */
+@media (max-width:560px){
+  body{overflow:auto}
+  #app{height:auto;min-height:100%}
+  #canvas{grid-template-rows:repeat(4,minmax(180px,auto))}
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="brand">
+      <h1 class="serif">The Calibrated Authority Index</h1>
+      <p class="sub">How knowledge institutions quietly rewrote the rules of trust in AI. The observed-in-the-wild evidence that trust forms by <em>verification economics</em> — not by substrate.</p>
+    </div>
+    <div class="stat">
+      <div><div class="k" id="stat-n">51</div><div class="l">institutions</div></div>
+      <div><div class="k evid" id="stat-mean">9.8</div><div class="l">mean CA / 12</div></div>
+    </div>
+  </header>
+
+  <div class="ticker" id="ticker" role="button" tabindex="0" aria-label="Recent policy moves">
+    <span class="live"><span class="blip"></span>Recent moves</span>
+    <span class="feed" id="ticker-feed"></span>
+    <span class="more" id="ticker-more"></span>
+  </div>
+
+  <main id="canvas">
+    <!-- A -->
+    <section class="zone" data-z="A" tabindex="0" role="button" aria-label="Open scoreboard">
+      <div class="ztag"><span class="dot"></span><span class="lbl">A · Scoreboard</span><span class="hint">tap to expand ⊕</span></div>
+      <h2 class="serif">The distribution, and its tail</h2>
+      <div class="zbody"><div class="sb" id="sb-mini"></div></div>
+    </section>
+
+    <!-- B -->
+    <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open verification 2x2">
+      <div class="ztag"><span class="dot"></span><span class="lbl">B · Verification boundary</span><span class="hint">tap to expand ⊕</span></div>
+      <h2 class="serif">Where the proof line actually falls</h2>
+      <div class="zbody"><div class="b2" id="b2-mini"></div></div>
+    </section>
+
+    <!-- C -->
+    <section class="zone" data-z="C" tabindex="0" role="button" aria-label="Open segment gradient">
+      <div class="ztag"><span class="dot"></span><span class="lbl">C · Segment gradient</span><span class="hint">tap to expand ⊕</span></div>
+      <h2 class="serif">Trust relocates as proof gets dear</h2>
+      <div class="zbody"><div class="cg">
+        <div class="ramp"><div class="ends"><span>Evidential</span><span>Relational</span></div></div>
+        <div class="seglist">
+          <span><b>publishers</b></span><span>societies</span><span>journals</span>
+          <span>universities</span><span>libraries</span><span>ed-tech</span><span><b>intergov</b></span>
+        </div>
+        <p class="read">As proof gets harder to obtain, trust gets <em>relocated</em> — from traceability (publishers, mean ≈11) to access, equity & governance (libraries, ed-tech, intergov). The mechanism is verification cost, not the institution's good faith.</p>
+      </div></div>
+    </section>
+
+    <!-- D -->
+    <section class="zone" data-z="D" tabindex="0" role="button" aria-label="Open dissent and deviation">
+      <div class="ztag"><span class="dot"></span><span class="lbl">D · Dissent &amp; deviation</span><span class="hint">tap to expand ⊕</span></div>
+      <h2 class="serif">The honest edges</h2>
+      <div class="zbody"><div class="dz">
+        <div class="cq">
+          <div class="who">EDUCAUSE <span class="sc">CA 3 · deviates</span></div>
+          <blockquote>When detection fails, trust becomes process — relocated to access, equity &amp; governance, not traceability.</blockquote>
+        </div>
+        <div class="cq evidf">
+          <div class="who">The divergence line</div>
+          <blockquote>Humans trust ahead. Machines trust in reverse.</blockquote>
+        </div>
+      </div></div>
+    </section>
+  </main>
+
+  <section class="creed">
+    <div class="aph serif">We trust machines exactly as far as we can check them — <b>and not one step further.</b></div>
+    <div class="canon">
+      <div class="line serif">“Humans trust ahead.<br>Machines trust in reverse.”</div>
+      <div class="by">— Chris Huber Reitz</div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Updated <span id="f-date">2026-06-22</span> · v<span id="f-ver">2026-06-22</span> · CC-BY-4.0</span>
+    <span>
+      <a href="/methodology">methodology</a> <span class="sep">·</span>
+      <a href="/methodology#cite">how to cite</a> <span class="sep">·</span>
+      <a href="/index.json">index.json</a> <span class="sep">·</span>
+      <a href="/data.csv">CSV</a> <span class="sep">·</span>
+      <a href="/schema.json">schema</a> <span class="sep">·</span>
+      <a href="/llms.txt">llms.txt</a> <span class="sep">·</span>
+      <a href="/institutions/index.json">manifest</a> <span class="sep">·</span>
+      <a href="https://chrishuberreitz.com/frameworks/calibrated-authority" target="_blank" rel="noopener">the Calibrated Authority framework ↗</a>
+    </span>
+  </footer>
+</div>
+
+<!-- zoom overlay -->
+<div id="overlay" role="dialog" aria-modal="true">
+  <div class="obar">
+    <div><div class="otag" id="o-tag">Zone</div><h2 class="serif" id="o-title">—</h2></div>
+    <button id="zoomback" aria-label="Zoom back out"><span class="x">⊕</span> back</button>
+  </div>
+  <div id="ocontent"></div>
+</div>
+
+<script>
+const DIM = {
+  D1:"Traceability & inspectability",
+  D2:"Human authorship & accountability",
+  D3:"Disclosure & labeling",
+  D4:"Synthetic-identity / fabrication prohibition",
+  D5:"Human validation in loop",
+  D6:"Evidential-trust emphasis"
+};
+const LOW_THRESHOLD = 5;   // visible tail
+const state = { data:null, inst:[], sort:"ca" };
+
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+fetch("./index.json").then(r=>r.json()).then(j=>{
+  state.data = j;
+  state.inst = (j.institutions||[]).slice();
+  const m = j.metadata||{};
+  document.getElementById("stat-n").textContent = m.n ?? state.inst.length;
+  document.getElementById("stat-mean").textContent = (m.mean_ca ?? "").toString();
+  if(m.version){ document.getElementById("f-ver").textContent = m.version; document.getElementById("f-date").textContent = m.version; }
+  renderMiniScoreboard();
+  renderMini2x2();
+}).catch(e=>{
+  document.getElementById("sb-mini").innerHTML =
+    '<div style="color:var(--signal)">Could not load index.json — '+esc(e.message)+'</div>';
+});
+
+function byScore(a,b){ return b.ca-a.ca || a.name.localeCompare(b.name); }
+
+/* ---- A mini: top few + visible low tail ---- */
+function renderMiniScoreboard(){
+  const sorted = state.inst.slice().sort(byScore);
+  const top = sorted.slice(0,5);
+  const tail = sorted.slice(-3);                 // EDUCAUSE 3, ARL 5, Reuters Inst 5
+  const rows = [...top, {gap:true}, ...tail];
+  document.getElementById("sb-mini").innerHTML = rows.map(r=>{
+    if(r.gap) return '<div class="sb-row" style="opacity:.5"><span class="rank"></span><span class="nm" style="color:var(--ink-faint)">… '+(sorted.length-8)+' more …</span><span></span></div>';
+    return rowHTML(r, sorted.indexOf(r)+1, false);
+  }).join("");
+  requestAnimationFrame(()=>document.querySelectorAll("#sb-mini .fill").forEach(setBar));
+}
+function rowHTML(r, rank, withSeg){
+  const cls = r.ca<=LOW_THRESHOLD ? "low" : (r.ca<=8 ? "mid" : "");
+  return `<div class="sb-row ${cls}" data-id="${esc(r.id)}">
+    <span class="rank">${rank}</span>
+    <span class="nm">${esc(r.name)}${withSeg?` <span class="seg">${esc(r.segment)}</span>`:""}</span>
+    <span class="sb-bar"><span class="track"><span class="fill" data-w="${r.ca/12}"></span></span><span class="v">${r.ca}</span></span>
+  </div>`;
+}
+const setBar = el => el.style.setProperty("--w", el.dataset.w);
+
+/* ---- B mini: single proof-cost axis, dots = institutions ---- */
+function renderMini2x2(){
+  // y = proof cost: relational/low-CA near top (scarce-proof), evidential/high-CA near bottom (cheap-proof)
+  const host = document.getElementById("b2-mini");
+  const fits = state.inst.filter(i=>i.c2_fit==="fits").length;
+  const total = state.inst.length;
+  const pts = state.inst.map((i,idx)=>{
+    const y = 8 + ( (12 - i.ca) / 12 ) * 78;            // higher CA -> lower (cheaper proof)
+    const x = 12 + ((idx*37)%76);                        // spread horizontally (x is "nothing")
+    const dev = (i.c2_fit!=="fits");
+    return `<span class="pt ${dev?'dev':''}" style="left:${x}%;top:${y}%" title="${esc(i.name)} · CA ${i.ca}"></span>`;
+  }).join("");
+  host.innerHTML = `
+    <div class="axis-top">scarce-proof · trust reserved for humans</div>
+    <div class="field">
+      <div class="boundary" style="top:62%"><span>boundary</span></div>
+      ${pts}
+    </div>
+    <div class="axis-bot">cheap-proof · trust delegated to AI</div>
+    <p class="punch"><b>${fits}/${total}</b> land where the thesis predicts. The deviations (red) are the signal, not the noise.</p>`;
+}
+
+/* ================= ZOOM ================= */
+const overlay = document.getElementById("overlay");
+const ocontent = document.getElementById("ocontent");
+const oTag = document.getElementById("o-tag");
+const oTitle = document.getElementById("o-title");
+let lastFocus = null;
+
+function openZone(z){
+  lastFocus = document.activeElement;
+  if(z==="A") zoomA();
+  else if(z==="B") zoomB();
+  else if(z==="C") zoomC();
+  else if(z==="D") zoomD();
+  overlay.classList.add("on");
+  document.getElementById("zoomback").focus();
+}
+function closeZoom(){
+  overlay.classList.remove("on");
+  ocontent.innerHTML="";
+  if(lastFocus) lastFocus.focus();
+}
+
+document.querySelectorAll(".zone").forEach(z=>{
+  const open = ()=>openZone(z.dataset.z);
+  z.addEventListener("click",open);
+  z.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();open();} });
+});
+document.getElementById("zoomback").addEventListener("click",closeZoom);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape" && overlay.classList.contains("on")) closeZoom(); });
+overlay.addEventListener("click",e=>{ if(e.target===overlay) closeZoom(); });
+
+/* A zoom — full sortable scoreboard */
+function zoomA(){
+  oTag.textContent="A · Scoreboard"; oTitle.textContent="All 51, scored 0–12";
+  ocontent.innerHTML = `
+    <div class="sorts">
+      <button data-s="ca" class="active">CA score</button>
+      <button data-s="segment">Segment</button>
+      <button data-s="posture">Posture</button>
+    </div>
+    <div class="zoomsb" id="zoomsb"></div>`;
+  ocontent.querySelectorAll(".sorts button").forEach(b=>{
+    b.addEventListener("click",()=>{
+      ocontent.querySelectorAll(".sorts button").forEach(x=>x.classList.remove("active"));
+      b.classList.add("active"); state.sort=b.dataset.s; paintZoomSB();
+    });
+  });
+  state.sort="ca"; paintZoomSB();
+}
+function paintZoomSB(){
+  const arr = state.inst.slice().sort((a,b)=>{
+    if(state.sort==="ca") return byScore(a,b);
+    const av=(a[state.sort]||"").toString(), bv=(b[state.sort]||"").toString();
+    return av.localeCompare(bv) || byScore(a,b);
+  });
+  const host = document.getElementById("zoomsb");
+  host.innerHTML = arr.map((r,i)=>rowHTML(r,i+1,true)).join("");
+  host.querySelectorAll(".nm").forEach(nm=>{
+    nm.addEventListener("click",()=>openCard(nm.closest(".sb-row").dataset.id));
+  });
+  requestAnimationFrame(()=>host.querySelectorAll(".fill").forEach(setBar));
+}
+
+/* institution permalink card */
+function openCard(id){
+  const r = state.inst.find(i=>i.id===id); if(!r) return;
+  history.replaceState(null,"","#i/"+id);
+  oTag.textContent="A · Institution"; oTitle.textContent=r.name;
+  const dims = Object.keys(DIM).map(k=>{
+    const v = r.scores ? r.scores[k] : null;
+    const pips = [0,1].map(p=>`<i class="${(v??-1)>p?'on':''}"></i>`).join("");
+    return `<div class="dim"><div class="dk">${k}</div><div class="dl">${esc(DIM[k])}</div>
+      <div class="dv">${v==null?'—':v}</div><div class="pips">${pips}</div></div>`;
+  }).join("");
+  const fitCls = r.c2_fit==="fits"?"fit":(r.c2_fit==="contradicts"||r.c2_fit==="deviates"?"dev":"");
+  ocontent.innerHTML = `<div class="card">
+    <div class="ctop">
+      <div><div class="cseg">${esc(r.segment)}</div></div>
+      <div class="cca">${r.ca}<small>/12</small></div>
+    </div>
+    ${r.quote?`<blockquote class="cquote">&ldquo;${esc(r.quote)}&rdquo;<cite>&mdash; ${esc(r.quote_label||'source policy')}</cite></blockquote>`:''}
+    <div class="dims">${dims}</div>
+    <div class="meta">
+      <span class="chip"><b>Posture</b> ${esc(r.posture)}</span>
+      <span class="chip ${fitCls}">Boundary fit · ${esc(r.c2_fit)}</span>
+      <span class="chip"><b>Trust-logic</b> ${esc(r.c3)}</span>
+      ${r.twilight?'<span class="chip tw">⚑ twilight framing</span>':''}
+    </div>
+    <div class="src">Source policy: <a href="${esc(r.url||(r.provenance&&r.provenance.url))}" target="_blank" rel="noopener">${esc(r.url||(r.provenance&&r.provenance.url))}</a></div>
+    <div class="src" style="margin-top:.6em;color:var(--ink-faint)">Permalink: <a href="/institutions/${esc(r.id)}" target="_blank" rel="noopener">/institutions/${esc(r.id)}</a> <span class="sep">·</span> Machine record: <a href="/institutions/${esc(r.id)}.json" target="_blank" rel="noopener">/institutions/${esc(r.id)}.json</a></div>
+    <div class="citeblock">
+      <button class="citebtn" id="citebtn" type="button">⧉ cite this</button>
+      <span class="citehint" id="citehint">copies a formatted citation + the verbatim quote + source</span>
+    </div>
+  </div>`;
+  const cb = document.getElementById("citebtn");
+  if(cb) cb.addEventListener("click",()=>copyCitation(r));
+}
+
+const BASE = "https://calibrated-authority.chrishuberreitz.com";
+function copyCitation(r){
+  const ver = (state.data&&state.data.metadata&&state.data.metadata.version)||"2026";
+  const year = String(ver).slice(0,4);
+  const src = r.url || (r.provenance&&r.provenance.url) || "";
+  let txt = `Reitz, C.H. (${year}). The Calibrated Authority Index — ${r.name}. ${BASE}/institutions/${r.id}`;
+  if(r.quote) txt += `\n\nQuote: “${r.quote}”`;
+  if(src) txt += `\nSource: ${src}`;
+  navigator.clipboard.writeText(txt).then(()=>{
+    const b=document.getElementById("citebtn"); if(!b) return;
+    const t=b.textContent; b.textContent="copied ✓"; setTimeout(()=>{b.textContent=t;},1600);
+  });
+}
+
+/* B zoom */
+function zoomB(){
+  oTag.textContent="B · Verification boundary"; oTitle.textContent="A single axis: the cost of proof";
+  const fits = state.inst.filter(i=>i.c2_fit==="fits").length;
+  const pts = state.inst.map((i,idx)=>{
+    const y = 6 + ((12-i.ca)/12)*82;
+    const x = 8 + ((idx*53)%84);
+    const dev=(i.c2_fit!=="fits");
+    return `<span class="pt ${dev?'dev':''}" style="left:${x}%;top:${y}%" title="${esc(i.name)} · CA ${i.ca} · ${esc(i.c2_fit)}"></span>`;
+  }).join("");
+  ocontent.innerHTML = `<div style="max-width:680px">
+    <p style="color:var(--ink-dim);margin-bottom:1.2em;font-size:14px;line-height:1.6">
+      The horizontal axis is <em style="color:var(--ink);font-style:normal">nothing</em>. The only axis that matters is vertical: <b style="color:var(--ink)">the cost of proof</b>. Cheap-to-verify outputs (bottom) get trust <em style="color:var(--evid);font-style:normal">delegated to AI</em>; scarce-proof outputs (top) keep trust <em style="color:var(--signal);font-style:normal">reserved for humans</em>. Each institution lands on the line where it actually places that boundary.</p>
+    <div class="b2" style="height:46vh">
+      <div class="axis-top" style="font-size:11px">scarce-proof — trust reserved for humans</div>
+      <div class="field"><div class="boundary" style="top:62%"><span>the boundary, as drawn</span></div>${pts}</div>
+      <div class="axis-bot" style="font-size:11px">cheap-proof — trust delegated to AI</div>
+      <p class="punch" style="font-size:16px;margin-top:1em"><b style="color:var(--evid)">${fits} of ${state.inst.length}</b> institutions land exactly where verification economics predicts. The red points — the few that deviate — are where the framing earns its credibility.</p>
+    </div></div>`;
+}
+
+/* C zoom */
+function zoomC(){
+  oTag.textContent="C · Segment gradient"; oTitle.textContent="Trust relocates as proof gets dear";
+  // compute per-segment mean to ground the ramp
+  const segs = {};
+  state.inst.forEach(i=>{ (segs[i.segment]=segs[i.segment]||[]).push(i.ca); });
+  const order = Object.entries(segs).map(([k,v])=>[k, v.reduce((a,b)=>a+b,0)/v.length, v.length])
+                 .sort((a,b)=>b[1]-a[1]);
+  const rampSegs = order.map(([s,m,n])=>{
+    const pct = (1-(m/12))*100;
+    const col = m>=10?"var(--evid)":m>=8?"var(--gold)":"var(--signal)";
+    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:.55em 0;border-bottom:1px solid rgba(42,53,67,.5)">
+      <span style="color:var(--ink)">${esc(s)} <span style="color:var(--ink-faint);font-size:.82em">· ${n}</span></span>
+      <span style="display:flex;align-items:center;gap:.8em;width:60%">
+        <span style="flex:1;height:7px;background:var(--paper-2);border-radius:4px;overflow:hidden"><span style="display:block;height:100%;width:${(m/12*100).toFixed(0)}%;background:${col};border-radius:4px"></span></span>
+        <span style="font-family:'Fraunces';width:2.6em;text-align:right;color:${col}">${m.toFixed(1)}</span></span>
+    </div>`;
+  }).join("");
+  ocontent.innerHTML = `<div style="max-width:760px">
+    <div class="ramp" style="height:34px;margin-bottom:1.4em"><div class="ends"><span>Evidential — proof</span><span>Relational — access · equity · governance</span></div></div>
+    <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.4em">
+      Read top to bottom: as you move from publishers toward intergovernmental and ed-tech bodies, the <em style="color:var(--ink);font-style:normal">obtainable proof drops</em> — and trust is relocated from traceability onto governance, access, and equity. Mean CA by segment:</p>
+    ${rampSegs}</div>`;
+}
+
+/* D zoom */
+function zoomD(){
+  oTag.textContent="D · Dissent & deviation"; oTitle.textContent="The honest edges";
+  const deviants = state.inst.filter(i=>i.c2_fit!=="fits").sort(byScore);
+  const tw = state.inst.filter(i=>i.twilight).length;
+  const devRows = deviants.map(d=>`<span class="chip ${d.c2_fit==='contradicts'?'dev':''}" style="margin:.2em" data-id="${esc(d.id)}">${esc(d.name)} · CA ${d.ca} · ${esc(d.c2_fit)}</span>`).join("");
+  ocontent.innerHTML = `<div style="max-width:760px;display:flex;flex-direction:column;gap:1.3em">
+    <div class="cq" style="border-width:3px">
+      <div class="who">EDUCAUSE · CA 3 · contradicts</div>
+      <blockquote style="font-size:21px">When detection fails, trust becomes process — relocated to access, equity &amp; governance, not traceability.</blockquote>
+    </div>
+    <div class="cq" style="border-width:3px">
+      <div class="who">Reuters Institute · CA 5 · partial fit</div>
+      <blockquote style="font-size:21px">You cannot hack your way to trust.</blockquote>
+    </div>
+    <div class="cq" style="border-width:3px">
+      <div class="who">Universities — the relational pushdown</div>
+      <blockquote style="font-size:21px">The classroom rule is pushed to instructors — trust handled relationally, case by case, not by a single evidential standard.</blockquote>
+    </div>
+    <div class="cq evidf" style="border-width:3px">
+      <div class="who">The divergence line — the thesis in one breath</div>
+      <blockquote style="font-size:24px">Humans trust ahead. Machines trust in reverse.</blockquote>
+    </div>
+    <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.7em">All ${deviants.length} institutions that deviate from prediction</div>
+      <div style="display:flex;flex-wrap:wrap" id="dev-chips">${devRows}</div>
+    </div>
+    <p style="color:var(--ink-faint);font-size:12px;line-height:1.6">~${tw} of ${state.inst.length} records carry “twilight” framing — precedent collapse, feedback delay, exponential fog — usually unnamed. The dissent is a feature: it marks the exact seam where evidential trust runs out and relational trust takes over.</p>
+  </div>`;
+  ocontent.querySelectorAll("#dev-chips .chip").forEach(c=>{
+    c.style.cursor="pointer";
+    c.addEventListener("click",()=>openCard(c.dataset.id));
+  });
+}
+
+/* ---- recent-moves ticker ---- */
+state.moves = [];
+fetch("./moves.json").then(r=>r.json()).then(j=>{
+  state.moves = (j.moves||[]);
+  const t=document.getElementById("ticker"), feed=document.getElementById("ticker-feed"), more=document.getElementById("ticker-more");
+  if(!state.moves.length){ t.style.display="none"; return; }
+  more.textContent = state.moves.length+" tracked ⊕";
+  feed.innerHTML = state.moves.map((m,i)=>`<span class="item${i===0?' on':''}">
+    <span class="when">${esc(m.date)}</span>
+    <span class="kind ${esc(m.kind)}">${esc(m.kind)}</span>
+    <span class="hd">${esc(m.headline)}${m.delta?` &middot; <span class="dl">${esc(m.delta)}</span>`:""}</span></span>`).join("");
+  const items=feed.querySelectorAll(".item"); let idx=0;
+  if(items.length>1) setInterval(()=>{ items[idx].classList.remove("on"); idx=(idx+1)%items.length; items[idx].classList.add("on"); },4200);
+  const openMoves=()=>{ zoomMoves(); overlay.classList.add("on"); document.getElementById("zoomback").focus(); };
+  t.addEventListener("click",openMoves);
+  t.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();openMoves();} });
+}).catch(()=>{ const t=document.getElementById("ticker"); if(t) t.style.display="none"; });
+
+function zoomMoves(){
+  oTag.textContent="Recent moves"; oTitle.textContent="Policy changes since baseline";
+  const rows = state.moves.map(m=>`<div style="border-left:2px solid ${m.kind==='changed'?'var(--gold)':m.kind==='new'?'var(--evid)':'var(--line)'};padding:.2em 0 .9em .9em;margin-bottom:.6em">
+    <div style="display:flex;gap:.7em;align-items:center;font-size:11px;color:var(--ink-faint)">
+      <span style="font-variant-numeric:tabular-nums">${esc(m.date)}</span>
+      <span style="text-transform:uppercase;letter-spacing:.12em;color:${m.kind==='changed'?'var(--gold)':m.kind==='new'?'var(--evid)':'var(--ink-faint)'}">${esc(m.kind)}</span>
+      ${m.delta?`<span style="color:var(--signal-soft)">${esc(m.delta)}</span>`:""}</div>
+    <div class="serif" style="font-size:clamp(15px,2.2vh,20px);color:var(--ink);margin:.25em 0">${esc(m.headline)}</div>
+    <div style="font-size:12.5px;color:var(--ink-dim);line-height:1.5">${esc(m.detail||"")}</div>
+    ${m.id?`<a href="#i/${esc(m.id)}" style="font-size:11px;color:var(--evid);text-decoration:none">view institution →</a>`:""}
+  </div>`).join("");
+  ocontent.innerHTML = `<div style="max-width:760px">
+    <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.3em">The Index re-scans every watched policy weekly. New and changed policies append here automatically — this is the living record, not a snapshot.</p>
+    ${rows}</div>`;
+}
+
+/* deep-link to a card via #i/<id> */
+window.addEventListener("hashchange",routeHash);
+function routeHash(){
+  const m = location.hash.match(/^#i\/(.+)$/);
+  if(m && state.inst.length){ openZone("A"); openCard(decodeURIComponent(m[1])); }
+}
+</script>
+</body>
+</html>

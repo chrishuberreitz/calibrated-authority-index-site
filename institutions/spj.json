@@ -1,0 +1,77 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "spj",
+  "name": "Society of Professional Journalists",
+  "segment": "journalism",
+  "url": "https://www.spj.org/spj-code-of-ethics/",
+  "scores": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 9,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-06-22",
+  "quote": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
+  "quote_label": "Code of Ethics",
+  "provenance": {
+    "url": "https://www.spj.org/spj-code-of-ethics/",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/spj",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/spj",
+    "name": "Calibrated Authority rating — Society of Professional Journalists",
+    "datePublished": "2026-06-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Society of Professional Journalists — public generative-AI policy",
+      "url": "https://www.spj.org/spj-code-of-ethics/",
+      "text": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
+      "abstract": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
+      "alternateName": "Code of Ethics"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 9,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

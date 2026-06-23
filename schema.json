@@ -138,6 +138,26 @@
       ],
       "description": "Trust-logic classification."
     },
+    "mechanism": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "Why the line falls where it does (the CAUSE, distinct from the D1-D6 outcome). Multi-label: an institution may reach the human-accountability line by more than one road. The discriminator between 'one causal law' and 'one outcome, many causes'.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "verification-cost",
+          "accountability-locus",
+          "risk-tiering",
+          "political-control",
+          "labor-economic",
+          "legal-personhood",
+          "reputational",
+          "unstated"
+        ]
+      }
+    },
     "twilight": {
       "type": "boolean",
       "description": "Uses precedent-collapse / twilight framing."

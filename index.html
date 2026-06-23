@@ -264,28 +264,6 @@ footer a{color:var(--ink-dim);text-decoration:none;border-bottom:1px solid trans
 footer a:hover{color:var(--evid);border-bottom-color:var(--evid)}
 footer .sep{opacity:.4}
 
-/* ---------- recent-moves ticker ---------- */
-.ticker{flex:0 0 auto;display:flex;align-items:center;gap:.9em;overflow:hidden;
-  border:1px solid var(--panel-edge);background:var(--panel);border-radius:8px;
-  padding:.4em .8em;font-size:clamp(9px,1.2vh,11.5px);cursor:pointer}
-.ticker .live{flex:0 0 auto;display:flex;align-items:center;gap:.45em;color:var(--signal);
-  letter-spacing:.14em;text-transform:uppercase;font-size:.86em}
-.ticker .live .blip{width:6px;height:6px;border-radius:50%;background:var(--signal);
-  box-shadow:0 0 0 0 rgba(224,83,58,.5);animation:pulse 2.4s infinite}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(224,83,58,.45)}70%{box-shadow:0 0 0 7px rgba(224,83,58,0)}100%{box-shadow:0 0 0 0 rgba(224,83,58,0)}}
-.ticker .feed{flex:1 1 auto;min-width:0;overflow:hidden;white-space:nowrap;position:relative;height:1.5em}
-.ticker .feed .item{position:absolute;inset:0;display:flex;align-items:center;gap:.55em;
-  opacity:0;transition:opacity .5s}
-.ticker .feed .item.on{opacity:1}
-.ticker .feed .when{color:var(--ink-faint);font-variant-numeric:tabular-nums}
-.ticker .feed .kind{text-transform:uppercase;letter-spacing:.1em;font-size:.82em;padding:.05em .5em;border-radius:3px}
-.ticker .feed .kind.changed{color:var(--gold);border:1px solid var(--gold)}
-.ticker .feed .kind.new{color:var(--evid);border:1px solid var(--evid)}
-.ticker .feed .kind.baseline{color:var(--ink-faint);border:1px solid var(--line)}
-.ticker .feed .hd{color:var(--ink);overflow:hidden;text-overflow:ellipsis}
-.ticker .feed .dl{color:var(--signal-soft)}
-.ticker .more{flex:0 0 auto;color:var(--ink-faint);font-size:.86em}
-
 /* ---------- zoom overlay ---------- */
 #overlay{position:fixed;inset:0;z-index:50;background:rgba(8,11,15,.82);
   backdrop-filter:blur(8px);display:none;padding:clamp(14px,3vh,40px) clamp(16px,4vw,60px);
@@ -495,11 +473,13 @@ fetch("./index.json").then(r=>r.json()).then(j=>{
   state.data = j;
   state.inst = (j.institutions||[]).slice();
   const m = j.metadata||{};
-  document.getElementById("stat-n").textContent = m.n ?? state.inst.length;
-  document.getElementById("stat-mean").textContent = (m.mean_ca ?? "").toString();
+  const total = m.n ?? state.inst.length;
+  const fits = state.inst.filter(i=>i.c2_fit==="fits").length;
+  document.getElementById("stat-n").textContent = total;
+  document.getElementById("stat-fits").textContent = fits;
+  document.getElementById("stat-n2").textContent = total;
   if(m.version){ document.getElementById("f-ver").textContent = m.version; document.getElementById("f-date").textContent = m.version; }
   renderMiniScoreboard();
-  renderMini2x2();
 }).catch(e=>{
   document.getElementById("sb-mini").innerHTML =
     '<div style="color:var(--signal)">Could not load index.json — '+esc(e.message)+'</div>';
@@ -528,28 +508,6 @@ function rowHTML(r, rank, withSeg){
   </div>`;
 }
 const setBar = el => el.style.setProperty("--w", el.dataset.w);
-
-/* ---- B mini: single proof-cost axis, dots = institutions ---- */
-function renderMini2x2(){
-  // y = proof cost: relational/low-CA near top (scarce-proof), evidential/high-CA near bottom (cheap-proof)
-  const host = document.getElementById("b2-mini");
-  const fits = state.inst.filter(i=>i.c2_fit==="fits").length;
-  const total = state.inst.length;
-  const pts = state.inst.map((i,idx)=>{
-    const y = 8 + ( (12 - i.ca) / 12 ) * 78;            // higher CA -> lower (cheaper proof)
-    const x = 12 + ((idx*37)%76);                        // spread horizontally (x is "nothing")
-    const dev = (i.c2_fit!=="fits");
-    return `<span class="pt ${dev?'dev':''}" style="left:${x}%;top:${y}%" title="${esc(i.name)} · CA ${i.ca}"></span>`;
-  }).join("");
-  host.innerHTML = `
-    <div class="axis-top">scarce-proof · trust reserved for humans</div>
-    <div class="field">
-      <div class="boundary" style="top:62%"><span>boundary</span></div>
-      ${pts}
-    </div>
-    <div class="axis-bot">cheap-proof · trust delegated to AI</div>
-    <p class="punch"><b>${fits}/${total}</b> land where the thesis predicts. The deviations (red) are the signal, not the noise.</p>`;
-}
 
 /* ================= ZOOM ================= */
 const overlay = document.getElementById("overlay");
@@ -664,25 +622,32 @@ function copyCitation(r){
   });
 }
 
-/* B zoom */
+/* B zoom — the line, plus the institutions' own near-identical words */
 function zoomB(){
-  oTag.textContent="B · Verification boundary"; oTitle.textContent="A single axis: the cost of proof";
+  oTag.textContent="B · The line"; oTitle.textContent="The line every institution drew";
   const fits = state.inst.filter(i=>i.c2_fit==="fits").length;
-  const pts = state.inst.map((i,idx)=>{
-    const y = 6 + ((12-i.ca)/12)*82;
-    const x = 8 + ((idx*53)%84);
-    const dev=(i.c2_fit!=="fits");
-    return `<span class="pt ${dev?'dev':''}" style="left:${x}%;top:${y}%" title="${esc(i.name)} · CA ${i.ca} · ${esc(i.c2_fit)}"></span>`;
-  }).join("");
-  ocontent.innerHTML = `<div style="max-width:680px">
-    <p style="color:var(--ink-dim);margin-bottom:1.2em;font-size:14px;line-height:1.6">
-      The horizontal axis is <em style="color:var(--ink);font-style:normal">nothing</em>. The only axis that matters is vertical: <b style="color:var(--ink)">the cost of proof</b>. Cheap-to-verify outputs (bottom) get trust <em style="color:var(--evid);font-style:normal">delegated to AI</em>; scarce-proof outputs (top) keep trust <em style="color:var(--signal);font-style:normal">reserved for humans</em>. Each institution lands on the line where it actually places that boundary.</p>
-    <div class="b2" style="height:46vh">
-      <div class="axis-top" style="font-size:11px">scarce-proof — trust reserved for humans</div>
-      <div class="field"><div class="boundary" style="top:62%"><span>the boundary, as drawn</span></div>${pts}</div>
-      <div class="axis-bot" style="font-size:11px">cheap-proof — trust delegated to AI</div>
-      <p class="punch" style="font-size:16px;margin-top:1em"><b style="color:var(--evid)">${fits} of ${state.inst.length}</b> institutions land exactly where verification economics predicts. The red points — the few that deviate — are where the framing earns its credibility.</p>
-    </div></div>`;
+  // pull real, sourced authorship/accountability quotes straight from the corpus
+  const unison = state.inst
+    .filter(i=>i.quote && /account|author|responsib/i.test(i.quote) && i.c2_fit==="fits")
+    .sort(byScore).slice(0,3)
+    .map(i=>{
+      const src = i.url || (i.provenance&&i.provenance.url) || "";
+      return `<blockquote class="cquote" style="margin:0 0 1.1em">&ldquo;${esc(i.quote)}&rdquo;
+        <cite>&mdash; ${esc(i.name)}${src?` · <a href="${esc(src)}" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">source ↗</a>`:""}</cite></blockquote>`;
+    }).join("");
+  ocontent.innerHTML = `<div style="max-width:720px">
+    <div class="theline" style="height:auto;margin-bottom:1.6em">
+      <div class="cols" style="gap:2em">
+        <div class="col evid"><div class="ch" style="font-size:11px">Cheap to check →<b style="font-size:18px">the machine can</b></div>
+          <ul style="font-size:15px;gap:.4em"><li>grammar &amp; copy-editing</li><li>translation</li><li>formatting &amp; references</li><li>search &amp; summary</li><li>writing code</li></ul></div>
+        <div class="col human"><div class="ch" style="font-size:11px">Expensive to check →<b style="font-size:18px">a human must own</b></div>
+          <ul style="font-size:15px;gap:.4em"><li>authorship</li><li>judgment &amp; interpretation</li><li>original reporting</li><li>the byline</li><li>accountability</li></ul></div>
+      </div>
+    </div>
+    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6;margin-bottom:1.4em">
+      <b style="color:var(--evid)">${fits} of ${state.inst.length}</b> drew that exact line. The boundary isn't ethics or fear of the technology — it's <b style="color:var(--ink)">how expensive the proof is.</b> Cheap to verify, the machine may do it; expensive to verify, a human has to answer for it.</p>
+    <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.9em">And they justify it in nearly the same sentence</div>
+    ${unison || '<p style="color:var(--ink-faint)">—</p>'}</div>`;
 }
 
 /* C zoom */
@@ -711,33 +676,34 @@ function zoomC(){
 }
 
 /* D zoom */
+const FITLABEL = { fits:"draws the line", partially:"draws it partly", contradicts:"reverses it" };
 function zoomD(){
-  oTag.textContent="D · Dissent & deviation"; oTitle.textContent="The honest edges";
+  oTag.textContent="D · The 7 that didn't"; oTitle.textContent="The science is in the 7 that didn't";
   const deviants = state.inst.filter(i=>i.c2_fit!=="fits").sort(byScore);
+  const partial = deviants.filter(d=>d.c2_fit==="partially").length;
   const tw = state.inst.filter(i=>i.twilight).length;
-  const devRows = deviants.map(d=>`<span class="chip ${d.c2_fit==='contradicts'?'dev':''}" style="margin:.2em" data-id="${esc(d.id)}">${esc(d.name)} · CA ${d.ca} · ${esc(d.c2_fit)}</span>`).join("");
+  const ed = state.inst.find(i=>i.id==="educause");
+  const edSrc = ed ? (ed.url||(ed.provenance&&ed.provenance.url)||"") : "";
+  const devRows = deviants.map(d=>`<span class="chip ${d.c2_fit==='contradicts'?'dev':''}" style="margin:.2em" data-id="${esc(d.id)}">${esc(d.name)} · CA ${d.ca} · ${esc(FITLABEL[d.c2_fit]||d.c2_fit)}</span>`).join("");
   ocontent.innerHTML = `<div style="max-width:760px;display:flex;flex-direction:column;gap:1.3em">
+    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6">44 of the 51 drew the same line. <b style="color:var(--ink)">6 drew it partly, and 1 reversed it.</b> Those 7 are where the idea earns its keep — because they show <em style="color:var(--ink);font-style:normal">exactly when the rule breaks.</em></p>
     <div class="cq" style="border-width:3px">
-      <div class="who">EDUCAUSE · CA 3 · contradicts</div>
-      <blockquote style="font-size:21px">When detection fails, trust becomes process — relocated to access, equity &amp; governance, not traceability.</blockquote>
+      <div class="who">EDUCAUSE · CA 3 · the one that reverses it</div>
+      ${ed&&ed.quote?`<blockquote style="font-size:20px">&ldquo;${esc(ed.quote)}&rdquo;</blockquote>
+      <div style="font-size:11px;color:var(--ink-faint);margin-top:.5em">${edSrc?`<a href="${esc(edSrc)}" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">source ↗</a> · `:""}EDUCAUSE studied AI-detection, found it doesn't work, and moved trust out of <em style="font-style:normal">proof</em> and into <em style="font-style:normal">process</em> — who's in the room when the rule is written. When proof becomes impossible, trust doesn't vanish; it changes form.</div>`:''}
     </div>
-    <div class="cq" style="border-width:3px">
-      <div class="who">Reuters Institute · CA 5 · partial fit</div>
-      <blockquote style="font-size:21px">You cannot hack your way to trust.</blockquote>
-    </div>
-    <div class="cq" style="border-width:3px">
-      <div class="who">Universities — the relational pushdown</div>
-      <blockquote style="font-size:21px">The classroom rule is pushed to instructors — trust handled relationally, case by case, not by a single evidential standard.</blockquote>
-    </div>
+    <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;border-left:2px solid var(--line);padding-left:.9em">
+      <b style="color:var(--ink-dim);letter-spacing:.06em;text-transform:uppercase;font-size:11px">A quieter tell.</b><br>
+      Across the university records, almost none write a single campus-wide AI rule — they hand the call to the individual instructor, the one human close enough to judge what a machine can't certify. Same instinct: push the decision to wherever the proof is cheapest to check. <span style="color:var(--ink-faint)">(A pattern read across the corpus, not a single institution's quote.)</span></p>
     <div class="cq evidf" style="border-width:3px">
       <div class="who">The divergence line — the thesis in one breath</div>
       <blockquote style="font-size:24px">Humans trust ahead. Machines trust in reverse.</blockquote>
     </div>
     <div>
-      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.7em">All ${deviants.length} institutions that deviate from prediction</div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.7em">The 7 that didn't draw it cleanly (${partial} partly · 1 reverses it) — tap any for its record</div>
       <div style="display:flex;flex-wrap:wrap" id="dev-chips">${devRows}</div>
     </div>
-    <p style="color:var(--ink-faint);font-size:12px;line-height:1.6">~${tw} of ${state.inst.length} records carry “twilight” framing — precedent collapse, feedback delay, exponential fog — usually unnamed. The dissent is a feature: it marks the exact seam where evidential trust runs out and relational trust takes over.</p>
+    <p style="color:var(--ink-faint);font-size:12px;line-height:1.6">${tw} of ${state.inst.length} records carry “twilight” language — standards still forming, “cautious experimentation,” precedent giving way faster than rules can keep up. They feel the ground shifting; none has named it.</p>
   </div>`;
   ocontent.querySelectorAll("#dev-chips .chip").forEach(c=>{
     c.style.cursor="pointer";
@@ -745,23 +711,17 @@ function zoomD(){
   });
 }
 
-/* ---- recent-moves ticker ---- */
+/* ---- living-index footer link (honest, no cosplay) ---- */
 state.moves = [];
 fetch("./moves.json").then(r=>r.json()).then(j=>{
   state.moves = (j.moves||[]);
-  const t=document.getElementById("ticker"), feed=document.getElementById("ticker-feed"), more=document.getElementById("ticker-more");
-  if(!state.moves.length){ t.style.display="none"; return; }
-  more.textContent = state.moves.length+" tracked ⊕";
-  feed.innerHTML = state.moves.map((m,i)=>`<span class="item${i===0?' on':''}">
-    <span class="when">${esc(m.date)}</span>
-    <span class="kind ${esc(m.kind)}">${esc(m.kind)}</span>
-    <span class="hd">${esc(m.headline)}${m.delta?` &middot; <span class="dl">${esc(m.delta)}</span>`:""}</span></span>`).join("");
-  const items=feed.querySelectorAll(".item"); let idx=0;
-  if(items.length>1) setInterval(()=>{ items[idx].classList.remove("on"); idx=(idx+1)%items.length; items[idx].classList.add("on"); },4200);
+  const el = document.getElementById("f-living"); if(!el) return;
+  const changes = state.moves.filter(m=>m.kind!=="baseline").length;
+  el.innerHTML = `<span class="blip"></span>Re-scanned weekly${changes?` · ${changes} change${changes>1?'s':''} logged →`:""}`;
   const openMoves=()=>{ zoomMoves(); overlay.classList.add("on"); document.getElementById("zoomback").focus(); };
-  t.addEventListener("click",openMoves);
-  t.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();openMoves();} });
-}).catch(()=>{ const t=document.getElementById("ticker"); if(t) t.style.display="none"; });
+  el.addEventListener("click",openMoves);
+  el.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();openMoves();} });
+}).catch(()=>{ const el=document.getElementById("f-living"); if(el) el.style.display="none"; });
 
 function zoomMoves(){
   oTag.textContent="Recent moves"; oTitle.textContent="Policy changes since baseline";

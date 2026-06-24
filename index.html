@@ -13,7 +13,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="The Calibrated Authority Index" />
 <meta property="og:title" content="The Calibrated Authority Index" />
-<meta property="og:description" content="How 51 knowledge institutions quietly rewrote the rules of trust in AI. We trust machines exactly as far as we can check them — and not one step further." />
+<meta property="og:description" content="How 51 knowledge institutions quietly rewrote the rules of trust in AI. We trust machines exactly as far as we can check them — past that, it's faith." />
 <meta property="og:url" content="https://calibrated-authority.chrishuberreitz.com/" />
 <meta property="og:image" content="https://calibrated-authority.chrishuberreitz.com/og.png" />
 
@@ -142,8 +142,11 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
   border-bottom:1px solid var(--line);padding-bottom:clamp(6px,1vh,12px);flex:0 0 auto}
 .brand h1{font-family:"Fraunces";font-weight:500;font-optical-sizing:auto;
   font-size:clamp(20px,3.1vh,34px);line-height:1;letter-spacing:-.01em}
-.brand .sub{color:var(--ink-dim);font-size:clamp(10px,1.35vh,13px);margin-top:.4em;max-width:62ch}
+.brand .sub{color:var(--ink-dim);font-size:clamp(10px,1.35vh,13px);margin-top:.5em;max-width:64ch}
 .brand .sub em{color:var(--signal-soft);font-style:normal}
+.brand .sub .thesis{display:block;color:var(--ink);font-weight:600;font-size:1.3em;line-height:1.22;margin:0 0 .4em}
+.brand .sub .why{display:block;color:var(--ink-dim);margin-bottom:.3em}
+.brand .sub .prov{display:block;color:var(--ink-faint)}
 .stat{display:flex;gap:clamp(14px,2vw,28px);text-align:right;align-items:flex-end}
 .stat .k{font-family:"Fraunces";font-size:clamp(22px,3.4vh,38px);line-height:.9;font-weight:500}
 .stat .k.evid{color:var(--evid)}
@@ -168,6 +171,13 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .zone h2{font-family:"Fraunces";font-weight:500;font-size:clamp(13px,1.85vh,18px);
   letter-spacing:-.01em;color:var(--ink);flex:0 0 auto;margin-bottom:.3em}
 .zbody{flex:1 1 auto;min-height:0;position:relative}
+/* self-explaining tile payoff strip */
+.zone .tldr{flex:0 0 auto;margin-top:.55em;padding-top:.5em;border-top:1px solid var(--line);
+  font-size:clamp(9px,1.18vh,11.5px);line-height:1.4;color:var(--ink-dim)}
+.zone .tldr b{color:var(--ink);font-weight:600}
+.dz .dcount{flex:0 0 auto;font-size:clamp(10px,1.3vh,12.5px);color:var(--ink-dim);margin-bottom:.5em;letter-spacing:.01em}
+.dz .dcount b{color:var(--ink)}
+.dz .dcount b.rev{color:var(--signal)}
 
 /* ---------- A · scoreboard ---------- */
 .sb{height:100%;overflow:hidden;display:flex;flex-direction:column;gap:2px;
@@ -246,15 +256,37 @@ footer .living .blip{display:inline-block;width:6px;height:6px;border-radius:50%
   line-height:1.32;color:var(--ink);margin-top:.18em}
 .cq.evidf{border-color:var(--evid)}
 .cq.evidf .who{color:var(--evid)}
+/* asymmetry ledger (zone D overlay) — credit vs cash, from the design spike */
+.ledger{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:.3em 0 .2em}
+.ledger .lcol{padding:20px 22px 24px}
+.ledger .lcol.human{background:rgba(224,83,58,.05);border-right:1px solid var(--line)}
+.ledger .lcol.machine{background:rgba(95,183,196,.05)}
+.ledger .col-tag{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:4px}
+.ledger .lcol.human .col-tag{color:var(--signal)}
+.ledger .lcol.machine .col-tag{color:var(--evid)}
+.ledger .col-title{font-family:"Fraunces";font-size:20px;margin:0 0 4px;color:var(--ink)}
+.ledger .col-sub{font-size:13px;color:var(--ink-faint);margin:0 0 18px;font-style:italic}
+.ledger .lrow{margin-bottom:15px}
+.ledger .row-label{display:flex;justify-content:space-between;font-size:12.5px;color:var(--ink-dim)}
+.ledger .row-label b{color:var(--ink);font-weight:600}
+.ledger .bar-track{height:13px;background:var(--paper-2);border:1px solid var(--line);border-radius:7px;overflow:hidden;margin:6px 0 0}
+.ledger .bar-fill{height:100%;border-radius:7px 0 0 7px}
+.ledger .ledger-foot{font-size:12.5px;color:var(--ink-dim);margin-top:8px}
+.ledger .ledger-foot b.h{color:var(--signal)}
+.ledger .ledger-foot b.m{color:var(--evid)}
+@media (max-width:560px){.ledger{grid-template-columns:1fr}.ledger .lcol.human{border-right:none;border-bottom:1px solid var(--line)}}
 
 /* ---------- aphorism strip ---------- */
 .creed{flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;gap:1.5em;
   border-top:1px solid var(--line);padding-top:clamp(6px,1vh,12px)}
+.creed .aph-wrap{flex:1 1 auto;max-width:62ch}
 .creed .aph{font-family:"Fraunces";font-size:clamp(13px,1.95vh,21px);line-height:1.18;
-  letter-spacing:-.01em;max-width:60ch}
+  letter-spacing:-.01em}
 .creed .aph b{color:var(--signal)}
+.creed .aph-gloss{font-size:clamp(10px,1.3vh,13px);color:var(--ink-dim);line-height:1.4;margin-top:.45em}
+.creed .aph-gloss b{color:var(--gold);font-weight:600}
 .creed .canon{text-align:right;flex:0 0 auto}
-.creed .canon .line{color:var(--evid);font-size:clamp(9px,1.25vh,12px);line-height:1.4}
+.creed .canon .line{color:var(--evid);font-size:clamp(12px,1.7vh,18px);line-height:1.3}
 .creed .canon .by{color:var(--ink-faint);font-size:9px;letter-spacing:.12em;text-transform:uppercase;margin-top:.4em}
 
 /* ---------- footer endpoints ---------- */
@@ -346,13 +378,16 @@ footer .sep{opacity:.4}
   #canvas{grid-template-columns:1fr;grid-template-rows:repeat(4,1fr)}
   .creed{flex-direction:column;align-items:flex-start;gap:.5em}
   .creed .canon{text-align:left}
-  .brand .sub{display:none}
+  /* keep the thesis line visible on mobile; drop the secondary copy to stay single-screen */
+  .brand .sub .why,.brand .sub .prov{display:none}
+  .brand .sub .thesis{font-size:1.15em;margin-bottom:0}
 }
 /* phones */
 @media (max-width:560px){
   body{overflow:auto}
   #app{height:auto;min-height:100%}
   #canvas{grid-template-rows:repeat(4,minmax(180px,auto))}
+  .brand .sub .why{display:block}
 }
 </style>
 </head>
@@ -361,7 +396,7 @@ footer .sep{opacity:.4}
   <header>
     <div class="brand">
       <h1 class="serif">The Calibrated Authority Index</h1>
-      <p class="sub">51 institutions built to be trusted — Nature, JAMA, the BBC, the NYT — wrote rules for AI. <em>44 drew the same line:</em> machines do the work you can cheaply check; humans keep what you can't. Every score traces to the institution's own published words.</p>
+      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 trust-built institutions wrote AI rules; 44 drew it the same way, in their own published words.</span></p>
     </div>
     <div class="stat">
       <div><div class="k" id="stat-n">51</div><div class="l">institutions read</div></div>
@@ -375,6 +410,7 @@ footer .sep{opacity:.4}
       <div class="ztag"><span class="dot"></span><span class="lbl">A · The 51, scored</span><span class="hint">tap for all 51 ⊕</span></div>
       <h2 class="serif">Where the 51 landed — and the tail</h2>
       <div class="zbody"><div class="sb" id="sb-mini"></div></div>
+      <div class="tldr">Each scored <b>0–12</b> on how firmly it keeps a human accountable for what a machine can't prove. Most land high; a short tail breaks rank.</div>
     </section>
 
     <!-- B -->
@@ -395,14 +431,14 @@ footer .sep{opacity:.4}
     <!-- C -->
     <section class="zone" data-z="C" tabindex="0" role="button" aria-label="Open segment gradient">
       <div class="ztag"><span class="dot"></span><span class="lbl">C · Segment gradient</span><span class="hint">tap to expand ⊕</span></div>
-      <h2 class="serif">Trust relocates as proof gets dear</h2>
+      <h2 class="serif">Trust relocates as proof gets costly</h2>
       <div class="zbody"><div class="cg">
-        <div class="ramp"><div class="ends"><span>Evidential</span><span>Relational</span></div></div>
+        <div class="ramp"><div class="ends"><span>proof</span><span>process</span></div></div>
         <div class="seglist">
           <span><b>publishers</b></span><span>societies</span><span>journals</span>
           <span>universities</span><span>libraries</span><span>ed-tech</span><span><b>intergov</b></span>
         </div>
-        <p class="read">As proof gets harder to obtain, trust gets <em>relocated</em> — from traceability (publishers, mean ≈11) to access, equity & governance (libraries, ed-tech, intergov). The mechanism is verification cost, not the institution's good faith.</p>
+        <p class="read">Where proof is cheap — publishers, journals — trust rides on <em>checking the work</em>. Where proof runs out — libraries, ed-tech, global bodies — it shifts onto <em>process and access</em>. Same mechanism; just less left to verify.</p>
       </div></div>
     </section>
 
@@ -411,20 +447,21 @@ footer .sep{opacity:.4}
       <div class="ztag"><span class="dot"></span><span class="lbl">D · Dissent &amp; deviation</span><span class="hint">tap to expand ⊕</span></div>
       <h2 class="serif">The honest edges</h2>
       <div class="zbody"><div class="dz">
+        <div class="dcount"><b>44</b> drew the line · <b>6</b> drew it partly · <b class="rev">1</b> reversed it</div>
         <div class="cq">
-          <div class="who">EDUCAUSE <span class="sc">CA 3 · the one that reverses it</span></div>
-          <blockquote>It found AI-detection doesn't work — so it stopped trusting proof and moved trust into <em>process</em>: who's in the room when the rule gets made.</blockquote>
-        </div>
-        <div class="cq evidf">
-          <div class="who">The divergence line</div>
-          <blockquote>Humans trust ahead. Machines trust in reverse.</blockquote>
+          <div class="who">EDUCAUSE <span class="sc">CA 3 · the one that reversed it</span></div>
+          <blockquote>Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets made.</blockquote>
         </div>
       </div></div>
+      <div class="tldr"><b>When proof becomes impossible, trust doesn't vanish — it changes form.</b></div>
     </section>
   </main>
 
   <section class="creed">
-    <div class="aph serif">We trust machines exactly as far as we can check them — <b>and not one step further.</b></div>
+    <div class="aph-wrap">
+      <div class="aph serif">We trust machines exactly as far as we can check them — <b>past that, it's faith.</b></div>
+      <div class="aph-gloss">Humans get trust on <b>credit</b> — extended ahead, repaid later. Machines pay <b>cash</b> — proof up front.</div>
+    </div>
     <div class="canon">
       <div class="line serif">“Humans trust ahead.<br>Machines trust in reverse.”</div>
       <div class="by">— Chris Huber Reitz</div>
@@ -635,6 +672,26 @@ function zoomB(){
       return `<blockquote class="cquote" style="margin:0 0 1.1em">&ldquo;${esc(i.quote)}&rdquo;
         <cite>&mdash; ${esc(i.name)}${src?` · <a href="${esc(src)}" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">source ↗</a>`:""}</cite></blockquote>`;
     }).join("");
+  const COSTAXIS = [
+    {l:"grammar & copy-edit",c:.08,s:.14},{l:"formatting & references",c:.13,s:.07},
+    {l:"translation",c:.27,s:.30},{l:"search & summary",c:.34,s:.41},{l:"writing code",c:.45,s:.57},
+    {l:"judgment & interpretation",c:.66,s:.56},{l:"original reporting",c:.82,s:.80},
+    {l:"authorship",c:.86,s:.67},{l:"the byline",c:.90,s:.86},{l:"accountability",c:.97,s:.93,dev:true}
+  ];
+  const b2pts = COSTAXIS.map(t=>{
+    const top=((1-t.c)*100).toFixed(1), left=(9+t.s*82).toFixed(1), L=t.s<.5;
+    return `<div class="pt${t.dev?' dev':''}" style="top:${top}%;left:${left}%">`
+      +`<span style="position:absolute;${L?'left:11px':'right:11px'};top:50%;transform:translateY(-50%);white-space:nowrap;font-size:10px;color:${t.dev?'var(--signal)':'var(--ink-dim)'}">${esc(t.l)}</span></div>`;
+  }).join("");
+  const b2 = `<div class="b2" style="height:340px;margin:.4em 0 1.6em">
+      <div class="axis-top">▲ expensive to check — a human must own</div>
+      <div class="field">
+        <div class="boundary" style="top:45%"><span>the line they drew</span></div>${b2pts}
+      </div>
+      <div class="axis-bot">▼ cheap to check — the machine may</div>
+      <div style="display:flex;justify-content:space-between;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-top:.3em"><span>assists the work</span><span>owns the truth</span></div>
+      <div class="punch">Tasks don't fall in two bins — they spread along <b>one axis: the cost of proof.</b> The line is just where that cost crosses what a human must answer for.</div>
+    </div>`;
   ocontent.innerHTML = `<div style="max-width:720px">
     <div class="theline" style="height:auto;margin-bottom:1.6em">
       <div class="cols" style="gap:2em">
@@ -646,13 +703,14 @@ function zoomB(){
     </div>
     <p style="color:var(--ink-dim);font-size:15px;line-height:1.6;margin-bottom:1.4em">
       <b style="color:var(--evid)">${fits} of ${state.inst.length}</b> drew that exact line. The boundary isn't ethics or fear of the technology — it's <b style="color:var(--ink)">how expensive the proof is.</b> Cheap to verify, the machine may do it; expensive to verify, a human has to answer for it.</p>
+    ${b2}
     <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.9em">And they justify it in nearly the same sentence</div>
     ${unison || '<p style="color:var(--ink-faint)">—</p>'}</div>`;
 }
 
 /* C zoom */
 function zoomC(){
-  oTag.textContent="C · Segment gradient"; oTitle.textContent="Trust relocates as proof gets dear";
+  oTag.textContent="C · Segment gradient"; oTitle.textContent="Trust relocates as proof gets costly";
   // compute per-segment mean to ground the ramp
   const segs = {};
   state.inst.forEach(i=>{ (segs[i.segment]=segs[i.segment]||[]).push(i.ca); });
@@ -700,6 +758,29 @@ function zoomD(){
       <blockquote style="font-size:24px">Humans trust ahead. Machines trust in reverse.</blockquote>
     </div>
     <div>
+      <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.7em">Why those two run opposite — trust as an account</div>
+      <div class="ledger">
+        <div class="lcol human">
+          <div class="col-tag">Human · trust ahead</div>
+          <div class="col-title">Account opens full</div>
+          <p class="col-sub">trust on credit — repaid later</p>
+          <div class="lrow"><div class="row-label"><span>First contact</span><b>100%</b></div><div class="bar-track"><div class="bar-fill" style="width:100%;background:var(--signal)"></div></div></div>
+          <div class="lrow"><div class="row-label"><span>After missteps</span><b>72%</b></div><div class="bar-track"><div class="bar-fill" style="width:72%;background:var(--signal);opacity:.8"></div></div></div>
+          <div class="lrow"><div class="row-label"><span>Settled balance</span><b>58%</b></div><div class="bar-track"><div class="bar-fill" style="width:58%;background:var(--signal);opacity:.62"></div></div></div>
+          <p class="ledger-foot">Drawn <b class="h">down</b> from a presumed full balance.</p>
+        </div>
+        <div class="lcol machine">
+          <div class="col-tag">Machine · trust in reverse</div>
+          <div class="col-title">Account opens empty</div>
+          <p class="col-sub">trust in cash — proof first</p>
+          <div class="lrow"><div class="row-label"><span>First contact</span><b>0%</b></div><div class="bar-track"><div class="bar-fill" style="width:2%;background:var(--evid)"></div></div></div>
+          <div class="lrow"><div class="row-label"><span>After verification</span><b>34%</b></div><div class="bar-track"><div class="bar-fill" style="width:34%;background:var(--evid);opacity:.8"></div></div></div>
+          <div class="lrow"><div class="row-label"><span>Proven balance</span><b>61%</b></div><div class="bar-track"><div class="bar-fill" style="width:61%;background:var(--evid)"></div></div></div>
+          <p class="ledger-foot">Filled <b class="m">up</b> from an empty balance, receipt by receipt.</p>
+        </div>
+      </div>
+    </div>
+    <div>
       <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.7em">The 7 that didn't draw it cleanly (${partial} partly · 1 reverses it) — tap any for its record</div>
       <div style="display:flex;flex-wrap:wrap" id="dev-chips">${devRows}</div>
     </div>
@@ -712,12 +793,30 @@ function zoomD(){
 }
 
 /* ---- living-index footer link (honest, no cosplay) ---- */
+/* policy-drift sparkline: real logged moves on a time axis to a "now" anchor — no fabricated trend */
+function driftSpark(moves){
+  const evs = (moves||[]).filter(m=>m.kind!=="baseline" && m.date)
+    .map(m=>({d:new Date(m.date+"T00:00:00"),k:m.kind})).filter(e=>!isNaN(e.d)).sort((a,b)=>a.d-b.d);
+  if(!evs.length) return "";
+  const base = moves.find(m=>m.kind==="baseline" && m.date);
+  const now = base ? new Date(base.date+"T00:00:00") : evs[evs.length-1].d;
+  const min = evs[0].d, span = Math.max(1, now-min), W=70, H=15, pad=3;
+  const x = d => (pad+((d-min)/span)*(W-2*pad));
+  const dots = evs.map(e=>{
+    const col = e.k==="new"?"var(--evid)":e.k==="changed"?"var(--gold)":"var(--ink-faint)";
+    return `<circle cx="${x(e.d).toFixed(1)}" cy="${H/2}" r="2.4" fill="${col}"><title>${e.k} · ${e.d.toISOString().slice(0,10)}</title></circle>`;
+  }).join("");
+  return `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" style="vertical-align:middle;margin-right:.55em" aria-hidden="true">`
+    +`<line x1="${pad}" y1="${H/2}" x2="${W-pad}" y2="${H/2}" stroke="var(--line)" stroke-width="1"/>`
+    +`<circle cx="${W-pad}" cy="${H/2}" r="2.1" fill="none" stroke="var(--ink-faint)" stroke-width="1"/>`
+    +dots+`</svg>`;
+}
 state.moves = [];
 fetch("./moves.json").then(r=>r.json()).then(j=>{
   state.moves = (j.moves||[]);
   const el = document.getElementById("f-living"); if(!el) return;
   const changes = state.moves.filter(m=>m.kind!=="baseline").length;
-  el.innerHTML = `<span class="blip"></span>Re-scanned weekly${changes?` · ${changes} change${changes>1?'s':''} logged →`:""}`;
+  el.innerHTML = `${driftSpark(state.moves)||'<span class="blip"></span>'}Re-scanned weekly${changes?` · ${changes} change${changes>1?'s':''} logged →`:""}`;
   const openMoves=()=>{ zoomMoves(); overlay.classList.add("on"); document.getElementById("zoomback").focus(); };
   el.addEventListener("click",openMoves);
   el.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();openMoves();} });

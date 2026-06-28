@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-06-23T19:16:49Z",
+  "dateModified": "2026-06-28T20:24:47Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -91,10 +91,10 @@
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 51,
-    "mean_ca": 9.8,
+    "n": 53,
+    "mean_ca": 9.6,
     "ca_range": [
-      3,
+      2,
       12
     ],
     "instrument": {
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-06-23T19:16:49Z"
+    "generated_at": "2026-06-28T20:24:47Z"
   },
   "institutions": [
     {
@@ -157,7 +157,7 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-06-28",
       "quote": "All content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create.",
       "quote_label": "AI use policy",
       "provenance": {
@@ -417,7 +417,7 @@
       "c2_fit": "partially",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-06-28",
       "quote": "You cannot simply 'hack' your way to trust.",
       "quote_label": "Generative AI and news report 2025",
       "provenance": {
@@ -535,21 +535,21 @@
       "segment": "university",
       "url": "https://ist.mit.edu/ai-guidance",
       "scores": {
-        "D1": 1,
-        "D2": 2,
-        "D3": 2,
-        "D4": 1,
-        "D5": 1,
-        "D6": 1
+        "D1": 0,
+        "D2": 1,
+        "D3": 1,
+        "D4": 0,
+        "D5": 0,
+        "D6": 0
       },
-      "ca": 8,
-      "posture": "Balanced",
-      "c2_fit": "fits",
-      "c3": "Evidential",
-      "twilight": true,
-      "coded_date": "2026-06-22",
-      "quote": "You are responsible for the accuracy of any information you publish, including AI-generated content.",
-      "quote_label": "IS&T AI guidance",
+      "ca": 2,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Neither",
+      "twilight": false,
+      "coded_date": "2026-06-28",
+      "quote": "High-risk data should never be used with generative AI tools.",
+      "quote_label": "IS&T Guidance for use of Generative AI tools",
       "provenance": {
         "url": "https://ist.mit.edu/ai-guidance",
         "verify_status": "ok"
@@ -1094,7 +1094,7 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-06-28",
       "quote": "Attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
       "quote_label": "Instructions for authors",
       "provenance": {
@@ -1463,6 +1463,58 @@
       "quote_label": "AI and the Future of Teaching and Learning",
       "provenance": {
         "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "uspto",
+      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "segment": "regulator",
+      "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+      "scores": {
+        "D1": 1,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-06-28",
+      "quote": "Only a natural person can be an inventor, so AI cannot be.",
+      "quote_label": "Inventorship Guidance for AI-Assisted Inventions",
+      "provenance": {
+        "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "vatican-ddf",
+      "name": "Vatican (DDF/DCE) — Antiqua et Nova (2025)",
+      "segment": "faith-institution",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+      "scores": {
+        "D1": 0,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 2,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Balanced",
+      "c2_fit": "partially",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-06-28",
+      "quote": "Between a machine and a human being, only the latter is truly a moral agent.",
+      "quote_label": "Antiqua et Nova (2025), par. 39",
+      "provenance": {
+        "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
         "verify_status": "ok"
       }
     }

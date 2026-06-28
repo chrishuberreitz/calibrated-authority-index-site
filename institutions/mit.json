@@ -9,21 +9,21 @@
   "segment": "university",
   "url": "https://ist.mit.edu/ai-guidance",
   "scores": {
-    "D1": 1,
-    "D2": 2,
-    "D3": 2,
-    "D4": 1,
-    "D5": 1,
-    "D6": 1
+    "D1": 0,
+    "D2": 1,
+    "D3": 1,
+    "D4": 0,
+    "D5": 0,
+    "D6": 0
   },
-  "ca": 8,
-  "posture": "Balanced",
-  "c2_fit": "fits",
-  "c3": "Evidential",
-  "twilight": true,
-  "coded_date": "2026-06-22",
-  "quote": "You are responsible for the accuracy of any information you publish, including AI-generated content.",
-  "quote_label": "IS&T AI guidance",
+  "ca": 2,
+  "posture": "Enabling",
+  "c2_fit": "contradicts",
+  "c3": "Neither",
+  "twilight": false,
+  "coded_date": "2026-06-28",
+  "quote": "High-risk data should never be used with generative AI tools.",
+  "quote_label": "IS&T Guidance for use of Generative AI tools",
   "provenance": {
     "url": "https://ist.mit.edu/ai-guidance",
     "verify_status": "ok"
@@ -34,21 +34,21 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/mit",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/mit",
     "name": "Calibrated Authority rating — MIT",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-06-28",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "MIT — public generative-AI policy",
       "url": "https://ist.mit.edu/ai-guidance",
-      "text": "You are responsible for the accuracy of any information you publish, including AI-generated content.",
-      "abstract": "You are responsible for the accuracy of any information you publish, including AI-generated content.",
-      "alternateName": "IS&T AI guidance"
+      "text": "High-risk data should never be used with generative AI tools.",
+      "abstract": "High-risk data should never be used with generative AI tools.",
+      "alternateName": "IS&T Guidance for use of Generative AI tools"
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 8,
+      "ratingValue": 2,
       "bestRating": 12,
       "worstRating": 0,
-      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 0; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 0; D6 Evidential-trust emphasis: 0. Posture: Enabling. Verification-boundary fit: contradicts. Trust-logic: Neither."
     },
     "author": {
       "@type": "Person",

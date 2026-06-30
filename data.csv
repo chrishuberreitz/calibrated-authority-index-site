@@ -14,7 +14,7 @@ columbia-tow,Columbia / Tow Center,journalism-research,https://journalism.columb
 ap,Associated Press,journalism,https://ds.svcs.associatedpress.com/standards-around-generative-ai,1,2,1,2,2,2,10,Balanced,fits,Evidential,False,secondary-blocked
 harvard,Harvard University,university,https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard,1,2,1,1,2,1,8,Balanced,fits,Evidential,True,ok
 stanford,Stanford University,university,https://communitystandards.stanford.edu/policies-guidance,1,2,2,1,1,2,9,Balanced,fits,Both-split,True,ok
-mit,MIT,university,https://ist.mit.edu/ai-guidance,0,1,1,0,0,0,2,Enabling,contradicts,Neither,False,ok
+mit,MIT,university,https://ist.mit.edu/ai-guidance,1,2,2,1,1,1,8,Balanced,fits,Evidential,True,ok
 umich,University of Michigan,university,https://genai.umich.edu/resources/faculty/course-policies,2,2,1,1,2,2,10,Enabling,fits,Evidential,True,ok
 russell-group,Russell Group (UK),university-consortium,https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education,1,1,1,1,1,2,7,Enabling,partially,Evidential,False,ok
 mla-cccc,MLA-CCCC Task Force,education,https://aiandwriting.hcommons.org/working-paper-1/,2,2,2,1,2,1,10,Balanced,fits,Both-split,False,ok
@@ -50,5 +50,3 @@ educause,EDUCAUSE,edtech,https://er.educause.edu/articles/2023/12/cross-campus-a
 unesco,UNESCO — GenAI in education & research,intergov,https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research,1,2,1,2,2,1,9,Prohibitive,partially,Relational,True,ok
 oecd,OECD AI Principles,intergov,https://oecd.ai/en/ai-principles,2,2,2,1,1,2,10,Enabling,fits,Evidential,False,ok
 us-doe-oet,US Dept of Education (OET),gov-education,https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf,1,2,1,1,2,1,8,Balanced,partially,Both-split,True,ok
-uspto,USPTO — Inventorship Guidance for AI-Assisted Inventions,regulator,https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions,1,2,1,2,1,1,8,Balanced,fits,Evidential,False,ok
-vatican-ddf,Vatican (DDF/DCE) — Antiqua et Nova (2025),faith-institution,https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html,0,2,1,2,2,1,8,Balanced,partially,Both-split,False,ok

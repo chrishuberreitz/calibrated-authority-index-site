@@ -7,10 +7,10 @@
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
-    "n": 53,
-    "mean_ca": 9.6,
+    "n": 51,
+    "mean_ca": 9.8,
     "ca_range": [
-      2,
+      3,
       12
     ],
     "creator": "Chris Huber Reitz",
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-06-28T20:24:47Z"
+    "generated_at": "2026-06-23T19:16:49Z"
   },
   "institutions": [
     {
@@ -162,7 +162,7 @@
       "id": "mit",
       "name": "MIT",
       "segment": "university",
-      "ca": 2,
+      "ca": 8,
       "url": "https://ist.mit.edu/ai-guidance",
       "page": "/institutions/mit",
       "atom": "/institutions/mit.json"
@@ -481,24 +481,6 @@
       "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
       "page": "/institutions/us-doe-oet",
       "atom": "/institutions/us-doe-oet.json"
-    },
-    {
-      "id": "uspto",
-      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
-      "segment": "regulator",
-      "ca": 8,
-      "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-      "page": "/institutions/uspto",
-      "atom": "/institutions/uspto.json"
-    },
-    {
-      "id": "vatican-ddf",
-      "name": "Vatican (DDF/DCE) — Antiqua et Nova (2025)",
-      "segment": "faith-institution",
-      "ca": 8,
-      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
-      "page": "/institutions/vatican-ddf",
-      "atom": "/institutions/vatican-ddf.json"
     }
   ]
 }

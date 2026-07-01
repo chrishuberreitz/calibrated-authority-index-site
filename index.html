@@ -8,7 +8,7 @@
 <link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/" />
 <meta name="robots" content="index,follow" />
 
-<!-- feature-flag engine: sets html.ff-* classes pre-paint, exposes window.FF (5 flags defaulted ON) -->
+<!-- feature-flag engine: sets html.ff-* classes pre-paint, exposes window.FF (4 flags defaulted ON) -->
 <script src="/ff.js"></script>
 <meta name="author" content="Chris Huber Reitz" />
 
@@ -471,11 +471,6 @@ footer .sep{opacity:.4}
 #ff-panel .ff-actions a{margin-left:auto;color:var(--ink-faint);font-size:10px;text-decoration:none;letter-spacing:.06em}
 #ff-panel .ff-actions a:hover{color:var(--evid)}
 
-/* ---- a "preview" ribbon so v2 is never mistaken for production ---- */
-html.ff-on .v2-ribbon{position:fixed;top:0;right:0;z-index:115;
-  background:var(--gold);color:#0d1117;font-size:9px;letter-spacing:.16em;
-  text-transform:uppercase;font-weight:600;padding:.35em .9em;
-  border-bottom-left-radius:8px;box-shadow:var(--shadow);pointer-events:none}
 
 /* ---- numbered-sections: §n + one-line abstract ---- */
 .zone .secnum{color:var(--gold);font-variant-numeric:tabular-nums;margin-right:.45em}
@@ -623,7 +618,7 @@ html.ff-in-the-news .itn-link{display:inline}
       <h2 class="serif">The honest edges</h2>
       <div class="zbody"><div class="dz">
         <!-- NOTE: 44/6/1 hardcoded here + in zoom D — recompute from data on the post-launch corpus merge (N>51) -->
-        <div class="dcount"><b>44</b> drew the line · <b>6</b> drew it partly · <b class="rev">1</b> reversed it</div>
+        <div class="dcount"><b id="d-fits">44</b> drew the line · <b id="d-partial">6</b> drew it partly · <b class="rev" id="d-rev">1</b> reversed it</div>
         <div class="cq">
           <div class="who">EDUCAUSE <span class="sc">CA 3 · the one that reversed it</span></div>
           <p class="dsum">Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets written. <span class="dsrc">— the Index's reading of the policy, not a quote</span></p>
@@ -692,6 +687,11 @@ fetch("./index.json").then(r=>r.json()).then(j=>{
   document.getElementById("stat-n").textContent = total;
   document.getElementById("stat-fits").textContent = fits;
   document.getElementById("stat-n2").textContent = total;
+  // D-panel counts, data-driven (was hardcoded 44/6/1 — now recomputes if the corpus changes)
+  const dSet=(id,v)=>{const e=document.getElementById(id); if(e) e.textContent=v;};
+  dSet("d-fits",fits);
+  dSet("d-partial",state.inst.filter(i=>i.c2_fit==="partially").length);
+  dSet("d-rev",state.inst.filter(i=>i.c2_fit==="contradicts").length);
   if(m.version){ document.getElementById("f-ver").textContent = m.version; document.getElementById("f-date").textContent = m.version; }
   renderMiniScoreboard();
 }).catch(e=>{
@@ -943,12 +943,14 @@ function zoomD(){
   oTag.textContent="D · The 7 that didn't"; oTitle.textContent="The science is in the 7 that didn't";
   const deviants = state.inst.filter(i=>i.c2_fit!=="fits").sort(byScore);
   const partial = deviants.filter(d=>d.c2_fit==="partially").length;
+  const fitsD = state.inst.length - deviants.length;
+  const revD = deviants.filter(d=>d.c2_fit==="contradicts").length;
   const tw = state.inst.filter(i=>i.twilight).length;
   const ed = state.inst.find(i=>i.id==="educause");
   const edSrc = ed ? (ed.url||(ed.provenance&&ed.provenance.url)||"") : "";
   const devRows = deviants.map(d=>`<span class="chip ${d.c2_fit==='contradicts'?'dev':''}" style="margin:.2em" data-id="${esc(d.id)}">${esc(d.name)} · CA ${d.ca} · ${esc(FITLABEL[d.c2_fit]||d.c2_fit)}</span>`).join("");
   ocontent.innerHTML = `<div style="max-width:760px;display:flex;flex-direction:column;gap:1.3em">
-    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6">44 of the 51 drew the same line. <b style="color:var(--ink)">6 drew it partly, and 1 reversed it.</b> Those 7 are where the idea earns its keep — because they show <em style="color:var(--ink);font-style:normal">exactly when the rule breaks.</em></p>
+    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6">${fitsD} of the ${state.inst.length} drew the same line. <b style="color:var(--ink)">${partial} drew it partly, and ${revD} reversed it.</b> Those ${deviants.length} are where the idea earns its keep — because they show <em style="color:var(--ink);font-style:normal">exactly when the rule breaks.</em></p>
     <div class="cq" style="border-width:3px">
       <div class="who">EDUCAUSE · CA 3 · the one that reversed it</div>
       ${ed&&ed.quote?`<blockquote style="font-size:20px">&ldquo;${esc(ed.quote)}&rdquo;</blockquote>

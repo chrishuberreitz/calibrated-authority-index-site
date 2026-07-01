@@ -222,16 +222,16 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .b2 .punch b{color:var(--evid)}
 
 /* ---------- B · the line (permit / reserve) ---------- */
-.theline{height:100%;display:flex;flex-direction:column;gap:clamp(5px,.9vh,10px)}
+.theline{height:100%;display:flex;flex-direction:column;gap:clamp(3px,.6vh,7px)}
 .theline .cols{flex:1 1 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(8px,1vw,16px);min-height:0}
 .theline .col{display:flex;flex-direction:column;min-height:0}
-.theline .col .ch{font-size:9px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.5em;line-height:1.3}
+.theline .col .ch{font-size:9px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.3em;line-height:1.25}
 .theline .col.evid .ch{color:var(--evid)}
 .theline .col.human .ch{color:var(--signal-soft)}
 .theline .col .ch b{display:block;font-size:1.18em;letter-spacing:.02em;margin-top:.2em}
 .theline .col.evid .ch b{color:var(--evid)}
 .theline .col.human .ch b{color:var(--signal)}
-.theline .col ul{list-style:none;display:flex;flex-direction:column;gap:.28em;font-size:clamp(10px,1.4vh,13px);color:var(--ink-dim)}
+.theline .col ul{list-style:none;display:flex;flex-direction:column;gap:.18em;font-size:clamp(10px,1.4vh,13px);color:var(--ink-dim)}
 .theline .col li{display:flex;align-items:baseline;gap:.5em}
 .theline .col li::before{content:"";flex:0 0 auto;width:5px;height:5px;border-radius:1px;margin-top:.45em}
 .theline .col.evid li::before{background:var(--evid)}
@@ -254,6 +254,9 @@ footer .living .blip{display:inline-block;width:6px;height:6px;border-radius:50%
   color:#0d1117;font-weight:600;mix-blend-mode:luminosity}
 .cg .seglist{display:flex;justify-content:space-between;font-size:9px;color:var(--ink-faint);
   letter-spacing:.04em;flex-wrap:wrap;gap:.3em}
+.rampcap{display:flex;justify-content:space-between;gap:2em;font-size:11px;letter-spacing:.05em;
+  color:var(--ink-dim);margin-bottom:1.3em}
+.rampcap span:last-child{text-align:right}
 .cg .seglist b{color:var(--ink-dim);font-weight:500}
 .cg .read{font-size:clamp(10px,1.35vh,12.5px);color:var(--ink-dim);line-height:1.5}
 .cg .read em{color:var(--ink);font-style:normal}
@@ -560,11 +563,12 @@ html.ff-in-the-news .itn-link{display:inline}
     <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open the line they drew" data-secnum="2" data-abstract="One axis — the cost of proof — and where 44 institutions drew the same line.">
       <div class="ztag"><span class="dot"></span><span class="lbl">B · The line</span><span class="hint">tap for their words ⊕</span></div>
       <h2 class="serif">The line every institution drew</h2>
+      <p style="font-size:11px;color:var(--ink-dim);margin:.1em 0 .3em;letter-spacing:.02em">A readout, not a recommendation — in institutions' own words.</p>
       <div class="zbody"><div class="theline" id="theline">
         <div class="cols">
-          <div class="col evid"><div class="ch">Cheap to check →<b>the machine can</b></div>
+          <div class="col evid"><div class="ch">Cheap to check →<b>where they let machines in</b></div>
             <ul><li>grammar &amp; copy-editing</li><li>translation</li><li>formatting &amp; references</li><li>search &amp; summary</li><li>writing code</li></ul></div>
-          <div class="col human"><div class="ch">Expensive to check →<b>a human must own</b></div>
+          <div class="col human"><div class="ch">Expensive to check →<b>where they kept a human</b></div>
             <ul><li>authorship</li><li>judgment &amp; interpretation</li><li>original reporting</li><li>the byline</li><li>accountability</li></ul></div>
         </div>
         <p class="seam">The boundary isn't ethics, or fear of the tech. It's <b>the cost of proof.</b></p>
@@ -677,7 +681,7 @@ function renderMiniScoreboard(){
     if(r.gap) return '<div class="sb-row" style="opacity:.5"><span class="rank"></span><span class="nm" style="color:var(--ink-faint)">… '+(sorted.length-8)+' more …</span><span></span></div>';
     return rowHTML(r, sorted.indexOf(r)+1, false);
   }).join("");
-  // Bars grow via CSS @keyframes (growbar) on render — --w is set inline, no JS timing.
+  // Bars render at width:var(--w) (set inline as a % of score/12) — no animation dependency.
 }
 function rowHTML(r, rank, withSeg){
   const cls = r.ca<=LOW_THRESHOLD ? "low" : (r.ca<=8 ? "mid" : "");
@@ -748,7 +752,7 @@ function paintZoomSB(){
   host.querySelectorAll(".nm").forEach(nm=>{
     nm.addEventListener("click",()=>openCard(nm.closest(".sb-row").dataset.id));
   });
-  // Bars grow via CSS @keyframes (growbar) on render — replays each time the zoom re-renders.
+  // Bars render at width:var(--w) (set inline as a % of score/12).
   if(window.FF) enhanceScoreboard(host);   // redesign-v2: record rows + hover annotations
 }
 
@@ -871,7 +875,8 @@ function zoomC(){
     </div>`;
   }).join("");
   ocontent.innerHTML = `<div style="max-width:760px">
-    <div class="ramp" style="height:34px;margin-bottom:1.4em"><div class="ends"><span>Evidential — proof</span><span>Relational — access · equity · governance</span></div></div>
+    <div class="ramp" style="height:34px;margin-bottom:.5em"></div>
+    <div class="rampcap"><span>Evidential — proof</span><span>Relational — access · equity · governance</span></div>
     <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.4em">
       Where the thing being judged is a checkable artifact — a paper, a citation — proof is cheap, and trust rides on the work. Where it's a diffuse outcome — access, equity, governance — there's no artifact to inspect, so trust rides on who's accountable instead. AI widens the gap: once a machine does the work, the reasoning hides inside the model and the source-trail breaks — so the proof a human can independently get keeps dropping, and trust slides from proof toward process.<br><br>Mean CA by segment:</p>
     ${rampSegs}</div>`;

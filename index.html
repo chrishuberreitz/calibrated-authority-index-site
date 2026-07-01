@@ -197,8 +197,9 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .sb-row .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-dim)}
 .sb-bar{position:relative;display:flex;align-items:center;gap:.5em;justify-self:end;width:clamp(80px,9vw,150px)}
 .sb-bar .track{flex:1;height:6px;background:var(--paper-2);border-radius:3px;overflow:hidden}
+@keyframes growbar{from{transform:scaleX(0)}to{transform:scaleX(var(--w,0))}}
 .sb-bar .fill{height:100%;border-radius:3px;background:var(--gold);transform-origin:left;
-  transform:scaleX(var(--w,0));transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+  transform:scaleX(var(--w,0));animation:growbar .7s cubic-bezier(.2,.7,.2,1) both}
 .sb-bar .v{font-variant-numeric:tabular-nums;width:1.4em;text-align:right;color:var(--ink)}
 .sb-row.low .nm{color:var(--signal-soft)}
 .sb-row.low .fill{background:var(--signal)}
@@ -675,19 +676,16 @@ function renderMiniScoreboard(){
     if(r.gap) return '<div class="sb-row" style="opacity:.5"><span class="rank"></span><span class="nm" style="color:var(--ink-faint)">… '+(sorted.length-8)+' more …</span><span></span></div>';
     return rowHTML(r, sorted.indexOf(r)+1, false);
   }).join("");
-  // Double-rAF: let the initial scaleX(0) paint once before we set --w, so the
-  // .7s transition actually runs (a single rAF fires pre-paint → bar jumps, no grow).
-  requestAnimationFrame(()=>requestAnimationFrame(()=>document.querySelectorAll("#sb-mini .fill").forEach(setBar)));
+  // Bars grow via CSS @keyframes (growbar) on render — --w is set inline, no JS timing.
 }
 function rowHTML(r, rank, withSeg){
   const cls = r.ca<=LOW_THRESHOLD ? "low" : (r.ca<=8 ? "mid" : "");
   return `<div class="sb-row ${cls}" data-id="${esc(r.id)}">
     <span class="rank">${rank}</span>
     <span class="nm">${esc(r.name)}${withSeg?` <span class="seg">${esc(r.segment)}</span>`:""}</span>
-    <span class="sb-bar"><span class="track"><span class="fill" data-w="${r.ca/12}"></span></span><span class="v">${r.ca}</span></span>
+    <span class="sb-bar"><span class="track"><span class="fill" style="--w:${r.ca/12}"></span></span><span class="v">${r.ca}</span></span>
   </div>`;
 }
-const setBar = el => el.style.setProperty("--w", el.dataset.w);
 
 /* ================= ZOOM ================= */
 const overlay = document.getElementById("overlay");
@@ -749,8 +747,7 @@ function paintZoomSB(){
   host.querySelectorAll(".nm").forEach(nm=>{
     nm.addEventListener("click",()=>openCard(nm.closest(".sb-row").dataset.id));
   });
-  // Double-rAF: same fix as the mini board — paint scaleX(0) once, then grow.
-  requestAnimationFrame(()=>requestAnimationFrame(()=>host.querySelectorAll(".fill").forEach(setBar)));
+  // Bars grow via CSS @keyframes (growbar) on render — replays each time the zoom re-renders.
   if(window.FF) enhanceScoreboard(host);   // redesign-v2: record rows + hover annotations
 }
 

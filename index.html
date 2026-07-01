@@ -832,20 +832,20 @@ function zoomB(){
       +`<span style="position:absolute;${L?'left:11px':'right:11px'};top:50%;transform:translateY(-50%);white-space:nowrap;font-size:10px;color:${t.dev?'var(--signal)':'var(--ink-dim)'}">${esc(t.l)}</span></div>`;
   }).join("");
   const b2 = `<div class="b2" style="height:340px;margin:.4em 0 1.6em">
-      <div class="axis-top">▲ expensive to check — a human must own</div>
+      <div class="axis-top">▲ expensive to check — kept for a human</div>
       <div class="field">
         <div class="boundary" style="top:45%"><span>the line they drew</span></div>${b2pts}
       </div>
-      <div class="axis-bot">▼ cheap to check — the machine may</div>
+      <div class="axis-bot">▼ cheap to check — let to the machine</div>
       <div style="display:flex;justify-content:space-between;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-top:.3em"><span>assists the work</span><span>owns the truth</span></div>
       <div class="punch">Tasks don't fall in two bins — they spread along <b>one axis: the cost of proof.</b> The line is just where that cost crosses what a human must answer for.</div>
     </div>`;
   ocontent.innerHTML = `<div style="max-width:720px">
     <div class="theline" style="height:auto;margin-bottom:1.6em">
       <div class="cols" style="gap:2em">
-        <div class="col evid"><div class="ch" style="font-size:11px">Cheap to check →<b style="font-size:18px">the machine can</b></div>
+        <div class="col evid"><div class="ch" style="font-size:11px">Cheap to check →<b style="font-size:18px">where they let machines in</b></div>
           <ul style="font-size:15px;gap:.4em"><li>grammar &amp; copy-editing</li><li>translation</li><li>formatting &amp; references</li><li>search &amp; summary</li><li>writing code</li></ul></div>
-        <div class="col human"><div class="ch" style="font-size:11px">Expensive to check →<b style="font-size:18px">a human must own</b></div>
+        <div class="col human"><div class="ch" style="font-size:11px">Expensive to check →<b style="font-size:18px">where they kept a human</b></div>
           <ul style="font-size:15px;gap:.4em"><li>authorship</li><li>judgment &amp; interpretation</li><li>original reporting</li><li>the byline</li><li>accountability</li></ul></div>
       </div>
     </div>

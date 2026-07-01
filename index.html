@@ -552,7 +552,7 @@ html.ff-in-the-news .itn-link{display:inline}
   <header>
     <div class="brand">
       <h1 class="serif">The Calibrated Authority Index</h1>
-      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 trust-built institutions wrote AI rules; 44 drew it the same way, in their own published words.</span></p>
+      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 institutions built to be trusted wrote AI rules; 44 drew the same line — independently, in their own published words. A pattern, not a law.</span></p>
       <p class="caglo"><b>Calibrated Authority (CA):</b> how firmly an institution ties trust in AI to proof you can check — scored 0–12.</p>
     </div>
     <div class="stat">
@@ -582,7 +582,7 @@ html.ff-in-the-news .itn-link{display:inline}
           <div class="col human"><div class="ch">Expensive to check →<b>where they kept a human</b></div>
             <ul><li>authorship</li><li>judgment &amp; interpretation</li><li>original reporting</li><li>the byline</li><li>accountability</li></ul></div>
         </div>
-        <p class="seam">The boundary isn't ethics, or fear of the tech. It's <b>the cost of proof.</b></p>
+        <p class="seam">The line isn't ethics, or fear of the tech. It's <b>the cost of proof.</b></p>
       </div></div>
     </section>
 
@@ -605,13 +605,14 @@ html.ff-in-the-news .itn-link{display:inline}
       <div class="ztag"><span class="dot"></span><span class="lbl">D · Dissent &amp; deviation</span><span class="hint">tap to expand ⊕</span></div>
       <h2 class="serif">The honest edges</h2>
       <div class="zbody"><div class="dz">
+        <!-- NOTE: 44/6/1 hardcoded here + in zoom D — recompute from data on the post-launch corpus merge (N>51) -->
         <div class="dcount"><b>44</b> drew the line · <b>6</b> drew it partly · <b class="rev">1</b> reversed it</div>
         <div class="cq">
           <div class="who">EDUCAUSE <span class="sc">CA 3 · the one that reversed it</span></div>
-          <blockquote>Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets made.</blockquote>
+          <blockquote>Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets written.</blockquote>
         </div>
       </div></div>
-      <div class="tldr"><b>When proof becomes impossible, trust doesn't vanish — it changes form.</b></div>
+      <div class="tldr"><b>When proof becomes impossible, trust doesn't vanish — it becomes governance.</b></div>
     </section>
   </main>
 
@@ -753,6 +754,7 @@ function zoomA(){
       </div>
     </div>
     <div class="fcount" id="fcount"></div>
+    <p style="font-size:11px;color:var(--ink-faint);line-height:1.5;margin:0 0 .9em;max-width:66ch">CA measures how tightly trust is tied to checkable proof — not institutional quality. A low score usually means the domain has no cheap proof to tie trust to (see EDUCAUSE).</p>
     <div class="zoomsb" id="zoomsb"></div>`;
   state.filter={posture:"",segment:""};
   ocontent.querySelectorAll(".filters .fchip").forEach(b=>{
@@ -801,7 +803,7 @@ function openCard(id){
     <div class="dims">${dims}</div>
     <div class="meta">
       <span class="chip"><b>Posture</b> ${esc(r.posture)}</span>
-      <span class="chip ${fitCls}">Boundary fit · ${esc(r.c2_fit)}</span>
+      <span class="chip ${fitCls}">Line · ${esc(FITLABEL[r.c2_fit]||r.c2_fit)}</span>
       <span class="chip"><b>Trust-logic</b> ${esc(r.c3)}</span>
       ${r.twilight?'<span class="chip tw">⚑ twilight framing</span>':''}
     </div>
@@ -874,7 +876,7 @@ function zoomB(){
       </div>
     </div>
     <p style="color:var(--ink-dim);font-size:15px;line-height:1.6;margin-bottom:1.4em">
-      <b style="color:var(--evid)">${fits} of ${state.inst.length}</b> drew that exact line. The boundary isn't ethics or fear of the technology — it's <b style="color:var(--ink)">how expensive the proof is.</b> Cheap to verify, the machine may do it; expensive to verify, a human has to answer for it.</p>
+      <b style="color:var(--evid)">${fits} of ${state.inst.length}</b> drew that exact line. The line isn't ethics or fear of the technology — it's <b style="color:var(--ink)">the cost of proof.</b> Cheap to verify, the machine may do it; expensive to verify, a human has to answer for it.</p>
     ${b2}
     <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.9em">And they justify it in nearly the same sentence</div>
     ${unison || '<p style="color:var(--ink-faint)">—</p>'}</div>`;
@@ -920,7 +922,7 @@ function zoomD(){
   ocontent.innerHTML = `<div style="max-width:760px;display:flex;flex-direction:column;gap:1.3em">
     <p style="color:var(--ink-dim);font-size:15px;line-height:1.6">44 of the 51 drew the same line. <b style="color:var(--ink)">6 drew it partly, and 1 reversed it.</b> Those 7 are where the idea earns its keep — because they show <em style="color:var(--ink);font-style:normal">exactly when the rule breaks.</em></p>
     <div class="cq" style="border-width:3px">
-      <div class="who">EDUCAUSE · CA 3 · the one that reverses it</div>
+      <div class="who">EDUCAUSE · CA 3 · the one that reversed it</div>
       ${ed&&ed.quote?`<blockquote style="font-size:20px">&ldquo;${esc(ed.quote)}&rdquo;</blockquote>
       <div style="font-size:11px;color:var(--ink-faint);margin-top:.5em">${edSrc?`<a href="${esc(edSrc)}" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">source ↗</a> · `:""}EDUCAUSE studied AI-detection, found it doesn't work, and moved trust out of <em style="font-style:normal">proof</em> and into <em style="font-style:normal">process</em> — who's in the room when the rule is written. When proof becomes impossible, trust doesn't vanish; it changes form.</div>`:''}
     </div>

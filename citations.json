@@ -1,0 +1,5 @@
+{
+  "_comment": "Data source for the redesign-v2 'in-the-news' flag. Intentionally EMPTY — the Index does not fabricate citation velocity. Add real, sourced references to the array. Shape per item: { \"date\": \"YYYY-MM-DD\", \"title\": \"...\", \"outlet\": \"...\", \"url\": \"https://...\" }.",
+  "version": "2026-06-30",
+  "citations": []
+}

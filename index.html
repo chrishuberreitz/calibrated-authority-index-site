@@ -7,6 +7,9 @@
 <meta name="description" content="A living corpus coding how 51 knowledge institutions construct trust in generative AI — six dimensions, a 0–12 Calibrated Authority score, and the verification-economics thesis observed in the wild. By Chris Huber Reitz." />
 <link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/" />
 <meta name="robots" content="index,follow" />
+
+<!-- feature-flag engine: sets html.ff-* classes pre-paint, exposes window.FF (5 flags defaulted ON) -->
+<script src="/ff.js"></script>
 <meta name="author" content="Chris Huber Reitz" />
 
 <!-- OpenGraph -->
@@ -147,6 +150,8 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .brand .sub .thesis{display:block;color:var(--ink);font-weight:600;font-size:1.3em;line-height:1.22;margin:0 0 .4em}
 .brand .sub .why{display:block;color:var(--ink-dim);margin-bottom:.3em}
 .brand .sub .prov{display:block;color:var(--ink-faint)}
+.brand .caglo{color:var(--ink-faint);font-size:clamp(9px,1.2vh,12px);line-height:1.4;margin:.5em 0 0;max-width:64ch}
+.brand .caglo b{color:var(--ink-dim);font-weight:600}
 .stat{display:flex;gap:clamp(14px,2vw,28px);text-align:right;align-items:flex-end}
 .stat .k{font-family:"Fraunces";font-size:clamp(22px,3.4vh,38px);line-height:.9;font-weight:500}
 .stat .k.evid{color:var(--evid)}
@@ -184,6 +189,10 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
   font-size:clamp(9px,1.28vh,12px)}
 .sb-row{display:grid;grid-template-columns:1.6em 1fr auto;align-items:center;gap:.55em;
   padding:.5px 0}
+/* CA column caption — absolute so it costs the scoreboard no vertical row */
+.zone[data-z="A"] .zbody .sb-ca-cap{position:absolute;top:-1.35em;right:0;z-index:2;
+  font-size:.72em;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-faint);
+  font-variant-numeric:tabular-nums;pointer-events:none}
 .sb-row .rank{color:var(--ink-faint);font-size:.82em;text-align:right}
 .sb-row .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-dim)}
 .sb-bar{position:relative;display:flex;align-items:center;gap:.5em;justify-self:end;width:clamp(80px,9vw,150px)}
@@ -389,6 +398,137 @@ footer .sep{opacity:.4}
   #canvas{grid-template-rows:repeat(4,minmax(180px,auto))}
   .brand .sub .why{display:block}
 }
+
+/* =========================================================================
+   redesign-v2 — flag-gated styles. Everything here is namespaced under an
+   html.ff-<flag> class (set by ff.js pre-paint) OR injected by JS, so with
+   ?ff=none this file renders byte-for-byte like production.
+   ========================================================================= */
+
+/* ---- the flag panel (compare tool) ---- */
+#ff-panel-btn{position:fixed;left:14px;bottom:14px;z-index:120;appearance:none;
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;
+  border:1px solid var(--panel-edge);background:var(--panel);color:var(--ink-dim);
+  padding:.55em .9em;border-radius:999px;cursor:pointer;box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:.5em;transition:border-color .2s,color .2s}
+#ff-panel-btn:hover{border-color:var(--evid);color:var(--evid)}
+#ff-panel-btn .ff-n{color:var(--gold);font-variant-numeric:tabular-nums}
+#ff-panel{position:fixed;left:14px;bottom:58px;z-index:120;width:min(92vw,420px);
+  max-height:74vh;overflow:auto;-webkit-overflow-scrolling:touch;display:none;
+  background:var(--panel);border:1px solid var(--panel-edge);border-radius:12px;
+  box-shadow:var(--shadow);padding:14px 14px 12px;font-size:12px}
+#ff-panel.open{display:block;animation:rise .25s both}
+#ff-panel .ff-head{display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--line);padding-bottom:.6em;margin-bottom:.7em}
+#ff-panel .ff-head b{font-family:"Fraunces",serif;font-weight:500;font-size:15px;color:var(--ink)}
+#ff-panel .ff-default{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint)}
+#ff-panel .ff-row{display:flex;gap:.7em;align-items:flex-start;padding:.55em 0;
+  border-bottom:1px solid rgba(42,53,67,.5);cursor:pointer}
+#ff-panel .ff-row input{margin-top:.25em;accent-color:var(--evid);flex:0 0 auto}
+#ff-panel .ff-row-main{display:flex;flex-direction:column;gap:.18em}
+#ff-panel .ff-row-name{color:var(--ink)}
+#ff-panel .ff-row-name code{color:var(--evid);font-size:.9em;background:var(--paper-2);
+  padding:.05em .4em;border-radius:4px;margin-left:.3em}
+#ff-panel .ff-row-name em{color:var(--gold);font-style:normal;font-size:.82em;letter-spacing:.1em;text-transform:uppercase}
+#ff-panel .ff-row-desc{color:var(--ink-dim);line-height:1.4}
+#ff-panel .ff-row-ex{color:var(--ink-faint);font-size:.85em;font-style:italic}
+#ff-panel .ff-actions{display:flex;gap:.5em;align-items:center;margin-top:.8em;flex-wrap:wrap}
+#ff-panel .ff-actions button{appearance:none;border:1px solid var(--line);background:transparent;
+  color:var(--ink-dim);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;
+  text-transform:uppercase;padding:.45em .8em;border-radius:999px;cursor:pointer}
+#ff-panel .ff-actions button:hover{border-color:var(--gold);color:var(--gold)}
+#ff-panel .ff-actions a{margin-left:auto;color:var(--ink-faint);font-size:10px;text-decoration:none;letter-spacing:.06em}
+#ff-panel .ff-actions a:hover{color:var(--evid)}
+
+/* ---- a "preview" ribbon so v2 is never mistaken for production ---- */
+html.ff-on .v2-ribbon{position:fixed;top:0;right:0;z-index:115;
+  background:var(--gold);color:#0d1117;font-size:9px;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:600;padding:.35em .9em;
+  border-bottom-left-radius:8px;box-shadow:var(--shadow);pointer-events:none}
+
+/* ---- numbered-sections: §n + one-line abstract ---- */
+.zone .secnum{color:var(--gold);font-variant-numeric:tabular-nums;margin-right:.45em}
+.zone .zabstract{flex:0 0 auto;font-size:clamp(9px,1.12vh,11px);color:var(--ink-faint);
+  line-height:1.35;margin:-.05em 0 .35em;font-style:italic}
+
+/* ---- the legal-reporter "disposition" tag (record-cards) ---- */
+.disp{display:inline-flex;align-items:center;gap:.4em;font-size:9px;letter-spacing:.1em;
+  text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:.18em .6em;
+  color:var(--ink-dim);white-space:nowrap}
+.disp::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ink-faint)}
+.disp.granted{color:var(--evid);border-color:rgba(95,183,196,.4)}
+.disp.granted::before{background:var(--evid)}
+.disp.withheld{color:var(--gold);border-color:rgba(216,166,74,.4)}
+.disp.withheld::before{background:var(--gold)}
+.disp.calibrated{color:var(--ink);border-color:var(--panel-edge)}
+.disp.calibrated::before{background:linear-gradient(90deg,var(--evid),var(--gold))}
+.disp.contested{color:var(--signal);border-color:rgba(224,83,58,.45)}
+.disp.contested::before{background:var(--signal)}
+
+/* record card: the fixed citation line, GBIF/legal-reporter style */
+.reccard{border:1px solid var(--panel-edge);border-radius:9px;background:var(--paper-2);
+  padding:.85em 1em;margin:.2em 0 1.2em;font-size:12px}
+.reccard .rc-cite{display:flex;flex-wrap:wrap;gap:.5em .9em;align-items:center;color:var(--ink-dim)}
+.reccard .rc-cite .rc-date{font-variant-numeric:tabular-nums;color:var(--ink)}
+.reccard .rc-cite .rc-src a{color:var(--evid);text-decoration:none}
+.reccard .rc-cite .rc-src a:hover{text-decoration:underline}
+.reccard .rc-cite .rc-sep{opacity:.4}
+.reccard .rc-prov{font-size:10px;color:var(--ink-faint);margin-top:.5em;letter-spacing:.02em}
+.reccard .rc-prov b{color:var(--ink-dim);font-weight:500}
+
+/* record rows in the scoreboard zoom get an inline disposition + date */
+.zoomsb .sb-row .rc-tail{display:flex;align-items:center;gap:.6em;margin-left:.6em}
+.zoomsb .sb-row .rc-tail .rc-date{font-size:.78em;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+
+/* ---- cite-blocks: the visible "Cite as" block ---- */
+.citeas{margin-top:1.3em;border-top:1px solid var(--line);padding-top:1em}
+.citeas .ca-lbl{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);
+  display:flex;justify-content:space-between;align-items:center;margin-bottom:.5em}
+.citeas .ca-copy{appearance:none;border:1px solid var(--line);background:var(--panel);color:var(--ink-dim);
+  font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+  padding:.35em .7em;border-radius:999px;cursor:pointer}
+.citeas .ca-copy:hover{border-color:var(--evid);color:var(--evid)}
+.citeas pre{background:var(--paper-2);border:1px solid var(--panel-edge);border-radius:7px;
+  padding:.8em 1em;font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.55;
+  color:var(--ink-dim);white-space:pre-wrap;word-break:break-word;overflow-x:auto}
+.citeas pre b{color:var(--ink);font-weight:500}
+
+/* ---- case-zoom: segment rows expand to individual cases ---- */
+.seg-expand{cursor:pointer}
+.seg-expand .seg-caret{display:inline-block;transition:transform .2s;color:var(--ink-faint);margin-left:.4em}
+.seg-expand.open .seg-caret{transform:rotate(90deg)}
+.seg-cases{display:none;flex-wrap:wrap;gap:.35em;padding:.6em 0 .9em 1em;
+  border-left:1px solid var(--line);margin:0 0 .4em .2em}
+.seg-cases.open{display:flex}
+.seg-cases .scase{font-size:11px;border:1px solid var(--line);border-radius:999px;
+  padding:.3em .7em;color:var(--ink-dim);cursor:pointer;display:inline-flex;gap:.4em;align-items:center}
+.seg-cases .scase:hover{border-color:var(--evid);color:var(--evid)}
+.seg-cases .scase .sc-ca{font-family:"Fraunces",serif;color:var(--ink)}
+
+/* ---- hover-annotations: Gwern-style preview ---- */
+#ff-hover{position:fixed;z-index:130;max-width:340px;display:none;
+  background:var(--panel);border:1px solid var(--evid);border-radius:9px;
+  box-shadow:var(--shadow);padding:.8em .95em;font-size:12px;pointer-events:none}
+#ff-hover.on{display:block}
+#ff-hover .hp-top{display:flex;justify-content:space-between;align-items:baseline;gap:.8em;margin-bottom:.4em}
+#ff-hover .hp-name{color:var(--ink);font-family:"Fraunces",serif}
+#ff-hover .hp-ca{font-family:"Fraunces",serif;color:var(--gold);font-size:1.4em;line-height:1}
+#ff-hover .hp-q{color:var(--ink-dim);font-style:italic;line-height:1.4;
+  font-family:"Fraunces",serif;border-left:2px solid var(--line);padding-left:.6em}
+#ff-hover .hp-meta{margin-top:.5em;font-size:10px;color:var(--ink-faint);letter-spacing:.02em}
+@media (hover:none){#ff-hover{display:none!important}}
+
+/* ---- in-the-news: citation-velocity panel (stub w/ honest empty state) ---- */
+html.ff-in-the-news .itn-link{display:inline}
+.itn-link{display:none;color:var(--ink-dim);cursor:pointer;border-bottom:1px solid transparent}
+.itn-link:hover{color:var(--evid);border-bottom-color:var(--evid)}
+.itn-empty{border:1px dashed var(--line);border-radius:9px;padding:1.2em;color:var(--ink-faint);
+  font-size:13px;line-height:1.6}
+.itn-empty code{color:var(--evid);background:var(--paper-2);padding:.1em .4em;border-radius:4px}
+.itn-item{border-left:2px solid var(--evid);padding:.2em 0 .9em .9em;margin-bottom:.7em}
+.itn-item .itn-date{font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.itn-item .itn-title{color:var(--ink);font-size:15px;margin:.2em 0}
+.itn-item .itn-src{font-size:12px}.itn-item .itn-src a{color:var(--evid);text-decoration:none}
 </style>
 </head>
 <body>
@@ -397,6 +537,7 @@ footer .sep{opacity:.4}
     <div class="brand">
       <h1 class="serif">The Calibrated Authority Index</h1>
       <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 trust-built institutions wrote AI rules; 44 drew it the same way, in their own published words.</span></p>
+      <p class="caglo"><b>Calibrated Authority (CA):</b> how firmly an institution ties trust in AI to proof you can check — scored 0–12.</p>
     </div>
     <div class="stat">
       <div><div class="k" id="stat-n">51</div><div class="l">institutions read</div></div>
@@ -406,15 +547,15 @@ footer .sep{opacity:.4}
 
   <main id="canvas">
     <!-- A -->
-    <section class="zone" data-z="A" tabindex="0" role="button" aria-label="Open the full scoreboard">
+    <section class="zone" data-z="A" tabindex="0" role="button" aria-label="Open the full scoreboard" data-secnum="1" data-abstract="The full corpus, ranked 0–12, with the short tail that breaks rank.">
       <div class="ztag"><span class="dot"></span><span class="lbl">A · The 51, scored</span><span class="hint">tap for all 51 ⊕</span></div>
       <h2 class="serif">Where the 51 landed — and the tail</h2>
-      <div class="zbody"><div class="sb" id="sb-mini"></div></div>
+      <div class="zbody"><span class="sb-ca-cap" aria-hidden="true">CA · 0–12</span><div class="sb" id="sb-mini"></div></div>
       <div class="tldr">Each scored <b>0–12</b> on how firmly it keeps a human accountable for what a machine can't prove. Most land high; a short tail breaks rank.</div>
     </section>
 
     <!-- B -->
-    <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open the line they drew">
+    <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open the line they drew" data-secnum="2" data-abstract="One axis — the cost of proof — and where 44 institutions drew the same line.">
       <div class="ztag"><span class="dot"></span><span class="lbl">B · The line</span><span class="hint">tap for their words ⊕</span></div>
       <h2 class="serif">The line every institution drew</h2>
       <div class="zbody"><div class="theline" id="theline">
@@ -429,7 +570,7 @@ footer .sep{opacity:.4}
     </section>
 
     <!-- C -->
-    <section class="zone" data-z="C" tabindex="0" role="button" aria-label="Open segment gradient">
+    <section class="zone" data-z="C" tabindex="0" role="button" aria-label="Open segment gradient" data-secnum="3" data-abstract="Mean CA by segment: trust slides from proof to process as verification gets costly.">
       <div class="ztag"><span class="dot"></span><span class="lbl">C · Segment gradient</span><span class="hint">tap to expand ⊕</span></div>
       <h2 class="serif">Trust relocates as proof gets costly</h2>
       <div class="zbody"><div class="cg">
@@ -438,12 +579,12 @@ footer .sep{opacity:.4}
           <span><b>publishers</b></span><span>societies</span><span>journals</span>
           <span>universities</span><span>libraries</span><span>ed-tech</span><span><b>intergov</b></span>
         </div>
-        <p class="read">Where proof is cheap — publishers, journals — trust rides on <em>checking the work</em>. Where proof runs out — libraries, ed-tech, global bodies — it shifts onto <em>process and access</em>. Same mechanism; just less left to verify.</p>
+        <p class="read">Where the thing being judged is a checkable artifact — a paper, a citation — proof is cheap, and trust rides on the work. Where it's a diffuse outcome — access, equity, governance — there's no artifact to inspect, so trust rides on who's accountable instead. AI widens the gap: once a machine does the work, the reasoning hides inside the model and the source-trail breaks — so the proof a human can independently get keeps dropping, and trust slides from proof toward process.</p>
       </div></div>
     </section>
 
     <!-- D -->
-    <section class="zone" data-z="D" tabindex="0" role="button" aria-label="Open dissent and deviation">
+    <section class="zone" data-z="D" tabindex="0" role="button" aria-label="Open dissent and deviation" data-secnum="4" data-abstract="The 7 that didn't draw it cleanly — where the rule breaks, and the thesis earns its keep.">
       <div class="ztag"><span class="dot"></span><span class="lbl">D · Dissent &amp; deviation</span><span class="hint">tap to expand ⊕</span></div>
       <h2 class="serif">The honest edges</h2>
       <div class="zbody"><div class="dz">
@@ -460,7 +601,7 @@ footer .sep{opacity:.4}
   <section class="creed">
     <div class="aph-wrap">
       <div class="aph serif">We trust machines exactly as far as we can check them — <b>past that, it's faith.</b></div>
-      <div class="aph-gloss">Humans get trust on <b>credit</b> — extended ahead, repaid later.<br>Machines pay <b>cash</b> — proof up front.</div>
+      <div class="aph-gloss">Humans get trust on <b>credit</b> — extended ahead, repaid later. Machines pay <b>cash</b> — proof up front.</div>
     </div>
     <div class="canon">
       <div class="line serif">“Humans trust ahead.<br>Machines trust in reverse.”</div>
@@ -469,7 +610,7 @@ footer .sep{opacity:.4}
   </section>
 
   <footer>
-    <span>Updated <span id="f-date">2026-06-22</span> · v<span id="f-ver">2026-06-22</span> · CC-BY-4.0 <span class="sep">·</span> <span class="living" id="f-living" role="button" tabindex="0" aria-label="Policy changes since baseline"></span></span>
+    <span>Updated <span id="f-date">2026-06-22</span> · v<span id="f-ver">2026-06-22</span> · CC-BY-4.0 <span class="sep">·</span> <span class="living" id="f-living" role="button" tabindex="0" aria-label="Policy changes since baseline"></span><span class="itn-link" id="f-itn" role="button" tabindex="0" aria-label="External citations of the Index"> <span class="sep">·</span> in the news →</span></span>
     <span>
       <a href="/methodology">methodology</a> <span class="sep">·</span>
       <a href="/methodology#cite">how to cite</a> <span class="sep">·</span>
@@ -534,7 +675,9 @@ function renderMiniScoreboard(){
     if(r.gap) return '<div class="sb-row" style="opacity:.5"><span class="rank"></span><span class="nm" style="color:var(--ink-faint)">… '+(sorted.length-8)+' more …</span><span></span></div>';
     return rowHTML(r, sorted.indexOf(r)+1, false);
   }).join("");
-  requestAnimationFrame(()=>document.querySelectorAll("#sb-mini .fill").forEach(setBar));
+  // Double-rAF: let the initial scaleX(0) paint once before we set --w, so the
+  // .7s transition actually runs (a single rAF fires pre-paint → bar jumps, no grow).
+  requestAnimationFrame(()=>requestAnimationFrame(()=>document.querySelectorAll("#sb-mini .fill").forEach(setBar)));
 }
 function rowHTML(r, rank, withSeg){
   const cls = r.ca<=LOW_THRESHOLD ? "low" : (r.ca<=8 ? "mid" : "");
@@ -606,7 +749,9 @@ function paintZoomSB(){
   host.querySelectorAll(".nm").forEach(nm=>{
     nm.addEventListener("click",()=>openCard(nm.closest(".sb-row").dataset.id));
   });
-  requestAnimationFrame(()=>host.querySelectorAll(".fill").forEach(setBar));
+  // Double-rAF: same fix as the mini board — paint scaleX(0) once, then grow.
+  requestAnimationFrame(()=>requestAnimationFrame(()=>host.querySelectorAll(".fill").forEach(setBar)));
+  if(window.FF) enhanceScoreboard(host);   // redesign-v2: record rows + hover annotations
 }
 
 /* institution permalink card */
@@ -643,6 +788,7 @@ function openCard(id){
   </div>`;
   const cb = document.getElementById("citebtn");
   if(cb) cb.addEventListener("click",()=>copyCitation(r));
+  if(window.FF) enhanceCard(r);   // redesign-v2: record card + cite-block + dates
 }
 
 const BASE = "https://calibrated-authority.chrishuberreitz.com";
@@ -719,7 +865,7 @@ function zoomC(){
   const rampSegs = order.map(([s,m,n])=>{
     const pct = (1-(m/12))*100;
     const col = m>=10?"var(--evid)":m>=8?"var(--gold)":"var(--signal)";
-    return `<div style="display:flex;justify-content:space-between;align-items:center;padding:.55em 0;border-bottom:1px solid rgba(42,53,67,.5)">
+    return `<div class="seg-row" data-seg="${esc(s)}" style="display:flex;justify-content:space-between;align-items:center;padding:.55em 0;border-bottom:1px solid rgba(42,53,67,.5)">
       <span style="color:var(--ink)">${esc(s)} <span style="color:var(--ink-faint);font-size:.82em">· ${n}</span></span>
       <span style="display:flex;align-items:center;gap:.8em;width:60%">
         <span style="flex:1;height:7px;background:var(--paper-2);border-radius:4px;overflow:hidden"><span style="display:block;height:100%;width:${(m/12*100).toFixed(0)}%;background:${col};border-radius:4px"></span></span>
@@ -729,8 +875,9 @@ function zoomC(){
   ocontent.innerHTML = `<div style="max-width:760px">
     <div class="ramp" style="height:34px;margin-bottom:1.4em"><div class="ends"><span>Evidential — proof</span><span>Relational — access · equity · governance</span></div></div>
     <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.4em">
-      Read top to bottom: as you move from publishers toward intergovernmental and ed-tech bodies, the <em style="color:var(--ink);font-style:normal">obtainable proof drops</em> — and trust is relocated from traceability onto governance, access, and equity. Mean CA by segment:</p>
+      Where the thing being judged is a checkable artifact — a paper, a citation — proof is cheap, and trust rides on the work. Where it's a diffuse outcome — access, equity, governance — there's no artifact to inspect, so trust rides on who's accountable instead. AI widens the gap: once a machine does the work, the reasoning hides inside the model and the source-trail breaks — so the proof a human can independently get keeps dropping, and trust slides from proof toward process.<br><br>Mean CA by segment:</p>
     ${rampSegs}</div>`;
+  if(window.FF) enhanceSegments();   // redesign-v2: case-zoom (aggregate → individual cases)
 }
 
 /* D zoom */
@@ -844,6 +991,215 @@ function routeHash(){
   const m = location.hash.match(/^#i\/(.+)$/);
   if(m && state.inst.length){ openZone("A"); openCard(decodeURIComponent(m[1])); }
 }
+
+/* =========================================================================
+   redesign-v2 — flag-gated enhancement layer.
+   Every function below no-ops unless its flag is active, so ?ff=none leaves
+   the production code paths above untouched. Hooks are called from openCard(),
+   paintZoomSB() and zoomC(); static moves run once on load.
+
+   DISPOSITION — the legal-reporter "ruling" per record. This is a DERIVED
+   editorial label (not a claim the institution made), computed deterministically
+   from the institution's posture + boundary-fit. Documented in DESIGN-DIRECTION.md.
+   ========================================================================= */
+function disposition(r){
+  if(r.c2_fit==="contradicts") return {key:"contested",  label:"Authority contested · reversed"};
+  if(r.c2_fit==="partially")   return {key:"contested",  label:"Authority contested · partial"};
+  if(r.posture==="Enabling")   return {key:"granted",    label:"Authority granted · bounded"};
+  if(r.posture==="Prohibitive")return {key:"withheld",   label:"Authority withheld"};
+  return {key:"calibrated", label:"Authority calibrated"}; // Balanced + fits the line
+}
+function srcDomain(u){ try{ return new URL(u).hostname.replace(/^www\./,""); }catch(e){ return u||""; } }
+function verifyLabel(v){
+  if(!v) return "unverified";
+  if(v==="ok") return "source reachable";
+  if(v.indexOf("primary-verified")===0){ const d=v.split("primary-verified-")[1]; return "primary-verified"+(d?" "+d:""); }
+  if(v==="secondary-blocked") return "primary blocked · secondary-sourced";
+  return v;
+}
+
+/* shared canonical citation string (OWID-style, includes the disposition) */
+function buildCiteText(r){
+  const ver = (state.data&&state.data.metadata&&state.data.metadata.version)||"2026";
+  const year = String(ver).slice(0,4);
+  const src = r.url || (r.provenance&&r.provenance.url) || "";
+  const d = disposition(r);
+  let t = `Reitz, C. H. (${year}). ${r.name}: ${d.label} (CA ${r.ca}/12). `
+        + `The Calibrated Authority Index (v${ver}). ${BASE}/institutions/${r.id}`;
+  if(r.quote) t += `\nQuoted policy: “${r.quote}”`;
+  if(src)     t += `\nSource: ${src}`;
+  if(r.coded_date) t += `\nCoded: ${r.coded_date}`;
+  return t;
+}
+
+/* ---- record-cards / cite-blocks / provenance-dates: enrich the institution card ---- */
+function enhanceCard(r){
+  const card = ocontent.querySelector(".card"); if(!card) return;
+  const d = disposition(r);
+  const src = r.url || (r.provenance&&r.provenance.url) || "";
+  const showRec = FF.on("record-cards");
+  const showDates = FF.on("provenance-dates");
+
+  if(showRec){
+    const rc = document.createElement("div");
+    rc.className = "reccard";
+    rc.innerHTML =
+      `<div class="rc-cite">`
+      + `<span class="rc-date">${esc(r.coded_date||"undated")}</span><span class="rc-sep">·</span>`
+      + `<span class="rc-src">${src?`<a href="${esc(src)}" target="_blank" rel="noopener">${esc(srcDomain(src))}</a>`:"—"}</span><span class="rc-sep">·</span>`
+      + `<span class="disp ${d.key}">${esc(d.label)}</span>`
+      + `</div>`
+      + (showDates ? provLine(r) : "");
+    const ctop = card.querySelector(".ctop");
+    if(ctop) ctop.after(rc); else card.prepend(rc);
+  } else if(showDates){
+    const ln = document.createElement("div");
+    ln.className = "src"; ln.style.color = "var(--ink-faint)"; ln.style.marginTop = ".4em";
+    ln.innerHTML = provLineInner(r);
+    card.appendChild(ln);
+  }
+
+  if(FF.on("cite-blocks")) card.appendChild(citeAsBlock(r));
+}
+function provLineInner(r){
+  return `Coded <b>${esc(r.coded_date||"—")}</b> · last seen: <b>${esc(verifyLabel(r.provenance&&r.provenance.verify_status))}</b>`;
+}
+function provLine(r){ return `<div class="rc-prov">${provLineInner(r)} · machine record <a href="/institutions/${esc(r.id)}.json" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">/institutions/${esc(r.id)}.json</a></div>`; }
+
+function citeAsBlock(r){
+  const wrap = document.createElement("div");
+  wrap.className = "citeas";
+  const txt = buildCiteText(r);
+  const body = esc(txt).replace("Reitz, C. H.", "<b>Reitz, C. H.</b>");
+  wrap.innerHTML = `<div class="ca-lbl">Cite as <button class="ca-copy" type="button">⧉ copy</button></div><pre>${body}</pre>`;
+  const btn = wrap.querySelector(".ca-copy");
+  btn.addEventListener("click",()=>{
+    navigator.clipboard.writeText(txt).then(()=>{ const t=btn.textContent; btn.textContent="copied ✓"; setTimeout(()=>btn.textContent=t,1500); });
+  });
+  return wrap;
+}
+
+/* ---- record-cards (rows) + hover-annotations: enrich the scoreboard zoom ---- */
+function enhanceScoreboard(host){
+  const byId = {}; state.inst.forEach(i=>byId[i.id]=i);
+  if(FF.on("record-cards")){
+    host.querySelectorAll(".sb-row").forEach(row=>{
+      const r = byId[row.dataset.id]; if(!r) return;
+      const d = disposition(r);
+      const tail = document.createElement("span");
+      tail.className = "rc-tail";
+      tail.innerHTML = `<span class="disp ${d.key}">${esc(d.label.replace("Authority ",""))}</span>`
+        + (FF.on("provenance-dates") ? `<span class="rc-date">${esc(r.coded_date||"")}</span>` : "");
+      row.appendChild(tail);
+    });
+  }
+  if(FF.on("hover-annotations")) wireHover(host, byId);
+}
+function ensureHoverEl(){
+  let el = document.getElementById("ff-hover");
+  if(!el){ el = document.createElement("div"); el.id="ff-hover"; document.body.appendChild(el); }
+  return el;
+}
+function wireHover(host, byId){
+  const el = ensureHoverEl();
+  host.querySelectorAll(".sb-row .nm").forEach(nm=>{
+    const row = nm.closest(".sb-row"); const r = byId[row.dataset.id]; if(!r) return;
+    const d = disposition(r);
+    nm.addEventListener("mouseenter",()=>{
+      el.innerHTML = `<div class="hp-top"><span class="hp-name">${esc(r.name)}</span><span class="hp-ca">${r.ca}<span style="font-size:.4em;color:var(--ink-faint)">/12</span></span></div>`
+        + (r.quote?`<div class="hp-q">“${esc(r.quote.length>150?r.quote.slice(0,147)+"…":r.quote)}”</div>`:"")
+        + `<div class="hp-meta"><span class="disp ${d.key}">${esc(d.label)}</span> · ${esc(r.segment)} · ${esc(r.coded_date||"")}</div>`;
+      el.classList.add("on");
+    });
+    nm.addEventListener("mousemove",e=>{
+      const pad=14, w=el.offsetWidth||320, h=el.offsetHeight||120;
+      let x=e.clientX+pad, y=e.clientY+pad;
+      if(x+w>window.innerWidth) x=e.clientX-w-pad;
+      if(y+h>window.innerHeight) y=e.clientY-h-pad;
+      el.style.left=x+"px"; el.style.top=y+"px";
+    });
+    nm.addEventListener("mouseleave",()=>el.classList.remove("on"));
+  });
+}
+
+/* ---- case-zoom: segment rows resolve to the individual institutions inside ---- */
+function enhanceSegments(){
+  if(!FF.on("case-zoom")) return;
+  const bySeg = {};
+  state.inst.forEach(i=>{ (bySeg[i.segment]=bySeg[i.segment]||[]).push(i); });
+  ocontent.querySelectorAll(".seg-row").forEach(row=>{
+    const seg = row.dataset.seg; const list = (bySeg[seg]||[]).slice().sort(byScore);
+    if(!list.length) return;
+    row.classList.add("seg-expand");
+    row.querySelector("span").insertAdjacentHTML("beforeend",`<span class="seg-caret">›</span>`);
+    const cases = document.createElement("div");
+    cases.className = "seg-cases";
+    cases.innerHTML = list.map(i=>{
+      const d = disposition(i);
+      return `<span class="scase" data-id="${esc(i.id)}" title="${esc(d.label)}"><span class="sc-ca">${i.ca}</span> ${esc(i.name)}</span>`;
+    }).join("");
+    row.after(cases);
+    row.addEventListener("click",()=>{ row.classList.toggle("open"); cases.classList.toggle("open"); });
+    cases.querySelectorAll(".scase").forEach(c=>c.addEventListener("click",e=>{ e.stopPropagation(); openCard(c.dataset.id); }));
+  });
+}
+
+/* ---- in-the-news: citation-velocity panel (stub — reads /citations.json) ---- */
+state.citations = null;
+function loadCitations(){
+  fetch("./citations.json").then(r=>r.ok?r.json():null).then(j=>{ state.citations = j; })
+    .catch(()=>{ state.citations = null; });
+}
+function openNews(){
+  oTag.textContent="In the news"; oTitle.textContent="Who's citing the Index";
+  const items = (state.citations && state.citations.citations) || [];
+  if(!items.length){
+    ocontent.innerHTML = `<div style="max-width:720px">
+      <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.2em">A citation-velocity panel in the spirit of the Atlas of Economic Complexity's "in the news" proof — external references to the Index, dated, as evidence the corpus is being used.</p>
+      <div class="itn-empty"><b style="color:var(--ink-dim)">No external citations logged yet.</b><br><br>
+      This panel reads <code>/citations.json</code> (shape: <code>{ "citations": [ { "date", "title", "outlet", "url" } ] }</code>). It is intentionally empty until real, sourced references exist — the Index does not fabricate citation counts.</div>
+    </div>`;
+    return;
+  }
+  const rows = items.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).map(c=>`
+    <div class="itn-item">
+      <div class="itn-date">${esc(c.date||"")}</div>
+      <div class="itn-title">${esc(c.title||"")}</div>
+      <div class="itn-src">${esc(c.outlet||"")}${c.url?` · <a href="${esc(c.url)}" target="_blank" rel="noopener">source ↗</a>`:""}</div>
+    </div>`).join("");
+  ocontent.innerHTML = `<div style="max-width:720px">
+    <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.3em"><b style="color:var(--ink)">${items.length}</b> external citation${items.length>1?"s":""} of the Index, most recent first.</p>
+    ${rows}</div>`;
+}
+
+/* ---- numbered-sections: §n on each zone (static) ----
+   The §-number is injected inline into the zone tag — it costs zero vertical
+   space, so it is safe on the fixed, no-scroll canvas. The earlier build also
+   injected a one-line .zabstract <p> under each title; that block stole canvas
+   height the single-screen zones can't spare and overflowed — most visibly in
+   Zone B, where the two-column list collided with its "seam" line. On a fixed,
+   overflow:hidden canvas you can't add a per-zone paragraph to all four zones
+   without overlap, so the abstract is dropped here (each zone's existing .hint
+   and .tldr microcopy already carry the one-line summary). Keeping the §-number
+   preserves the Stanford-HAI "reads like a numbered report" signal. */
+function applyStaticFlags(){
+  if(FF.on("numbered-sections")){
+    document.querySelectorAll('.zone[data-secnum]').forEach(z=>{
+      const lbl = z.querySelector('.ztag .lbl');
+      if(lbl && !lbl.querySelector('.secnum')) lbl.insertAdjacentHTML('afterbegin',`<span class="secnum">§${esc(z.dataset.secnum)}</span>`);
+    });
+  }
+  if(FF.on("in-the-news")){
+    loadCitations();
+    const itn = document.getElementById("f-itn");
+    if(itn){
+      const open = ()=>{ openNews(); overlay.classList.add("on"); document.getElementById("zoomback").focus(); };
+      itn.addEventListener("click",open);
+      itn.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();open();} });
+    }
+  }
+}
+if(window.FF) applyStaticFlags();
 </script>
 </body>
 </html>

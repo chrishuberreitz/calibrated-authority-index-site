@@ -151,7 +151,7 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .brand .sub .why{display:block;color:var(--ink-dim);margin-bottom:.3em}
 .brand .sub .prov{display:block;color:var(--ink-faint)}
 .hright{display:flex;flex-direction:column;align-items:flex-end;gap:clamp(10px,1.6vh,18px)}
-.cakey{max-width:33ch;text-align:right;font-size:clamp(9px,1.2vh,12px);line-height:1.5;color:var(--ink-dim);
+.cakey{max-width:44ch;text-align:right;font-size:clamp(10px,1.3vh,13px);line-height:1.5;color:var(--ink-dim);
   border-top:1px solid var(--line);padding-top:.55em;margin:0}
 .cakey b{color:var(--gold);font-weight:600;letter-spacing:.02em}
 .stat{display:flex;gap:clamp(14px,2vw,28px);text-align:right;align-items:flex-end}
@@ -247,15 +247,15 @@ footer .living:hover{color:var(--evid);border-bottom-color:var(--evid)}
 footer .living .blip{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--evid);margin-right:.45em;vertical-align:middle;opacity:.8}
 
 /* ---------- C · gradient ---------- */
-.cg{height:100%;display:flex;flex-direction:column;justify-content:center;gap:.7em}
-.cg .ramp{height:clamp(16px,2.4vh,26px);border-radius:5px;
+.cg{height:100%;display:flex;flex-direction:column;justify-content:center;gap:clamp(.75em,1.7vh,1.2em)}
+.cg .ramp{height:clamp(20px,2.9vh,30px);border-radius:5px;
   background:linear-gradient(90deg,var(--evid) 0%,#7d9a86 38%,var(--gold) 62%,var(--signal) 100%);
   position:relative;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
 .cg .ramp .ends{position:absolute;inset:0;display:flex;justify-content:space-between;
   align-items:center;padding:0 .7em;font-size:9px;letter-spacing:.14em;text-transform:uppercase;
   color:#0d1117;font-weight:600;mix-blend-mode:luminosity}
-.cg .seglist{display:flex;justify-content:space-between;font-size:9px;color:var(--ink-faint);
-  letter-spacing:.04em;flex-wrap:wrap;gap:.3em}
+.cg .seglist{display:flex;justify-content:space-between;font-size:10px;color:var(--ink-faint);
+  letter-spacing:.04em;flex-wrap:wrap;gap:.4em}
 .rampcap{display:flex;justify-content:space-between;gap:2em;font-size:11px;letter-spacing:.05em;
   color:var(--ink-dim);margin-bottom:1.3em}
 .rampcap span:last-child{text-align:right}
@@ -351,7 +351,7 @@ footer .sep{opacity:.4}
 .nomatch b{color:var(--ink-dim);text-transform:capitalize}
 .blead{font-size:clamp(10px,1.3vh,12px);color:var(--ink);margin:.1em 0 .45em;line-height:1.35}
 .blead b{color:var(--ink)}
-.blead .bsub{color:var(--ink-faint);font-weight:400}
+.blead .bsub{display:block;color:var(--ink-faint);font-weight:400;margin-top:.15em}
 .dsum{font-size:clamp(11px,1.5vh,14px);color:var(--ink-dim);line-height:1.5;margin:.25em 0 0}
 .dsum em{color:var(--ink);font-style:normal}
 .dsum .dsrc{color:var(--ink-faint);font-size:.8em;white-space:nowrap}
@@ -571,7 +571,7 @@ html.ff-in-the-news .itn-link{display:inline}
         <div><div class="k" id="stat-n">51</div><div class="l">institutions read</div></div>
         <div><div class="k evid"><span id="stat-fits">44</span>/<span id="stat-n2">51</span></div><div class="l">drew the same line</div></div>
       </div>
-      <p class="cakey"><b>CA · Calibrated Authority</b><br>how firmly an institution ties trust in AI to proof you can check — scored <b>0–12</b>.</p>
+      <p class="cakey"><b>CA · Calibrated Authority</b><br>how firmly a policy ties trust in AI to checkable proof — scored <b>0–12</b>.</p>
     </div>
   </header>
 
@@ -609,7 +609,7 @@ html.ff-in-the-news .itn-link{display:inline}
           <span><b>publishers</b></span><span>societies</span><span>journals</span>
           <span>universities</span><span>libraries</span><span>ed-tech</span><span><b>intergov</b></span>
         </div>
-        <p class="read">Judge a <b>checkable artifact</b> — a paper, a citation — and proof is cheap. Trust rides on the work.<br>Judge a <b>diffuse outcome</b> — access, equity, governance — and there's nothing to inspect. Trust rides on who's accountable.<br><b>AI widens the gap.</b> Once a machine does the work, the reasoning is obscured inside the model and the source-trail is lost — so trust slides <b>from proof to process</b>.</p>
+        <p class="read">Judge a <b>checkable artifact</b> — a paper, a citation — and proof is cheap. Trust rides on the work.<br>Judge a <b>diffuse outcome</b> — access, equity, governance — and there's nothing to inspect. Trust rides on who's accountable.<br><b>AI widens the gap.</b> Once a machine does the work, the reasoning is obscured inside the model — so trust slides <b>from proof to process</b>.</p>
       </div></div>
     </section>
 
@@ -877,7 +877,7 @@ function zoomB(){
     return `<div class="pt${t.dev?' dev':''}" style="top:${top}%;left:${left}%">`
       +`<span style="position:absolute;${L?'left:11px':'right:11px'};top:50%;transform:translateY(-50%);white-space:nowrap;font-size:10px;color:${t.dev?'var(--signal)':'var(--ink-dim)'}">${esc(t.l)}</span></div>`;
   }).join("");
-  const b2 = `<div class="b2" style="height:340px;margin:.4em 0 1.6em">
+  const b2 = `<div class="b2" style="height:340px;margin:.4em 0 .8em">
       <div class="axis-top">▲ expensive to check — kept for a human</div>
       <div class="field">
         <div class="boundary" style="top:45%"><span>the line they drew</span></div>${b2pts}
@@ -895,9 +895,10 @@ function zoomB(){
           <ul style="font-size:15px;gap:.4em"><li>authorship</li><li>judgment &amp; interpretation</li><li>original reporting</li><li>the byline</li><li>accountability</li></ul></div>
       </div>
     </div>
-    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6;margin-bottom:1.4em">
-      <b style="color:var(--evid)">${fits} of ${state.inst.length}</b> drew that exact line. The line isn't ethics or fear of the technology — it's <b style="color:var(--ink)">the cost of proof.</b> Cheap to verify, the machine may do it; expensive to verify, a human has to answer for it.</p>
+    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6;margin:0 0 .8em"><b style="color:var(--evid)">${fits} of ${state.inst.length}</b> drew that exact line.</p>
+    <p style="color:var(--ink-dim);font-size:15px;line-height:1.6;margin:0 0 .6em">Cheap to verify, the machine may do it; expensive to verify, a human has to answer for it.</p>
     ${b2}
+    <p style="color:var(--ink);font-size:16px;line-height:1.55;margin:.1em 0 1.6em"><b>The line isn't ethics or fear of the technology — it's the cost of proof.</b></p>
     <div style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.9em">And they justify it in nearly the same sentence</div>
     ${unison || '<p style="color:var(--ink-faint)">—</p>'}</div>`;
 }

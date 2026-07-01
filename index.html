@@ -645,7 +645,7 @@ html.ff-in-the-news .itn-link{display:inline}
   </section>
 
   <footer>
-    <span>Updated <span id="f-date">2026-06-22</span> · v<span id="f-ver">2026-06-22</span> · CC-BY-4.0 <span class="sep">·</span> <span class="living" id="f-living" role="button" tabindex="0" aria-label="Policy changes since baseline"></span><span class="itn-link" id="f-itn" role="button" tabindex="0" aria-label="External citations of the Index"> <span class="sep">·</span> in the news →</span></span>
+    <span>Updated <span id="f-date">2026-06-22</span> · v<span id="f-ver">2026-06-22</span> · CC-BY-4.0 <span class="sep">·</span> DOI <a href="https://doi.org/10.5281/zenodo.21108694" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">10.5281/zenodo.21108694</a> <span class="sep">·</span> <span class="living" id="f-living" role="button" tabindex="0" aria-label="Policy changes since baseline"></span><span class="itn-link" id="f-itn" role="button" tabindex="0" aria-label="External citations of the Index"> <span class="sep">·</span> in the news →</span></span>
     <span>
       <a href="/methodology">methodology</a> <span class="sep">·</span>
       <a href="/methodology#cite">how to cite</a> <span class="sep">·</span>
@@ -655,6 +655,7 @@ html.ff-in-the-news .itn-link{display:inline}
       <a href="/llms.txt">llms.txt</a> <span class="sep">·</span>
       <a href="/institutions/index.json">manifest</a> <span class="sep">·</span>
       <a href="https://chrishuberreitz.com/frameworks/calibrated-authority" target="_blank" rel="noopener">the Calibrated Authority framework ↗</a>
+      <span class="sep">·</span> <a href="/ibm-1979.jpg" target="_blank" rel="noopener" title="where this all begins" style="opacity:.4">1979</a>
     </span>
   </footer>
 </div>
@@ -844,6 +845,7 @@ function openCard(id){
 }
 
 const BASE = "https://calibrated-authority.chrishuberreitz.com";
+const CONCEPT_DOI = "10.5281/zenodo.21108694";  // Zenodo concept DOI (all versions)
 function copyCitation(r){
   const ver = (state.data&&state.data.metadata&&state.data.metadata.version)||"2026";
   const year = String(ver).slice(0,4);
@@ -851,6 +853,7 @@ function copyCitation(r){
   let txt = `Reitz, C.H. (${year}). The Calibrated Authority Index — ${r.name}. ${BASE}/institutions/${r.id}`;
   if(r.quote) txt += `\n\nQuote: “${r.quote}”`;
   if(src) txt += `\nSource: ${src}`;
+  txt += `\nDataset DOI: https://doi.org/${CONCEPT_DOI}`;
   navigator.clipboard.writeText(txt).then(()=>{
     const b=document.getElementById("citebtn"); if(!b) return;
     const t=b.textContent; b.textContent="copied ✓"; setTimeout(()=>{b.textContent=t;},1600);
@@ -1083,6 +1086,7 @@ function buildCiteText(r){
   if(r.quote) t += `\nQuoted policy: “${r.quote}”`;
   if(src)     t += `\nSource: ${src}`;
   if(r.coded_date) t += `\nCoded: ${r.coded_date}`;
+  t += `\nDataset DOI: https://doi.org/${CONCEPT_DOI}`;
   return t;
 }
 

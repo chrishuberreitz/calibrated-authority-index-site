@@ -127,7 +127,7 @@
       ],
       "fields": {
         "ca": "Composite Calibrated Authority score, sum of D1-D6 (0-12).",
-        "posture": "Prohibitive | Balanced | Enabling.",
+        "posture": "The institution's overall stance toward generative AI: Prohibitive, Balanced, or Enabling.",
         "c2_fit": "Verification-boundary fit: does the policy land where the thesis predicts (fits | deviates).",
         "c3": "Trust-logic: Evidential | Relational | Both-split | Neither.",
         "twilight": "Whether the policy uses precedent-collapse / feedback-delay / exponential-fog ('twilight') framing."

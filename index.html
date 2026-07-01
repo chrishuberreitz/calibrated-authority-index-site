@@ -200,6 +200,9 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 @keyframes growbar{from{transform:scaleX(0)}to{transform:scaleX(var(--w,0))}}
 .sb-bar .fill{height:100%;border-radius:3px;background:var(--gold);transform-origin:left;
   transform:scaleX(var(--w,0));animation:growbar .7s cubic-bezier(.2,.7,.2,1) both}
+/* Front-tile bars grow as a DISTINCT beat AFTER the Zone panels finish rising in,
+   so the sweep isn't masked by the panel entrance (that's why it looked static). */
+#sb-mini .fill{animation-duration:.85s;animation-delay:.6s}
 .sb-bar .v{font-variant-numeric:tabular-nums;width:1.4em;text-align:right;color:var(--ink)}
 .sb-row.low .nm{color:var(--signal-soft)}
 .sb-row.low .fill{background:var(--signal)}

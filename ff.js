@@ -64,7 +64,7 @@
       exemplar: "The Pudding — In Pursuit of Democracy"
     },
     "numbered-sections": {
-      default: true,
+      default: false,
       label: "Numbered sections",
       desc: "§-numbered zones, each with a one-line abstract under its title.",
       exemplar: "Stanford HAI AI Index"

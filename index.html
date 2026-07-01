@@ -197,12 +197,10 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .sb-row .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink-dim)}
 .sb-bar{position:relative;display:flex;align-items:center;gap:.5em;justify-self:end;width:clamp(80px,9vw,150px)}
 .sb-bar .track{flex:1;height:6px;background:var(--paper-2);border-radius:3px;overflow:hidden}
-@keyframes growbar{from{transform:scaleX(0)}to{transform:scaleX(var(--w,0))}}
-.sb-bar .fill{height:100%;border-radius:3px;background:var(--gold);transform-origin:left;
-  transform:scaleX(var(--w,0));animation:growbar .7s cubic-bezier(.2,.7,.2,1) both}
-/* Front-tile bars grow as a DISTINCT beat AFTER the Zone panels finish rising in,
-   so the sweep isn't masked by the panel entrance (that's why it looked static). */
-#sb-mini .fill{animation-duration:.85s;animation-delay:.6s}
+/* Width-based block fill: renders solidly at its target width. The old
+   scaleX-on-an-inline-span was a 0x0 box (invisible), and any grow-from-0 animation
+   also collapsed the bar to 0 whenever it didn't play. Solid width first. */
+.sb-bar .fill{display:block;height:100%;width:var(--w,0);border-radius:3px;background:var(--gold)}
 .sb-bar .v{font-variant-numeric:tabular-nums;width:1.4em;text-align:right;color:var(--ink)}
 .sb-row.low .nm{color:var(--signal-soft)}
 .sb-row.low .fill{background:var(--signal)}
@@ -686,7 +684,7 @@ function rowHTML(r, rank, withSeg){
   return `<div class="sb-row ${cls}" data-id="${esc(r.id)}">
     <span class="rank">${rank}</span>
     <span class="nm">${esc(r.name)}${withSeg?` <span class="seg">${esc(r.segment)}</span>`:""}</span>
-    <span class="sb-bar"><span class="track"><span class="fill" style="--w:${r.ca/12}"></span></span><span class="v">${r.ca}</span></span>
+    <span class="sb-bar"><span class="track"><span class="fill" style="--w:${(r.ca/12*100).toFixed(1)}%"></span></span><span class="v">${r.ca}</span></span>
   </div>`;
 }
 

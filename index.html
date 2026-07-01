@@ -154,6 +154,9 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .cakey{max-width:44ch;text-align:right;font-size:clamp(10px,1.3vh,13px);line-height:1.5;color:var(--ink-dim);
   border-top:1px solid var(--line);padding-top:.55em;margin:0}
 .cakey b{color:var(--gold);font-weight:600;letter-spacing:.02em}
+.startlink{display:inline-block;margin-top:.55em;font-family:"IBM Plex Mono";font-size:11px;letter-spacing:.04em;
+  color:var(--evid);text-decoration:none;border-bottom:1px solid transparent;transition:.2s}
+.startlink:hover{border-bottom-color:var(--evid)}
 .stat{display:flex;gap:clamp(14px,2vw,28px);text-align:right;align-items:flex-end}
 .stat .k{font-family:"Fraunces";font-size:clamp(22px,3.4vh,38px);line-height:.9;font-weight:500}
 .stat .k.evid{color:var(--evid)}
@@ -564,7 +567,8 @@ html.ff-in-the-news .itn-link{display:inline}
   <header>
     <div class="brand">
       <h1 class="serif">The Calibrated Authority Index</h1>
-      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 institutions built to be trusted wrote AI rules; 44 drew the same line — independently, in their own published words. A pattern, not a law.</span></p>
+      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 institutions built to be trusted wrote AI rules; 44 drew the same line — independently, in their own published words.</span></p>
+      <a class="startlink" href="/start">New here? — start with the 30-second version →</a>
     </div>
     <div class="hright">
       <div class="stat">

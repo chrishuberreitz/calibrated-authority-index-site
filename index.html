@@ -150,8 +150,10 @@ header{display:flex;justify-content:space-between;align-items:flex-end;
 .brand .sub .thesis{display:block;color:var(--ink);font-weight:600;font-size:1.3em;line-height:1.22;margin:0 0 .4em}
 .brand .sub .why{display:block;color:var(--ink-dim);margin-bottom:.3em}
 .brand .sub .prov{display:block;color:var(--ink-faint)}
-.brand .caglo{color:var(--ink-faint);font-size:clamp(9px,1.2vh,12px);line-height:1.4;margin:.5em 0 0;max-width:64ch}
-.brand .caglo b{color:var(--ink-dim);font-weight:600}
+.hright{display:flex;flex-direction:column;align-items:flex-end;gap:clamp(10px,1.6vh,18px)}
+.cakey{max-width:33ch;text-align:right;font-size:clamp(9px,1.2vh,12px);line-height:1.5;color:var(--ink-dim);
+  border-top:1px solid var(--line);padding-top:.55em;margin:0}
+.cakey b{color:var(--gold);font-weight:600;letter-spacing:.02em}
 .stat{display:flex;gap:clamp(14px,2vw,28px);text-align:right;align-items:flex-end}
 .stat .k{font-family:"Fraunces";font-size:clamp(22px,3.4vh,38px);line-height:.9;font-weight:500}
 .stat .k.evid{color:var(--evid)}
@@ -258,7 +260,8 @@ footer .living .blip{display:inline-block;width:6px;height:6px;border-radius:50%
   color:var(--ink-dim);margin-bottom:1.3em}
 .rampcap span:last-child{text-align:right}
 .cg .seglist b{color:var(--ink-dim);font-weight:500}
-.cg .read{font-size:clamp(10px,1.35vh,12.5px);color:var(--ink-dim);line-height:1.5}
+.cg .read{font-size:clamp(10.5px,1.5vh,13.5px);color:var(--ink);line-height:1.55}
+.cg .read b{color:var(--ink)}
 .cg .read em{color:var(--ink);font-style:normal}
 
 /* ---------- D · dissent ---------- */
@@ -343,6 +346,15 @@ footer .sep{opacity:.4}
 .fchip.active{border-color:var(--gold);color:var(--gold)}
 .fchip .fn{opacity:.5;margin-left:.3em}
 .fcount{font-family:"IBM Plex Mono";font-size:10px;letter-spacing:.08em;color:var(--ink-faint);margin-bottom:.7em}
+.fchip.empty{opacity:.3}
+.nomatch{color:var(--ink-faint);font-size:13px;line-height:1.6;padding:1.4em .2em}
+.nomatch b{color:var(--ink-dim);text-transform:capitalize}
+.blead{font-size:clamp(10px,1.3vh,12px);color:var(--ink);margin:.1em 0 .45em;line-height:1.35}
+.blead b{color:var(--ink)}
+.blead .bsub{color:var(--ink-faint);font-weight:400}
+.dsum{font-size:clamp(11px,1.5vh,14px);color:var(--ink-dim);line-height:1.5;margin:.25em 0 0}
+.dsum em{color:var(--ink);font-style:normal}
+.dsum .dsrc{color:var(--ink-faint);font-size:.8em;white-space:nowrap}
 .zoomsb{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));
   gap:.35em 2.5em;font-size:13px}
 .zoomsb .sb-row{grid-template-columns:1.8em 1fr auto;padding:.28em 0;border-bottom:1px solid rgba(42,53,67,.5)}
@@ -553,11 +565,13 @@ html.ff-in-the-news .itn-link{display:inline}
     <div class="brand">
       <h1 class="serif">The Calibrated Authority Index</h1>
       <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">51 institutions built to be trusted wrote AI rules; 44 drew the same line — independently, in their own published words. A pattern, not a law.</span></p>
-      <p class="caglo"><b>Calibrated Authority (CA):</b> how firmly an institution ties trust in AI to proof you can check — scored 0–12.</p>
     </div>
-    <div class="stat">
-      <div><div class="k" id="stat-n">51</div><div class="l">institutions read</div></div>
-      <div><div class="k evid"><span id="stat-fits">44</span>/<span id="stat-n2">51</span></div><div class="l">drew the same line</div></div>
+    <div class="hright">
+      <div class="stat">
+        <div><div class="k" id="stat-n">51</div><div class="l">institutions read</div></div>
+        <div><div class="k evid"><span id="stat-fits">44</span>/<span id="stat-n2">51</span></div><div class="l">drew the same line</div></div>
+      </div>
+      <p class="cakey"><b>CA · Calibrated Authority</b><br>how firmly an institution ties trust in AI to proof you can check — scored <b>0–12</b>.</p>
     </div>
   </header>
 
@@ -574,7 +588,7 @@ html.ff-in-the-news .itn-link{display:inline}
     <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open the line they drew" data-secnum="2" data-abstract="One axis — the cost of proof — and where 44 institutions drew the same line.">
       <div class="ztag"><span class="dot"></span><span class="lbl">B · The line</span><span class="hint">tap for their words ⊕</span></div>
       <h2 class="serif">The line every institution drew</h2>
-      <p style="font-size:11px;color:var(--ink-dim);margin:.1em 0 .3em;letter-spacing:.02em">A readout, not a recommendation — in institutions' own words.</p>
+      <p class="blead"><b>Every one lets AI fix your grammar. Not one lets AI sign the work.</b> <span class="bsub">A readout of what they permit — in their own words.</span></p>
       <div class="zbody"><div class="theline" id="theline">
         <div class="cols">
           <div class="col evid"><div class="ch">Cheap to check →<b>where they let machines in</b></div>
@@ -582,7 +596,6 @@ html.ff-in-the-news .itn-link{display:inline}
           <div class="col human"><div class="ch">Expensive to check →<b>where they kept a human</b></div>
             <ul><li>authorship</li><li>judgment &amp; interpretation</li><li>original reporting</li><li>the byline</li><li>accountability</li></ul></div>
         </div>
-        <p class="seam">The line isn't ethics, or fear of the tech. It's <b>the cost of proof.</b></p>
       </div></div>
     </section>
 
@@ -596,7 +609,7 @@ html.ff-in-the-news .itn-link{display:inline}
           <span><b>publishers</b></span><span>societies</span><span>journals</span>
           <span>universities</span><span>libraries</span><span>ed-tech</span><span><b>intergov</b></span>
         </div>
-        <p class="read">Where the thing being judged is a checkable artifact — a paper, a citation — proof is cheap, and trust rides on the work. Where it's a diffuse outcome — access, equity, governance — there's no artifact to inspect, so trust rides on who's accountable instead. AI widens the gap: once a machine does the work, the reasoning hides inside the model and the source-trail breaks — so the proof a human can independently get keeps dropping, and trust slides from proof toward process.</p>
+        <p class="read">Judge a <b>checkable artifact</b> — a paper, a citation — and proof is cheap. Trust rides on the work.<br>Judge a <b>diffuse outcome</b> — access, equity, governance — and there's nothing to inspect. Trust rides on who's accountable.<br><b>AI widens the gap.</b> Once a machine does the work, the reasoning is obscured inside the model and the source-trail is lost — so trust slides <b>from proof to process</b>.</p>
       </div></div>
     </section>
 
@@ -609,7 +622,7 @@ html.ff-in-the-news .itn-link{display:inline}
         <div class="dcount"><b>44</b> drew the line · <b>6</b> drew it partly · <b class="rev">1</b> reversed it</div>
         <div class="cq">
           <div class="who">EDUCAUSE <span class="sc">CA 3 · the one that reversed it</span></div>
-          <blockquote>Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets written.</blockquote>
+          <p class="dsum">Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets written. <span class="dsrc">— the Index's reading of the policy, not a quote</span></p>
         </div>
       </div></div>
       <div class="tldr"><b>When proof becomes impossible, trust doesn't vanish — it becomes governance.</b></div>
@@ -770,10 +783,17 @@ function paintZoomSB(){
   const f=state.filter||{posture:"",segment:""};
   const arr=state.inst.filter(r=>(!f.posture||r.posture===f.posture)&&(!f.segment||r.segment===f.segment)).sort(byScore);
   const host=document.getElementById("zoomsb"); if(!host) return;
-  host.innerHTML=arr.map((r,i)=>rowHTML(r,i+1,true)).join("");
+  host.innerHTML = arr.length
+    ? arr.map((r,i)=>rowHTML(r,i+1,true)).join("")
+    : `<div class="nomatch">No institution is both <b>${esc(f.posture)}</b> and <b>${esc((f.segment||"").replace(/-/g," "))}</b> — try another combination.</div>`;
   host.querySelectorAll(".nm").forEach(nm=>{
     nm.addEventListener("click",()=>openCard(nm.closest(".sb-row").dataset.id));
   });
+  // dim chips whose combination with the OTHER active filter yields nothing
+  ocontent.querySelectorAll('.fchip[data-dim="segment"]').forEach(c=>{ const v=c.dataset.val;
+    c.classList.toggle("empty", !!v && state.inst.filter(r=>(!f.posture||r.posture===f.posture)&&r.segment===v).length===0); });
+  ocontent.querySelectorAll('.fchip[data-dim="posture"]').forEach(c=>{ const v=c.dataset.val;
+    c.classList.toggle("empty", !!v && state.inst.filter(r=>(!f.segment||r.segment===f.segment)&&r.posture===v).length===0); });
   const fc=document.getElementById("fcount");
   if(fc){ const parts=[]; if(f.posture)parts.push(f.posture); if(f.segment)parts.push(f.segment.replace(/-/g," "));
     fc.textContent = parts.length ? `Showing ${arr.length} of ${state.inst.length} — ${parts.join(" · ")}` : `All ${state.inst.length}, ranked by CA score`;
@@ -904,7 +924,7 @@ function zoomC(){
     <div class="ramp" style="height:34px;margin-bottom:.5em"></div>
     <div class="rampcap"><span>Evidential — proof</span><span>Relational — access · equity · governance</span></div>
     <p style="color:var(--ink-dim);font-size:14px;line-height:1.6;margin-bottom:1.4em">
-      Where the thing being judged is a checkable artifact — a paper, a citation — proof is cheap, and trust rides on the work. Where it's a diffuse outcome — access, equity, governance — there's no artifact to inspect, so trust rides on who's accountable instead. AI widens the gap: once a machine does the work, the reasoning hides inside the model and the source-trail breaks — so the proof a human can independently get keeps dropping, and trust slides from proof toward process.<br><br>Mean CA by segment:</p>
+      Where the thing being judged is a checkable artifact — a paper, a citation — proof is cheap, and trust rides on the work. Where it's a diffuse outcome — access, equity, governance — there's no artifact to inspect, so trust rides on who's accountable instead. AI widens the gap: once a machine does the work, the reasoning is obscured inside the model and the source-trail is lost — so the proof a human can independently get keeps dropping, and trust slides from proof toward process.<br><br>Mean CA by segment:</p>
     ${rampSegs}</div>`;
   if(window.FF) enhanceSegments();   // redesign-v2: case-zoom (aggregate → individual cases)
 }

@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-06-23T19:16:49Z",
+  "dateModified": "2026-07-05T20:25:51Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -91,10 +91,10 @@
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 51,
-    "mean_ca": 9.8,
+    "n": 54,
+    "mean_ca": 9.7,
     "ca_range": [
-      3,
+      2,
       12
     ],
     "instrument": {
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-06-23T19:16:49Z"
+    "generated_at": "2026-07-05T20:25:51Z"
   },
   "institutions": [
     {
@@ -157,7 +157,9 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-06-28",
+      "last_changed": null,
+      "revision": 0,
       "quote": "All content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create.",
       "quote_label": "AI use policy",
       "provenance": {
@@ -184,6 +186,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "An attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs.",
       "quote_label": "Nature Portfolio AI policy",
       "provenance": {
@@ -210,6 +214,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Authorship implies responsibilities and tasks that can only be attributed to and performed by humans.",
       "quote_label": "Author AI policy",
       "provenance": {
@@ -236,6 +242,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "The author is fully responsible for the accuracy of any information provided by the AI Technology.",
       "quote_label": "Generative AI policy",
       "provenance": {
@@ -262,6 +270,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements. These are uniquely human responsibilities that cannot be undertaken by Generative AI tools.",
       "quote_label": "AI policy (browser-verified 2026-06-22)",
       "provenance": {
@@ -288,6 +298,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "An AI program cannot be an author of a Science journal paper.",
       "quote_label": "Editorial policy",
       "provenance": {
@@ -314,6 +326,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Chatbots (such as ChatGPT) should not be listed as authors because they cannot be responsible for the accuracy, integrity, and originality of the work, and these responsibilities are required for authorship.",
       "quote_label": "Recommendations — AI by authors",
       "provenance": {
@@ -340,6 +354,8 @@
       "c3": "Relational",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
       "quote_label": "Position: Authorship and AI tools",
       "provenance": {
@@ -366,6 +382,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "The use of AI tools and technologies to fabricate or otherwise misrepresent primary research data is unacceptable.",
       "quote_label": "Ethical publishing practice (browser-verified)",
       "provenance": {
@@ -392,6 +410,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "All information generated by AI requires human verification. Everything we publish will live up to our long-time standards of verification.",
       "quote_label": "AI ethics guidelines",
       "provenance": {
@@ -417,7 +437,9 @@
       "c2_fit": "partially",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-06-28",
+      "last_changed": null,
+      "revision": 0,
       "quote": "You cannot simply 'hack' your way to trust.",
       "quote_label": "Generative AI and news report 2025",
       "provenance": {
@@ -444,6 +466,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "We won't publish a story if our only source is AI — it's not a substitute for the careful review of journalists.",
       "quote_label": "Tow Center / CJR",
       "provenance": {
@@ -470,6 +494,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Any output from a generative AI tool should be treated as unvetted source material.",
       "quote_label": "Standards around generative AI (via Poynter/Globe reprint)",
       "provenance": {
@@ -496,6 +522,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
       "quote_label": "Generative AI guidelines",
       "provenance": {
@@ -522,6 +550,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Absent a clear statement from a course instructor, use of or consultation with generative AI shall be treated analogously to assistance from another person.",
       "quote_label": "Office of Community Standards",
       "provenance": {
@@ -535,21 +565,23 @@
       "segment": "university",
       "url": "https://ist.mit.edu/ai-guidance",
       "scores": {
-        "D1": 1,
-        "D2": 2,
-        "D3": 2,
-        "D4": 1,
-        "D5": 1,
-        "D6": 1
+        "D1": 0,
+        "D2": 1,
+        "D3": 1,
+        "D4": 0,
+        "D5": 0,
+        "D6": 0
       },
-      "ca": 8,
-      "posture": "Balanced",
-      "c2_fit": "fits",
-      "c3": "Evidential",
-      "twilight": true,
-      "coded_date": "2026-06-22",
-      "quote": "You are responsible for the accuracy of any information you publish, including AI-generated content.",
-      "quote_label": "IS&T AI guidance",
+      "ca": 2,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Neither",
+      "twilight": false,
+      "coded_date": "2026-06-28",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "High-risk data should never be used with generative AI tools.",
+      "quote_label": "IS&T Guidance for use of Generative AI tools",
       "provenance": {
         "url": "https://ist.mit.edu/ai-guidance",
         "verify_status": "ok"
@@ -574,6 +606,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "All data shared with U-M's AI services is private and will not be used to train AI models.",
       "quote_label": "ITS AI services",
       "provenance": {
@@ -600,6 +634,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Accountability for the accuracy of information generated by these tools when transferred to another context lies with the user.",
       "quote_label": "Principles on generative AI in education",
       "provenance": {
@@ -626,6 +662,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "We and others would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
       "quote_label": "Joint Task Force, Working Paper 3",
       "provenance": {
@@ -652,6 +690,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.",
       "quote_label": "Policy on Authorship, updated 2026-05-14 (browser-verified)",
       "provenance": {
@@ -679,6 +719,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "AI is not a conscious human who can consent to the duties and responsibilities of authorship, which include responsibility for post publication changes such as corrections or retractions.",
       "quote_label": "Journals generative-AI policy",
       "provenance": {
@@ -705,6 +747,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Always review and verify outputs generated by AI tools, especially before publication. We are each responsible for the content of our work product.",
       "quote_label": "Provost guidelines",
       "provenance": {
@@ -731,6 +775,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
       "quote_label": "Rights, Rules, Responsibilities 2.4.7",
       "provenance": {
@@ -757,6 +803,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
       "quote_label": "Appropriate use of generative AI",
       "provenance": {
@@ -782,7 +830,9 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-07-05",
+      "last_changed": null,
+      "revision": 0,
       "quote": "You are accountable for your work, regardless of the tools you use to produce it.",
       "quote_label": "AI guidelines",
       "provenance": {
@@ -809,6 +859,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "You are ultimately responsible for the content that you submit.",
       "quote_label": "Eberly Center course-policy examples",
       "provenance": {
@@ -835,6 +887,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Core scholarly and research contributions are expected to remain under the full direction and responsibility of the GT community member.",
       "quote_label": "AI Policy (draft, 2025-10-14)",
       "provenance": {
@@ -861,6 +915,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Generative AI tools do not meet the criteria for authorship of scholarly works, because these tools cannot take responsibility or be held accountable for submitted work.",
       "quote_label": "SGS guidance",
       "provenance": {
@@ -887,6 +943,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "A student using any unacknowledged content generated by artificial intelligence within a summative assessment as though it is their own work constitutes academic misconduct.",
       "quote_label": "AI and academic misconduct",
       "provenance": {
@@ -913,6 +971,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.",
       "quote_label": "Generative AI hub",
       "provenance": {
@@ -939,6 +999,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Any submitted course assignment that does not explicitly articulate how generative AI was used will be assumed to have been created entirely without its use.",
       "quote_label": "Syllabus & policies on generative AI",
       "provenance": {
@@ -965,6 +1027,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "AI does not meet the Cambridge requirements for authorship, given the need for accountability.",
       "quote_label": "Authorship and contributorship policy",
       "provenance": {
@@ -991,6 +1055,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Gen AI does not qualify as an author and should not be used to undertake primary authorial responsibilities, such as generating arguments and scientific insights, writing analysis, or drawing conclusions.",
       "quote_label": "Author use of AI",
       "provenance": {
@@ -1016,7 +1082,9 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-07-05",
+      "last_changed": null,
+      "revision": 0,
       "quote": "We distinguish various uses for AI: assistive (no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
       "quote_label": "AI policy",
       "provenance": {
@@ -1043,6 +1111,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "The use of content generated by artificial intelligence in an article shall be disclosed in the acknowledgments section.",
       "quote_label": "Author guidelines for AI-generated text",
       "provenance": {
@@ -1069,6 +1139,8 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "The software cannot be listed as an author because it does not meet the criteria for authorship and cannot share responsibility for the paper or be held accountable for the integrity of the data reported.",
       "quote_label": "Editorial and journal policies",
       "provenance": {
@@ -1094,7 +1166,9 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-06-28",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
       "quote_label": "Instructions for authors",
       "provenance": {
@@ -1121,6 +1195,8 @@
       "c3": "Both-split",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Because the authors of a manuscript are responsible for the accuracy, integrity, and originality of the work, chatbots or other AI-assisted technologies cannot be listed as authors.",
       "quote_label": "NEJM AI editorial policies",
       "provenance": {
@@ -1147,6 +1223,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "In the interests of enabling scientific scrutiny, including replication and identifying falsification, the full prompt used to generate the research results, the time and date of query, and the AI tool used and its version, should be provided.",
       "quote_label": "Recommendations on chatbots & generative AI",
       "provenance": {
@@ -1173,6 +1251,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "A nonhuman cannot be responsible or accountable for the accuracy, integrity, and originality of the work.",
       "quote_label": "Guidance on machine learning and AI tools",
       "provenance": {
@@ -1199,6 +1279,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Such systems must not replace key researcher tasks such as producing scientific insights, analysing and interpreting data.",
       "quote_label": "Authorship, competing interests and AI",
       "provenance": {
@@ -1225,6 +1307,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "BBC use of AI must never undermine the trust of audiences.",
       "quote_label": "Editorial guidance on AI (2025-06-23)",
       "provenance": {
@@ -1251,6 +1335,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Our images and stories must reflect reality.",
       "quote_label": "Handbook of Journalism",
       "provenance": {
@@ -1277,6 +1363,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Guardian audiences are entitled to expect that work that appears under your byline has been authored by you.",
       "quote_label": "Editorial Code §H (2026-03)",
       "provenance": {
@@ -1303,6 +1391,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "We don't use A.I. to write articles, and journalists are ultimately responsible for everything that we publish.",
       "quote_label": "Newsroom principles (secondary-sourced)",
       "provenance": {
@@ -1329,6 +1419,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
       "quote_label": "Code of Ethics",
       "provenance": {
@@ -1355,6 +1447,8 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "Libraries believe 'no human, no AI.'",
       "quote_label": "Guiding Principles for AI",
       "provenance": {
@@ -1381,6 +1475,8 @@
       "c3": "Relational",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "[The policy creates] an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
       "quote_label": "Cross-Campus Approaches to a GenAI Policy",
       "provenance": {
@@ -1406,7 +1502,9 @@
       "c2_fit": "partially",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-07-05",
+      "last_changed": null,
+      "revision": 0,
       "quote": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
       "quote_label": "Guidance for generative AI in education and research",
       "provenance": {
@@ -1433,6 +1531,8 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
       "quote_label": "AI Principles (OECD/LEGAL/0449)",
       "provenance": {
@@ -1459,10 +1559,96 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
+      "last_changed": null,
+      "revision": 0,
       "quote": "A top priority with AI is to keep humans in the loop and in control.",
       "quote_label": "AI and the Future of Teaching and Learning",
       "provenance": {
         "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "uspto",
+      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "segment": "regulator",
+      "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+      "scores": {
+        "D1": 1,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-07-05",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Only a natural person can be an inventor, so AI cannot be.",
+      "quote_label": "Inventorship Guidance for AI-Assisted Inventions",
+      "provenance": {
+        "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "vatican-ddf",
+      "name": "Vatican (DDF/DCE) — Antiqua et Nova (2025)",
+      "segment": "faith-institution",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+      "scores": {
+        "D1": 0,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 2,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Balanced",
+      "c2_fit": "partially",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-06-28",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Between a machine and a human being, only the latter is truly a moral agent.",
+      "quote_label": "Antiqua et Nova (2025), par. 39",
+      "provenance": {
+        "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "ala",
+      "name": "American Library Association",
+      "segment": "library",
+      "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 12,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-07-05",
+      "last_changed": null,
+      "revision": 0,
+      "quote": null,
+      "quote_label": null,
+      "provenance": {
+        "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf",
         "verify_status": "ok"
       }
     }

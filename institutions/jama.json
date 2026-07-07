@@ -21,9 +21,7 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-28",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-06-22",
   "quote": "Attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
   "quote_label": "Instructions for authors",
   "provenance": {
@@ -36,7 +34,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/jama",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/jama",
     "name": "Calibrated Authority rating — JAMA Network",
-    "datePublished": "2026-06-28",
+    "datePublished": "2026-06-22",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "JAMA Network — public generative-AI policy",

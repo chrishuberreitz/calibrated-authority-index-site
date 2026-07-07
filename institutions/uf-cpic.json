@@ -21,9 +21,7 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-28",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-06-22",
   "quote": "All content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create.",
   "quote_label": "AI use policy",
   "provenance": {
@@ -36,7 +34,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "name": "Calibrated Authority rating — UF Center for Public Interest Communications",
-    "datePublished": "2026-06-28",
+    "datePublished": "2026-06-22",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UF Center for Public Interest Communications — public generative-AI policy",

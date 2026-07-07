@@ -22,6 +22,8 @@
   "c3": "Evidential",
   "twilight": true,
   "coded_date": "2026-06-22",
+  "last_changed": null,
+  "revision": 0,
   "quote": "You are responsible for the accuracy of any information you publish, including AI-generated content.",
   "quote_label": "IS&T AI guidance",
   "provenance": {

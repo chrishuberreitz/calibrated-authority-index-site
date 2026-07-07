@@ -21,7 +21,9 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": true,
-  "coded_date": "2026-06-22",
+  "coded_date": "2026-07-05",
+  "last_changed": null,
+  "revision": 0,
   "quote": "We distinguish various uses for AI: assistive (no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
   "quote_label": "AI policy",
   "provenance": {
@@ -34,7 +36,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/sage",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/sage",
     "name": "Calibrated Authority rating — SAGE Publishing",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-05",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "SAGE Publishing — public generative-AI policy",

@@ -21,7 +21,9 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-06-22",
+  "coded_date": "2026-07-05",
+  "last_changed": null,
+  "revision": 0,
   "quote": "You are accountable for your work, regardless of the tools you use to produce it.",
   "quote_label": "AI guidelines",
   "provenance": {
@@ -34,7 +36,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cornell",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cornell",
     "name": "Calibrated Authority rating — Cornell University",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-05",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Cornell University — public generative-AI policy",

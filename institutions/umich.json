@@ -22,6 +22,8 @@
   "c3": "Evidential",
   "twilight": true,
   "coded_date": "2026-06-22",
+  "last_changed": null,
+  "revision": 0,
   "quote": "All data shared with U-M's AI services is private and will not be used to train AI models.",
   "quote_label": "ITS AI services",
   "provenance": {

@@ -22,6 +22,8 @@
   "c3": "Evidential",
   "twilight": true,
   "coded_date": "2026-06-22",
+  "last_changed": null,
+  "revision": 0,
   "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
   "quote_label": "Generative AI guidelines",
   "provenance": {

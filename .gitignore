@@ -3,3 +3,5 @@
 # internal runbook — keep local, do not publish
 DEPLOY.md
 spikes/
+__pycache__/
+.claude/

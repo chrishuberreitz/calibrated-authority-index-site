@@ -22,6 +22,8 @@
   "c3": "Both-split",
   "twilight": true,
   "coded_date": "2026-06-22",
+  "last_changed": null,
+  "revision": 0,
   "quote": "In the interests of enabling scientific scrutiny, including replication and identifying falsification, the full prompt used to generate the research results, the time and date of query, and the AI tool used and its version, should be provided.",
   "quote_label": "Recommendations on chatbots & generative AI",
   "provenance": {

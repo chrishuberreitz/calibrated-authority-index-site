@@ -22,6 +22,8 @@
   "c3": "Evidential",
   "twilight": false,
   "coded_date": "2026-06-22",
+  "last_changed": null,
+  "revision": 0,
   "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
   "quote_label": "Appropriate use of generative AI",
   "provenance": {

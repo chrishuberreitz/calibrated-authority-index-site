@@ -1,6 +1,33 @@
 {
-  "generated": "2026-06-22",
+  "generated": "2026-07-07",
   "moves": [
+    {
+      "date": "2026-07-05",
+      "institution": "Cornell University",
+      "id": "cornell",
+      "kind": "changed",
+      "headline": "Cornell University policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-05",
+      "institution": "SAGE Publishing",
+      "id": "sage",
+      "kind": "changed",
+      "headline": "SAGE Publishing policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-05",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
     {
       "date": "2026-05-14",
       "institution": "ACM",

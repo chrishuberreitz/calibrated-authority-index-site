@@ -35,7 +35,8 @@
       "kind": "changed",
       "headline": "ACM dropped its AI writing-disclosure requirement",
       "detail": "Writing-assistance disclosure no longer required; research-use must still be described in Methods.",
-      "delta": "CA 10 → 11"
+      "delta": "CA 10 → 11",
+      "change_type": "LOOSEN"
     },
     {
       "date": "2025-10-14",
@@ -44,7 +45,8 @@
       "kind": "new",
       "headline": "Georgia Tech published a draft generative-AI policy",
       "detail": "Core scholarly contributions must stay under full human direction; effective date TBD.",
-      "delta": "CA 12"
+      "delta": "CA 12",
+      "change_type": "FORMALIZE"
     },
     {
       "date": "2026-06-22",

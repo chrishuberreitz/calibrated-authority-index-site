@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Connect your agent — The Calibrated Authority Index</title>
+<meta name="description" content="The Calibrated Authority Index is agent-callable: a hosted MCP endpoint any AI agent can connect to for lookup, search, compare, stats, and methodology tools." />
+<link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/agents" />
+<style>
+:root{
+  --paper:#0d1117; --panel:#161d27; --line:#2a3543;
+  --ink:#e9e4d8; --ink-dim:#9aa5b1; --ink-faint:#5c6775;
+  --evid:#5fb7c4; --gold:#d8a64a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:14px;line-height:1.65;padding:6vh 6vw;max-width:860px;margin:0 auto}
+h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(24px,4vw,34px);line-height:1.2;margin-bottom:.4em}
+h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--evid);margin:2.4em 0 .7em}
+p{color:var(--ink-dim);margin-bottom:1em;max-width:64ch}
+a{color:var(--evid);text-decoration:none;border-bottom:1px solid transparent}
+a:hover{border-bottom-color:var(--evid)}
+code{color:var(--ink)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  padding:1em 1.2em;overflow-x:auto;font-size:12.5px;line-height:1.6;margin-bottom:1em}
+table{border-collapse:collapse;width:100%;font-size:12.5px;margin-bottom:1em}
+td,th{border:1px solid var(--line);padding:.5em .8em;text-align:left;vertical-align:top}
+th{color:var(--ink-faint);font-weight:400;letter-spacing:.05em}
+td:first-child{color:var(--gold);white-space:nowrap}
+.small{font-size:12px;color:var(--ink-faint)}
+.back{display:inline-block;margin-bottom:2.5em;font-size:12px;color:var(--ink-faint)}
+</style>
+</head>
+<body>
+<a class="back" href="/">&larr; back to the Index</a>
+<h1>Connect your agent</h1>
+<p>The Calibrated Authority Index isn't just human-readable — it's <em>agent-callable</em>.
+A hosted <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a>
+(Model Context Protocol) endpoint exposes the corpus as five tools any MCP-capable
+agent can query, compare, and cite directly.</p>
+
+<h2>Endpoint</h2>
+<pre><code>https://calibrated-authority.chrishuberreitz.com/api/mcp</code></pre>
+<p class="small">MCP Streamable HTTP transport — JSON-RPC 2.0 over POST, plain-JSON responses,
+stateless, no auth. CORS open. Serves the launch corpus snapshot (N=51, v2026-06-22).</p>
+
+<h2>Claude Code</h2>
+<pre><code>claude mcp add --transport http ca-index \
+    https://calibrated-authority.chrishuberreitz.com/api/mcp</code></pre>
+
+<h2>Any MCP client (config JSON)</h2>
+<pre><code>{
+  "mcpServers": {
+    "ca-index": {
+      "type": "http",
+      "url": "https://calibrated-authority.chrishuberreitz.com/api/mcp"
+    }
+  }
+}</code></pre>
+
+<h2>Tools</h2>
+<table>
+<tr><th>tool</th><th>what it returns</th></tr>
+<tr><td>ca_index_lookup</td><td>One institution's full record by name or id — six dimension scores, composite CA, trust-logic, the verbatim policy quote, source URL, permalink.</td></tr>
+<tr><td>ca_index_search</td><td>Filter the corpus by posture, trust-logic, verification-boundary fit, segment, CA range, or twilight markers.</td></tr>
+<tr><td>ca_index_compare</td><td>Two institutions side by side — full records, the CA gap, which dimensions differ.</td></tr>
+<tr><td>ca_index_stats</td><td>Corpus-level stats: N, mean CA, range, per-segment means, fit and trust-logic counts.</td></tr>
+<tr><td>ca_index_methodology</td><td>The instrument definition, how to cite, license, machine-readable manifest URL.</td></tr>
+</table>
+
+<h2>Try it raw</h2>
+<pre><code>curl -s -X POST \
+  https://calibrated-authority.chrishuberreitz.com/api/mcp \
+  -H 'Content-Type: application/json' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"tools/call",
+       "params":{"name":"ca_index_stats","arguments":{}}}'</code></pre>
+
+<h2>Prefer flat files?</h2>
+<p>The whole machine layer is also static:
+<a href="/index.json">index.json</a> ·
+<a href="/institutions/index.json">manifest</a> ·
+<a href="/schema.json">schema</a> ·
+<a href="/data.csv">CSV</a> ·
+<a href="/llms.txt">llms.txt</a>.
+License CC-BY-4.0 · DOI <a href="https://doi.org/10.5281/zenodo.21108694" target="_blank" rel="noopener">10.5281/zenodo.21108694</a> ·
+<a href="/methodology">methodology</a>.</p>
+</body>
+</html>

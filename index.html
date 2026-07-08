@@ -258,20 +258,20 @@ footer .living:hover{color:var(--evid);border-bottom-color:var(--evid)}
 footer .living .blip{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--evid);margin-right:.45em;vertical-align:middle;opacity:.8}
 
 /* ---------- C · gradient ---------- */
-.cg{height:100%;display:flex;flex-direction:column;justify-content:center;gap:clamp(.75em,1.7vh,1.2em)}
-.cg .ramp{height:clamp(20px,2.9vh,30px);border-radius:5px;
+.cg{height:100%;display:flex;flex-direction:column;justify-content:center;gap:clamp(.75em,1.7vh,1.2em);overflow:hidden}
+.cg .ramp{height:clamp(20px,2.9vh,30px);flex:0 0 auto;border-radius:5px;
   background:linear-gradient(90deg,var(--evid) 0%,#7d9a86 38%,var(--gold) 62%,var(--signal) 100%);
   position:relative;box-shadow:inset 0 0 0 1px rgba(255,255,255,.04)}
 .cg .ramp .ends{position:absolute;inset:0;display:flex;justify-content:space-between;
   align-items:center;padding:0 .7em;font-size:9px;letter-spacing:.14em;text-transform:uppercase;
   color:#0d1117;font-weight:600;mix-blend-mode:luminosity}
 .cg .seglist{display:flex;justify-content:space-between;font-size:10px;color:var(--ink-faint);
-  letter-spacing:.04em;flex-wrap:wrap;gap:.4em}
+  letter-spacing:.04em;flex-wrap:wrap;gap:.4em;flex:0 0 auto}
 .rampcap{display:flex;justify-content:space-between;gap:2em;font-size:11px;letter-spacing:.05em;
   color:var(--ink-dim);margin-bottom:1.3em}
 .rampcap span:last-child{text-align:right}
 .cg .seglist b{color:var(--ink-dim);font-weight:500}
-.cg .read{font-size:clamp(10.5px,1.5vh,13.5px);color:var(--ink);line-height:1.55}
+.cg .read{font-size:clamp(10.5px,1.5vh,13.5px);color:var(--ink);line-height:1.55;min-height:0;overflow:hidden}
 .cg .read b{color:var(--ink)}
 .cg .read em{color:var(--ink);font-style:normal}
 

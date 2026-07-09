@@ -254,17 +254,32 @@ def _tools_list_payload():
     return [{k: t[k] for k in ("name", "description", "inputSchema")} for t in TOOLS]
 
 
+def _log_hit(tool, status):
+    """Per-tool hit log for the hosted MCP endpoint. The function is stateless,
+    so this stdout line IS the counter surface: Vercel captures it into
+    Observability/logs — filter on the 'ca-mcp-hit' prefix to count queries and
+    see which of the 5 tools agents actually call. Durable running totals would
+    need a KV/Edge-Config store (follow-up); this gives per-call granularity now."""
+    try:
+        print("ca-mcp-hit " + json.dumps({"tool": tool, "status": status}), flush=True)
+    except Exception:
+        pass
+
+
 def dispatch_tool(name, args, corpus=None):
     """Run a tool by name. Returns (result, is_error)."""
     if name not in _HANDLERS:
+        _log_hit(name, "unknown-tool")
         return {"error": "unknown tool %r" % name}, True
     if corpus is None:
         corpus = CORPUS
     try:
         result = _HANDLERS[name](corpus, args or {})
         is_error = isinstance(result, dict) and "error" in result
+        _log_hit(name, "error" if is_error else "ok")
         return result, is_error
     except Exception as e:  # defensive
+        _log_hit(name, "exception")
         return {"error": "%s: %s" % (type(e).__name__, e)}, True
 
 

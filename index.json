@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-09T05:25:06Z",
+  "dateModified": "2026-07-10T06:27:07Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -91,7 +91,7 @@
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 51,
+    "n": 52,
     "mean_ca": 9.8,
     "ca_range": [
       3,
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-09T05:25:06Z"
+    "generated_at": "2026-07-10T06:27:07Z"
   },
   "institutions": [
     {
@@ -1565,6 +1565,34 @@
       "quote_label": "AI and the Future of Teaching and Learning",
       "provenance": {
         "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "vatican-ddf",
+      "name": "Vatican (DDF/DCE) — Antiqua et Nova (2025)",
+      "segment": "faith-institution",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
+      "scores": {
+        "D1": 0,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 2,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Balanced",
+      "c2_fit": "partially",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-06-28",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Between a machine and a human being, only the latter is truly a moral agent.",
+      "quote_label": "Antiqua et Nova (2025), par. 39",
+      "provenance": {
+        "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
         "verify_status": "ok"
       }
     }

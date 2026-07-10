@@ -1,4 +1,20 @@
 {
-  "generated": "2026-07-09",
-  "releases": []
+  "generated": "2026-07-10",
+  "releases": [
+    {
+      "ts": "2026-07-10T06:27:06Z",
+      "date": "2026-07-10",
+      "id": "vatican-ddf",
+      "name": "Vatican (DDF/DCE) — Antiqua et Nova (2025)",
+      "category": "add",
+      "rationale": "First faith institution in the corpus, and the segment gap is the point: Antiqua et Nova reasons to the same line from entirely different premises. The Vatican does not cite verification economics; it says only a human is truly a moral agent - the accountability half of the pattern derived from theology instead of publishing ethics. When an institution that answers to doctrine rather than peer review draws the line the BBC and Springer Nature drew, the pattern's independence claim gets its strongest test yet.",
+      "score": {
+        "total": 9,
+        "recognition": 3,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    }
+  ]
 }

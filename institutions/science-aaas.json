@@ -20,15 +20,16 @@
   "posture": "Balanced",
   "c2_fit": "fits",
   "c3": "Both-split",
-  "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "An AI program cannot be an author of a Science journal paper.",
-  "quote_label": "Editorial policy",
+  "twilight": true,
+  "coded_date": "2026-07-12",
+  "last_changed": "2026-07-12",
+  "revision": 1,
+  "quote": "AI-assisted technologies [such as large language models (LLMs), chatbots, and image creators] do not meet the Science journals' criteria for authorship and therefore may not be listed as authors or coauthors, nor may sources cited in Science journal content be authored or coauthored by AI tools.",
+  "quote_label": "Science journals editorial policies, Authorship / AI section",
   "provenance": {
     "url": "https://www.science.org/content/page/science-journals-editorial-policies",
-    "verify_status": "secondary-blocked"
+    "verify_status": "secondary-wayback-2026-06-14",
+    "note": "Live page hard-403s automated fetch (no Chrome available this run); policy re-read in full from Wayback 2026-06-14 capture, which renders the complete editorial-policies text."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/science-aaas",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/science-aaas",
     "name": "Calibrated Authority rating — Science / AAAS",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-12",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Science / AAAS — public generative-AI policy",
       "url": "https://www.science.org/content/page/science-journals-editorial-policies",
-      "text": "An AI program cannot be an author of a Science journal paper.",
-      "abstract": "An AI program cannot be an author of a Science journal paper.",
-      "alternateName": "Editorial policy"
+      "text": "AI-assisted technologies [such as large language models (LLMs), chatbots, and image creators] do not meet the Science journals' criteria for authorship and therefore may not be listed as authors or coauthors, nor may sources cited in Science journal content be authored or coauthored by AI tools.",
+      "abstract": "AI-assisted technologies [such as large language models (LLMs), chatbots, and image creators] do not meet the Science journals' criteria for authorship and therefore may not be listed as authors or coauthors, nor may sources cited in Science journal content be authored or coauthored by AI tools.",
+      "alternateName": "Science journals editorial policies, Authorship / AI section"
     },
     "reviewRating": {
       "@type": "Rating",

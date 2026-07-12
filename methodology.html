@@ -25,9 +25,17 @@ gtag('config', 'G-T7J2FH4PW6');
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#0d1117;--paper-2:#11171f;--panel:#161d27;--panel-edge:#222c39;
+:root{color-scheme:light dark;
+--paper:#0d1117;--paper-2:#11171f;--panel:#161d27;--panel-edge:#222c39;
 --line:#2a3543;--ink:#e9e4d8;--ink-dim:#9aa5b1;--ink-faint:#5c6775;
 --signal:#e0533a;--signal-soft:#f0a58e;--evid:#5fb7c4;--gold:#d8a64a}
+/* Auto-adapt to a light OS; dark stays the default (incl. no-preference). Neutrals
+   flip to the warm editorial paper palette; accent hues stay in-family, deepened for
+   contrast on paper. Whole site is variable-driven, so overriding :root is the switch. */
+@media (prefers-color-scheme:light){:root{
+--paper:#f6f1e7;--paper-2:#efe8d8;--panel:#fffdf8;--panel-edge:#dcd3bd;
+--line:#cdc4ad;--ink:#1c1a17;--ink-dim:#4b4a44;--ink-faint:#847d70;
+--signal:#b23a28;--signal-soft:#c9674f;--evid:#256e7a;--gold:#9a6f1f}}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--paper);color:var(--ink);font-family:"IBM Plex Mono",ui-monospace,monospace;
 font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased;
@@ -92,7 +100,7 @@ p{color:var(--ink-dim);margin:.7em 0;line-height:1.65}
 p strong,p b{color:var(--ink);font-weight:500}
 em{color:var(--ink);font-style:normal}
 table{width:100%;border-collapse:collapse;margin:1em 0;font-size:13px}
-td{padding:.55em .4em;border-bottom:1px solid rgba(42,53,67,.6);color:var(--ink-dim);vertical-align:top}
+td{padding:.55em .4em;border-bottom:1px solid var(--line);color:var(--ink-dim);vertical-align:top}
 td.dk{color:var(--evid);font-weight:500;width:3em}
 ul{margin:.6em 0 .6em 1.2em;color:var(--ink-dim)}li{margin:.4em 0;line-height:1.6}
 .aph{font-family:"Fraunces",Georgia,serif;font-size:clamp(18px,3.6vw,26px);color:var(--ink);

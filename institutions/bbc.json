@@ -21,11 +21,11 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-12",
+  "last_changed": "2026-07-12",
+  "revision": 1,
   "quote": "BBC use of AI must never undermine the trust of audiences.",
-  "quote_label": "Editorial guidance on AI (2025-06-23)",
+  "quote_label": "Editorial guidance on AI (updated 2026-07-10)",
   "provenance": {
     "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
     "verify_status": "ok"
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/bbc",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/bbc",
     "name": "Calibrated Authority rating — BBC",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-12",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "BBC — public generative-AI policy",
       "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
       "text": "BBC use of AI must never undermine the trust of audiences.",
       "abstract": "BBC use of AI must never undermine the trust of audiences.",
-      "alternateName": "Editorial guidance on AI (2025-06-23)"
+      "alternateName": "Editorial guidance on AI (updated 2026-07-10)"
     },
     "reviewRating": {
       "@type": "Rating",

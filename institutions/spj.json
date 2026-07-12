@@ -21,11 +21,11 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-12",
+  "last_changed": "2026-07-12",
+  "revision": 1,
   "quote": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
-  "quote_label": "Code of Ethics",
+  "quote_label": "Code of Ethics (rev. 2014-09-06)",
   "provenance": {
     "url": "https://www.spj.org/spj-code-of-ethics/",
     "verify_status": "ok"
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/spj",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/spj",
     "name": "Calibrated Authority rating — Society of Professional Journalists",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-12",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Society of Professional Journalists — public generative-AI policy",
       "url": "https://www.spj.org/spj-code-of-ethics/",
       "text": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
       "abstract": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
-      "alternateName": "Code of Ethics"
+      "alternateName": "Code of Ethics (rev. 2014-09-06)"
     },
     "reviewRating": {
       "@type": "Rating",

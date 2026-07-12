@@ -21,14 +21,15 @@
   "c2_fit": "contradicts",
   "c3": "Relational",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-12",
+  "last_changed": "2026-07-12",
+  "revision": 1,
   "quote": "[The policy creates] an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
   "quote_label": "Cross-Campus Approaches to a GenAI Policy",
   "provenance": {
     "url": "https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-05-05",
+    "note": "Live page now returns 403 to automated fetch (WebFetch and browser-UA curl); article re-read in full from Wayback capture 2026-05-05. Coded quote present verbatim; article body unchanged from the 2023-12-12 publication."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/educause",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/educause",
     "name": "Calibrated Authority rating — EDUCAUSE",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-12",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "EDUCAUSE — public generative-AI policy",

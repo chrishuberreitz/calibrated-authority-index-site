@@ -1,6 +1,128 @@
 {
-  "generated": "2026-07-10",
+  "generated": "2026-07-12",
   "moves": [
+    {
+      "date": "2026-07-12",
+      "institution": "UF Center for Public Interest Communications",
+      "id": "uf-cpic",
+      "kind": "changed",
+      "headline": "UF Center for Public Interest Communications policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "Russell Group (UK)",
+      "id": "russell-group",
+      "kind": "changed",
+      "headline": "Russell Group (UK) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "BBC",
+      "id": "bbc",
+      "kind": "changed",
+      "headline": "BBC policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "Society of Professional Journalists",
+      "id": "spj",
+      "kind": "changed",
+      "headline": "Society of Professional Journalists policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "EDUCAUSE",
+      "id": "educause",
+      "kind": "changed",
+      "headline": "EDUCAUSE policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "UF Center for Public Interest Communications",
+      "id": "uf-cpic",
+      "kind": "recoded",
+      "headline": "UF Center for Public Interest Communications re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "Russell Group (UK)",
+      "id": "russell-group",
+      "kind": "recoded",
+      "headline": "Russell Group (UK) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 7 → 7",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "BBC",
+      "id": "bbc",
+      "kind": "recoded",
+      "headline": "BBC re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "Society of Professional Journalists",
+      "id": "spj",
+      "kind": "recoded",
+      "headline": "Society of Professional Journalists re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "EDUCAUSE",
+      "id": "educause",
+      "kind": "recoded",
+      "headline": "EDUCAUSE re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 3 → 3",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "Science / AAAS",
+      "id": "science-aaas",
+      "kind": "recoded",
+      "headline": "Science / AAAS re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "Poynter Institute",
+      "id": "poynter",
+      "kind": "recoded",
+      "headline": "Poynter Institute re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 11 → 12",
+      "change_type": "TIGHTEN",
+      "disposition": "SUBSTANTIVE"
+    },
     {
       "date": "2026-07-05",
       "institution": "Cornell University",

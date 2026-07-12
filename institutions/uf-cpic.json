@@ -21,10 +21,10 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-28",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "All content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create.",
+  "coded_date": "2026-07-12",
+  "last_changed": "2026-07-12",
+  "revision": 1,
+  "quote": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
   "quote_label": "AI use policy",
   "provenance": {
     "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
@@ -36,13 +36,13 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "name": "Calibrated Authority rating — UF Center for Public Interest Communications",
-    "datePublished": "2026-06-28",
+    "datePublished": "2026-07-12",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UF Center for Public Interest Communications — public generative-AI policy",
       "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
-      "text": "All content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create.",
-      "abstract": "All content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create.",
+      "text": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
+      "abstract": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
       "alternateName": "AI use policy"
     },
     "reviewRating": {

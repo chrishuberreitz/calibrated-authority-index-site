@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-07-10T06:27:07Z"
+    "generated_at": "2026-07-12T20:31:41Z"
   },
   "institutions": [
     {
@@ -108,7 +108,7 @@
       "id": "poynter",
       "name": "Poynter Institute",
       "segment": "journalism",
-      "ca": 11,
+      "ca": 12,
       "url": "https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/",
       "page": "/institutions/poynter",
       "atom": "/institutions/poynter.json"

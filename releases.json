@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12",
+  "generated": "2026-07-13",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -13,6 +13,23 @@
         "recognition": 3,
         "segment_gap": 2,
         "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-07-13T11:30:00Z",
+      "date": "2026-07-13",
+      "id": "uspto",
+      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "category": "add",
+      "rationale": "USPTO — Inventorship Guidance for AI-Assisted Inventions is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 3 · segment gap 2 · theory 1 · timeliness 2). CA 8/12 with a Balanced posture; it opens the regulator segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Only a natural person can be an inventor, so AI cannot be.\". Coded 8 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 3,
+        "segment_gap": 2,
+        "theory": 1,
         "timeliness": 2
       }
     }

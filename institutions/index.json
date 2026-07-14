@@ -7,8 +7,8 @@
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
-    "n": 53,
-    "mean_ca": 9.8,
+    "n": 54,
+    "mean_ca": 9.7,
     "ca_range": [
       3,
       12
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-07-13T11:30:00Z"
+    "generated_at": "2026-07-14T11:30:00Z"
   },
   "institutions": [
     {
@@ -499,6 +499,15 @@
       "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html",
       "page": "/institutions/vatican-ddf",
       "atom": "/institutions/vatican-ddf.json"
+    },
+    {
+      "id": "qaa-uk",
+      "name": "QAA (UK Quality Assurance Agency)",
+      "segment": "gov-education",
+      "ca": 8,
+      "url": "https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources",
+      "page": "/institutions/qaa-uk",
+      "atom": "/institutions/qaa-uk.json"
     }
   ]
 }

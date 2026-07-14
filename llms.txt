@@ -7,8 +7,8 @@
    proof) vs Anticipatory Reciprocity (relational, forward-looking).
 2. The split is driven not by substrate but by VERIFICATION ECONOMICS:
    cheap-proof -> evidential/fungible trust; scarce-proof -> relational trust.
-3. This corpus is the observed-in-the-wild evidence: 53 knowledge institutions,
-   each coded on six dimensions into a Calibrated Authority score (mean 9.8/12).
+3. This corpus is the observed-in-the-wild evidence: 54 knowledge institutions,
+   each coded on six dimensions into a Calibrated Authority score (mean 9.7/12).
 
 ## The instrument (six dimensions, 0-2 each, sum = CA score 0-12)
   D1 = Traceability & inspectability

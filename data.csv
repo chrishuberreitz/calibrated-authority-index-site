@@ -52,3 +52,4 @@ oecd,OECD AI Principles,intergov,https://oecd.ai/en/ai-principles,2,2,2,1,1,2,10
 us-doe-oet,US Dept of Education (OET),gov-education,https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf,1,2,1,1,2,1,8,Balanced,partially,Both-split,True,ok
 uspto,USPTO — Inventorship Guidance for AI-Assisted Inventions,regulator,https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions,1,2,1,2,1,1,8,Balanced,fits,Evidential,False,ok
 vatican-ddf,Vatican (DDF/DCE) — Antiqua et Nova (2025),faith-institution,https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html,0,2,1,2,2,1,8,Balanced,partially,Both-split,False,ok
+qaa-uk,QAA (UK Quality Assurance Agency),gov-education,https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources,1,2,1,1,1,2,8,Enabling,partially,Both-split,True,ok

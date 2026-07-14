@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "qaa-uk",
+  "name": "QAA (UK Quality Assurance Agency)",
+  "segment": "gov-education",
+  "url": "https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 8,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-07-12",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Policies should be transparent and clearly communicated to staff and students, emphasising that academic misconduct is unacceptable and that responsibility for the integrity of the submission lies with the student.",
+  "quote_label": "Maintaining quality and standards in the ChatGPT era (2023-05-08)",
+  "provenance": {
+    "url": "https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources",
+    "verify_status": "ok",
+    "note": "Coded from the flagship advice paper linked off the watchlist resources page. Anti-ban, integration-with-integrity stance: 'This approach is preferable to trying to ban the use of these tools outright.' D2 anchored on student responsibility for submission integrity; D6 on 'the ability to check facts and authenticate information derived from Generative Artificial Intelligence software has emerged as a key graduate attribute'. Hybrid-submission gray zone handled through support systems first (twilight). Permit-vs-reserve line drawn on evidencing use, with verification economics as motivation (detection 'fraught with difficulty' drives assessment redesign) - partial fit."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/qaa-uk",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/qaa-uk",
+    "name": "Calibrated Authority rating — QAA (UK Quality Assurance Agency)",
+    "datePublished": "2026-07-12",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "QAA (UK Quality Assurance Agency) — public generative-AI policy",
+      "url": "https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources",
+      "text": "Policies should be transparent and clearly communicated to staff and students, emphasising that academic misconduct is unacceptable and that responsibility for the integrity of the submission lies with the student.",
+      "abstract": "Policies should be transparent and clearly communicated to staff and students, emphasising that academic misconduct is unacceptable and that responsibility for the integrity of the submission lies with the student.",
+      "alternateName": "Maintaining quality and standards in the ChatGPT era (2023-05-08)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-14",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -30,6 +30,23 @@
         "recognition": 3,
         "segment_gap": 2,
         "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-07-14T11:30:00Z",
+      "date": "2026-07-14",
+      "id": "qaa-uk",
+      "name": "QAA (UK Quality Assurance Agency)",
+      "category": "add",
+      "rationale": "QAA (UK Quality Assurance Agency) is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 2 · segment gap 1 · theory 3 · timeliness 2). CA 8/12 with a Enabling posture; it thickens the thin gov-education segment (only 1 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Policies should be transparent and clearly communicated to staff and students, emphasising that academic misconduct is unacceptable and that responsibility for the integrity of the…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 2,
+        "segment_gap": 1,
+        "theory": 3,
         "timeliness": 2
       }
     }

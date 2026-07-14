@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-14",
   "moves": [
     {
       "date": "2026-07-12",
@@ -43,6 +43,15 @@
       "id": "educause",
       "kind": "changed",
       "headline": "EDUCAUSE policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-12",
+      "institution": "QAA (UK Quality Assurance Agency)",
+      "id": "qaa-uk",
+      "kind": "changed",
+      "headline": "QAA (UK Quality Assurance Agency) policy text changed",
       "detail": "Source text moved since last scan; re-code queued.",
       "delta": ""
     },
@@ -147,6 +156,15 @@
       "id": "unesco",
       "kind": "changed",
       "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-05",
+      "institution": "QAA (UK Quality Assurance Agency)",
+      "id": "qaa-uk",
+      "kind": "changed",
+      "headline": "QAA (UK Quality Assurance Agency) policy text changed",
       "detail": "Source text moved since last scan; re-code queued.",
       "delta": ""
     },

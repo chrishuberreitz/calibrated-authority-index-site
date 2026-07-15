@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14",
+  "generated": "2026-07-15",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -47,6 +47,23 @@
         "recognition": 2,
         "segment_gap": 1,
         "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-07-15T11:30:00Z",
+      "date": "2026-07-15",
+      "id": "ala",
+      "name": "American Library Association",
+      "category": "add",
+      "rationale": "American Library Association is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 3 · segment gap 1 · theory 1 · timeliness 2). CA 12/12 with a Balanced posture; it thickens the thin library segment (only 1 released so far); its policy independently fits the verification-boundary pattern, adding replication weight. Coded 10 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 3,
+        "segment_gap": 1,
+        "theory": 1,
         "timeliness": 2
       }
     }

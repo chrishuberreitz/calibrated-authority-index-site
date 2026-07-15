@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14",
+  "generated": "2026-07-15",
   "moves": [
     {
       "date": "2026-07-12",
@@ -156,6 +156,15 @@
       "id": "unesco",
       "kind": "changed",
       "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-07-05",
+      "institution": "American Library Association",
+      "id": "ala",
+      "kind": "changed",
+      "headline": "American Library Association policy text changed",
       "detail": "Source text moved since last scan; re-code queued.",
       "delta": ""
     },

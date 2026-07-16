@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15",
+  "generated": "2026-07-16",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -66,6 +66,17 @@
         "theory": 1,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-07-16T11:30:00Z",
+      "date": "2026-07-16",
+      "id": "science-aaas",
+      "name": "Science / AAAS",
+      "category": "move",
+      "rationale": "Science / AAAS changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 10 -> 10, revision 1, observed 2026-07-12. Previously coded sentence 'An AI program cannot be an author of a Science journal paper' no longer appears; the AI authorship clause is rewritten and expanded (no AI authors or AI-authored cited sourc…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-12)",
+      "move_event_ts": "2026-07-12T20:31:07Z"
     }
   ]
 }

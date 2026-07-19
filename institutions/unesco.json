@@ -21,14 +21,15 @@
   "c2_fit": "partially",
   "c3": "Relational",
   "twilight": true,
-  "coded_date": "2026-07-05",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
-  "quote_label": "Guidance for generative AI in education and research",
+  "coded_date": "2026-07-19",
+  "last_changed": "2026-07-19",
+  "revision": 1,
+  "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
+  "quote_label": "Guidance for generative AI in education and research (UNESCO)",
   "provenance": {
     "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-    "verify_status": "ok"
+    "verify_status": "ok",
+    "note": "Re-read 2026-07-19 via web fetch of the coded landing page (page shows last-updated 2026-01-16). Visible content consistent with prior coding: regulation mandate, data-privacy protection, age limit for independent GenAI conversations, human-agent ethical-validation approach. Full guidance PDF on unesdoc is Cloudflare-gated headless; landing-page verification only."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "name": "Calibrated Authority rating — UNESCO — GenAI in education & research",
-    "datePublished": "2026-07-05",
+    "datePublished": "2026-07-19",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UNESCO — GenAI in education & research — public generative-AI policy",
       "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-      "text": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
-      "abstract": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
-      "alternateName": "Guidance for generative AI in education and research"
+      "text": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
+      "abstract": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
+      "alternateName": "Guidance for generative AI in education and research (UNESCO)"
     },
     "reviewRating": {
       "@type": "Rating",

@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-17T11:30:01Z",
+  "dateModified": "2026-07-19T20:20:23Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-17T11:30:01Z"
+    "generated_at": "2026-07-19T20:20:23Z"
   },
   "institutions": [
     {
@@ -1505,14 +1505,15 @@
       "c2_fit": "partially",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-07-05",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "A human-centred approach requires proper regulation that can ensure human agency, transparency and public accountability.",
-      "quote_label": "Guidance for generative AI in education and research",
+      "coded_date": "2026-07-19",
+      "last_changed": "2026-07-19",
+      "revision": 1,
+      "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
+      "quote_label": "Guidance for generative AI in education and research (UNESCO)",
       "provenance": {
         "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-        "verify_status": "ok"
+        "verify_status": "ok",
+        "note": "Re-read 2026-07-19 via web fetch of the coded landing page (page shows last-updated 2026-01-16). Visible content consistent with prior coding: regulation mandate, data-privacy protection, age limit for independent GenAI conversations, human-agent ethical-validation approach. Full guidance PDF on unesdoc is Cloudflare-gated headless; landing-page verification only."
       }
     },
     {
@@ -1589,11 +1590,11 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-07-05",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "Only a natural person can be an inventor, so AI cannot be.",
-      "quote_label": "Inventorship Guidance for AI-Assisted Inventions",
+      "coded_date": "2026-07-19",
+      "last_changed": "2026-07-19",
+      "revision": 1,
+      "quote": "only a natural person can be an inventor, so AI cannot be",
+      "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (quoting Thaler v. Vidal)",
       "provenance": {
         "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
         "verify_status": "ok"

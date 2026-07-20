@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19",
+  "generated": "2026-07-20",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -88,6 +88,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-12)",
       "move_event_ts": "2026-07-12T20:31:07Z"
+    },
+    {
+      "ts": "2026-07-20T11:30:00Z",
+      "date": "2026-07-20",
+      "id": "unesco",
+      "name": "UNESCO — GenAI in education & research",
+      "category": "move",
+      "rationale": "UNESCO — GenAI in education & research changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 9 -> 9, revision 1, observed 2026-07-19. Scan flagged page change 2026-07-19; re-read shows framing and commitments consistent with prior coding (human-centered regulation, age limits, ethical validation). No score movement; refreshed verbat…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-19)",
+      "move_event_ts": "2026-07-19T20:20:17Z"
     }
   ]
 }

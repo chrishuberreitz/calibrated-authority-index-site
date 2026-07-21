@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-21",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -99,6 +99,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-19)",
       "move_event_ts": "2026-07-19T20:20:17Z"
+    },
+    {
+      "ts": "2026-07-21T11:30:00Z",
+      "date": "2026-07-21",
+      "id": "uspto",
+      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "category": "move",
+      "rationale": "USPTO — Inventorship Guidance for AI-Assisted Inventions changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 8 -> 8, revision 1, observed 2026-07-19. The policy's own stated effective date is 2024-02-13. federalregister.gov page now bot-walled (302 to unblock.federalregister.gov); re-read the identical governing document via official govinfo PDF (89 FR 10043-10051). Text unchanged — natural-person inv…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-19)",
+      "move_event_ts": "2026-07-19T20:20:08Z"
     }
   ]
 }

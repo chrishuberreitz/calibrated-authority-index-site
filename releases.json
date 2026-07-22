@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21",
+  "generated": "2026-07-22",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -110,6 +110,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-19)",
       "move_event_ts": "2026-07-19T20:20:08Z"
+    },
+    {
+      "ts": "2026-07-22T11:30:00Z",
+      "date": "2026-07-22",
+      "id": "uf-cpic",
+      "name": "UF Center for Public Interest Communications",
+      "category": "move",
+      "rationale": "UF Center for Public Interest Communications changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 1, observed 2026-07-12. Policy page revised (site states last updated 3/9/2026): traceability clause expanded to 'All Center content must be replicable... re-create using documented methods'; adds explicit ban on AI-generate…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-12)",
+      "move_event_ts": "2026-07-12T20:26:15Z"
     }
   ]
 }

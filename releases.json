@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-07-23",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -118,6 +118,17 @@
       "name": "UF Center for Public Interest Communications",
       "category": "move",
       "rationale": "UF Center for Public Interest Communications changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 1, observed 2026-07-12. Policy page revised (site states last updated 3/9/2026): traceability clause expanded to 'All Center content must be replicable... re-create using documented methods'; adds explicit ban on AI-generate…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-12)",
+      "move_event_ts": "2026-07-12T20:26:15Z"
+    },
+    {
+      "ts": "2026-07-23T11:30:00Z",
+      "date": "2026-07-23",
+      "id": "russell-group",
+      "name": "Russell Group (UK)",
+      "category": "move",
+      "rationale": "Russell Group (UK) changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 7 -> 7, revision 1, observed 2026-07-12. Landing page restructured to a five-principle summary; the coded accountability line no longer appears on the page but survives verbatim in the full principles PDF (russellgroup.ac.uk/sites/default/fi…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-12)",
       "move_event_ts": "2026-07-12T20:26:15Z"

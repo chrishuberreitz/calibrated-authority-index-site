@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23",
+  "generated": "2026-07-24",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -129,6 +129,17 @@
       "name": "Russell Group (UK)",
       "category": "move",
       "rationale": "Russell Group (UK) changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 7 -> 7, revision 1, observed 2026-07-12. Landing page restructured to a five-principle summary; the coded accountability line no longer appears on the page but survives verbatim in the full principles PDF (russellgroup.ac.uk/sites/default/fi…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-12)",
+      "move_event_ts": "2026-07-12T20:26:15Z"
+    },
+    {
+      "ts": "2026-07-24T11:30:00Z",
+      "date": "2026-07-24",
+      "id": "bbc",
+      "name": "BBC",
+      "category": "move",
+      "rationale": "BBC changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 1, observed 2026-07-12. The policy's own stated effective date is 2026-07-10. Guidance revision stamped 'Updated: 10 July 2026' (previously coded from the 2025-06-23 version). Retains the trust/transparency/human-oversight trio and adds detailed use-case rules: synthesised/clon…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-12)",
       "move_event_ts": "2026-07-12T20:26:15Z"

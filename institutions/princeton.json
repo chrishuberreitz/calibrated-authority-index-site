@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-26",
+  "last_changed": "2026-07-26",
+  "revision": 1,
   "quote": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
-  "quote_label": "Rights, Rules, Responsibilities 2.4.7",
+  "quote_label": "Rights, Rules, Responsibilities 2.4.7, Generative AI",
   "provenance": {
     "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-07-20 (live 403; Chrome unavailable this run)"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/princeton",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/princeton",
     "name": "Calibrated Authority rating — Princeton University",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-26",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Princeton University — public generative-AI policy",
       "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
       "text": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
       "abstract": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
-      "alternateName": "Rights, Rules, Responsibilities 2.4.7"
+      "alternateName": "Rights, Rules, Responsibilities 2.4.7, Generative AI"
     },
     "reviewRating": {
       "@type": "Rating",

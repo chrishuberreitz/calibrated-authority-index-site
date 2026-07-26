@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-24T11:30:00Z",
+  "dateModified": "2026-07-26T20:29:56Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-24T11:30:00Z"
+    "generated_at": "2026-07-26T20:29:56Z"
   },
   "institutions": [
     {
@@ -157,14 +157,14 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 2,
       "quote": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
-      "quote_label": "AI use policy",
+      "quote_label": "Our Approach to Generative Artificial Intelligence (updated 2026-03-09)",
       "provenance": {
         "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-07-26"
       }
     },
     {
@@ -227,7 +227,7 @@
       "id": "wiley",
       "name": "Wiley",
       "segment": "publisher",
-      "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
+      "url": "https://authorservices.wiley.com/ethics-guidelines/index.html",
       "scores": {
         "D1": 2,
         "D2": 2,
@@ -241,14 +241,14 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "The author is fully responsible for the accuracy of any information provided by the AI Technology.",
-      "quote_label": "Generative AI policy",
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 1,
+      "quote": "Authors may only use AI Technology as an additional tool in their writing process, not a replacement for their own expertise and judgement.",
+      "quote_label": "Wiley Best Practice Guidelines on Research Integrity and Publishing Ethics — Artificial Intelligence, Human Oversight",
       "provenance": {
-        "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
-        "verify_status": "primary-verified-2026-06-22"
+        "url": "https://authorservices.wiley.com/ethics-guidelines/index.html",
+        "verify_status": "primary-live-2026-07-26"
       }
     },
     {
@@ -297,14 +297,14 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 2,
       "quote": "AI-assisted technologies [such as large language models (LLMs), chatbots, and image creators] do not meet the Science journals' criteria for authorship and therefore may not be listed as authors or coauthors, nor may sources cited in Science journal content be authored or coauthored by AI tools.",
-      "quote_label": "Science journals editorial policies, Authorship / AI section",
+      "quote_label": "Science journals: editorial policies, Artificial intelligence (AI)",
       "provenance": {
         "url": "https://www.science.org/content/page/science-journals-editorial-policies",
-        "verify_status": "secondary-wayback-2026-06-14",
+        "verify_status": "secondary-wayback-2026-06-14 (live 403; Chrome unavailable this run)",
         "note": "Live page hard-403s automated fetch (no Chrome available this run); policy re-read in full from Wayback 2026-06-14 capture, which renders the complete editorial-policies text."
       }
     },
@@ -354,14 +354,14 @@
       "c2_fit": "fits",
       "c3": "Relational",
       "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 1,
       "quote": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
-      "quote_label": "Position: Authorship and AI tools",
+      "quote_label": "COPE position statement — Authorship and AI tools",
       "provenance": {
         "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-02-08 (live 403; Chrome unavailable this run)"
       }
     },
     {
@@ -410,14 +410,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": true,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
-      "quote": "All information generated by AI requires human verification. Everything we publish will live up to our long-time standards of verification.",
-      "quote_label": "AI Ethics Guidebook - newsroom AI policy template (updated 2025-06-01)",
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 2,
+      "quote": "Our journalists remain responsible for everything we produce and publish, and we strive to verify anything created with generative AI that you see.",
+      "quote_label": "AI Ethics Starter Kit — public-facing generative AI policy template (2025 update)",
       "provenance": {
         "url": "https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/",
-        "verify_status": "primary-kit-doc-2026-07-12",
+        "verify_status": "secondary-wayback-2026-07-23 → primary kit PDF (live 403; Chrome unavailable this run)",
         "note": "Guidelines page 403s automated fetch; page verified via Wayback 2026-07-09 capture - it is now a landing page for the 2025 AI Ethics Starter Kit. The kit's full policy template (published Google Doc, last updated 2025-06-01) and the public-facing PDF were fetched live and read in full; the coded quote is present verbatim in the template."
       }
     },
@@ -523,14 +523,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 1,
       "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-      "quote_label": "Generative AI guidelines",
+      "quote_label": "Guidelines for Using ChatGPT and other Generative AI tools at Harvard",
       "provenance": {
         "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-03-28 (live 403; Chrome unavailable this run)"
       }
     },
     {
@@ -691,14 +691,14 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 1,
       "quote": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.",
-      "quote_label": "Policy on Authorship, updated 2026-05-14 (browser-verified)",
+      "quote_label": "ACM Policy on Authorship, Use of Artificial Intelligence",
       "provenance": {
         "url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
-        "verify_status": "primary-verified-2026-06-22",
+        "verify_status": "secondary-wayback-2026-05-31 (live 403; Chrome unavailable this run)",
         "note": "Policy updated 2026-05-14: AI writing-assistance disclosure no longer required (research-use still must be described in Methods). D3 2->1; CA 10->11."
       }
     },
@@ -776,14 +776,14 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 1,
       "quote": "Generative AI is not a source as defined in this provision because its output is not created by a person.",
-      "quote_label": "Rights, Rules, Responsibilities 2.4.7",
+      "quote_label": "Rights, Rules, Responsibilities 2.4.7, Generative AI",
       "provenance": {
         "url": "https://rrr.princeton.edu/students-and-university/24-academic-regulations",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-07-20 (live 403; Chrome unavailable this run)"
       }
     },
     {
@@ -1308,21 +1308,21 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
-      "quote": "BBC use of AI must never undermine the trust of audiences.",
-      "quote_label": "Editorial guidance on AI (updated 2026-07-10)",
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 2,
+      "quote": "Any use of AI by the BBC in the creation, presentation or distribution of content must include active human editorial oversight and approval, appropriate to the nature of its use and consistent with the Editorial Guidelines.",
+      "quote_label": "Guidance: The use of Artificial Intelligence",
       "provenance": {
         "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-07-26"
       }
     },
     {
       "id": "reuters-news",
       "name": "Reuters (news agency)",
       "segment": "journalism",
-      "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
+      "url": "https://handbook.reuters.com/index.php?title=Standards_and_Values",
       "scores": {
         "D1": 2,
         "D2": 2,
@@ -1336,14 +1336,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "Our images and stories must reflect reality.",
-      "quote_label": "Handbook of Journalism",
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 1,
+      "quote": "All facts, sources and claims generated by AI must be independently verified and fact-checked by Reuters journalists.",
+      "quote_label": "Reuters Handbook of Journalism — Standards and Values, Artificial Intelligence and Generative AI",
       "provenance": {
-        "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
-        "verify_status": "ok"
+        "url": "https://handbook.reuters.com/index.php?title=Standards_and_Values",
+        "verify_status": "primary-live-2026-07-26"
       }
     },
     {
@@ -1420,14 +1420,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 2,
       "quote": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
-      "quote_label": "Code of Ethics (rev. 2014-09-06)",
+      "quote_label": "SPJ Code of Ethics, Seek Truth and Report It (rev. 2014-09-06)",
       "provenance": {
         "url": "https://www.spj.org/spj-code-of-ethics/",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-07-26"
       }
     },
     {
@@ -1476,14 +1476,14 @@
       "c2_fit": "contradicts",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
-      "quote": "[The policy creates] an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
-      "quote_label": "Cross-Campus Approaches to a GenAI Policy",
+      "coded_date": "2026-07-26",
+      "last_changed": "2026-07-26",
+      "revision": 2,
+      "quote": "Beyond the problem of false accusations, this environment also creates an untenable situation for students who must somehow defend themselves against a machine that cannot show its work but is just a projection.",
+      "quote_label": "Cross-Campus Approaches to Building a Generative AI Policy, EDUCAUSE Review",
       "provenance": {
         "url": "https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy",
-        "verify_status": "secondary-wayback-2026-05-05",
+        "verify_status": "secondary-wayback-2026-05-05 (live 403; Chrome unavailable this run)",
         "note": "Live page now returns 403 to automated fetch (WebFetch and browser-UA curl); article re-read in full from Wayback capture 2026-05-05. Coded quote present verbatim; article body unchanged from the 2023-12-12 publication."
       }
     },

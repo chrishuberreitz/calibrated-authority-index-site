@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-07-12",
-  "last_changed": "2026-07-12",
-  "revision": 1,
+  "coded_date": "2026-07-26",
+  "last_changed": "2026-07-26",
+  "revision": 2,
   "quote": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
-  "quote_label": "AI use policy",
+  "quote_label": "Our Approach to Generative Artificial Intelligence (updated 2026-03-09)",
   "provenance": {
     "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
-    "verify_status": "ok"
+    "verify_status": "primary-live-2026-07-26"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "name": "Calibrated Authority rating — UF Center for Public Interest Communications",
-    "datePublished": "2026-07-12",
+    "datePublished": "2026-07-26",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UF Center for Public Interest Communications — public generative-AI policy",
       "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
       "text": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
       "abstract": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
-      "alternateName": "AI use policy"
+      "alternateName": "Our Approach to Generative Artificial Intelligence (updated 2026-03-09)"
     },
     "reviewRating": {
       "@type": "Rating",

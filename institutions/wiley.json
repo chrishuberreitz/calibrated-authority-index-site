@@ -7,7 +7,7 @@
   "id": "wiley",
   "name": "Wiley",
   "segment": "publisher",
-  "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
+  "url": "https://authorservices.wiley.com/ethics-guidelines/index.html",
   "scores": {
     "D1": 2,
     "D2": 2,
@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "The author is fully responsible for the accuracy of any information provided by the AI Technology.",
-  "quote_label": "Generative AI policy",
+  "coded_date": "2026-07-26",
+  "last_changed": "2026-07-26",
+  "revision": 1,
+  "quote": "Authors may only use AI Technology as an additional tool in their writing process, not a replacement for their own expertise and judgement.",
+  "quote_label": "Wiley Best Practice Guidelines on Research Integrity and Publishing Ethics — Artificial Intelligence, Human Oversight",
   "provenance": {
-    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
-    "verify_status": "primary-verified-2026-06-22"
+    "url": "https://authorservices.wiley.com/ethics-guidelines/index.html",
+    "verify_status": "primary-live-2026-07-26"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/wiley",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/wiley",
     "name": "Calibrated Authority rating — Wiley",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-26",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Wiley — public generative-AI policy",
-      "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
-      "text": "The author is fully responsible for the accuracy of any information provided by the AI Technology.",
-      "abstract": "The author is fully responsible for the accuracy of any information provided by the AI Technology.",
-      "alternateName": "Generative AI policy"
+      "url": "https://authorservices.wiley.com/ethics-guidelines/index.html",
+      "text": "Authors may only use AI Technology as an additional tool in their writing process, not a replacement for their own expertise and judgement.",
+      "abstract": "Authors may only use AI Technology as an additional tool in their writing process, not a replacement for their own expertise and judgement.",
+      "alternateName": "Wiley Best Practice Guidelines on Research Integrity and Publishing Ethics — Artificial Intelligence, Human Oversight"
     },
     "reviewRating": {
       "@type": "Rating",

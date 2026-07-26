@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-26",
+  "last_changed": "2026-07-26",
+  "revision": 1,
   "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-  "quote_label": "Generative AI guidelines",
+  "quote_label": "Guidelines for Using ChatGPT and other Generative AI tools at Harvard",
   "provenance": {
     "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-03-28 (live 403; Chrome unavailable this run)"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/harvard",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/harvard",
     "name": "Calibrated Authority rating — Harvard University",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-26",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Harvard University — public generative-AI policy",
       "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
       "text": "You are responsible for any content that you produce or publish that includes AI-generated material.",
       "abstract": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-      "alternateName": "Generative AI guidelines"
+      "alternateName": "Guidelines for Using ChatGPT and other Generative AI tools at Harvard"
     },
     "reviewRating": {
       "@type": "Rating",

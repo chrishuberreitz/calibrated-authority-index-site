@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-07-24T11:30:00Z"
+    "generated_at": "2026-07-26T20:29:56Z"
   },
   "institutions": [
     {
@@ -55,7 +55,7 @@
       "name": "Wiley",
       "segment": "publisher",
       "ca": 12,
-      "url": "https://onlinelibrary.wiley.com/pb-assets/assets/15405885/Generative%20AI%20Policy_September%202023-1695231878293.pdf",
+      "url": "https://authorservices.wiley.com/ethics-guidelines/index.html",
       "page": "/institutions/wiley",
       "atom": "/institutions/wiley.json"
     },
@@ -406,7 +406,7 @@
       "name": "Reuters (news agency)",
       "segment": "journalism",
       "ca": 11,
-      "url": "https://www.thomsonreuters.com/en/about-us/trust-principles",
+      "url": "https://handbook.reuters.com/index.php?title=Standards_and_Values",
       "page": "/institutions/reuters-news",
       "atom": "/institutions/reuters-news.json"
     },

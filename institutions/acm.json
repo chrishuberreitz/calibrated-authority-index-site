@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-26",
+  "last_changed": "2026-07-26",
+  "revision": 1,
   "quote": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.",
-  "quote_label": "Policy on Authorship, updated 2026-05-14 (browser-verified)",
+  "quote_label": "ACM Policy on Authorship, Use of Artificial Intelligence",
   "provenance": {
     "url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
-    "verify_status": "primary-verified-2026-06-22",
+    "verify_status": "secondary-wayback-2026-05-31 (live 403; Chrome unavailable this run)",
     "note": "Policy updated 2026-05-14: AI writing-assistance disclosure no longer required (research-use still must be described in Methods). D3 2->1; CA 10->11."
   },
   "jsonld": {
@@ -37,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/acm",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/acm",
     "name": "Calibrated Authority rating — ACM",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-26",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "ACM — public generative-AI policy",
       "url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
       "text": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.",
       "abstract": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.",
-      "alternateName": "Policy on Authorship, updated 2026-05-14 (browser-verified)"
+      "alternateName": "ACM Policy on Authorship, Use of Artificial Intelligence"
     },
     "reviewRating": {
       "@type": "Rating",

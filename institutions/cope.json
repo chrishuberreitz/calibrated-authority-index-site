@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Relational",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-07-26",
+  "last_changed": "2026-07-26",
+  "revision": 1,
   "quote": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
-  "quote_label": "Position: Authorship and AI tools",
+  "quote_label": "COPE position statement — Authorship and AI tools",
   "provenance": {
     "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-02-08 (live 403; Chrome unavailable this run)"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cope",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cope",
     "name": "Calibrated Authority rating — COPE",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-07-26",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "COPE — public generative-AI policy",
       "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
       "text": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
       "abstract": "AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements.",
-      "alternateName": "Position: Authorship and AI tools"
+      "alternateName": "COPE position statement — Authorship and AI tools"
     },
     "reviewRating": {
       "@type": "Rating",

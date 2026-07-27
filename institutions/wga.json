@@ -1,0 +1,79 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "wga",
+  "name": "Writers Guild of America — 2023 MBA, AI provisions",
+  "segment": "labor-union",
+  "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "D4": 2,
+    "D5": 2,
+    "D6": 0
+  },
+  "ca": 9,
+  "posture": "Prohibitive",
+  "c2_fit": "contradicts",
+  "c3": "Relational",
+  "twilight": false,
+  "coded_date": "2026-07-25",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Neither traditional AI (technologies including those used in CGI and VFX) nor generative AI (GAI, meaning artificial intelligence that produces content including written material) is a writer, so no written material produced by traditional AI or GAI can be considered literary material.",
+  "quote_label": "WGA 2023 Minimum Basic Agreement, AI provisions (Know Your Rights: Artificial Intelligence)",
+  "provenance": {
+    "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/wga",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/wga",
+    "name": "Calibrated Authority rating — Writers Guild of America — 2023 MBA, AI provisions",
+    "datePublished": "2026-07-25",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Writers Guild of America — 2023 MBA, AI provisions — public generative-AI policy",
+      "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
+      "text": "Neither traditional AI (technologies including those used in CGI and VFX) nor generative AI (GAI, meaning artificial intelligence that produces content including written material) is a writer, so no written material produced by traditional AI or GAI can be considered literary material.",
+      "abstract": "Neither traditional AI (technologies including those used in CGI and VFX) nor generative AI (GAI, meaning artificial intelligence that produces content including written material) is a writer, so no written material produced by traditional AI or GAI can be considered literary material.",
+      "alternateName": "WGA 2023 Minimum Basic Agreement, AI provisions (Know Your Rights: Artificial Intelligence)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 9,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 0. Posture: Prohibitive. Verification-boundary fit: contradicts. Trust-logic: Relational."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

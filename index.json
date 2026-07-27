@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-26T20:29:56Z",
+  "dateModified": "2026-07-27T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -91,7 +91,7 @@
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 55,
+    "n": 56,
     "mean_ca": 9.8,
     "ca_range": [
       3,
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-26T20:29:56Z"
+    "generated_at": "2026-07-27T11:30:00Z"
   },
   "institutions": [
     {
@@ -1683,6 +1683,34 @@
         "url": "https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources",
         "verify_status": "ok",
         "note": "Coded from the flagship advice paper linked off the watchlist resources page. Anti-ban, integration-with-integrity stance: 'This approach is preferable to trying to ban the use of these tools outright.' D2 anchored on student responsibility for submission integrity; D6 on 'the ability to check facts and authenticate information derived from Generative Artificial Intelligence software has emerged as a key graduate attribute'. Hybrid-submission gray zone handled through support systems first (twilight). Permit-vs-reserve line drawn on evidencing use, with verification economics as motivation (detection 'fraught with difficulty' drives assessment redesign) - partial fit."
+      }
+    },
+    {
+      "id": "wga",
+      "name": "Writers Guild of America — 2023 MBA, AI provisions",
+      "segment": "labor-union",
+      "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
+      "scores": {
+        "D1": 1,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2,
+        "D6": 0
+      },
+      "ca": 9,
+      "posture": "Prohibitive",
+      "c2_fit": "contradicts",
+      "c3": "Relational",
+      "twilight": false,
+      "coded_date": "2026-07-25",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Neither traditional AI (technologies including those used in CGI and VFX) nor generative AI (GAI, meaning artificial intelligence that produces content including written material) is a writer, so no written material produced by traditional AI or GAI can be considered literary material.",
+      "quote_label": "WGA 2023 Minimum Basic Agreement, AI provisions (Know Your Rights: Artificial Intelligence)",
+      "provenance": {
+        "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
+        "verify_status": "ok"
       }
     }
   ]

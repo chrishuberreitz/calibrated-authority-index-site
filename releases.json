@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26",
+  "generated": "2026-07-27",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -143,6 +143,23 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-12)",
       "move_event_ts": "2026-07-12T20:26:15Z"
+    },
+    {
+      "ts": "2026-07-27T11:30:00Z",
+      "date": "2026-07-27",
+      "id": "wga",
+      "name": "Writers Guild of America — 2023 MBA, AI provisions",
+      "category": "add",
+      "rationale": "Writers Guild of America — 2023 MBA, AI provisions is the strongest coded-but-unreleased record in the queue (advisory 10/10: recognition 3 · segment gap 2 · theory 3 · timeliness 2). CA 9/12 with a Prohibitive posture; it opens the labor-union segment — no released institution covers it yet; its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"Neither traditional AI (technologies including those used in CGI and VFX) nor generative AI (GAI, meaning artificial intelligence that produces content including written material)…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 10/10 (bar 6)",
+      "score": {
+        "total": 10,
+        "recognition": 3,
+        "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
     }
   ]
 }

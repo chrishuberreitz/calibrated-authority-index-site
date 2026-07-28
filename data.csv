@@ -55,3 +55,4 @@ vatican-ddf,Vatican (DDF/DCE) — Antiqua et Nova (2025),faith-institution,https
 ala,American Library Association,library,https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
 qaa-uk,QAA (UK Quality Assurance Agency),gov-education,https://www.qaa.ac.uk/sector-resources/generative-artificial-intelligence/qaa-advice-and-resources,1,2,1,1,1,2,8,Enabling,partially,Both-split,True,ok
 wga,"Writers Guild of America — 2023 MBA, AI provisions",labor-union,https://www.wga.org/contracts/know-your-rights/artificial-intelligence,1,2,2,2,2,0,9,Prohibitive,contradicts,Relational,False,ok
+china-cac,Cyberspace Administration of China — Interim Measures for Generative AI Services,regulator,https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm,2,2,2,2,1,1,10,Balanced,contradicts,Neither,False,ok

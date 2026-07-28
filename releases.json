@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -157,6 +157,23 @@
         "total": 10,
         "recognition": 3,
         "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-07-28T11:30:00Z",
+      "date": "2026-07-28",
+      "id": "china-cac",
+      "name": "Cyberspace Administration of China — Interim Measures for Generative AI Services",
+      "category": "add",
+      "rationale": "Cyberspace Administration of China — Interim Measures for Generative AI Services is the strongest coded-but-unreleased record in the queue (advisory 9/10: recognition 3 · segment gap 1 · theory 3 · timeliness 2). CA 10/12 with a Balanced posture; it thickens the thin regulator segment (only 1 released so far); its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"Uphold the Core Socialist Values; content such as that inciting subversion of national sovereignty or the overturn of the socialist system, endangering national security, as well a…\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 9/10 (bar 6)",
+      "score": {
+        "total": 9,
+        "recognition": 3,
+        "segment_gap": 1,
         "theory": 3,
         "timeliness": 2
       }

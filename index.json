@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-27T11:30:00Z",
+  "dateModified": "2026-07-28T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -91,7 +91,7 @@
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 56,
+    "n": 57,
     "mean_ca": 9.8,
     "ca_range": [
       3,
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-27T11:30:00Z"
+    "generated_at": "2026-07-28T11:30:00Z"
   },
   "institutions": [
     {
@@ -1710,6 +1710,34 @@
       "quote_label": "WGA 2023 Minimum Basic Agreement, AI provisions (Know Your Rights: Artificial Intelligence)",
       "provenance": {
         "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "china-cac",
+      "name": "Cyberspace Administration of China — Interim Measures for Generative AI Services",
+      "segment": "regulator",
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "contradicts",
+      "c3": "Neither",
+      "twilight": false,
+      "coded_date": "2026-07-25",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Uphold the Core Socialist Values; content such as that inciting subversion of national sovereignty or the overturn of the socialist system, endangering national security, as well as fake and harmful information, must not be generated",
+      "quote_label": "CAC, Interim Measures for the Management of Generative AI Services, Art. 4 — English rendering per China Law Translate (chinalawtranslate.com/en/generative-ai-interim/); official Chinese text at cac.gov.cn",
+      "provenance": {
+        "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
         "verify_status": "ok"
       }
     }

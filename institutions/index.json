@@ -7,8 +7,8 @@
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
-    "n": 57,
-    "mean_ca": 9.8,
+    "n": 58,
+    "mean_ca": 9.7,
     "ca_range": [
       3,
       12
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-07-28T11:30:00Z"
+    "generated_at": "2026-07-29T17:23:29Z"
   },
   "institutions": [
     {
@@ -535,6 +535,15 @@
       "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
       "page": "/institutions/china-cac",
       "atom": "/institutions/china-cac.json"
+    },
+    {
+      "id": "us-copyright-office",
+      "name": "U.S. Copyright Office",
+      "segment": "regulator",
+      "ca": 7,
+      "url": "https://www.copyright.gov/ai/ai_policy_guidance.pdf",
+      "page": "/institutions/us-copyright-office",
+      "atom": "/institutions/us-copyright-office.json"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29",
+  "generated": "2026-07-30",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -191,6 +191,23 @@
         "total": 9,
         "recognition": 3,
         "segment_gap": 1,
+        "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-07-30T11:30:00Z",
+      "date": "2026-07-30",
+      "id": "annals-mathematics",
+      "name": "Annals of Mathematics (Princeton University & IAS)",
+      "category": "add",
+      "rationale": "Annals of Mathematics (Princeton University & IAS) is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 0 · theory 3 · timeliness 2). CA 10/12 with a Balanced posture; it extends the publisher segment (10 already released); its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agent…\". Coded 4 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 0,
         "theory": 3,
         "timeliness": 2
       }

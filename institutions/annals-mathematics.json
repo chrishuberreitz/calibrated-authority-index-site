@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-06-22",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "annals-mathematics",
+  "name": "Annals of Mathematics (Princeton University & IAS)",
+  "segment": "publisher",
+  "url": "https://annals.math.princeton.edu/submission-guidelines",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "contradicts",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-07-26",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+  "quote_label": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy",
+  "provenance": {
+    "url": "https://annals.math.princeton.edu/submission-guidelines",
+    "verify_status": "primary-live-2026-07-26",
+    "note": "Disconfirming case, RE-SCORED on drain rather than trusted. The staged 2026-06-23 quote ('The Annals of Mathematics does not consider papers generated using AI products') is GONE from the live page — the policy has LOOSENED from a flat refusal to consider AI-generated papers into a disclose-and-locate rule. Re-scored 7/12 -> 10/12, posture Prohibitive -> Balanced. c2_fit stays 'deviates': mathematics has the cheapest verification economics of any field (proof is mechanically checkable), yet the Annals now draws exactly the same permit-vs-reserve line as biomedical and social-science publishers whose proof is expensive, and still never cites verifiability as the reason. Cheap proof did not buy more machine latitude — it bought the same line. Drained from tranche-1-staged-2026-06-23."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/annals-mathematics",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/annals-mathematics",
+    "name": "Calibrated Authority rating — Annals of Mathematics (Princeton University & IAS)",
+    "datePublished": "2026-07-26",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Annals of Mathematics (Princeton University & IAS) — public generative-AI policy",
+      "url": "https://annals.math.princeton.edu/submission-guidelines",
+      "text": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+      "abstract": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+      "alternateName": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: contradicts. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-06-22",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-29T17:23:29Z",
+  "dateModified": "2026-07-30T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -91,7 +91,7 @@
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
     "version": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 58,
+    "n": 59,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -136,7 +136,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-29T17:23:29Z"
+    "generated_at": "2026-07-30T11:30:00Z"
   },
   "institutions": [
     {
@@ -1768,6 +1768,35 @@
         "url": "https://www.copyright.gov/ai/ai_policy_guidance.pdf",
         "verify_status": "primary-live-2026-07-26",
         "note": "Disconfirming case retained. Reserves authorship for humans by constitutional and statutory doctrine — a machine cannot be an author — NOT by verification cost. Verification appears only as a secondary, technology-contingent consideration. Drained from tranche-1-staged-2026-06-23; quote re-fetched live 2026-07-26 and confirmed verbatim. Record URL corrected from the Part 2 Copyrightability Report to the Registration Guidance the quote actually comes from."
+      }
+    },
+    {
+      "id": "annals-mathematics",
+      "name": "Annals of Mathematics (Princeton University & IAS)",
+      "segment": "publisher",
+      "url": "https://annals.math.princeton.edu/submission-guidelines",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "D5": 2,
+        "D6": 1
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "contradicts",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-07-26",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+      "quote_label": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy",
+      "provenance": {
+        "url": "https://annals.math.princeton.edu/submission-guidelines",
+        "verify_status": "primary-live-2026-07-26",
+        "note": "Disconfirming case, RE-SCORED on drain rather than trusted. The staged 2026-06-23 quote ('The Annals of Mathematics does not consider papers generated using AI products') is GONE from the live page — the policy has LOOSENED from a flat refusal to consider AI-generated papers into a disclose-and-locate rule. Re-scored 7/12 -> 10/12, posture Prohibitive -> Balanced. c2_fit stays 'deviates': mathematics has the cheapest verification economics of any field (proof is mechanically checkable), yet the Annals now draws exactly the same permit-vs-reserve line as biomedical and social-science publishers whose proof is expensive, and still never cites verifiability as the reason. Cheap proof did not buy more machine latitude — it bought the same line. Drained from tranche-1-staged-2026-06-23."
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30",
+  "generated": "2026-07-31",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -211,6 +211,17 @@
         "theory": 3,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-07-31T11:30:04Z",
+      "date": "2026-07-31",
+      "id": "uf-cpic",
+      "name": "UF Center for Public Interest Communications",
+      "category": "move",
+      "rationale": "UF Center for Public Interest Communications changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 2, observed 2026-07-26. The policy's own stated effective date is 2026-03-09. Re-read live 2026-07-26. Substantive policy text unchanged; the document still carries its own 'Updated: 3/9/2026' stamp and every scored provision is verbatim identical. The scan diff is the trailing…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-07-26)",
+      "move_event_ts": "2026-07-26T20:25:58Z"
     }
   ]
 }

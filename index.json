@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-06-22",
+  "version": "2026-07-31",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-07-31T11:30:05Z",
+  "dateModified": "2026-08-02T05:38:41Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,7 +89,8 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-06-22",
+    "version": "2026-07-31",
+    "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
     "n": 59,
     "mean_ca": 9.7,
@@ -128,7 +129,7 @@
       "fields": {
         "ca": "Composite Calibrated Authority score, sum of D1-D6 (0-12).",
         "posture": "The institution's overall stance toward generative AI: Prohibitive, Balanced, or Enabling.",
-        "c2_fit": "Verification-boundary fit: does the policy land where the thesis predicts (fits | deviates).",
+        "c2_fit": "Verification-boundary fit: does the policy land where the thesis predicts (fits | partially | contradicts).",
         "c3": "Trust-logic: Evidential | Relational | Both-split | Neither.",
         "twilight": "Whether the policy uses precedent-collapse / feedback-delay / exponential-fog ('twilight') framing."
       }
@@ -136,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-07-31T11:30:05Z"
+    "generated_at": "2026-08-02T05:38:41Z"
   },
   "institutions": [
     {

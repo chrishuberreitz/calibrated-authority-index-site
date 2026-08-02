@@ -2,7 +2,21 @@
 .git
 .DS_Store
 node_modules
+# Agent git worktrees land here and contain FULL stale copies of the site
+# (older index.html, index.json at N=51). Gitignored, but .gitignore does not
+# govern what the Vercel CLI uploads — exclude it explicitly.
+.claude/
 # internal runbook — keep local, never publish
 DEPLOY.md
 # design exploration — local reference only
 spikes/
+# Page SOURCES. index.html / start.html are rendered from these by
+# `ca-index export --public`; the rendered artifacts DO deploy. Shipping the
+# sources too would put a second, crawlable copy of the front page online with
+# {{n}} where the corpus size belongs.
+*.template.html
+# Build receipt for og.png — records which corpus numbers are burned into the
+# share card so `ca-index lint-site` can catch a stale one without OCR. Belongs
+# in git (it must travel with the card), not on the site: the crawlable JSON
+# surfaces here are curated, and this one is a note to the build, not to a reader.
+og.card.json

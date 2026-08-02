@@ -122,7 +122,13 @@
         "string",
         "null"
       ],
-      "description": "Verification-boundary fit (fits | deviates)."
+      "enum": [
+        "fits",
+        "partially",
+        "contradicts",
+        null
+      ],
+      "description": "Verification-boundary fit (fits | partially | contradicts)."
     },
     "c3": {
       "type": [

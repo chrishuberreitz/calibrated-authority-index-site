@@ -12,7 +12,7 @@ gtag('config', 'G-T7J2FH4PW6');
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Connect your agent — The Calibrated Authority Index</title>
-<meta name="description" content="The Calibrated Authority Index is agent-callable: a hosted MCP endpoint any AI agent can connect to for lookup, search, compare, stats, and methodology tools." />
+<meta name="description" content="The Calibrated Authority Index is agent-callable: a hosted MCP endpoint any AI agent can connect to for lookup, search, compare, stats, and methodology tools. Every response names the dataset version it came from." />
 <link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/agents" />
 <style>
 :root{
@@ -53,7 +53,7 @@ agent can query, compare, and cite directly.</p>
 <h2>Endpoint</h2>
 <pre><code>https://calibrated-authority.chrishuberreitz.com/api/mcp</code></pre>
 <p class="small">MCP Streamable HTTP transport — JSON-RPC 2.0 over POST, plain-JSON responses,
-stateless, no auth. CORS open. Serves the launch corpus snapshot (N=51, v2026-06-22).</p>
+stateless, no auth. CORS open.</p>
 
 <h2>Claude Code</h2>
 <pre><code>claude mcp add --transport http ca-index \
@@ -69,11 +69,26 @@ stateless, no auth. CORS open. Serves the launch corpus snapshot (N=51, v2026-06
   }
 }</code></pre>
 
+<h2>Every answer names its dataset</h2>
+<p>The corpus travels inside the endpoint — a serverless function has no database to read at
+request time. It is rebuilt from the released dataset on every publish, in the same run that
+writes <a href="/index.json">index.json</a> and <a href="/data.csv">data.csv</a>, so the agent
+surface and the human one move together.</p>
+<p>Every response carries a <code>dataset</code> block: the version, the number of institutions,
+when it was generated, and a link back to the live dataset. Results, misses and ambiguities all
+carry it. You never have to call a second tool to learn whether the first one was current. The
+Index scores institutions on traceability; its own endpoint should pass.</p>
+
+<h2>Ambiguity is reported, not guessed</h2>
+<p>A name matching more than one institution comes back as a list of candidates with their ids.
+Two institutions with two different scores never resolve to whichever record the file happened to
+list first. An exact id always wins.</p>
+
 <h2>Tools</h2>
 <table>
 <tr><th>tool</th><th>what it returns</th></tr>
-<tr><td>ca_index_lookup</td><td>One institution's full record by name or id — six dimension scores, composite CA, trust-logic, the verbatim policy quote, source URL, permalink.</td></tr>
-<tr><td>ca_index_search</td><td>Filter the corpus by posture, trust-logic, verification-boundary fit, segment, CA range, or twilight markers.</td></tr>
+<tr><td>ca_index_lookup</td><td>One institution's full record by name or id — six dimension scores, composite CA, trust-logic, the verbatim policy quote, source URL, permalink, and the date it was last re-coded. An ambiguous name returns candidates.</td></tr>
+<tr><td>ca_index_search</td><td>Filter the corpus by posture, trust-logic, verification-boundary fit (<code>fits</code> · <code>partially</code> · <code>contradicts</code>), segment, CA range, or twilight markers. A value the corpus does not use is an error listing the ones it does.</td></tr>
 <tr><td>ca_index_compare</td><td>Two institutions side by side — full records, the CA gap, which dimensions differ.</td></tr>
 <tr><td>ca_index_stats</td><td>Corpus-level stats: N, mean CA, range, per-segment means, fit and trust-logic counts.</td></tr>
 <tr><td>ca_index_methodology</td><td>The instrument definition, how to cite, license, machine-readable manifest URL.</td></tr>

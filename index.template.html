@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!-- GENERATED FILE — DO NOT EDIT.
-     Rendered from index.template.html by `ca-index export --public`.
-     Every corpus count on this page is bound at build time from the released
-     corpus. Edit the template; edits made here are erased by the next export.
-     -->
 <html lang="en">
 <head>
 <!-- Google tag (gtag.js) -->
@@ -19,7 +14,7 @@ gtag('config', 'G-T7J2FH4PW6');
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>The Calibrated Authority Index</title>
-<meta name="description" content="A living corpus coding how 59 knowledge institutions construct trust in generative AI — six dimensions, a 0–12 Calibrated Authority score, and the verification-economics thesis observed in the wild. By Chris Huber Reitz." />
+<meta name="description" content="A living corpus coding how {{n}} knowledge institutions construct trust in generative AI — six dimensions, a 0–12 Calibrated Authority score, and the verification-economics thesis observed in the wild. By Chris Huber Reitz." />
 <link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/" />
 <meta name="robots" content="index,follow" />
 
@@ -31,14 +26,14 @@ gtag('config', 'G-T7J2FH4PW6');
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="The Calibrated Authority Index" />
 <meta property="og:title" content="The Calibrated Authority Index" />
-<meta property="og:description" content="How 59 knowledge institutions quietly rewrote the rules of trust in AI. We trust machines exactly as far as we can check them — past that, it's faith." />
+<meta property="og:description" content="How {{n}} knowledge institutions quietly rewrote the rules of trust in AI. We trust machines exactly as far as we can check them — past that, it's faith." />
 <meta property="og:url" content="https://calibrated-authority.chrishuberreitz.com/" />
 <meta property="og:image" content="https://calibrated-authority.chrishuberreitz.com/og.png" />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="The Calibrated Authority Index" />
-<meta name="twitter:description" content="59 institutions built to be trusted wrote AI rules. 46 drew the same line: machines do the work you can cheaply check; humans keep what you can't." />
+<meta name="twitter:description" content="{{n}} institutions built to be trusted wrote AI rules. {{fits}} drew the same line: machines do the work you can cheaply check; humans keep what you can't." />
 <meta name="twitter:image" content="https://calibrated-authority.chrishuberreitz.com/og.png" />
 
 <!-- schema.org/Dataset JSON-LD -->
@@ -48,7 +43,7 @@ gtag('config', 'G-T7J2FH4PW6');
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-07-31",
+  "version": "{{version}}",
   "creator": { "@type": "Person", "name": "Chris Huber Reitz", "url": "https://chrishuberreitz.com",
     "sameAs": ["https://chrishuberreitz.com", "https://chrishuberreitz.com/frameworks/calibrated-authority", "https://www.linkedin.com/in/chrishuberreitz"] },
   "isBasedOn": "https://chrishuberreitz.com/frameworks/calibrated-authority",
@@ -64,7 +59,7 @@ gtag('config', 'G-T7J2FH4PW6');
     { "@type": "PropertyValue", "name": "D6", "description": "Evidential-trust emphasis" },
     { "@type": "PropertyValue", "name": "ca", "description": "Composite Calibrated Authority score (0-12)." }
   ],
-  "dateModified": "2026-07-31",
+  "dateModified": "{{version}}",
   "distribution": [
     { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://calibrated-authority.chrishuberreitz.com/index.json" },
     { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://calibrated-authority.chrishuberreitz.com/data.csv" }
@@ -577,7 +572,7 @@ html.ff-in-the-news .itn-link{display:inline}
   <header>
     <div class="brand">
       <h1 class="serif">The Calibrated Authority Index</h1>
-      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">59 institutions built to be trusted wrote AI rules; 46 drew the same line — independently, in their own published words.</span></p>
+      <p class="sub"><strong class="thesis">Machines do the work you can cheaply check; humans keep what you can't.</strong><span class="why">That boundary — drawn by the institutions that decide what counts as true — is where AI's place in knowledge gets settled.</span><span class="prov">{{n}} institutions built to be trusted wrote AI rules; {{fits}} drew the same line — independently, in their own published words.</span></p>
       <a class="startlink" href="/start">New here? — start with the 30-second version →</a>
     </div>
     <div class="hright">
@@ -585,8 +580,8 @@ html.ff-in-the-news .itn-link{display:inline}
         <!-- Bound at BUILD time from the released corpus, then re-hydrated from
              index.json on load. One source of truth, read twice — so the number
              is right before the fetch resolves and right after it. -->
-        <div><div class="k" id="stat-n">59</div><div class="l">institutions read</div></div>
-        <div><div class="k evid"><span id="stat-fits">46</span>/<span id="stat-n2">59</span></div><div class="l">drew the same line</div></div>
+        <div><div class="k" id="stat-n">{{n}}</div><div class="l">institutions read</div></div>
+        <div><div class="k evid"><span id="stat-fits">{{fits}}</span>/<span id="stat-n2">{{n}}</span></div><div class="l">drew the same line</div></div>
       </div>
       <p class="cakey"><b>CA · Calibrated Authority</b><br>how firmly a policy ties trust in AI to checkable proof — scored <b>0–12</b>.</p>
     </div>
@@ -595,14 +590,14 @@ html.ff-in-the-news .itn-link{display:inline}
   <main id="canvas">
     <!-- A -->
     <section class="zone" data-z="A" tabindex="0" role="button" aria-label="Open the full scoreboard" data-secnum="1" data-abstract="The full corpus, ranked 0–12, with the short tail that breaks rank.">
-      <div class="ztag"><span class="dot"></span><span class="lbl">A · The 59, scored</span><span class="hint">tap for all 59 ⊕</span></div>
-      <h2 class="serif">Where the 59 landed — and the tail</h2>
+      <div class="ztag"><span class="dot"></span><span class="lbl">A · The {{n}}, scored</span><span class="hint">tap for all {{n}} ⊕</span></div>
+      <h2 class="serif">Where the {{n}} landed — and the tail</h2>
       <div class="zbody"><span class="sb-ca-cap" aria-hidden="true">CA · 0–12</span><div class="sb" id="sb-mini"></div></div>
       <div class="tldr">Each scored <b>0–12</b> on how firmly it keeps a human accountable for what a machine can't prove. Most land high; a short tail breaks rank.</div>
     </section>
 
     <!-- B -->
-    <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open the line they drew" data-secnum="2" data-abstract="One axis — the cost of proof — and where 46 institutions drew the same line.">
+    <section class="zone" data-z="B" tabindex="0" role="button" aria-label="Open the line they drew" data-secnum="2" data-abstract="One axis — the cost of proof — and where {{fits}} institutions drew the same line.">
       <div class="ztag"><span class="dot"></span><span class="lbl">B · The line</span><span class="hint">tap for their words ⊕</span></div>
       <h2 class="serif">The line every institution drew</h2>
       <p class="blead"><b>Every one lets AI fix your grammar. Not one lets AI sign the work.</b> <span class="bsub">A readout of what they permit — in their own words.</span></p>
@@ -631,12 +626,12 @@ html.ff-in-the-news .itn-link{display:inline}
     </section>
 
     <!-- D -->
-    <section class="zone" data-z="D" tabindex="0" role="button" aria-label="Open dissent and deviation" data-secnum="4" data-abstract="The 13 that didn't draw it cleanly — where the rule breaks, and the thesis earns its keep.">
+    <section class="zone" data-z="D" tabindex="0" role="button" aria-label="Open dissent and deviation" data-secnum="4" data-abstract="The {{deviants}} that didn't draw it cleanly — where the rule breaks, and the thesis earns its keep.">
       <div class="ztag"><span class="dot"></span><span class="lbl">D · Dissent &amp; deviation</span><span class="hint">tap to expand ⊕</span></div>
       <h2 class="serif">The honest edges</h2>
       <div class="zbody"><div class="dz">
         <!-- bound at build time, re-hydrated on load (see #d-fits/#d-partial/#d-rev) -->
-        <div class="dcount"><b id="d-fits">46</b> drew the line · <b id="d-partial">8</b> drew it partly · <b class="rev" id="d-rev">5</b> drew a different line</div>
+        <div class="dcount"><b id="d-fits">{{fits}}</b> drew the line · <b id="d-partial">{{partially}}</b> drew it partly · <b class="rev" id="d-rev">{{contradicts}}</b> drew a different line</div>
         <div class="cq">
           <div class="who">EDUCAUSE <span class="sc">CA 3 · the lowest score in the corpus</span></div>
           <p class="dsum">Found AI-detection doesn't work — so it moved trust out of <em>proof</em> and into <em>process</em>: who's in the room when the rule gets written. <span class="dsrc">— the Index's reading of the policy, not a quote</span></p>
@@ -659,7 +654,7 @@ html.ff-in-the-news .itn-link{display:inline}
   </section>
 
   <footer>
-    <span>Updated <span id="f-date">2026-07-31</span> · v<span id="f-ver">2026-07-31</span> · CC-BY-4.0 <span class="sep">·</span> DOI <a href="https://doi.org/10.5281/zenodo.21108694" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">10.5281/zenodo.21108694</a> <span class="sep">·</span> <span class="living" id="f-living" role="button" tabindex="0" aria-label="Policy changes since baseline"></span><span class="itn-link" id="f-itn" role="button" tabindex="0" aria-label="External citations of the Index"> <span class="sep">·</span> in the news →</span></span>
+    <span>Updated <span id="f-date">{{version}}</span> · v<span id="f-ver">{{version}}</span> · CC-BY-4.0 <span class="sep">·</span> DOI <a href="https://doi.org/10.5281/zenodo.21108694" target="_blank" rel="noopener" style="color:var(--evid);text-decoration:none">10.5281/zenodo.21108694</a> <span class="sep">·</span> <span class="living" id="f-living" role="button" tabindex="0" aria-label="Policy changes since baseline"></span><span class="itn-link" id="f-itn" role="button" tabindex="0" aria-label="External citations of the Index"> <span class="sep">·</span> in the news →</span></span>
     <span>
       <a href="/methodology">methodology</a> <span class="sep">·</span>
       <a href="/methodology#cite">how to cite</a> <span class="sep">·</span>

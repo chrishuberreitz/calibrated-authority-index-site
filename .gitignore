@@ -5,3 +5,10 @@ DEPLOY.md
 spikes/
 __pycache__/
 .claude/
+
+# NOT ignored, on purpose: index.html and start.html. They are build artifacts
+# rendered from *.template.html, but this repo is the mirror of what is actually
+# SERVED — index.json, methodology.html and institutions/** are generated and
+# committed for the same reason. Ignoring the artifacts would leave the history
+# unable to answer "what did the site say on the day it was cited?"
+# Both the templates and the rendered pages belong in here.

@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-08-02T05:38:41Z"
+    "generated_at": "2026-08-02T20:27:27Z"
   },
   "institutions": [
     {
@@ -505,7 +505,7 @@
       "name": "American Library Association",
       "segment": "library",
       "ca": 12,
-      "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf",
+      "url": "https://www.ala.org/sites/default/files/2026-06/ALA%20CD%2044.2%20AI%20Guidance%20Document%20-%20Final.pdf",
       "page": "/institutions/ala",
       "atom": "/institutions/ala.json"
     },

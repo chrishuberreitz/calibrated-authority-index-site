@@ -21,11 +21,11 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-07-19",
-  "last_changed": "2026-07-19",
-  "revision": 1,
-  "quote": "only a natural person can be an inventor, so AI cannot be",
-  "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (quoting Thaler v. Vidal)",
+  "coded_date": "2026-08-02",
+  "last_changed": "2026-08-02",
+  "revision": 2,
+  "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
+  "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
   "provenance": {
     "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
     "verify_status": "ok"
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uspto",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uspto",
     "name": "Calibrated Authority rating — USPTO — Inventorship Guidance for AI-Assisted Inventions",
-    "datePublished": "2026-07-19",
+    "datePublished": "2026-08-02",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions — public generative-AI policy",
       "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-      "text": "only a natural person can be an inventor, so AI cannot be",
-      "abstract": "only a natural person can be an inventor, so AI cannot be",
-      "alternateName": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (quoting Thaler v. Vidal)"
+      "text": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
+      "abstract": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
+      "alternateName": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)"
     },
     "reviewRating": {
       "@type": "Rating",

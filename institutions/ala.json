@@ -7,7 +7,7 @@
   "id": "ala",
   "name": "American Library Association",
   "segment": "library",
-  "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf",
+  "url": "https://www.ala.org/sites/default/files/2026-06/ALA%20CD%2044.2%20AI%20Guidance%20Document%20-%20Final.pdf",
   "scores": {
     "D1": 2,
     "D2": 2,
@@ -21,13 +21,13 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-07-05",
-  "last_changed": null,
-  "revision": 0,
-  "quote": null,
-  "quote_label": null,
+  "coded_date": "2026-08-02",
+  "last_changed": "2026-08-02",
+  "revision": 1,
+  "quote": "AI will complement rather than replace human intelligence, reasoning, deliberation, and critical thinking; humans remain accountable for AI-automated decisions and their consequences.",
+  "quote_label": "ALA, Guidance on the Use of Artificial Intelligence in Libraries (CD#44.2, adopted 2026 Annual Conference), Public Good — Preserving Human Decision-Making",
   "provenance": {
-    "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf",
+    "url": "https://www.ala.org/sites/default/files/2026-06/ALA%20CD%2044.2%20AI%20Guidance%20Document%20-%20Final.pdf",
     "verify_status": "ok"
   },
   "jsonld": {
@@ -36,11 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/ala",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/ala",
     "name": "Calibrated Authority rating — American Library Association",
-    "datePublished": "2026-07-05",
+    "datePublished": "2026-08-02",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "American Library Association — public generative-AI policy",
-      "url": "https://www.ala.org/sites/default/files/2026-04/AI%20Working%20Group%20-%20%20DRAFT%20for%20ALA%20Board%20Council%20and%20Members.pdf"
+      "url": "https://www.ala.org/sites/default/files/2026-06/ALA%20CD%2044.2%20AI%20Guidance%20Document%20-%20Final.pdf",
+      "text": "AI will complement rather than replace human intelligence, reasoning, deliberation, and critical thinking; humans remain accountable for AI-automated decisions and their consequences.",
+      "abstract": "AI will complement rather than replace human intelligence, reasoning, deliberation, and critical thinking; humans remain accountable for AI-automated decisions and their consequences.",
+      "alternateName": "ALA, Guidance on the Use of Artificial Intelligence in Libraries (CD#44.2, adopted 2026 Annual Conference), Public Good — Preserving Human Decision-Making"
     },
     "reviewRating": {
       "@type": "Rating",

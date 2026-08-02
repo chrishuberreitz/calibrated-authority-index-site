@@ -21,9 +21,9 @@
   "c2_fit": "partially",
   "c3": "Relational",
   "twilight": true,
-  "coded_date": "2026-07-19",
-  "last_changed": "2026-07-19",
-  "revision": 1,
+  "coded_date": "2026-08-02",
+  "last_changed": "2026-08-02",
+  "revision": 2,
   "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
   "quote_label": "Guidance for generative AI in education and research (UNESCO)",
   "provenance": {
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "name": "Calibrated Authority rating — UNESCO — GenAI in education & research",
-    "datePublished": "2026-07-19",
+    "datePublished": "2026-08-02",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UNESCO — GenAI in education & research — public generative-AI policy",

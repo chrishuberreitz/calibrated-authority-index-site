@@ -2,6 +2,86 @@
   "generated": "2026-08-02",
   "moves": [
     {
+      "date": "2026-08-02",
+      "institution": "Elsevier",
+      "id": "elsevier",
+      "kind": "changed",
+      "headline": "Elsevier policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "American Library Association",
+      "id": "ala",
+      "kind": "changed",
+      "headline": "American Library Association policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "Elsevier",
+      "id": "elsevier",
+      "kind": "recoded",
+      "headline": "Elsevier re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "TIGHTEN",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "recoded",
+      "headline": "UNESCO — GenAI in education & research re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "American Library Association",
+      "id": "ala",
+      "kind": "recoded",
+      "headline": "American Library Association re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "FORMALIZE",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-02",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "recoded",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 8 → 8",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
       "date": "2026-07-26",
       "institution": "UF Center for Public Interest Communications",
       "id": "uf-cpic",

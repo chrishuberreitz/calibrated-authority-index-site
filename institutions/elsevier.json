@@ -21,11 +21,11 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-08-02",
+  "last_changed": "2026-08-02",
+  "revision": 1,
   "quote": "Authorship implies responsibilities and tasks that can only be attributed to and performed by humans.",
-  "quote_label": "Author AI policy",
+  "quote_label": "Elsevier — The use of generative AI and AI-assisted technologies in writing for Elsevier",
   "provenance": {
     "url": "https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier",
     "verify_status": "ok"
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/elsevier",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/elsevier",
     "name": "Calibrated Authority rating — Elsevier",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-08-02",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Elsevier — public generative-AI policy",
       "url": "https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier",
       "text": "Authorship implies responsibilities and tasks that can only be attributed to and performed by humans.",
       "abstract": "Authorship implies responsibilities and tasks that can only be attributed to and performed by humans.",
-      "alternateName": "Author AI policy"
+      "alternateName": "Elsevier — The use of generative AI and AI-assisted technologies in writing for Elsevier"
     },
     "reviewRating": {
       "@type": "Rating",

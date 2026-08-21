@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-07-31",
+  "version": "2026-08-21",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "springer-nature",
@@ -17,18 +17,18 @@
     "D6": 2
   },
   "ca": 12,
-  "posture": "Prohibitive",
+  "posture": "Balanced",
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "An attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs.",
-  "quote_label": "Nature Portfolio AI policy",
+  "coded_date": "2026-08-09",
+  "last_changed": "2026-08-09",
+  "revision": 1,
+  "quote": "Scholarly judgement, accountability, and responsibility always remain human.",
+  "quote_label": "Nature Portfolio editorial policies — Artificial Intelligence (AI), risk-assessment framework (live 2026-08-09)",
   "provenance": {
     "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
-    "verify_status": "ok"
+    "verify_status": "primary-live-2026-08-09"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,21 +36,21 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/springer-nature",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/springer-nature",
     "name": "Calibrated Authority rating — Springer Nature / Nature",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-08-09",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Springer Nature / Nature — public generative-AI policy",
       "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
-      "text": "An attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs.",
-      "abstract": "An attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs.",
-      "alternateName": "Nature Portfolio AI policy"
+      "text": "Scholarly judgement, accountability, and responsibility always remain human.",
+      "abstract": "Scholarly judgement, accountability, and responsibility always remain human.",
+      "alternateName": "Nature Portfolio editorial policies — Artificial Intelligence (AI), risk-assessment framework (live 2026-08-09)"
     },
     "reviewRating": {
       "@type": "Rating",
       "ratingValue": 12,
       "bestRating": 12,
       "worstRating": 0,
-      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Prohibitive. Verification-boundary fit: fits. Trust-logic: Both-split."
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
     },
     "author": {
       "@type": "Person",
@@ -71,7 +71,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-07-31",
+      "version": "2026-08-21",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

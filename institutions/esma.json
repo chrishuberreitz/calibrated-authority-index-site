@@ -1,0 +1,79 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "esma",
+  "name": "ESMA — Public Statement on AI in retail investment services",
+  "segment": "financial-regulator",
+  "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-08-02",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "firms’ decisions remain the responsibility of management bodies, irrespective of whether those decisions are taken by people or AI-based tools.",
+  "quote_label": "ESMA Public Statement on the use of AI in the provision of retail investment services (ESMA35-335435667-5924, 30 May 2024), para 2",
+  "provenance": {
+    "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/esma",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/esma",
+    "name": "Calibrated Authority rating — ESMA — Public Statement on AI in retail investment services",
+    "datePublished": "2026-08-02",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "ESMA — Public Statement on AI in retail investment services — public generative-AI policy",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+      "text": "firms’ decisions remain the responsibility of management bodies, irrespective of whether those decisions are taken by people or AI-based tools.",
+      "abstract": "firms’ decisions remain the responsibility of management bodies, irrespective of whether those decisions are taken by people or AI-based tools.",
+      "alternateName": "ESMA Public Statement on the use of AI in the provision of retail investment services (ESMA35-335435667-5924, 30 May 2024), para 2"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

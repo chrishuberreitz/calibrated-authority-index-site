@@ -1,6 +1,133 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-21",
   "moves": [
+    {
+      "date": "2026-08-16",
+      "institution": "BBC",
+      "id": "bbc",
+      "kind": "changed",
+      "headline": "BBC policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-16",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-16",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-16",
+      "institution": "Annals of Mathematics (Princeton University & IAS)",
+      "id": "annals-mathematics",
+      "kind": "changed",
+      "headline": "Annals of Mathematics (Princeton University & IAS) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-16",
+      "institution": "Annals of Mathematics (Princeton University & IAS)",
+      "id": "annals-mathematics",
+      "kind": "recoded",
+      "headline": "Annals of Mathematics (Princeton University & IAS) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "UF Center for Public Interest Communications",
+      "id": "uf-cpic",
+      "kind": "changed",
+      "headline": "UF Center for Public Interest Communications policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "Springer Nature / Nature",
+      "id": "springer-nature",
+      "kind": "changed",
+      "headline": "Springer Nature / Nature policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "SAGE Publishing",
+      "id": "sage",
+      "kind": "changed",
+      "headline": "SAGE Publishing policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "Society of Professional Journalists",
+      "id": "spj",
+      "kind": "changed",
+      "headline": "Society of Professional Journalists policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "Springer Nature / Nature",
+      "id": "springer-nature",
+      "kind": "recoded",
+      "headline": "Springer Nature / Nature re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "SUPERSEDE",
+      "disposition": "SUBSTANTIVE"
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "SAGE Publishing",
+      "id": "sage",
+      "kind": "recoded",
+      "headline": "SAGE Publishing re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "Society of Professional Journalists",
+      "id": "spj",
+      "kind": "recoded",
+      "headline": "Society of Professional Journalists re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-09",
+      "institution": "UF Center for Public Interest Communications",
+      "id": "uf-cpic",
+      "kind": "recoded",
+      "headline": "UF Center for Public Interest Communications re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-08-02",
       "institution": "Elsevier",

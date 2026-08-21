@@ -1,0 +1,79 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "uk-judiciary",
+  "name": "UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders",
+  "segment": "courts-legal",
+  "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 2,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-08-02",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Judicial office holders are personally responsible for material which is produced in their name.",
+  "quote_label": "Artificial Intelligence (AI) — Guidance for Judicial Office Holders, 14 April 2025, §6 Take Responsibility",
+  "provenance": {
+    "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf",
+    "verify_status": "ok"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uk-judiciary",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uk-judiciary",
+    "name": "Calibrated Authority rating — UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders",
+    "datePublished": "2026-08-02",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders — public generative-AI policy",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf",
+      "text": "Judicial office holders are personally responsible for material which is produced in their name.",
+      "abstract": "Judicial office holders are personally responsible for material which is produced in their name.",
+      "alternateName": "Artificial Intelligence (AI) — Guidance for Judicial Office Holders, 14 April 2025, §6 Take Responsibility"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

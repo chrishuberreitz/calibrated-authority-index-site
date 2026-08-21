@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-07-31",
+  "version": "2026-08-21",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "uf-cpic",
@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-07-26",
-  "last_changed": "2026-07-26",
-  "revision": 2,
+  "coded_date": "2026-08-09",
+  "last_changed": "2026-08-09",
+  "revision": 3,
   "quote": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
   "quote_label": "Our Approach to Generative Artificial Intelligence (updated 2026-03-09)",
   "provenance": {
     "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
-    "verify_status": "primary-live-2026-07-26"
+    "verify_status": "primary-live-2026-08-09"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,7 +36,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uf-cpic",
     "name": "Calibrated Authority rating — UF Center for Public Interest Communications",
-    "datePublished": "2026-07-26",
+    "datePublished": "2026-08-09",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UF Center for Public Interest Communications — public generative-AI policy",
@@ -71,7 +71,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-07-31",
+      "version": "2026-08-21",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "naic",
+  "name": "NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers",
+  "segment": "insurance-regulator",
+  "url": "https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Enabling",
+  "c2_fit": "contradicts",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-08-16",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Compliance with these standards is required regardless of the tools and methods Insurers use to make such decisions.",
+  "quote_label": "NAIC Model Bulletin: Use of Artificial Intelligence Systems by Insurers, §3 (adopted by Executive (EX) Committee and Plenary, 4 December 2023)",
+  "provenance": {
+    "url": "https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf",
+    "verify_status": "primary-live-2026-08-16",
+    "note": "Disconfirmation probe that paid out, replicating the CFPB result in an adjacent industry. Human involvement is a risk-calibration factor, not a requirement: §3 directs that controls be \"commensurate with\" the insurer's own risk assessment \"considering: ... (iii) the extent to which humans are involved in the final decision-making process.\" No provision reserves any decision for a human anywhere across underwriting, rating, claims or fraud detection — the basis for D5=1 and c2_fit=contradicts. D4=1 rests on the binding accuracy standard (decisions must not be \"inaccurate, arbitrary, capricious, or unfairly discriminatory\"), not on any fabrication or synthetic-identity rule, which the bulletin lacks despite defining Generative AI. twilight=false: the bulletin asserts precedent CONTINUITY, insisting existing law applies unchanged."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/naic",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/naic",
+    "name": "Calibrated Authority rating — NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers",
+    "datePublished": "2026-08-16",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers — public generative-AI policy",
+      "url": "https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf",
+      "text": "Compliance with these standards is required regardless of the tools and methods Insurers use to make such decisions.",
+      "abstract": "Compliance with these standards is required regardless of the tools and methods Insurers use to make such decisions.",
+      "alternateName": "NAIC Model Bulletin: Use of Artificial Intelligence Systems by Insurers, §3 (adopted by Executive (EX) Committee and Plenary, 4 December 2023)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: contradicts. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

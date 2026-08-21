@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-07-31",
+  "version": "2026-08-21",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "sage",
@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": true,
-  "coded_date": "2026-07-05",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "We distinguish various uses for AI: assistive (no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
-  "quote_label": "AI policy",
+  "coded_date": "2026-08-09",
+  "last_changed": "2026-08-09",
+  "revision": 1,
+  "quote": "We distinguish various uses for AI and related technologies as: assistive (and no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
+  "quote_label": "Sage Journals — Artificial intelligence policy (live 2026-08-09)",
   "provenance": {
     "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
-    "verify_status": "ok"
+    "verify_status": "primary-live-2026-08-09"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/sage",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/sage",
     "name": "Calibrated Authority rating — SAGE Publishing",
-    "datePublished": "2026-07-05",
+    "datePublished": "2026-08-09",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "SAGE Publishing — public generative-AI policy",
       "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
-      "text": "We distinguish various uses for AI: assistive (no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
-      "abstract": "We distinguish various uses for AI: assistive (no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
-      "alternateName": "AI policy"
+      "text": "We distinguish various uses for AI and related technologies as: assistive (and no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
+      "abstract": "We distinguish various uses for AI and related technologies as: assistive (and no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
+      "alternateName": "Sage Journals — Artificial intelligence policy (live 2026-08-09)"
     },
     "reviewRating": {
       "@type": "Rating",
@@ -71,7 +71,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-07-31",
+      "version": "2026-08-21",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

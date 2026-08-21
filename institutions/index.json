@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-07-31",
-    "n": 59,
+    "version": "2026-08-21",
+    "n": 69,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-08-02T20:27:27Z"
+    "generated_at": "2026-08-21T11:30:00Z"
   },
   "institutions": [
     {
@@ -553,6 +553,96 @@
       "url": "https://annals.math.princeton.edu/submission-guidelines",
       "page": "/institutions/annals-mathematics",
       "atom": "/institutions/annals-mathematics.json"
+    },
+    {
+      "id": "uk-judiciary",
+      "name": "UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders",
+      "segment": "courts-legal",
+      "ca": 10,
+      "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf",
+      "page": "/institutions/uk-judiciary",
+      "atom": "/institutions/uk-judiciary.json"
+    },
+    {
+      "id": "nhs-england",
+      "name": "NHS England — AI-enabled ambient scribing guidance",
+      "segment": "healthcare-provider",
+      "ca": 11,
+      "url": "https://www.england.nhs.uk/long-read/guidance-on-the-use-of-ai-enabled-ambient-scribing-products-in-health-and-care-settings/",
+      "page": "/institutions/nhs-england",
+      "atom": "/institutions/nhs-england.json"
+    },
+    {
+      "id": "calbar",
+      "name": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law",
+      "segment": "professional-licensing",
+      "ca": 11,
+      "url": "https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
+      "page": "/institutions/calbar",
+      "atom": "/institutions/calbar.json"
+    },
+    {
+      "id": "esma",
+      "name": "ESMA — Public Statement on AI in retail investment services",
+      "segment": "financial-regulator",
+      "ca": 10,
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+      "page": "/institutions/esma",
+      "atom": "/institutions/esma.json"
+    },
+    {
+      "id": "ama",
+      "name": "American Medical Association — Augmented Intelligence Development, Deployment, and Use in Health Care",
+      "segment": "medical-association",
+      "ca": 12,
+      "url": "https://www.ama-assn.org/system/files/ama-ai-principles.pdf",
+      "page": "/institutions/ama",
+      "atom": "/institutions/ama.json"
+    },
+    {
+      "id": "actuarial-standards-board",
+      "name": "Actuarial Standards Board — ASOP No. 56 (Modeling)",
+      "segment": "standards-body",
+      "ca": 10,
+      "url": "http://www.actuarialstandardsboard.org/asops/modeling-3/",
+      "page": "/institutions/actuarial-standards-board",
+      "atom": "/institutions/actuarial-standards-board.json"
+    },
+    {
+      "id": "easa",
+      "name": "EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications",
+      "segment": "aviation-regulator",
+      "ca": 9,
+      "url": "https://www.easa.europa.eu/en/downloads/137631/en",
+      "page": "/institutions/easa",
+      "atom": "/institutions/easa.json"
+    },
+    {
+      "id": "naic",
+      "name": "NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers",
+      "segment": "insurance-regulator",
+      "ca": 10,
+      "url": "https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf",
+      "page": "/institutions/naic",
+      "atom": "/institutions/naic.json"
+    },
+    {
+      "id": "spc-china",
+      "name": "Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022)",
+      "segment": "courts-legal",
+      "ca": 9,
+      "url": "https://www.chinajusticeobserver.com/law/x/the-supreme-people-s-court-the-opinions-on-regulating-and-strengthening-the-applications-of-artificial-intelligence-in-the-judicial-field-20221208",
+      "page": "/institutions/spc-china",
+      "atom": "/institutions/spc-china.json"
+    },
+    {
+      "id": "imda-pdpc",
+      "name": "IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition)",
+      "segment": "data-protection-regulator",
+      "ca": 5,
+      "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
+      "page": "/institutions/imda-pdpc",
+      "atom": "/institutions/imda-pdpc.json"
     }
   ]
 }

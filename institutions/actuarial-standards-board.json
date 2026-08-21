@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "actuarial-standards-board",
+  "name": "Actuarial Standards Board — ASOP No. 56 (Modeling)",
+  "segment": "standards-body",
+  "url": "http://www.actuarialstandardsboard.org/asops/modeling-3/",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-08-09",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "If preparing documentation, the actuary should prepare such documentation in a form such that another actuary qualified in the same practice area could assess the reasonableness of the actuary's work.",
+  "quote_label": "ASOP No. 56, Modeling, §3.7 Documentation (adopted December 2019, effective 2020-10-01)",
+  "provenance": {
+    "url": "http://www.actuarialstandardsboard.org/asops/modeling-3/",
+    "verify_status": "primary-live-2026-08-09",
+    "note": "DISCONFIRMATION PROBE — coded as a deviation, not a confirmation. D4 = 0: the standard predates generative AI and carries no fabrication or synthetic-identity provision at all. c2_fit 'partially' because the permit line runs against verification economics in two places: §3.4 expressly permits reliance on a model where 'the actuary has a limited ability either to obtain information about the model or to understand the underlying workings of the model,' curing it with disclosure rather than reserve; and §3.6(e) makes 'the balance between the cost of the mitigation efforts and the reduction in potential model risk' a reason to verify LESS, inverting the usual direction. The compensating control is §3.6.2 Model Output Validation — 'The actuary should validate that the model output reasonably represents that which is being modeled' — tested against historical actual results and hold-out data. Read: an institution can hold accountability firmly on a named human (D2=2) while permitting uninspectable machine judgment on work whose proof is decades out."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/actuarial-standards-board",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/actuarial-standards-board",
+    "name": "Calibrated Authority rating — Actuarial Standards Board — ASOP No. 56 (Modeling)",
+    "datePublished": "2026-08-09",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Actuarial Standards Board — ASOP No. 56 (Modeling) — public generative-AI policy",
+      "url": "http://www.actuarialstandardsboard.org/asops/modeling-3/",
+      "text": "If preparing documentation, the actuary should prepare such documentation in a form such that another actuary qualified in the same practice area could assess the reasonableness of the actuary's work.",
+      "abstract": "If preparing documentation, the actuary should prepare such documentation in a form such that another actuary qualified in the same practice area could assess the reasonableness of the actuary's work.",
+      "alternateName": "ASOP No. 56, Modeling, §3.7 Documentation (adopted December 2019, effective 2020-10-01)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

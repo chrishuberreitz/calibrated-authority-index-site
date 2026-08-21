@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "easa",
+  "name": "EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications",
+  "segment": "aviation-regulator",
+  "url": "https://www.easa.europa.eu/en/downloads/137631/en",
+  "scores": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 9,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-08-16",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Firstly, learning assurance covers the paradigm shift from programming to learning, as the existing development assurance methods are not adapted to cover learning processes specific to AI/ML.",
+  "quote_label": "EASA Concept Paper: guidance for Level 1 & 2 machine learning applications, Proposed Issue 02 — AI assurance building block",
+  "provenance": {
+    "url": "https://www.easa.europa.eu/en/downloads/137631/en",
+    "verify_status": "primary-live-2026-08-16",
+    "note": "Level 3 AI is explicitly outside this guidance's scope (\"covering Level 1 and Level 2 AI applications, but not covering yet Level 3 AI applications\"); the end user holds full authority up to Level 2A, with \"the ability to intervene and override any decisions taken and/or actions made by the AI-based system.\" D2=1 rather than 2 because the ethics 'Accountability' gear is an optional self-assessment item that applicants may record as not applicable, and no provision states that a named human bears responsibility for AI-influenced output. D4=0: synthetic data appears only as a permitted training/test supplement, never as a prohibition. twilight=true on the explicit precedent-collapse framing quoted above plus \"we may not always be able to open the 'AI black box' to the extent required and that the associated residual risk may need to be addressed to deal with the inherent uncertainty of AI.\""
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/easa",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/easa",
+    "name": "Calibrated Authority rating — EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications",
+    "datePublished": "2026-08-16",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications — public generative-AI policy",
+      "url": "https://www.easa.europa.eu/en/downloads/137631/en",
+      "text": "Firstly, learning assurance covers the paradigm shift from programming to learning, as the existing development assurance methods are not adapted to cover learning processes specific to AI/ML.",
+      "abstract": "Firstly, learning assurance covers the paradigm shift from programming to learning, as the existing development assurance methods are not adapted to cover learning processes specific to AI/ML.",
+      "alternateName": "EASA Concept Paper: guidance for Level 1 & 2 machine learning applications, Proposed Issue 02 — AI assurance building block"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 9,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

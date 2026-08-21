@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-07-31",
+  "version": "2026-08-21",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "spj",
@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-07-26",
-  "last_changed": "2026-07-26",
-  "revision": 2,
+  "coded_date": "2026-08-09",
+  "last_changed": "2026-08-09",
+  "revision": 3,
   "quote": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
-  "quote_label": "SPJ Code of Ethics, Seek Truth and Report It (rev. 2014-09-06)",
+  "quote_label": "SPJ Code of Ethics, Seek Truth and Report It (2014 revision)",
   "provenance": {
     "url": "https://www.spj.org/spj-code-of-ethics/",
-    "verify_status": "primary-live-2026-07-26"
+    "verify_status": "primary-live-2026-08-09"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +36,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/spj",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/spj",
     "name": "Calibrated Authority rating — Society of Professional Journalists",
-    "datePublished": "2026-07-26",
+    "datePublished": "2026-08-09",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Society of Professional Journalists — public generative-AI policy",
       "url": "https://www.spj.org/spj-code-of-ethics/",
       "text": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
       "abstract": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
-      "alternateName": "SPJ Code of Ethics, Seek Truth and Report It (rev. 2014-09-06)"
+      "alternateName": "SPJ Code of Ethics, Seek Truth and Report It (2014 revision)"
     },
     "reviewRating": {
       "@type": "Rating",
@@ -71,7 +71,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-07-31",
+      "version": "2026-08-21",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

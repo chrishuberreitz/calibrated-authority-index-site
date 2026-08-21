@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02",
+  "generated": "2026-08-21",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -222,6 +222,231 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-07-26)",
       "move_event_ts": "2026-07-26T20:25:58Z"
+    },
+    {
+      "ts": "2026-08-03T11:30:00Z",
+      "date": "2026-08-03",
+      "id": "uk-judiciary",
+      "name": "UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders",
+      "category": "add",
+      "rationale": "UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 10/12 with a Balanced posture; it opens the courts-legal segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Judicial office holders are personally responsible for material which is produced in their name.\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-04T11:30:00Z",
+      "date": "2026-08-04",
+      "id": "nhs-england",
+      "name": "NHS England — AI-enabled ambient scribing guidance",
+      "category": "add",
+      "rationale": "NHS England — AI-enabled ambient scribing guidance is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 11/12 with a Balanced posture; it opens the healthcare-provider segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"ensure users review and approve any product outputs prior to further actions\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-05T11:30:00Z",
+      "date": "2026-08-05",
+      "id": "calbar",
+      "name": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law",
+      "category": "add",
+      "rationale": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 11/12 with a Balanced posture; it opens the professional-licensing segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Critically, any use of AI must not diminish or abdicate professional judgment. A lawyer remains fully responsible for any outputs and work product generated with the assistance of…\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-06T11:30:00Z",
+      "date": "2026-08-06",
+      "id": "esma",
+      "name": "ESMA — Public Statement on AI in retail investment services",
+      "category": "add",
+      "rationale": "ESMA — Public Statement on AI in retail investment services is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 10/12 with a Balanced posture; it opens the financial-regulator segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"firms’ decisions remain the responsibility of management bodies, irrespective of whether those decisions are taken by people or AI-based tools.\". Coded 4 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-07T11:30:00Z",
+      "date": "2026-08-07",
+      "id": "ala",
+      "name": "American Library Association",
+      "category": "move",
+      "rationale": "American Library Association changed its policy and the change is re-coded: FORMALIZE (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 1, observed 2026-08-02. Draft superseded by Council-adopted final (CD#44.2, 2026 Annual Conference, Chicago); old draft URL now serves the Report to Council. Canonical URL updated to the adopted guidance PDF. All six dimensi…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-02)",
+      "move_event_ts": "2026-08-02T20:22:55Z"
+    },
+    {
+      "ts": "2026-08-10T11:30:00Z",
+      "date": "2026-08-10",
+      "id": "ama",
+      "name": "American Medical Association — Augmented Intelligence Development, Deployment, and Use in Health Care",
+      "category": "add",
+      "rationale": "American Medical Association — Augmented Intelligence Development, Deployment, and Use in Health Care is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 12/12 with a Balanced posture; it opens the medical-association segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Clinical decisions influenced by AI must be made with specified qualified human intervention points during the decision-making process. A qualified human is defined as a licensed p…\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-11T11:30:00Z",
+      "date": "2026-08-11",
+      "id": "actuarial-standards-board",
+      "name": "Actuarial Standards Board — ASOP No. 56 (Modeling)",
+      "category": "add",
+      "rationale": "Actuarial Standards Board — ASOP No. 56 (Modeling) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 10/12 with a Enabling posture; it opens the standards-body segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"If preparing documentation, the actuary should prepare such documentation in a form such that another actuary qualified in the same practice area could assess the reasonableness of…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-12T11:30:00Z",
+      "date": "2026-08-12",
+      "id": "springer-nature",
+      "name": "Springer Nature / Nature",
+      "category": "move",
+      "rationale": "Springer Nature / Nature changed its policy and the change is re-coded: SUPERSEDE (SUBSTANTIVE), CA 12 -> 12, revision 1, observed 2026-08-09. Governing document replaced in place at the same URL. The prior policy was a flat authorship prohibition ('Large Language Models (LLMs), such as ChatGPT, do not currently satisfy our authorship criter…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-09)",
+      "move_event_ts": "2026-08-09T20:23:33Z"
+    },
+    {
+      "ts": "2026-08-13T11:30:00Z",
+      "date": "2026-08-13",
+      "id": "sage",
+      "name": "SAGE Publishing",
+      "category": "move",
+      "rationale": "SAGE Publishing changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 1, observed 2026-08-09. Re-read in full on the scan-flagged change; the three-tier structure and every operative rule are intact, so scores hold at 12. The stored quote was a light paraphrase and has been replaced with the e…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-09)",
+      "move_event_ts": "2026-08-09T20:23:33Z"
+    },
+    {
+      "ts": "2026-08-14T11:30:00Z",
+      "date": "2026-08-14",
+      "id": "spj",
+      "name": "Society of Professional Journalists",
+      "category": "move",
+      "rationale": "Society of Professional Journalists changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 9 -> 9, revision 3, observed 2026-08-09. Re-read in full; the governing document is still the 2014 revision and the stored quote is confirmed verbatim on the live page. The Code contains no mention of artificial intelligence, automation or a…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-09)",
+      "move_event_ts": "2026-08-09T20:23:33Z"
+    },
+    {
+      "ts": "2026-08-17T11:30:00Z",
+      "date": "2026-08-17",
+      "id": "naic",
+      "name": "NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers",
+      "category": "add",
+      "rationale": "NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 1 · segment gap 2 · theory 3 · timeliness 2). CA 10/12 with a Enabling posture; it opens the insurance-regulator segment — no released institution covers it yet; its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"Compliance with these standards is required regardless of the tools and methods Insurers use to make such decisions.\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-18T11:30:00Z",
+      "date": "2026-08-18",
+      "id": "imda-pdpc",
+      "name": "IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition)",
+      "category": "add",
+      "rationale": "IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition) is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 1 · segment gap 2 · theory 3 · timeliness 2). CA 5/12 with a Enabling posture; it opens the data-protection-regulator segment — no released institution covers it yet; its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"Human-out-of-the-loop suggests that there is no human oversight over the execution of decisions. The AI system has full control without the option of human override.\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-19T11:30:00Z",
+      "date": "2026-08-19",
+      "id": "easa",
+      "name": "EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications",
+      "category": "add",
+      "rationale": "EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 9/12 with a Balanced posture; it opens the aviation-regulator segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Firstly, learning assurance covers the paradigm shift from programming to learning, as the existing development assurance methods are not adapted to cover learning processes specif…\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-20T11:30:00Z",
+      "date": "2026-08-20",
+      "id": "spc-china",
+      "name": "Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022)",
+      "category": "add",
+      "rationale": "Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 3 · segment gap 1 · theory 1 · timeliness 2). CA 9/12 with a Enabling posture; it thickens the thin courts-legal segment (only 1 released so far); its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"AI shall not make judicial decision substituting for the judge in any case, disregarding technology advancement. The results from AI shall be for supplemental references only, for…\". Coded 4 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 3,
+        "segment_gap": 1,
+        "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-21T11:30:00Z",
+      "date": "2026-08-21",
+      "id": "annals-mathematics",
+      "name": "Annals of Mathematics (Princeton University & IAS)",
+      "category": "move",
+      "rationale": "Annals of Mathematics (Princeton University & IAS) changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 10 -> 10, revision 1, observed 2026-08-16. Copyedit only: the stray word \"it\" was deleted from the final clause, which now reads \"specify its location in the paper\" (previously \"specify its location it in the paper\"). Snapshot word-diff 2026-0…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-16)",
+      "move_event_ts": "2026-08-16T20:31:46Z"
     }
   ]
 }

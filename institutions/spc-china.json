@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "spc-china",
+  "name": "Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022)",
+  "segment": "courts-legal",
+  "url": "https://www.chinajusticeobserver.com/law/x/the-supreme-people-s-court-the-opinions-on-regulating-and-strengthening-the-applications-of-artificial-intelligence-in-the-judicial-field-20221208",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 9,
+  "posture": "Enabling",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-08-16",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "AI shall not make judicial decision substituting for the judge in any case, disregarding technology advancement. The results from AI shall be for supplemental references only, for adjudication or judicial supervision and management.",
+  "quote_label": "Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields, Art. 5 (Principle of Supporting Adjudication), promulgated 8 December 2022 — English translation from the PRC SPC website, reproduced by China Justice Observer",
+  "provenance": {
+    "url": "https://www.chinajusticeobserver.com/law/x/the-supreme-people-s-court-the-opinions-on-regulating-and-strengthening-the-applications-of-artificial-intelligence-in-the-judicial-field-20221208",
+    "verify_status": "translated-secondary-2026-08-16",
+    "note": "Disconfirmation probe that did NOT disconfirm — the strongest counter-case available, and it failed to break the pattern. The SPC mandates court-wide AI build-out with dated targets for 2025 and 2030 (Arts. 2, 8-12) while imposing the corpus's most absolute human-reserve clause (Art. 5), which also fixes accountability: \"all judicial accountability ultimately falls on the decision-maker.\" Mandated adoption and absolute reserve are compatible; posture=Enabling with D5=2 is the shape. D4=0: unlike uk-judiciary and nz-courts, which both name the fabricated-citation failure mode, the 2022 Opinions contain no fabrication or hallucination provision even though Art. 8 contemplates \"AI-assisted legal documents generation and review.\" D3=1: Art. 6 mandates that capabilities and limitations be \"instructed and identified in a manner that can be easily understood\" at point of use, but nothing requires AI-generated judicial documents to be labelled. c3=Both-split: evidential (Art. 6 interpretability, testability, verifiability) alongside authority-based trust (registration with \"relevant authoritative entities,\" Judicial AI Ethics Council, Core Socialist Values). Coded from translated-secondary because english.court.gov.cn no longer resolves the 2022 release — the same accommodation already made for china-cac."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/spc-china",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/spc-china",
+    "name": "Calibrated Authority rating — Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022)",
+    "datePublished": "2026-08-16",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022) — public generative-AI policy",
+      "url": "https://www.chinajusticeobserver.com/law/x/the-supreme-people-s-court-the-opinions-on-regulating-and-strengthening-the-applications-of-artificial-intelligence-in-the-judicial-field-20221208",
+      "text": "AI shall not make judicial decision substituting for the judge in any case, disregarding technology advancement. The results from AI shall be for supplemental references only, for adjudication or judicial supervision and management.",
+      "abstract": "AI shall not make judicial decision substituting for the judge in any case, disregarding technology advancement. The results from AI shall be for supplemental references only, for adjudication or judicial supervision and management.",
+      "alternateName": "Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields, Art. 5 (Principle of Supporting Adjudication), promulgated 8 December 2022 — English translation from the PRC SPC website, reproduced by China Justice Observer"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 9,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

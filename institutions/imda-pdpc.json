@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "imda-pdpc",
+  "name": "IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition)",
+  "segment": "data-protection-regulator",
+  "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "D4": 0,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 5,
+  "posture": "Enabling",
+  "c2_fit": "contradicts",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-08-16",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Human-out-of-the-loop suggests that there is no human oversight over the execution of decisions. The AI system has full control without the option of human override.",
+  "quote_label": "Model Artificial Intelligence Governance Framework, Second Edition (released 21 January 2020), §3.14(b)",
+  "provenance": {
+    "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
+    "verify_status": "primary-live-2026-08-16",
+    "note": "Disconfirmation probe that paid out, and the lowest-scoring regulator in the corpus. The reserve line is drawn on severity x probability of HARM, not on verification economics, and footnote 4(c) makes operational infeasibility an independent permit ground: \"having a human-in-the-loop would be unfeasible in high-speed financial trading, and be impractical in the case of driverless vehicles\" — machine judgment permitted precisely where proof of a correct individual decision is scarce. D1/D6=1 because traceability and auditability are explicitly discretionary and cost-gated: \"It may not be feasible or cost-effective to implement even the most essential of these measures for all algorithms,\" with reproducibility, traceability and auditability described as \"more resource-intensive\" and relevant only \"in specific scenarios.\" c3=Both-split because evidential measures are selected by which \"will be most effective in building trust with their stakeholders\" — evidence in service of relationship. D3=1: all disclosure is \"encouraged\" or organisations \"can consider,\" never required. D4=0: no fabrication, deepfake or synthetic-identity provision anywhere (a 2020 pre-generative document). twilight=true on \"unlike earlier technologies, some aspects of autonomous predictions or decisions made by AI may not be fully explainable\" and \"perfect explainability, transparency and fairness are impossible to attain.\""
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/imda-pdpc",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/imda-pdpc",
+    "name": "Calibrated Authority rating — IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition)",
+    "datePublished": "2026-08-16",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition) — public generative-AI policy",
+      "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
+      "text": "Human-out-of-the-loop suggests that there is no human oversight over the execution of decisions. The AI system has full control without the option of human override.",
+      "abstract": "Human-out-of-the-loop suggests that there is no human oversight over the execution of decisions. The AI system has full control without the option of human override.",
+      "alternateName": "Model Artificial Intelligence Governance Framework, Second Edition (released 21 January 2020), §3.14(b)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Enabling. Verification-boundary fit: contradicts. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

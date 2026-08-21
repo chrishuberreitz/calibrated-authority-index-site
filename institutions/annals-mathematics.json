@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-07-31",
+  "version": "2026-08-21",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "annals-mathematics",
@@ -21,15 +21,15 @@
   "c2_fit": "contradicts",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-07-26",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+  "coded_date": "2026-08-16",
+  "last_changed": "2026-08-16",
+  "revision": 1,
+  "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location in the paper.",
   "quote_label": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy",
   "provenance": {
     "url": "https://annals.math.princeton.edu/submission-guidelines",
-    "verify_status": "primary-live-2026-07-26",
-    "note": "Disconfirming case, RE-SCORED on drain rather than trusted. The staged 2026-06-23 quote ('The Annals of Mathematics does not consider papers generated using AI products') is GONE from the live page — the policy has LOOSENED from a flat refusal to consider AI-generated papers into a disclose-and-locate rule. Re-scored 7/12 -> 10/12, posture Prohibitive -> Balanced. c2_fit stays 'deviates': mathematics has the cheapest verification economics of any field (proof is mechanically checkable), yet the Annals now draws exactly the same permit-vs-reserve line as biomedical and social-science publishers whose proof is expensive, and still never cites verifiability as the reason. Cheap proof did not buy more machine latitude — it bought the same line. Drained from tranche-1-staged-2026-06-23."
+    "verify_status": "primary-live-2026-08-16",
+    "note": "Verbatim quote corrected 2026-08-16 to match a one-word copyedit in the source (see change history). c2_fit=contradicts is unchanged: mathematics is the cheapest-proof domain in the corpus — a proof either checks or it does not — yet the Annals reserves authorship for humans absolutely, which is the reverse of what verification economics would predict."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,13 +37,13 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/annals-mathematics",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/annals-mathematics",
     "name": "Calibrated Authority rating — Annals of Mathematics (Princeton University & IAS)",
-    "datePublished": "2026-07-26",
+    "datePublished": "2026-08-16",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Annals of Mathematics (Princeton University & IAS) — public generative-AI policy",
       "url": "https://annals.math.princeton.edu/submission-guidelines",
-      "text": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
-      "abstract": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+      "text": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location in the paper.",
+      "abstract": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location in the paper.",
       "alternateName": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy"
     },
     "reviewRating": {
@@ -72,7 +72,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-07-31",
+      "version": "2026-08-21",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

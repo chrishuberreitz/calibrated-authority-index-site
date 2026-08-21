@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-07-31",
+  "version": "2026-08-21",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-08-02T20:27:27Z",
+  "dateModified": "2026-08-21T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-07-31",
+    "version": "2026-08-21",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 59,
+    "n": 69,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-08-02T20:27:27Z"
+    "generated_at": "2026-08-21T11:30:00Z"
   },
   "institutions": [
     {
@@ -158,14 +158,14 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-07-26",
-      "last_changed": "2026-07-26",
-      "revision": 2,
+      "coded_date": "2026-08-09",
+      "last_changed": "2026-08-09",
+      "revision": 3,
       "quote": "All Center content must be replicable, evidence-based and traceable to sources that a human researcher can locate, review and re-create using documented methods.",
       "quote_label": "Our Approach to Generative Artificial Intelligence (updated 2026-03-09)",
       "provenance": {
         "url": "https://realgoodcenter.jou.ufl.edu/about/ai/",
-        "verify_status": "primary-live-2026-07-26"
+        "verify_status": "primary-live-2026-08-09"
       }
     },
     {
@@ -182,18 +182,18 @@
         "D6": 2
       },
       "ca": 12,
-      "posture": "Prohibitive",
+      "posture": "Balanced",
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "An attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs.",
-      "quote_label": "Nature Portfolio AI policy",
+      "coded_date": "2026-08-09",
+      "last_changed": "2026-08-09",
+      "revision": 1,
+      "quote": "Scholarly judgement, accountability, and responsibility always remain human.",
+      "quote_label": "Nature Portfolio editorial policies — Artificial Intelligence (AI), risk-assessment framework (live 2026-08-09)",
       "provenance": {
         "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-08-09"
       }
     },
     {
@@ -1085,14 +1085,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": true,
-      "coded_date": "2026-07-05",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "We distinguish various uses for AI: assistive (no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
-      "quote_label": "AI policy",
+      "coded_date": "2026-08-09",
+      "last_changed": "2026-08-09",
+      "revision": 1,
+      "quote": "We distinguish various uses for AI and related technologies as: assistive (and no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
+      "quote_label": "Sage Journals — Artificial intelligence policy (live 2026-08-09)",
       "provenance": {
         "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-08-09"
       }
     },
     {
@@ -1309,14 +1309,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-07-26",
+      "coded_date": "2026-08-16",
       "last_changed": "2026-07-26",
       "revision": 2,
       "quote": "Any use of AI by the BBC in the creation, presentation or distribution of content must include active human editorial oversight and approval, appropriate to the nature of its use and consistent with the Editorial Guidelines.",
       "quote_label": "Guidance: The use of Artificial Intelligence",
       "provenance": {
         "url": "https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence",
-        "verify_status": "primary-live-2026-07-26"
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: a page build timestamp and build hash (\"Thu Jul 23 14:55:25\"/\"22ac427\" -> \"Wed Aug 12 12:17:42\"/\"106308a\") plus a new \"Careers\" nav link. The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
       }
     },
     {
@@ -1421,14 +1422,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-07-26",
-      "last_changed": "2026-07-26",
-      "revision": 2,
+      "coded_date": "2026-08-09",
+      "last_changed": "2026-08-09",
+      "revision": 3,
       "quote": "Take responsibility for the accuracy of their work. Verify information before releasing it. Use original sources whenever possible.",
-      "quote_label": "SPJ Code of Ethics, Seek Truth and Report It (rev. 2014-09-06)",
+      "quote_label": "SPJ Code of Ethics, Seek Truth and Report It (2014 revision)",
       "provenance": {
         "url": "https://www.spj.org/spj-code-of-ethics/",
-        "verify_status": "primary-live-2026-07-26"
+        "verify_status": "primary-live-2026-08-09"
       }
     },
     {
@@ -1506,15 +1507,15 @@
       "c2_fit": "partially",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-08-02",
+      "coded_date": "2026-08-16",
       "last_changed": "2026-08-02",
       "revision": 2,
       "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
       "quote_label": "Guidance for generative AI in education and research (UNESCO)",
       "provenance": {
         "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-        "verify_status": "ok",
-        "note": "Re-read 2026-07-19 via web fetch of the coded landing page (page shows last-updated 2026-01-16). Visible content consistent with prior coding: regulation mandate, data-privacy protection, age limit for independent GenAI conversations, human-agent ethical-validation approach. Full guidance PDF on unesdoc is Cloudflare-gated headless; landing-page verification only."
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: the sidebar related-publications carousel rotated (e.g. \"Jordan’s Education Strategic Plan 2026–2030\" -> \"Higher education global trends report\"). The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
       }
     },
     {
@@ -1591,14 +1592,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-08-02",
+      "coded_date": "2026-08-16",
       "last_changed": "2026-08-02",
       "revision": 2,
       "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
       "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
       "provenance": {
         "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: the Federal Register page-view counter (29,204 -> 29,303) and the retrieval date stamp. Federal Register documents are immutable once published. The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
       }
     },
     {
@@ -1789,15 +1791,301 @@
       "c2_fit": "contradicts",
       "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-07-26",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location it in the paper.",
+      "coded_date": "2026-08-16",
+      "last_changed": "2026-08-16",
+      "revision": 1,
+      "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location in the paper.",
       "quote_label": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy",
       "provenance": {
         "url": "https://annals.math.princeton.edu/submission-guidelines",
-        "verify_status": "primary-live-2026-07-26",
-        "note": "Disconfirming case, RE-SCORED on drain rather than trusted. The staged 2026-06-23 quote ('The Annals of Mathematics does not consider papers generated using AI products') is GONE from the live page — the policy has LOOSENED from a flat refusal to consider AI-generated papers into a disclose-and-locate rule. Re-scored 7/12 -> 10/12, posture Prohibitive -> Balanced. c2_fit stays 'deviates': mathematics has the cheapest verification economics of any field (proof is mechanically checkable), yet the Annals now draws exactly the same permit-vs-reserve line as biomedical and social-science publishers whose proof is expensive, and still never cites verifiability as the reason. Cheap proof did not buy more machine latitude — it bought the same line. Drained from tranche-1-staged-2026-06-23."
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Verbatim quote corrected 2026-08-16 to match a one-word copyedit in the source (see change history). c2_fit=contradicts is unchanged: mathematics is the cheapest-proof domain in the corpus — a proof either checks or it does not — yet the Annals reserves authorship for humans absolutely, which is the reverse of what verification economics would predict."
+      }
+    },
+    {
+      "id": "uk-judiciary",
+      "name": "UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders",
+      "segment": "courts-legal",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf",
+      "scores": {
+        "D1": 1,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-02",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Judicial office holders are personally responsible for material which is produced in their name.",
+      "quote_label": "Artificial Intelligence (AI) — Guidance for Judicial Office Holders, 14 April 2025, §6 Take Responsibility",
+      "provenance": {
+        "url": "https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "nhs-england",
+      "name": "NHS England — AI-enabled ambient scribing guidance",
+      "segment": "healthcare-provider",
+      "url": "https://www.england.nhs.uk/long-read/guidance-on-the-use-of-ai-enabled-ambient-scribing-products-in-health-and-care-settings/",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 11,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-02",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "ensure users review and approve any product outputs prior to further actions",
+      "quote_label": "NHS England — Guidance on the use of AI-enabled ambient scribing products in health and care settings",
+      "provenance": {
+        "url": "https://www.england.nhs.uk/long-read/guidance-on-the-use-of-ai-enabled-ambient-scribing-products-in-health-and-care-settings/",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "calbar",
+      "name": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law",
+      "segment": "professional-licensing",
+      "url": "https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 1,
+        "D4": 2,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 11,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-02",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Critically, any use of AI must not diminish or abdicate professional judgment. A lawyer remains fully responsible for any outputs and work product generated with the assistance of AI.",
+      "quote_label": "State Bar of California COPRAC, Practical Guidance for the Use of Generative AI in the Practice of Law (2026 revision), Conclusion",
+      "provenance": {
+        "url": "https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "esma",
+      "name": "ESMA — Public Statement on AI in retail investment services",
+      "segment": "financial-regulator",
+      "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "D5": 1,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-02",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "firms’ decisions remain the responsibility of management bodies, irrespective of whether those decisions are taken by people or AI-based tools.",
+      "quote_label": "ESMA Public Statement on the use of AI in the provision of retail investment services (ESMA35-335435667-5924, 30 May 2024), para 2",
+      "provenance": {
+        "url": "https://www.esma.europa.eu/sites/default/files/2024-05/ESMA35-335435667-5924__Public_Statement_on_AI_and_investment_services.pdf",
+        "verify_status": "ok"
+      }
+    },
+    {
+      "id": "ama",
+      "name": "American Medical Association — Augmented Intelligence Development, Deployment, and Use in Health Care",
+      "segment": "medical-association",
+      "url": "https://www.ama-assn.org/system/files/ama-ai-principles.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 2,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 12,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": true,
+      "coded_date": "2026-08-09",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Clinical decisions influenced by AI must be made with specified qualified human intervention points during the decision-making process. A qualified human is defined as a licensed physician with the necessary qualifications and training to independently provide the same medical service without the aid of AI.",
+      "quote_label": "Recommendation 1(g), General Governance (November 2024)",
+      "provenance": {
+        "url": "https://www.ama-assn.org/system/files/ama-ai-principles.pdf",
+        "verify_status": "primary-live-2026-08-09",
+        "note": "Second load-bearing line, Rec. 2(b): 'AI tools or systems cannot augment, create, or otherwise generate records, communications, or other content on behalf of a physician without that physician's consent and final review.' D4 anchored on Rec. 2(d) ('Where patient-facing content is generated by AI, the use of AI in generating that content should be disclosed or otherwise noted within the content'), Rec. 3(a)(viii)(2) ('Constraint to evidence-based outcomes and mitigation of \"hallucination\"/\"confabulation\" or other output error'), and Rec. 8(e) ('requiring the exclusion of AI systems as authors'). Twilight framing is explicit and repeated: 'there is not yet any clear legal standard for determining liability' and 'Given that there are no regulations or generally accepted standards or frameworks to govern the design, development, and deployment of generative AI' — precedent collapse; plus AI model drift/degradation and post-market surveillance — feedback delay. c2_fit 'fits': the reserve line is drawn by harm potential AND named verification difficulty — Rec. 4(b)(i) governs 'lack of ability to readily verify the accuracy of responses or the sources used to generate the response.'"
+      }
+    },
+    {
+      "id": "actuarial-standards-board",
+      "name": "Actuarial Standards Board — ASOP No. 56 (Modeling)",
+      "segment": "standards-body",
+      "url": "http://www.actuarialstandardsboard.org/asops/modeling-3/",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Enabling",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-08-09",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "If preparing documentation, the actuary should prepare such documentation in a form such that another actuary qualified in the same practice area could assess the reasonableness of the actuary's work.",
+      "quote_label": "ASOP No. 56, Modeling, §3.7 Documentation (adopted December 2019, effective 2020-10-01)",
+      "provenance": {
+        "url": "http://www.actuarialstandardsboard.org/asops/modeling-3/",
+        "verify_status": "primary-live-2026-08-09",
+        "note": "DISCONFIRMATION PROBE — coded as a deviation, not a confirmation. D4 = 0: the standard predates generative AI and carries no fabrication or synthetic-identity provision at all. c2_fit 'partially' because the permit line runs against verification economics in two places: §3.4 expressly permits reliance on a model where 'the actuary has a limited ability either to obtain information about the model or to understand the underlying workings of the model,' curing it with disclosure rather than reserve; and §3.6(e) makes 'the balance between the cost of the mitigation efforts and the reduction in potential model risk' a reason to verify LESS, inverting the usual direction. The compensating control is §3.6.2 Model Output Validation — 'The actuary should validate that the model output reasonably represents that which is being modeled' — tested against historical actual results and hold-out data. Read: an institution can hold accountability firmly on a named human (D2=2) while permitting uninspectable machine judgment on work whose proof is decades out."
+      }
+    },
+    {
+      "id": "easa",
+      "name": "EASA — Concept Paper: Guidance for Level 1&2 Machine Learning Applications",
+      "segment": "aviation-regulator",
+      "url": "https://www.easa.europa.eu/en/downloads/137631/en",
+      "scores": {
+        "D1": 2,
+        "D2": 1,
+        "D3": 2,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 9,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Evidential",
+      "twilight": true,
+      "coded_date": "2026-08-16",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Firstly, learning assurance covers the paradigm shift from programming to learning, as the existing development assurance methods are not adapted to cover learning processes specific to AI/ML.",
+      "quote_label": "EASA Concept Paper: guidance for Level 1 & 2 machine learning applications, Proposed Issue 02 — AI assurance building block",
+      "provenance": {
+        "url": "https://www.easa.europa.eu/en/downloads/137631/en",
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Level 3 AI is explicitly outside this guidance's scope (\"covering Level 1 and Level 2 AI applications, but not covering yet Level 3 AI applications\"); the end user holds full authority up to Level 2A, with \"the ability to intervene and override any decisions taken and/or actions made by the AI-based system.\" D2=1 rather than 2 because the ethics 'Accountability' gear is an optional self-assessment item that applicants may record as not applicable, and no provision states that a named human bears responsibility for AI-influenced output. D4=0: synthetic data appears only as a permitted training/test supplement, never as a prohibition. twilight=true on the explicit precedent-collapse framing quoted above plus \"we may not always be able to open the 'AI black box' to the extent required and that the associated residual risk may need to be addressed to deal with the inherent uncertainty of AI.\""
+      }
+    },
+    {
+      "id": "naic",
+      "name": "NAIC — Model Bulletin on the Use of Artificial Intelligence Systems by Insurers",
+      "segment": "insurance-regulator",
+      "url": "https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "D5": 1,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-08-16",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Compliance with these standards is required regardless of the tools and methods Insurers use to make such decisions.",
+      "quote_label": "NAIC Model Bulletin: Use of Artificial Intelligence Systems by Insurers, §3 (adopted by Executive (EX) Committee and Plenary, 4 December 2023)",
+      "provenance": {
+        "url": "https://content.naic.org/sites/default/files/inline-files/2023-12-4%20Model%20Bulletin_Adopted_0.pdf",
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Disconfirmation probe that paid out, replicating the CFPB result in an adjacent industry. Human involvement is a risk-calibration factor, not a requirement: §3 directs that controls be \"commensurate with\" the insurer's own risk assessment \"considering: ... (iii) the extent to which humans are involved in the final decision-making process.\" No provision reserves any decision for a human anywhere across underwriting, rating, claims or fraud detection — the basis for D5=1 and c2_fit=contradicts. D4=1 rests on the binding accuracy standard (decisions must not be \"inaccurate, arbitrary, capricious, or unfairly discriminatory\"), not on any fabrication or synthetic-identity rule, which the bulletin lacks despite defining Generative AI. twilight=false: the bulletin asserts precedent CONTINUITY, insisting existing law applies unchanged."
+      }
+    },
+    {
+      "id": "spc-china",
+      "name": "Supreme People's Court of China — Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields (2022)",
+      "segment": "courts-legal",
+      "url": "https://www.chinajusticeobserver.com/law/x/the-supreme-people-s-court-the-opinions-on-regulating-and-strengthening-the-applications-of-artificial-intelligence-in-the-judicial-field-20221208",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 1,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 9,
+      "posture": "Enabling",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-16",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "AI shall not make judicial decision substituting for the judge in any case, disregarding technology advancement. The results from AI shall be for supplemental references only, for adjudication or judicial supervision and management.",
+      "quote_label": "Opinions on Regulating and Strengthening the Applications of AI in the Judicial Fields, Art. 5 (Principle of Supporting Adjudication), promulgated 8 December 2022 — English translation from the PRC SPC website, reproduced by China Justice Observer",
+      "provenance": {
+        "url": "https://www.chinajusticeobserver.com/law/x/the-supreme-people-s-court-the-opinions-on-regulating-and-strengthening-the-applications-of-artificial-intelligence-in-the-judicial-field-20221208",
+        "verify_status": "translated-secondary-2026-08-16",
+        "note": "Disconfirmation probe that did NOT disconfirm — the strongest counter-case available, and it failed to break the pattern. The SPC mandates court-wide AI build-out with dated targets for 2025 and 2030 (Arts. 2, 8-12) while imposing the corpus's most absolute human-reserve clause (Art. 5), which also fixes accountability: \"all judicial accountability ultimately falls on the decision-maker.\" Mandated adoption and absolute reserve are compatible; posture=Enabling with D5=2 is the shape. D4=0: unlike uk-judiciary and nz-courts, which both name the fabricated-citation failure mode, the 2022 Opinions contain no fabrication or hallucination provision even though Art. 8 contemplates \"AI-assisted legal documents generation and review.\" D3=1: Art. 6 mandates that capabilities and limitations be \"instructed and identified in a manner that can be easily understood\" at point of use, but nothing requires AI-generated judicial documents to be labelled. c3=Both-split: evidential (Art. 6 interpretability, testability, verifiability) alongside authority-based trust (registration with \"relevant authoritative entities,\" Judicial AI Ethics Council, Core Socialist Values). Coded from translated-secondary because english.court.gov.cn no longer resolves the 2022 release — the same accommodation already made for china-cac."
+      }
+    },
+    {
+      "id": "imda-pdpc",
+      "name": "IMDA / PDPC Singapore — Model AI Governance Framework (2nd edition)",
+      "segment": "data-protection-regulator",
+      "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
+      "scores": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 1,
+        "D4": 0,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 5,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Both-split",
+      "twilight": true,
+      "coded_date": "2026-08-16",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Human-out-of-the-loop suggests that there is no human oversight over the execution of decisions. The AI system has full control without the option of human override.",
+      "quote_label": "Model Artificial Intelligence Governance Framework, Second Edition (released 21 January 2020), §3.14(b)",
+      "provenance": {
+        "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
+        "verify_status": "primary-live-2026-08-16",
+        "note": "Disconfirmation probe that paid out, and the lowest-scoring regulator in the corpus. The reserve line is drawn on severity x probability of HARM, not on verification economics, and footnote 4(c) makes operational infeasibility an independent permit ground: \"having a human-in-the-loop would be unfeasible in high-speed financial trading, and be impractical in the case of driverless vehicles\" — machine judgment permitted precisely where proof of a correct individual decision is scarce. D1/D6=1 because traceability and auditability are explicitly discretionary and cost-gated: \"It may not be feasible or cost-effective to implement even the most essential of these measures for all algorithms,\" with reproducibility, traceability and auditability described as \"more resource-intensive\" and relevant only \"in specific scenarios.\" c3=Both-split because evidential measures are selected by which \"will be most effective in building trust with their stakeholders\" — evidence in service of relationship. D3=1: all disclosure is \"encouraged\" or organisations \"can consider,\" never required. D4=0: no fabrication, deepfake or synthetic-identity provision anywhere (a 2020 pre-generative document). twilight=true on \"unlike earlier technologies, some aspects of autonomous predictions or decisions made by AI may not be fully explainable\" and \"perfect explainability, transparency and fairness are impossible to attain.\""
       }
     }
   ]

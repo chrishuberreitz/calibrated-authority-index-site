@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-08-21T11:30:00Z"
+    "generated_at": "2026-08-23T20:37:39Z"
   },
   "institutions": [
     {
@@ -142,7 +142,7 @@
     },
     {
       "id": "harvard",
-      "name": "Harvard University",
+      "name": "Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost)",
       "segment": "university",
       "ca": 8,
       "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
@@ -178,7 +178,7 @@
     },
     {
       "id": "russell-group",
-      "name": "Russell Group (UK)",
+      "name": "Russell Group (UK) — Principles on the use of generative AI tools in education",
       "segment": "university-consortium",
       "ca": 7,
       "url": "https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education",
@@ -340,8 +340,8 @@
     },
     {
       "id": "pnas",
-      "name": "PNAS",
-      "segment": "publisher",
+      "name": "PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences)",
+      "segment": "society-publisher",
       "ca": 12,
       "url": "https://www.pnas.org/author-center/editorial-and-journal-policies",
       "page": "/institutions/pnas",

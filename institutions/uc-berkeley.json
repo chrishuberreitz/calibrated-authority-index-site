@@ -22,13 +22,14 @@
   "c3": "Evidential",
   "twilight": false,
   "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "last_changed": "2026-08-23",
+  "revision": 1,
   "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
   "quote_label": "Appropriate use of generative AI",
   "provenance": {
     "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
-    "verify_status": "ok"
+    "verify_status": "primary-live-2026-08-23",
+    "note": "Re-verified 2026-08-23. The page still carries 'Last updated: July 25, 2025' — earlier than its own 2026-06-22 coding date — so it cannot have changed since it was coded; the scan CHANGED flag is a false positive. Scores PRESERVED at 6/12, but flagged: on re-read this page scores lower (a second coder gets ~5/12), because it contains no accuracy, hallucination, or verification language anywhere — its trust logic is contractual and relational (negotiated agreements, delegated signature authority, unit heads, 'UC Berkeley's Principles of Community') rather than evidential, so the stored c3=Evidential is also suspect. Candidate for an inter-rater reliability check. The substantive content worth citing: 'Use of AI that involves highly-consequential automated decision-making requires extreme caution, and should not be employed without prior consultation,' with examples including 'Recruitment, personnel, or disciplinary decision-making' and 'Grading or assessment of student work' — a reserve drawn by consequence and confidentiality rather than by proof cost, which is why c2_fit=partially holds. twilight=false is confirmed by an explicit continuity claim quoted from UC Legal: '[AI] is a tool that calls for the same type of analysis as any other third-party service or product.'"
   },
   "jsonld": {
     "@context": "https://schema.org",

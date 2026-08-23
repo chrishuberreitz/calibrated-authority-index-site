@@ -1,6 +1,88 @@
 {
-  "generated": "2026-08-21",
+  "generated": "2026-08-23",
   "moves": [
+    {
+      "date": "2026-08-23",
+      "institution": "University of Cambridge",
+      "id": "cambridge",
+      "kind": "changed",
+      "headline": "University of Cambridge policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "SAGE Publishing",
+      "id": "sage",
+      "kind": "changed",
+      "headline": "SAGE Publishing policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "University of California, Berkeley",
+      "id": "uc-berkeley",
+      "kind": "changed",
+      "headline": "University of California, Berkeley policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "University of Cambridge",
+      "id": "cambridge",
+      "kind": "recoded",
+      "headline": "University of Cambridge re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "SAGE Publishing",
+      "id": "sage",
+      "kind": "recoded",
+      "headline": "SAGE Publishing re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "University of California, Berkeley",
+      "id": "uc-berkeley",
+      "kind": "recoded",
+      "headline": "University of California, Berkeley re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 6 → 6",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "Russell Group (UK) — Principles on the use of generative AI tools in education",
+      "id": "russell-group",
+      "kind": "recoded",
+      "headline": "Russell Group (UK) — Principles on the use of generative AI tools in education re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 7 → 7",
+      "change_type": "OTHER",
+      "disposition": "SUBSTANTIVE"
+    },
+    {
+      "date": "2026-08-23",
+      "institution": "Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost)",
+      "id": "harvard",
+      "kind": "recoded",
+      "headline": "Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 8 → 7",
+      "change_type": "OTHER",
+      "disposition": "SUBSTANTIVE"
+    },
     {
       "date": "2026-08-16",
       "institution": "BBC",

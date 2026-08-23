@@ -5,7 +5,7 @@
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "harvard",
-  "name": "Harvard University",
+  "name": "Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost)",
   "segment": "university",
   "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
   "scores": {
@@ -18,39 +18,40 @@
   },
   "ca": 8,
   "posture": "Balanced",
-  "c2_fit": "fits",
-  "c3": "Evidential",
-  "twilight": true,
-  "coded_date": "2026-07-26",
-  "last_changed": "2026-07-26",
-  "revision": 1,
-  "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-  "quote_label": "Guidelines for Using ChatGPT and other Generative AI tools at Harvard",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-08-23",
+  "last_changed": "2026-08-23",
+  "revision": 3,
+  "quote": "You are responsible for any content that you produce or publish that includes AI-generated material: AI-generated content can be inaccurate, misleading, or entirely fabricated (sometimes called “hallucinations”), or may contain copyrighted material. Review your AI-generated content before publication.",
+  "quote_label": "Harvard University, Office of the Provost, 'Guidelines for Using ChatGPT and other Generative AI tools at Harvard' (Garber, Weenick, Jelinkova), Initial guidelines for use of generative AI tools",
   "provenance": {
     "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
-    "verify_status": "secondary-wayback-2026-03-28 (live 403; Chrome unavailable this run)"
+    "verify_status": "wayback-20260810194625",
+    "note": "SOURCE CAVEAT: Chrome verification was unavailable in this run; coded from the Wayback capture of 2026-08-10 (web.archive.org/web/20260810194625). Re-verify live before citation. D3=0 is the notable absence — for a university whose peer institutions lead with acknowledgement rules, Harvard's central guidance imposes no disclosure or labeling duty at all and delegates the entire academic-integrity question downward: 'faculty should be clear with students they're teaching and advising about their policies on permitted uses, if any.' The document's centre of gravity is information security and procurement, not epistemics: three of its five bullets concern confidential data, phishing, and vendor risk assessment. c2_fit=partially — the operative line is drawn by DATA CLASSIFICATION (nothing at 'Level 2 and above' may be entered into public tools), which sorts by confidentiality exposure rather than by cost of verification. twilight=false despite 'Generative AI is a rapidly evolving technology': the guidance closes with an unusually explicit precedent-continuity claim — 'these guidelines are not new University policy; rather, they leverage existing University policies.' Reads as an institution absorbing AI into its existing risk apparatus rather than treating it as a rupture. SCORING CORRECTION (same session): this record was already coded before this run at D1..D6 = 1,2,1,1,2,1 (CA 8). An independent re-read from the Wayback capture produced D3=0 (CA 7), on the ground that the guidance imposes no disclosure or labeling duty of its own. The prior D3=1 is defensible as crediting the delegated duty ('faculty should be clear with students... about their policies on permitted uses'). The prior vector is RESTORED, because the document did not change and the panel must not record coder variance as institutional drift. Logged as an open inter-rater question on D3 — specifically, whether a duty delegated to a subunit counts as disclosure."
   },
   "jsonld": {
     "@context": "https://schema.org",
     "@type": "Review",
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/harvard",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/harvard",
-    "name": "Calibrated Authority rating — Harvard University",
-    "datePublished": "2026-07-26",
+    "name": "Calibrated Authority rating — Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost)",
+    "datePublished": "2026-08-23",
     "itemReviewed": {
       "@type": "CreativeWork",
-      "name": "Harvard University — public generative-AI policy",
+      "name": "Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost) — public generative-AI policy",
       "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
-      "text": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-      "abstract": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-      "alternateName": "Guidelines for Using ChatGPT and other Generative AI tools at Harvard"
+      "text": "You are responsible for any content that you produce or publish that includes AI-generated material: AI-generated content can be inaccurate, misleading, or entirely fabricated (sometimes called “hallucinations”), or may contain copyrighted material. Review your AI-generated content before publication.",
+      "abstract": "You are responsible for any content that you produce or publish that includes AI-generated material: AI-generated content can be inaccurate, misleading, or entirely fabricated (sometimes called “hallucinations”), or may contain copyrighted material. Review your AI-generated content before publication.",
+      "alternateName": "Harvard University, Office of the Provost, 'Guidelines for Using ChatGPT and other Generative AI tools at Harvard' (Garber, Weenick, Jelinkova), Initial guidelines for use of generative AI tools"
     },
     "reviewRating": {
       "@type": "Rating",
       "ratingValue": 8,
       "bestRating": 12,
       "worstRating": 0,
-      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Both-split."
     },
     "author": {
       "@type": "Person",

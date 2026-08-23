@@ -22,13 +22,14 @@
   "c3": "Evidential",
   "twilight": true,
   "coded_date": "2026-08-09",
-  "last_changed": "2026-08-09",
-  "revision": 1,
+  "last_changed": "2026-08-23",
+  "revision": 2,
   "quote": "We distinguish various uses for AI and related technologies as: assistive (and no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
   "quote_label": "Sage Journals — Artificial intelligence policy (live 2026-08-09)",
   "provenance": {
     "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
-    "verify_status": "primary-live-2026-08-09"
+    "verify_status": "primary-live-2026-08-23",
+    "note": "Re-verified 2026-08-23: live text matches the 2026-08-09 coding word for word, including the assistive/generative/prohibitive taxonomy. Scan CHANGED flag is a false positive. The 12/12 holds on re-read — D4 is carried by an explicit synthetic-participant prohibition rare in publisher policy ('Conducting interviews with GenAI tools in lieu of participants for qualitative research') alongside 'Fabricated references or falsified claims'; D5 by 'authors must take steps to verify the accuracy of all outputs and check the original sources'; D6 by 'Understanding that LLMs may have generated false content, including getting facts wrong or generating citations that don't exist'. Note the deliberately non-punitive disclosure design: 'submissions will not be rejected solely because of the disclosed use of GenAI tools'."
   },
   "jsonld": {
     "@context": "https://schema.org",

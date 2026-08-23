@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-08-21T11:30:00Z",
+  "dateModified": "2026-08-23T20:37:39Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-08-21T11:30:00Z"
+    "generated_at": "2026-08-23T20:37:39Z"
   },
   "institutions": [
     {
@@ -508,7 +508,7 @@
     },
     {
       "id": "harvard",
-      "name": "Harvard University",
+      "name": "Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost)",
       "segment": "university",
       "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
       "scores": {
@@ -521,17 +521,18 @@
       },
       "ca": 8,
       "posture": "Balanced",
-      "c2_fit": "fits",
-      "c3": "Evidential",
-      "twilight": true,
-      "coded_date": "2026-07-26",
-      "last_changed": "2026-07-26",
-      "revision": 1,
-      "quote": "You are responsible for any content that you produce or publish that includes AI-generated material.",
-      "quote_label": "Guidelines for Using ChatGPT and other Generative AI tools at Harvard",
+      "c2_fit": "partially",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-23",
+      "last_changed": "2026-08-23",
+      "revision": 3,
+      "quote": "You are responsible for any content that you produce or publish that includes AI-generated material: AI-generated content can be inaccurate, misleading, or entirely fabricated (sometimes called “hallucinations”), or may contain copyrighted material. Review your AI-generated content before publication.",
+      "quote_label": "Harvard University, Office of the Provost, 'Guidelines for Using ChatGPT and other Generative AI tools at Harvard' (Garber, Weenick, Jelinkova), Initial guidelines for use of generative AI tools",
       "provenance": {
         "url": "https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard",
-        "verify_status": "secondary-wayback-2026-03-28 (live 403; Chrome unavailable this run)"
+        "verify_status": "wayback-20260810194625",
+        "note": "SOURCE CAVEAT: Chrome verification was unavailable in this run; coded from the Wayback capture of 2026-08-10 (web.archive.org/web/20260810194625). Re-verify live before citation. D3=0 is the notable absence — for a university whose peer institutions lead with acknowledgement rules, Harvard's central guidance imposes no disclosure or labeling duty at all and delegates the entire academic-integrity question downward: 'faculty should be clear with students they're teaching and advising about their policies on permitted uses, if any.' The document's centre of gravity is information security and procurement, not epistemics: three of its five bullets concern confidential data, phishing, and vendor risk assessment. c2_fit=partially — the operative line is drawn by DATA CLASSIFICATION (nothing at 'Level 2 and above' may be entered into public tools), which sorts by confidentiality exposure rather than by cost of verification. twilight=false despite 'Generative AI is a rapidly evolving technology': the guidance closes with an unusually explicit precedent-continuity claim — 'these guidelines are not new University policy; rather, they leverage existing University policies.' Reads as an institution absorbing AI into its existing risk apparatus rather than treating it as a rupture. SCORING CORRECTION (same session): this record was already coded before this run at D1..D6 = 1,2,1,1,2,1 (CA 8). An independent re-read from the Wayback capture produced D3=0 (CA 7), on the ground that the guidance imposes no disclosure or labeling duty of its own. The prior D3=1 is defensible as crediting the delegated duty ('faculty should be clear with students... about their policies on permitted uses'). The prior vector is RESTORED, because the document did not change and the panel must not record coder variance as institutional drift. Logged as an open inter-rater question on D3 — specifically, whether a duty delegated to a subunit counts as disclosure."
       }
     },
     {
@@ -620,7 +621,7 @@
     },
     {
       "id": "russell-group",
-      "name": "Russell Group (UK)",
+      "name": "Russell Group (UK) — Principles on the use of generative AI tools in education",
       "segment": "university-consortium",
       "url": "https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education",
       "scores": {
@@ -634,16 +635,17 @@
       "ca": 7,
       "posture": "Enabling",
       "c2_fit": "partially",
-      "c3": "Evidential",
+      "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-07-12",
-      "last_changed": "2026-07-12",
-      "revision": 1,
+      "coded_date": "2026-08-23",
+      "last_changed": "2026-08-23",
+      "revision": 3,
       "quote": "This means that accountability for the accuracy of information generated by these tools when transferred to another context lies with the user.",
-      "quote_label": "Russell Group principles on generative AI in education, sec. 1.1(c) (full principles PDF)",
+      "quote_label": "Russell Group principles on generative AI in education (all 24 Russell Group universities), §1.4(c) Inaccuracy and misinterpretation of information",
       "provenance": {
         "url": "https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education",
-        "verify_status": "ok"
+        "verify_status": "wayback-20260731104810",
+        "note": "SOURCE CAVEAT: Chrome verification was unavailable in this run, so this was coded from the Wayback capture of 2026-07-31 (web.archive.org/web/20260731104810), reading the linked source PDF rather than the rendered page — the page's HTML rendering silently drops §4.1. Re-verify against live before any citation that turns on wording. Posture=Enabling is the finding: this is a permission document, not a restriction document. It contains no prohibition of any kind. The permit boundary is not drawn centrally at all but delegated to disciplinary norms — 'The appropriate uses of generative AI tools are likely to differ between academic disciplines' — which is why c2_fit=partially: accountability for accuracy is assigned to the user (verification-flavored), but nothing sorts permitted from reserved by how expensive the proof is. D3=1 because acknowledgement is doubly hedged: policies 'empower them to use these tools appropriately and acknowledge their use where necessary.' Distinctive and worth citing: the integrity mechanism is explicitly non-punitive — 'cultivating an environment where students can ask questions about specific cases of their use and discuss the associated challenges openly and without fear of penalisation' — which is a relational trust mechanism standing where most institutions put an evidential one. twilight=false on an explicit continuity claim: 'Universities continually update and enhance their pedagogies and assessment methods... adapting to the use of generative AI technology is no different.' SCORING CORRECTION (same session): this record was already coded before this run at D1..D6 = 1,1,1,1,1,2 (CA 7). An independent re-read from the Wayback capture produced 1,2,1,1,1,1 — same composite, redistributed (D2 up on the explicit 'accountability... lies with the user' clause; D6 down because the accuracy discussion is a risk annex rather than an evidential regime). The prior vector is RESTORED, because the document did not change and a longitudinal panel must not record coder variance as institutional drift. Logged here as an open inter-rater question on D2/D6, not as a movement."
       }
     },
     {
@@ -806,13 +808,14 @@
       "c3": "Evidential",
       "twilight": false,
       "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "last_changed": "2026-08-23",
+      "revision": 1,
       "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
       "quote_label": "Appropriate use of generative AI",
       "provenance": {
         "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-08-23",
+        "note": "Re-verified 2026-08-23. The page still carries 'Last updated: July 25, 2025' — earlier than its own 2026-06-22 coding date — so it cannot have changed since it was coded; the scan CHANGED flag is a false positive. Scores PRESERVED at 6/12, but flagged: on re-read this page scores lower (a second coder gets ~5/12), because it contains no accuracy, hallucination, or verification language anywhere — its trust logic is contractual and relational (negotiated agreements, delegated signature authority, unit heads, 'UC Berkeley's Principles of Community') rather than evidential, so the stored c3=Evidential is also suspect. Candidate for an inter-rater reliability check. The substantive content worth citing: 'Use of AI that involves highly-consequential automated decision-making requires extreme caution, and should not be employed without prior consultation,' with examples including 'Recruitment, personnel, or disciplinary decision-making' and 'Grading or assessment of student work' — a reserve drawn by consequence and confidentiality rather than by proof cost, which is why c2_fit=partially holds. twilight=false is confirmed by an explicit continuity claim quoted from UC Legal: '[AI] is a tool that calls for the same type of analysis as any other third-party service or product.'"
       }
     },
     {
@@ -946,13 +949,14 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "A student using any unacknowledged content generated by artificial intelligence within a summative assessment as though it is their own work constitutes academic misconduct.",
-      "quote_label": "AI and academic misconduct",
+      "last_changed": "2026-08-23",
+      "revision": 1,
+      "quote": "A student using any unacknowledged content generated by artificial intelligence within a summative assessment as though it is their own work constitutes academic misconduct, unless explicitly stated otherwise in the assessment brief.",
+      "quote_label": "University of Cambridge, Educational Policy & Quality — Plagiarism and Academic Misconduct: Artificial Intelligence (AI) (live 2026-08-23)",
       "provenance": {
         "url": "https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/artificial-intelligence-ai",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-08-23",
+        "note": "Re-verified 2026-08-23 against the live page and against the Wayback snapshot of 2026-03-07 (web.archive.org/web/20260307064118): the governing text is byte-identical across both. The scan's CHANGED flag is a false positive from page furniture, not a policy move. Correction carried in this observation: the original 2026-06-22 quote truncated the sentence before its operative qualifier, 'unless explicitly stated otherwise in the assessment brief' — the university-wide rule is a default that each assessment brief may override, so the permit boundary is delegated to the local examiner, not held centrally. Scores are deliberately PRESERVED, not re-scored: a second coder reading this same unchanged text would score D5 and D6 lower (the live page carries no duty to verify AI output and no accuracy language at all), which makes this record a candidate for an inter-rater reliability check rather than evidence of drift. Do not read the preserved 9/12 as confirmation."
       }
     },
     {
@@ -1086,13 +1090,14 @@
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-08-09",
-      "last_changed": "2026-08-09",
-      "revision": 1,
+      "last_changed": "2026-08-23",
+      "revision": 2,
       "quote": "We distinguish various uses for AI and related technologies as: assistive (and no longer requiring disclosure), generative (requiring disclosure), and prohibitive.",
       "quote_label": "Sage Journals — Artificial intelligence policy (live 2026-08-09)",
       "provenance": {
         "url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
-        "verify_status": "primary-live-2026-08-09"
+        "verify_status": "primary-live-2026-08-23",
+        "note": "Re-verified 2026-08-23: live text matches the 2026-08-09 coding word for word, including the assistive/generative/prohibitive taxonomy. Scan CHANGED flag is a false positive. The 12/12 holds on re-read — D4 is carried by an explicit synthetic-participant prohibition rare in publisher policy ('Conducting interviews with GenAI tools in lieu of participants for qualitative research') alongside 'Fabricated references or falsified claims'; D5 by 'authors must take steps to verify the accuracy of all outputs and check the original sources'; D6 by 'Understanding that LLMs may have generated false content, including getting facts wrong or generating citations that don't exist'. Note the deliberately non-punitive disclosure design: 'submissions will not be rejected solely because of the disclosed use of GenAI tools'."
       }
     },
     {
@@ -1125,8 +1130,8 @@
     },
     {
       "id": "pnas",
-      "name": "PNAS",
-      "segment": "publisher",
+      "name": "PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences)",
+      "segment": "society-publisher",
       "url": "https://www.pnas.org/author-center/editorial-and-journal-policies",
       "scores": {
         "D1": 2,
@@ -1140,15 +1145,16 @@
       "posture": "Balanced",
       "c2_fit": "fits",
       "c3": "Evidential",
-      "twilight": true,
-      "coded_date": "2026-06-22",
+      "twilight": false,
+      "coded_date": "2026-08-23",
       "last_changed": null,
       "revision": 0,
-      "quote": "The software cannot be listed as an author because it does not meet the criteria for authorship and cannot share responsibility for the paper or be held accountable for the integrity of the data reported.",
-      "quote_label": "Editorial and journal policies",
+      "quote": "Use of AI and generative AI software, such as large language models (e.g., ChatGPT), during the research process must be disclosed in the Materials and Methods section (or Acknowledgments, if no Materials and Methods section is available) of the manuscript and may not be listed as an author. The name and specific model or version (e.g., GPT-4 or Claude 3.5 Sonnet) of any AI tool should be provided. Authors are solely accountable for, and must thoroughly fact-check, outputs created with the help of generative AI software.",
+      "quote_label": "PNAS Editorial and Journal Policies — Artificial intelligence",
       "provenance": {
         "url": "https://www.pnas.org/author-center/editorial-and-journal-policies",
-        "verify_status": "ok"
+        "verify_status": "wayback-20260731061433",
+        "note": "SOURCE CAVEAT: Chrome verification was unavailable in this run; coded from the Wayback capture of 2026-07-31 (web.archive.org/web/20260731061433). Re-verify live before citation. A 12/12, earned on two mechanisms almost nothing else in the corpus has. First, REFLEXIVE disclosure: PNAS discloses its OWN machine assistance by vendor name — 'PNAS uses software that may leverage artificial intelligence (AI), such as iThenticate... Pangram to detect content generated by AI, Prophy to assist matching submissions to editors and potential reviewers.' The institution applies its transparency rule to itself, which is rare enough to be citable on its own. Second, an explicit SYNTHETIC-RESPONDENT rule that most publisher policies lack: 'If synthetic respondents are included, the share of human versus synthetic respondents must be clearly reported,' alongside a requirement for 'a plain language description of how AI was used in the survey workflow, if at all, including documentation of human oversight and validation.' c2_fit=fits on a clean split by verifiability of the artifact: generated TEXT is permitted subject to disclosure and fact-checking (a reader can check it), while generated IMAGES are prohibited outright — 'AI tools for creating images or graphics may not be used unless the software is the subject of the work under consideration... PNAS does not permit AI-generated content in cover art submissions' — because a micrograph cannot be fact-checked against anything, it IS the evidence. Permit where proof is recoverable; prohibit where the artifact is the proof."
       }
     },
     {

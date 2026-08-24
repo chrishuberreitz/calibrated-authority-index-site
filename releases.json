@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23",
+  "generated": "2026-08-24",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -447,6 +447,23 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-08-16)",
       "move_event_ts": "2026-08-16T20:31:46Z"
+    },
+    {
+      "ts": "2026-08-24T11:30:00Z",
+      "date": "2026-08-24",
+      "id": "mext-japan-genai-guideline",
+      "name": "MEXT (Japan) — Guideline for the Use of Generative AI in Elementary and Secondary Education, Ver.2.0",
+      "category": "add",
+      "rationale": "MEXT (Japan) — Guideline for the Use of Generative AI in Elementary and Secondary Education, Ver.2.0 is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 2 · segment gap 1 · theory 3 · timeliness 2). CA 11/12 with a Balanced posture; it thickens the thin gov-education segment (only 2 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Upon consideration of AI's risks and concerns, we must ultimately make the final judgment and take personal responsibility for the final deliverable.\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 2,
+        "segment_gap": 1,
+        "theory": 3,
+        "timeliness": 2
+      }
     }
   ]
 }

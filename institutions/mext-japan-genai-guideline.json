@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-24",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "mext-japan-genai-guideline",
+  "name": "MEXT (Japan) — Guideline for the Use of Generative AI in Elementary and Secondary Education, Ver.2.0",
+  "segment": "gov-education",
+  "url": "https://www.mext.go.jp/content/20260330-mxt_shuukyo01-000030823_004.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 11,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-08-23",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Upon consideration of AI's risks and concerns, we must ultimately make the final judgment and take personal responsibility for the final deliverable.",
+  "quote_label": "MEXT, Guideline for the Use of Generative AI in Elementary and Secondary Education Ver.2.0 (Elementary and Secondary Education Bureau, December 26, 2024), §2(1) Human-Centric Utilization; official English provisional translation",
+  "provenance": {
+    "url": "https://www.mext.go.jp/content/20260330-mxt_shuukyo01-000030823_004.pdf",
+    "verify_status": "primary-live-2026-08-23",
+    "note": "Coded against MEXT's own full-text English translation (marked 'Provisional Translation — please refer to the original text for accuracy'); the authoritative Japanese original is 20241226-mxt_shuukyo02-000030823_001.pdf, and the watchlist URL was moved off the one-page summary (…20250422…_001.pdf) onto the governing document. D3=2 on unusually granular provenance: 'when citing generative AI output as part of learning tasks, it is necessary to clearly indicate the use of generative AI as a source or citation... explicitly stating the name of the AI provider used, input prompts, and the date of use,' with a suggestion to 'attach their interactions with the AI as reference material.' D4=1 rather than 2 because the fabrication rule is conditional and delegated downward: submitting AI output as one's own work 'may constitute inappropriate or fraudulent behavior depending on evaluation criteria and submission rules.' c2_fit=partially, and this is the interesting deviation: the evidential half is fully present (hallucinations named, fact-checking taught as a literacy, 'AI outputs are merely a reference and not necessarily the optimal solution'), but the reserve on the highest-stakes student work is not proof-economics at all — it is developmental. Use is gated on 'the student's developmental stage and the status of their information literacy skills' and on whether it 'contributes to the development of qualities and abilities as defined in the curriculum guidelines,' and the stated harm of AI-written coursework is that 'such actions prevent meaningful learning and personal growth.' The thing being protected is the formation of the student, not the reliability of the artifact — which is why c3=Both-split. twilight=true: 'Generative AI is constantly evolving, and the accelerating pace of its adoption across all sectors of society'; curriculum aims at 'an era of accelerating and increasingly complex societal change' and 'a future society that is difficult to predict'. Notably anti-prohibitive: 'Rigid policies that uniformly prohibit or mandate AI use are' not desirable."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/mext-japan-genai-guideline",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/mext-japan-genai-guideline",
+    "name": "Calibrated Authority rating — MEXT (Japan) — Guideline for the Use of Generative AI in Elementary and Secondary Education, Ver.2.0",
+    "datePublished": "2026-08-23",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "MEXT (Japan) — Guideline for the Use of Generative AI in Elementary and Secondary Education, Ver.2.0 — public generative-AI policy",
+      "url": "https://www.mext.go.jp/content/20260330-mxt_shuukyo01-000030823_004.pdf",
+      "text": "Upon consideration of AI's risks and concerns, we must ultimately make the final judgment and take personal responsibility for the final deliverable.",
+      "abstract": "Upon consideration of AI's risks and concerns, we must ultimately make the final judgment and take personal responsibility for the final deliverable.",
+      "alternateName": "MEXT, Guideline for the Use of Generative AI in Elementary and Secondary Education Ver.2.0 (Elementary and Secondary Education Bureau, December 26, 2024), §2(1) Human-Centric Utilization; official English provisional translation"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 11,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-24",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

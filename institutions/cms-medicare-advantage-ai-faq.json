@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-25",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "cms-medicare-advantage-ai-faq",
+  "name": "CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F)",
+  "segment": "healthcare-payer",
+  "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 8,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-08-23",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "An algorithm or software tool can be used to assist MA plans in making coverage determinations, but it is the responsibility of the MA organization to ensure that the algorithm or artificial intelligence complies with all applicable rules for how coverage determinations by MA organizations are made.",
+  "quote_label": "CMS HPMS memo, 'Frequently Asked Questions related to Coverage Criteria and Utilization Management Requirements in CMS Final Rule (CMS-4201-F)', February 6, 2024, Q2",
+  "provenance": {
+    "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
+    "verify_status": "primary-live-2026-08-23",
+    "note": "The reserve is stated as an absolute: 'algorithms or artificial intelligence alone cannot be used as the basis to deny admission or downgrade to an observation stay; the patient's individual circumstances must be considered against the permissible applicable coverage criteria.' D3=0 and D4=0 are real absences, not oversights — the memo imposes no duty to disclose to an enrollee that AI touched their determination, and has no fabrication concept at all. D1=2 rests on an unusual mechanism: the decision rule itself must be public and frozen ('Because publicly posted coverage criteria are static and unchanging, artificial intelligence cannot be used to shift the coverage criteria over time'), so inspectability is achieved by pinning the criteria rather than by opening the model. c2_fit=partially: the line lands roughly where verification economics would put it — prediction permitted, adjudication reserved — but CMS derives it from statutory individualization (a population-level inference cannot stand in for 'the individual patient's medical history, the physician's recommendations, or clinical notes') and from Section 1557 nondiscrimination, not from proof cost. twilight=false: the memo asserts strict precedent continuity, treating AI as one more software tool that must satisfy the pre-existing §422.101(c) tests."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cms-medicare-advantage-ai-faq",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cms-medicare-advantage-ai-faq",
+    "name": "Calibrated Authority rating — CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F)",
+    "datePublished": "2026-08-23",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F) — public generative-AI policy",
+      "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
+      "text": "An algorithm or software tool can be used to assist MA plans in making coverage determinations, but it is the responsibility of the MA organization to ensure that the algorithm or artificial intelligence complies with all applicable rules for how coverage determinations by MA organizations are made.",
+      "abstract": "An algorithm or software tool can be used to assist MA plans in making coverage determinations, but it is the responsibility of the MA organization to ensure that the algorithm or artificial intelligence complies with all applicable rules for how coverage determinations by MA organizations are made.",
+      "alternateName": "CMS HPMS memo, 'Frequently Asked Questions related to Coverage Criteria and Utilization Management Requirements in CMS Final Rule (CMS-4201-F)', February 6, 2024, Q2"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-25",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

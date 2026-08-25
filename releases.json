@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-08-25",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -462,6 +462,23 @@
         "recognition": 2,
         "segment_gap": 1,
         "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-25T11:30:00Z",
+      "date": "2026-08-25",
+      "id": "cms-medicare-advantage-ai-faq",
+      "name": "CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F)",
+      "category": "add",
+      "rationale": "CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 8/12 with a Balanced posture; it opens the healthcare-payer segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"An algorithm or software tool can be used to assist MA plans in making coverage determinations, but it is the responsibility of the MA organization to ensure that the algorithm or…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
         "timeliness": 2
       }
     }

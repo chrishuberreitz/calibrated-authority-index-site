@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-08-24",
-    "n": 70,
+    "version": "2026-08-25",
+    "n": 71,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-08-24T11:30:00Z"
+    "generated_at": "2026-08-25T11:30:00Z"
   },
   "institutions": [
     {
@@ -643,6 +643,15 @@
       "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
       "page": "/institutions/imda-pdpc",
       "atom": "/institutions/imda-pdpc.json"
+    },
+    {
+      "id": "cms-medicare-advantage-ai-faq",
+      "name": "CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F)",
+      "segment": "healthcare-payer",
+      "ca": 8,
+      "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
+      "page": "/institutions/cms-medicare-advantage-ai-faq",
+      "atom": "/institutions/cms-medicare-advantage-ai-faq.json"
     },
     {
       "id": "mext-japan-genai-guideline",

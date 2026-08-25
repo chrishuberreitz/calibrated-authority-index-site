@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-08-24",
+  "version": "2026-08-25",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-08-24T11:30:00Z",
+  "dateModified": "2026-08-25T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-08-24",
+    "version": "2026-08-25",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 70,
+    "n": 71,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-08-24T11:30:00Z"
+    "generated_at": "2026-08-25T11:30:00Z"
   },
   "institutions": [
     {
@@ -2092,6 +2092,35 @@
         "url": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Resource-for-Organisation/AI/SGModelAIGovFramework2.pdf",
         "verify_status": "primary-live-2026-08-16",
         "note": "Disconfirmation probe that paid out, and the lowest-scoring regulator in the corpus. The reserve line is drawn on severity x probability of HARM, not on verification economics, and footnote 4(c) makes operational infeasibility an independent permit ground: \"having a human-in-the-loop would be unfeasible in high-speed financial trading, and be impractical in the case of driverless vehicles\" — machine judgment permitted precisely where proof of a correct individual decision is scarce. D1/D6=1 because traceability and auditability are explicitly discretionary and cost-gated: \"It may not be feasible or cost-effective to implement even the most essential of these measures for all algorithms,\" with reproducibility, traceability and auditability described as \"more resource-intensive\" and relevant only \"in specific scenarios.\" c3=Both-split because evidential measures are selected by which \"will be most effective in building trust with their stakeholders\" — evidence in service of relationship. D3=1: all disclosure is \"encouraged\" or organisations \"can consider,\" never required. D4=0: no fabrication, deepfake or synthetic-identity provision anywhere (a 2020 pre-generative document). twilight=true on \"unlike earlier technologies, some aspects of autonomous predictions or decisions made by AI may not be fully explainable\" and \"perfect explainability, transparency and fairness are impossible to attain.\""
+      }
+    },
+    {
+      "id": "cms-medicare-advantage-ai-faq",
+      "name": "CMS — Medicare Advantage FAQ on coverage criteria, utilization management, and use of algorithms/AI (CMS-4201-F)",
+      "segment": "healthcare-payer",
+      "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 0,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 8,
+      "posture": "Balanced",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-08-23",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "An algorithm or software tool can be used to assist MA plans in making coverage determinations, but it is the responsibility of the MA organization to ensure that the algorithm or artificial intelligence complies with all applicable rules for how coverage determinations by MA organizations are made.",
+      "quote_label": "CMS HPMS memo, 'Frequently Asked Questions related to Coverage Criteria and Utilization Management Requirements in CMS Final Rule (CMS-4201-F)', February 6, 2024, Q2",
+      "provenance": {
+        "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
+        "verify_status": "primary-live-2026-08-23",
+        "note": "The reserve is stated as an absolute: 'algorithms or artificial intelligence alone cannot be used as the basis to deny admission or downgrade to an observation stay; the patient's individual circumstances must be considered against the permissible applicable coverage criteria.' D3=0 and D4=0 are real absences, not oversights — the memo imposes no duty to disclose to an enrollee that AI touched their determination, and has no fabrication concept at all. D1=2 rests on an unusual mechanism: the decision rule itself must be public and frozen ('Because publicly posted coverage criteria are static and unchanging, artificial intelligence cannot be used to shift the coverage criteria over time'), so inspectability is achieved by pinning the criteria rather than by opening the model. c2_fit=partially: the line lands roughly where verification economics would put it — prediction permitted, adjudication reserved — but CMS derives it from statutory individualization (a population-level inference cannot stand in for 'the individual patient's medical history, the physician's recommendations, or clinical notes') and from Section 1557 nondiscrimination, not from proof cost. twilight=false: the memo asserts strict precedent continuity, treating AI as one more software tool that must satisfy the pre-existing §422.101(c) tests."
       }
     },
     {

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-26",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "ifab-var-protocol",
+  "name": "IFAB — Video Assistant Referee (VAR) protocol, Laws of the Game",
+  "segment": "sports-governing-body",
+  "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-08-23",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "The referee is the only person who can make the final decision; the VAR has the same status as the other match officials and can only assist the referee",
+  "quote_label": "IFAB Laws of the Game, Video Assistant Referee (VAR) protocol, §4 Procedures — Original decision",
+  "provenance": {
+    "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/",
+    "verify_status": "primary-live-2026-08-23",
+    "note": "The cleanest verification-economics split in the corpus, written with no AI vocabulary whatsoever. IFAB sorts by how expensive the proof is: 'For factual decisions e.g. position of an offence or player (offside), point of contact (handball/foul), location (inside or outside the penalty area), ball out of play etc. a VAR-only review is usually appropriate' — remote machine-assisted adjudication suffices where the fact is cheap and objective — whereas 'For subjective decisions, e.g. intensity of a foul challenge, interference at offside, handball considerations, an on-field review (OFR) is appropriate' — the accountable human must go look himself where the proof is contested. Even the replay speed is calibrated to evidence type: slow motion 'should only be used for facts', normal speed 'for the intensity of an offence'. D3=2 on an unusual mechanism: the mandatory 'TV signal' and the earpiece signal that 'announces that the referee is receiving information' are real-time public labels that machine assistance is in play, and 'the referee must remain visible during the review process to ensure transparency'. D6=2: 'There is no time limit for the review process as accuracy is more important than speed.' D4=0 — no fabrication or synthetic-content concept exists here ('mistaken identity' is about players, not synthetic identity). c3=Both-split because one clause openly overrides the evidential rule with a legitimacy rationale: an on-field review may be used for a factual decision 'if it will help manage the players/match or sell the decision'. twilight=false — explicit continuity claim: 'The VAR protocol, as far as possible, conforms to the principles and philosophy of the Laws of the Game.'"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/ifab-var-protocol",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/ifab-var-protocol",
+    "name": "Calibrated Authority rating — IFAB — Video Assistant Referee (VAR) protocol, Laws of the Game",
+    "datePublished": "2026-08-23",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "IFAB — Video Assistant Referee (VAR) protocol, Laws of the Game — public generative-AI policy",
+      "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/",
+      "text": "The referee is the only person who can make the final decision; the VAR has the same status as the other match officials and can only assist the referee",
+      "abstract": "The referee is the only person who can make the final decision; the VAR has the same status as the other match officials and can only assist the referee",
+      "alternateName": "IFAB Laws of the Game, Video Assistant Referee (VAR) protocol, §4 Procedures — Original decision"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-26",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

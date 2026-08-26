@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-08-25",
+  "version": "2026-08-26",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-08-25T11:30:00Z",
+  "dateModified": "2026-08-26T11:30:01Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-08-25",
+    "version": "2026-08-26",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 71,
+    "n": 72,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-08-25T11:30:00Z"
+    "generated_at": "2026-08-26T11:30:01Z"
   },
   "institutions": [
     {
@@ -2121,6 +2121,35 @@
         "url": "https://www.cms.gov/files/document/hpms-memo-faq-coverage-criteria-and-utilization-management-cms-4201-f-02-6-2024-pdf.pdf",
         "verify_status": "primary-live-2026-08-23",
         "note": "The reserve is stated as an absolute: 'algorithms or artificial intelligence alone cannot be used as the basis to deny admission or downgrade to an observation stay; the patient's individual circumstances must be considered against the permissible applicable coverage criteria.' D3=0 and D4=0 are real absences, not oversights — the memo imposes no duty to disclose to an enrollee that AI touched their determination, and has no fabrication concept at all. D1=2 rests on an unusual mechanism: the decision rule itself must be public and frozen ('Because publicly posted coverage criteria are static and unchanging, artificial intelligence cannot be used to shift the coverage criteria over time'), so inspectability is achieved by pinning the criteria rather than by opening the model. c2_fit=partially: the line lands roughly where verification economics would put it — prediction permitted, adjudication reserved — but CMS derives it from statutory individualization (a population-level inference cannot stand in for 'the individual patient's medical history, the physician's recommendations, or clinical notes') and from Section 1557 nondiscrimination, not from proof cost. twilight=false: the memo asserts strict precedent continuity, treating AI as one more software tool that must satisfy the pre-existing §422.101(c) tests."
+      }
+    },
+    {
+      "id": "ifab-var-protocol",
+      "name": "IFAB — Video Assistant Referee (VAR) protocol, Laws of the Game",
+      "segment": "sports-governing-body",
+      "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": false,
+      "coded_date": "2026-08-23",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "The referee is the only person who can make the final decision; the VAR has the same status as the other match officials and can only assist the referee",
+      "quote_label": "IFAB Laws of the Game, Video Assistant Referee (VAR) protocol, §4 Procedures — Original decision",
+      "provenance": {
+        "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/",
+        "verify_status": "primary-live-2026-08-23",
+        "note": "The cleanest verification-economics split in the corpus, written with no AI vocabulary whatsoever. IFAB sorts by how expensive the proof is: 'For factual decisions e.g. position of an offence or player (offside), point of contact (handball/foul), location (inside or outside the penalty area), ball out of play etc. a VAR-only review is usually appropriate' — remote machine-assisted adjudication suffices where the fact is cheap and objective — whereas 'For subjective decisions, e.g. intensity of a foul challenge, interference at offside, handball considerations, an on-field review (OFR) is appropriate' — the accountable human must go look himself where the proof is contested. Even the replay speed is calibrated to evidence type: slow motion 'should only be used for facts', normal speed 'for the intensity of an offence'. D3=2 on an unusual mechanism: the mandatory 'TV signal' and the earpiece signal that 'announces that the referee is receiving information' are real-time public labels that machine assistance is in play, and 'the referee must remain visible during the review process to ensure transparency'. D6=2: 'There is no time limit for the review process as accuracy is more important than speed.' D4=0 — no fabrication or synthetic-content concept exists here ('mistaken identity' is about players, not synthetic identity). c3=Both-split because one clause openly overrides the evidential rule with a legitimacy rationale: an on-field review may be used for a factual decision 'if it will help manage the players/match or sell the decision'. twilight=false — explicit continuity claim: 'The VAR protocol, as far as possible, conforms to the principles and philosophy of the Laws of the Game.'"
       }
     },
     {

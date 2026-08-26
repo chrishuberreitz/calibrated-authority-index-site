@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25",
+  "generated": "2026-08-26",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -479,6 +479,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-08-26T11:30:00Z",
+      "date": "2026-08-26",
+      "id": "ifab-var-protocol",
+      "name": "IFAB — Video Assistant Referee (VAR) protocol, Laws of the Game",
+      "category": "add",
+      "rationale": "IFAB — Video Assistant Referee (VAR) protocol, Laws of the Game is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 10/12 with a Balanced posture; it opens the sports-governing-body segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"The referee is the only person who can make the final decision; the VAR has the same status as the other match officials and can only assist the referee\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
         "timeliness": 2
       }
     }

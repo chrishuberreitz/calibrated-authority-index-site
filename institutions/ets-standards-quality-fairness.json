@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-08-27",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "ets-standards-quality-fairness",
+  "name": "ETS — ETS Standards for Quality and Fairness (2014)",
+  "segment": "testing-credentialing",
+  "url": "https://www.ets.org/pdfs/about/standards-quality-fairness.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 9,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-08-23",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "If the test includes automated scoring of complex responses, use human raters as a check on the automated scoring. The extent to which human raters are required will vary with the quality of the automated scoring and the consequences of the decisions made on the basis of the scores.",
+  "quote_label": "ETS Standards for Quality and Fairness (2014), Chapter 10 Scoring, Standard 10.3 'Using Automated Scoring'",
+  "provenance": {
+    "url": "https://www.ets.org/pdfs/about/standards-quality-fairness.pdf",
+    "verify_status": "primary-live-2026-08-23",
+    "note": "Pre-generative-AI control, and the strongest single statement of the index's central line found so far: the human requirement is an explicit function of (a) whether the machine has been proven an acceptable substitute and (b) the consequence of the decision. Standard 10.3 continues: 'If, however, the automated scoring has not been shown to be an acceptable substitute for human scoring, and if the score will be used to make decisions with important consequences, then use a human rater as a check on every automated score. Any disagreements between the human and automated scorings should be resolved by another human rater.' D1=2 via Standard 10.4, which requires documenting 'the process of calibrating the scoring engine, including the selection and scoring of the responses used in the calibration process'. D2=1, not 2: accountability is institutional and procedural (audit, documented procedure) — no sentence names a human who owns a machine-produced score, and a machine score may stand as the reported score in the low-consequence case. D3=1: automated scoring must be documented in technical and ancillary materials, but nothing requires labeling an individual score as machine-produced to the test taker. D4=1 is inherited rather than authored — the prohibitions on impersonation and on 'plagiarizing or representing someone else's work as their own' (Standard 13.1) predate and do not address machine output. Dated 2014, which is the point: this line was drawn before the vocabulary existed to draw it."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/ets-standards-quality-fairness",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/ets-standards-quality-fairness",
+    "name": "Calibrated Authority rating — ETS — ETS Standards for Quality and Fairness (2014)",
+    "datePublished": "2026-08-23",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "ETS — ETS Standards for Quality and Fairness (2014) — public generative-AI policy",
+      "url": "https://www.ets.org/pdfs/about/standards-quality-fairness.pdf",
+      "text": "If the test includes automated scoring of complex responses, use human raters as a check on the automated scoring. The extent to which human raters are required will vary with the quality of the automated scoring and the consequences of the decisions made on the basis of the scores.",
+      "abstract": "If the test includes automated scoring of complex responses, use human raters as a check on the automated scoring. The extent to which human raters are required will vary with the quality of the automated scoring and the consequences of the decisions made on the basis of the scores.",
+      "alternateName": "ETS Standards for Quality and Fairness (2014), Chapter 10 Scoring, Standard 10.3 'Using Automated Scoring'"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 9,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-08-27",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -19,7 +19,7 @@
   D6 = Evidential-trust emphasis
 
 ## How to cite
-Chris Huber Reitz. "The Calibrated Authority Index" (version 2026-08-27). https://calibrated-authority.chrishuberreitz.com
+Chris Huber Reitz. "The Calibrated Authority Index" (version 2026-08-28). https://calibrated-authority.chrishuberreitz.com
 License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 ## Machine-readable surfaces

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -515,6 +515,17 @@
         "theory": 1,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-08-28T11:30:00Z",
+      "date": "2026-08-28",
+      "id": "russell-group",
+      "name": "Russell Group (UK) — Principles on the use of generative AI tools in education",
+      "category": "move",
+      "rationale": "Russell Group (UK) — Principles on the use of generative AI tools in education changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 7 -> 7, revision 3, observed 2026-08-23. Prior entry this session defaulted to disposition SUBSTANTIVE because the score vector moved. Correcting: the document is unchanged, so the delta was coder variance. Prior score vector restored; discr…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-23)",
+      "move_event_ts": "2026-08-23T20:37:11Z"
     }
   ]
 }

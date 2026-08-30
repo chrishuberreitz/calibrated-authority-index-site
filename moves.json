@@ -1,6 +1,24 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-30",
   "moves": [
+    {
+      "date": "2026-08-30",
+      "institution": "Society of Professional Journalists",
+      "id": "spj",
+      "kind": "changed",
+      "headline": "Society of Professional Journalists policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-08-30",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
     {
       "date": "2026-08-23",
       "institution": "University of Cambridge",

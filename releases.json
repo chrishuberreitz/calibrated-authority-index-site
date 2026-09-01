@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31",
+  "generated": "2026-09-01",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -537,6 +537,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-08-23)",
       "move_event_ts": "2026-08-23T20:37:11Z"
+    },
+    {
+      "ts": "2026-09-01T11:30:00Z",
+      "date": "2026-09-01",
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
+      "category": "move",
+      "rationale": "University of California, Berkeley changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 6 -> 6, revision 1, observed 2026-08-23. No policy change. Page's own 'Last updated: July 25, 2025' predates its 2026-06-22 coding; scan CHANGED flag is a hashing false positive. Observation logged to flag suspected inter-rater discrepancy o…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-23)",
+      "move_event_ts": "2026-08-23T20:25:45Z"
     }
   ]
 }

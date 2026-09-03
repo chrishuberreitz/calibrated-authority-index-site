@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02",
+  "generated": "2026-09-03",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -556,6 +556,17 @@
       "name": "University of Cambridge",
       "category": "move",
       "rationale": "University of Cambridge changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 9 -> 9, revision 1, observed 2026-08-23. No policy change. Live text verified byte-identical to the 2026-03-07 Wayback snapshot; scan CHANGED flag is a hashing false positive. Observation logged to correct a truncated quote (the 'unless expl…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-08-23)",
+      "move_event_ts": "2026-08-23T20:25:44Z"
+    },
+    {
+      "ts": "2026-09-03T11:30:00Z",
+      "date": "2026-09-03",
+      "id": "sage",
+      "name": "SAGE Publishing",
+      "category": "move",
+      "rationale": "SAGE Publishing changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 12 -> 12, revision 2, observed 2026-08-23. No policy change. Live text verified identical to the 2026-08-09 coding; scan CHANGED flag is a hashing false positive. Scores preserved at 12/12. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-08-23)",
       "move_event_ts": "2026-08-23T20:25:44Z"

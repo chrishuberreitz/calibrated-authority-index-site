@@ -4,7 +4,7 @@ springer-nature,Springer Nature / Nature,publisher,https://www.nature.com/nature
 elsevier,Elsevier,publisher,https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
 wiley,Wiley,publisher,https://authorservices.wiley.com/ethics-guidelines/index.html,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-live-2026-07-26
 taylor-francis,Taylor & Francis,publisher,https://taylorandfrancis.com/our-policies/ai-policy/,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-verified-2026-06-22
-science-aaas,Science / AAAS,publisher,https://www.science.org/content/page/science-journals-editorial-policies,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,secondary-wayback-2026-06-14 (live 403; Chrome unavailable this run)
+science-aaas,Science / AAAS,publisher,https://www.science.org/content/page/science-journals-editorial-policies,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,primary-verified-2026-09-04
 icmje,ICMJE,med-integrity,https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
 cope,COPE,pub-ethics,https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools,1,2,2,0,1,1,7,Balanced,fits,Relational,False,secondary-wayback-2026-02-08 (live 403; Chrome unavailable this run)
 plos,PLOS,publisher,https://journals.plos.org/plosone/s/ethical-publishing-practice,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-06-22

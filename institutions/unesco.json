@@ -21,15 +21,15 @@
   "c2_fit": "partially",
   "c3": "Relational",
   "twilight": true,
-  "coded_date": "2026-08-16",
+  "coded_date": "2026-09-06",
   "last_changed": "2026-08-02",
   "revision": 2,
   "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
   "quote_label": "Guidance for generative AI in education and research (UNESCO)",
   "provenance": {
     "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-    "verify_status": "primary-live-2026-08-16",
-    "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: the sidebar related-publications carousel rotated (e.g. \"Jordan’s Education Strategic Plan 2026–2030\" -> \"Higher education global trends report\"). The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
+    "verify_status": "primary-live-2026-09-06",
+    "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only, zero change to policy text: header nav reordered (Member States Portal / Newsroom / Calendar blocks swapped position) and the related-content carousel rotated (e.g. 'World Conference on Education for Sustainable Development' -> 'Webinar: Continuing education ... African labour markets', 'UNESCO IRAQ A YEAR in Review 2025'). The coded verbatim quote is present word-for-word in the live document; scores unmoved."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "name": "Calibrated Authority rating — UNESCO — GenAI in education & research",
-    "datePublished": "2026-08-16",
+    "datePublished": "2026-09-06",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UNESCO — GenAI in education & research — public generative-AI policy",

@@ -7,7 +7,7 @@
   "id": "oecd",
   "name": "OECD AI Principles",
   "segment": "intergov",
-  "url": "https://oecd.ai/en/ai-principles",
+  "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
   "scores": {
     "D1": 2,
     "D2": 2,
@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-09-06",
+  "last_changed": "2026-09-06",
+  "revision": 1,
   "quote": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
-  "quote_label": "AI Principles (OECD/LEGAL/0449)",
+  "quote_label": "OECD AI Principles, Principle 1.5 Accountability (OECD/LEGAL/0449, as updated May 2024)",
   "provenance": {
-    "url": "https://oecd.ai/en/ai-principles",
-    "verify_status": "ok"
+    "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
+    "verify_status": "primary-live-2026-09-06",
+    "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change on the oecd.ai/en/ai-principles hub. The hub page is an overview (principle headings, adherent list, AI-system definition) and does not carry the principle text; a Wayback capture from 2026-08-02 confirms it did not carry the coded quote then either, so the hash flip is page furniture, not policy. Re-anchored the record URL to the Principle 1.5 (Accountability) page, where the coded verbatim quote appears word-for-word: 'AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry, appropriate to the context and consistent with the state of the art.' Same Recommendation (adopted 2019, updated May 2024); scores unmoved."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/oecd",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/oecd",
     "name": "Calibrated Authority rating — OECD AI Principles",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-06",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "OECD AI Principles — public generative-AI policy",
-      "url": "https://oecd.ai/en/ai-principles",
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
       "text": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
       "abstract": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
-      "alternateName": "AI Principles (OECD/LEGAL/0449)"
+      "alternateName": "OECD AI Principles, Principle 1.5 Accountability (OECD/LEGAL/0449, as updated May 2024)"
     },
     "reviewRating": {
       "@type": "Rating",

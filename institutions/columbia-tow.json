@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
+  "coded_date": "2026-09-06",
   "last_changed": null,
   "revision": 0,
   "quote": "We won't publish a story if our only source is AI — it's not a substitute for the careful review of journalists.",
   "quote_label": "Tow Center / CJR",
   "provenance": {
     "url": "https://journalism.columbia.edu/CJS2030/AI",
-    "verify_status": "ok"
+    "verify_status": "quote-provenance-defect-2026-09-06",
+    "note": "PROVENANCE DEFECT flagged 2026-09-06 (not yet resolved). The coded quote ('We won't publish a story if our only source is AI ...') is NOT Columbia Journalism School policy text: web search attributes it to a Washington Post Visual Forensics reporter quoted in the Columbia Journalism Review feature 'How We're Using AI' (May 2025). The coded URL (CJS2030 Initiative on AI) is a hub/news page; a Wayback capture from 2025-11-02 carries no policy language and no version of the quote. Live page 403s to headless fetch and no Chrome tools were available this session. Scores left untouched pending a Chrome read of the school's actual guidance (candidates: the faculty 'Suggested Syllabus Language' page at profhelp.journalism.columbia.edu, or journalism.columbia.edu/ai-0). If no formal published policy exists, this record should be withdrawn from the corpus rather than re-quoted."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/columbia-tow",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/columbia-tow",
     "name": "Calibrated Authority rating — Columbia / Tow Center",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-06",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Columbia / Tow Center — public generative-AI policy",

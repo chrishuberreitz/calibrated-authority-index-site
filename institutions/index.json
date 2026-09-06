@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-09-04T11:30:00Z"
+    "generated_at": "2026-09-06T20:28:19Z"
   },
   "institutions": [
     {
@@ -378,8 +378,8 @@
       "id": "cse",
       "name": "Council of Science Editors",
       "segment": "science-editors",
-      "ca": 10,
-      "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
+      "ca": 11,
+      "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
       "page": "/institutions/cse",
       "atom": "/institutions/cse.json"
     },
@@ -469,7 +469,7 @@
       "name": "OECD AI Principles",
       "segment": "intergov",
       "ca": 10,
-      "url": "https://oecd.ai/en/ai-principles",
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
       "page": "/institutions/oecd",
       "atom": "/institutions/oecd.json"
     },

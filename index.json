@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-04T11:30:00Z",
+  "dateModified": "2026-09-06T20:28:19Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-04T11:30:00Z"
+    "generated_at": "2026-09-06T20:28:19Z"
   },
   "institutions": [
     {
@@ -468,14 +468,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-09-06",
       "last_changed": null,
       "revision": 0,
       "quote": "We won't publish a story if our only source is AI — it's not a substitute for the careful review of journalists.",
       "quote_label": "Tow Center / CJR",
       "provenance": {
         "url": "https://journalism.columbia.edu/CJS2030/AI",
-        "verify_status": "ok"
+        "verify_status": "quote-provenance-defect-2026-09-06",
+        "note": "PROVENANCE DEFECT flagged 2026-09-06 (not yet resolved). The coded quote ('We won't publish a story if our only source is AI ...') is NOT Columbia Journalism School policy text: web search attributes it to a Washington Post Visual Forensics reporter quoted in the Columbia Journalism Review feature 'How We're Using AI' (May 2025). The coded URL (CJS2030 Initiative on AI) is a hub/news page; a Wayback capture from 2025-11-02 carries no policy language and no version of the quote. Live page 403s to headless fetch and no Chrome tools were available this session. Scores left untouched pending a Chrome read of the school's actual guidance (candidates: the faculty 'Suggested Syllabus Language' page at profhelp.journalism.columbia.edu, or journalism.columbia.edu/ai-0). If no formal published policy exists, this record should be withdrawn from the corpus rather than re-quoted."
       }
     },
     {
@@ -1245,28 +1246,29 @@
       "id": "cse",
       "name": "Council of Science Editors",
       "segment": "science-editors",
-      "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
+      "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
       "scores": {
         "D1": 2,
         "D2": 2,
         "D3": 2,
         "D4": 1,
-        "D5": 1,
+        "D5": 2,
         "D6": 2
       },
-      "ca": 10,
+      "ca": 11,
       "posture": "Balanced",
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "A nonhuman cannot be responsible or accountable for the accuracy, integrity, and originality of the work.",
-      "quote_label": "Guidance on machine learning and AI tools",
+      "coded_date": "2026-09-06",
+      "last_changed": "2026-09-06",
+      "revision": 1,
+      "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
+      "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, §2.1.15 Use of Generative Artificial Intelligence (Gen AI) in the Work (rev. Dec. 26, 2025)",
       "provenance": {
-        "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
-        "verify_status": "ok"
+        "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
+        "verify_status": "primary-live-2026-09-06",
+        "note": "SUPERSEDED 2026-09-06. The previously coded source (csescienceeditor.org, the 2023 Science Editor article 'CSE Guidance on Machine Learning and Artificial Intelligence Tools') no longer resolves to CSE content: the domain now serves Czech-language online-casino affiliate spam ('Zahraniční casina září 2026'), redirecting all article paths to the root, and the article DOI 10.36591/SE-D-4602-72 returns 404. Treated as a domain loss, not a policy withdrawal. Re-anchored to the governing document on the parent site: CSE Recommendations §2.1.15, which absorbed the 2023 guidance (approved by the CSE Board April 6, 2023) and was revised by the Editorial Policy Committee in 2025, approved December 11, 2025, updated December 26, 2025. Re-scored from the live text. D1=2 ('disclose their use of Gen AI tools, including the name of the tool and how it was used'; journals 'may want to ask for the technical specifications (name, version, model) ... and the method of the application (query structure, syntax)'). D2=2 ('human authors must be accountable for all aspects of a manuscript'; 'the editor and authors are responsible for the final manuscript regardless of AI use'). D3=2 ('At a minimum, all stakeholders should disclose their use of Gen AI tools'). D4=1 (warns Gen AI 'can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations' but this section carries no explicit AI-cannot-be-an-author line; unchanged). D5=2, up from 1: the 2025 revision adds explicit human-validation rules for editors ('should not rely solely on Gen AI suggestions', 'should also verify reviewer recommendations made by Gen AI through other methods', and the coded triage line). D6=2 ('Until they can be applied widely, journals must rely on the author to properly disclose' — names the verification gap explicitly and reserves editor verification where checking is feasible). CA 10 -> 11; posture, c2_fit, c3, twilight unmoved."
       }
     },
     {
@@ -1513,22 +1515,22 @@
       "c2_fit": "partially",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-08-16",
+      "coded_date": "2026-09-06",
       "last_changed": "2026-08-02",
       "revision": 2,
       "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
       "quote_label": "Guidance for generative AI in education and research (UNESCO)",
       "provenance": {
         "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-        "verify_status": "primary-live-2026-08-16",
-        "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: the sidebar related-publications carousel rotated (e.g. \"Jordan’s Education Strategic Plan 2026–2030\" -> \"Higher education global trends report\"). The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
+        "verify_status": "primary-live-2026-09-06",
+        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only, zero change to policy text: header nav reordered (Member States Portal / Newsroom / Calendar blocks swapped position) and the related-content carousel rotated (e.g. 'World Conference on Education for Sustainable Development' -> 'Webinar: Continuing education ... African labour markets', 'UNESCO IRAQ A YEAR in Review 2025'). The coded verbatim quote is present word-for-word in the live document; scores unmoved."
       }
     },
     {
       "id": "oecd",
       "name": "OECD AI Principles",
       "segment": "intergov",
-      "url": "https://oecd.ai/en/ai-principles",
+      "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
       "scores": {
         "D1": 2,
         "D2": 2,
@@ -1542,14 +1544,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-09-06",
+      "last_changed": "2026-09-06",
+      "revision": 1,
       "quote": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
-      "quote_label": "AI Principles (OECD/LEGAL/0449)",
+      "quote_label": "OECD AI Principles, Principle 1.5 Accountability (OECD/LEGAL/0449, as updated May 2024)",
       "provenance": {
-        "url": "https://oecd.ai/en/ai-principles",
-        "verify_status": "ok"
+        "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
+        "verify_status": "primary-live-2026-09-06",
+        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change on the oecd.ai/en/ai-principles hub. The hub page is an overview (principle headings, adherent list, AI-system definition) and does not carry the principle text; a Wayback capture from 2026-08-02 confirms it did not carry the coded quote then either, so the hash flip is page furniture, not policy. Re-anchored the record URL to the Principle 1.5 (Accountability) page, where the coded verbatim quote appears word-for-word: 'AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry, appropriate to the context and consistent with the state of the art.' Same Recommendation (adopted 2019, updated May 2024); scores unmoved."
       }
     },
     {
@@ -1598,15 +1601,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-08-16",
+      "coded_date": "2026-09-06",
       "last_changed": "2026-08-02",
       "revision": 2,
       "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
       "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
       "provenance": {
         "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-        "verify_status": "primary-live-2026-08-16",
-        "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: the Federal Register page-view counter (29,204 -> 29,303) and the retrieval date stamp. Federal Register documents are immutable once published. The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
+        "verify_status": "primary-live-2026-09-06",
+        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved."
       }
     },
     {
@@ -1712,14 +1715,15 @@
       "c2_fit": "contradicts",
       "c3": "Relational",
       "twilight": false,
-      "coded_date": "2026-07-25",
+      "coded_date": "2026-09-06",
       "last_changed": null,
       "revision": 0,
       "quote": "Neither traditional AI (technologies including those used in CGI and VFX) nor generative AI (GAI, meaning artificial intelligence that produces content including written material) is a writer, so no written material produced by traditional AI or GAI can be considered literary material.",
       "quote_label": "WGA 2023 Minimum Basic Agreement, AI provisions (Know Your Rights: Artificial Intelligence)",
       "provenance": {
         "url": "https://www.wga.org/contracts/know-your-rights/artificial-intelligence",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-09-06",
+        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (07-26 vs 09-06) shows page furniture only: a 'Verticals' item was added to the site navigation menu (Advocacy / Inclusion and Equity / Politics & Public Policy ...). Zero change to the AI-provisions text. The coded verbatim quote is present word-for-word in the live document; scores unmoved."
       }
     },
     {

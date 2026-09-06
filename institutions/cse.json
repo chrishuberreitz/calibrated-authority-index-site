@@ -7,28 +7,29 @@
   "id": "cse",
   "name": "Council of Science Editors",
   "segment": "science-editors",
-  "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
+  "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
   "scores": {
     "D1": 2,
     "D2": 2,
     "D3": 2,
     "D4": 1,
-    "D5": 1,
+    "D5": 2,
     "D6": 2
   },
-  "ca": 10,
+  "ca": 11,
   "posture": "Balanced",
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "A nonhuman cannot be responsible or accountable for the accuracy, integrity, and originality of the work.",
-  "quote_label": "Guidance on machine learning and AI tools",
+  "coded_date": "2026-09-06",
+  "last_changed": "2026-09-06",
+  "revision": 1,
+  "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
+  "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, §2.1.15 Use of Generative Artificial Intelligence (Gen AI) in the Work (rev. Dec. 26, 2025)",
   "provenance": {
-    "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
-    "verify_status": "ok"
+    "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
+    "verify_status": "primary-live-2026-09-06",
+    "note": "SUPERSEDED 2026-09-06. The previously coded source (csescienceeditor.org, the 2023 Science Editor article 'CSE Guidance on Machine Learning and Artificial Intelligence Tools') no longer resolves to CSE content: the domain now serves Czech-language online-casino affiliate spam ('Zahraniční casina září 2026'), redirecting all article paths to the root, and the article DOI 10.36591/SE-D-4602-72 returns 404. Treated as a domain loss, not a policy withdrawal. Re-anchored to the governing document on the parent site: CSE Recommendations §2.1.15, which absorbed the 2023 guidance (approved by the CSE Board April 6, 2023) and was revised by the Editorial Policy Committee in 2025, approved December 11, 2025, updated December 26, 2025. Re-scored from the live text. D1=2 ('disclose their use of Gen AI tools, including the name of the tool and how it was used'; journals 'may want to ask for the technical specifications (name, version, model) ... and the method of the application (query structure, syntax)'). D2=2 ('human authors must be accountable for all aspects of a manuscript'; 'the editor and authors are responsible for the final manuscript regardless of AI use'). D3=2 ('At a minimum, all stakeholders should disclose their use of Gen AI tools'). D4=1 (warns Gen AI 'can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations' but this section carries no explicit AI-cannot-be-an-author line; unchanged). D5=2, up from 1: the 2025 revision adds explicit human-validation rules for editors ('should not rely solely on Gen AI suggestions', 'should also verify reviewer recommendations made by Gen AI through other methods', and the coded triage line). D6=2 ('Until they can be applied widely, journals must rely on the author to properly disclose' — names the verification gap explicitly and reserves editor verification where checking is feasible). CA 10 -> 11; posture, c2_fit, c3, twilight unmoved."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,21 +37,21 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cse",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cse",
     "name": "Calibrated Authority rating — Council of Science Editors",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-06",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Council of Science Editors — public generative-AI policy",
-      "url": "https://www.csescienceeditor.org/article/cse-guidance-on-machine-learning-and-artificial-intelligence-tools/",
-      "text": "A nonhuman cannot be responsible or accountable for the accuracy, integrity, and originality of the work.",
-      "abstract": "A nonhuman cannot be responsible or accountable for the accuracy, integrity, and originality of the work.",
-      "alternateName": "Guidance on machine learning and AI tools"
+      "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
+      "text": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
+      "abstract": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
+      "alternateName": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, §2.1.15 Use of Generative Artificial Intelligence (Gen AI) in the Work (rev. Dec. 26, 2025)"
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 10,
+      "ratingValue": 11,
       "bestRating": 12,
       "worstRating": 0,
-      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
     },
     "author": {
       "@type": "Person",

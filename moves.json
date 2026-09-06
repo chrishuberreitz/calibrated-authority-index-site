@@ -1,6 +1,73 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-06",
   "moves": [
+    {
+      "date": "2026-09-06",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "changed",
+      "headline": "Council of Science Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-06",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-06",
+      "institution": "OECD AI Principles",
+      "id": "oecd",
+      "kind": "changed",
+      "headline": "OECD AI Principles policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-06",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-06",
+      "institution": "Writers Guild of America — 2023 MBA, AI provisions",
+      "id": "wga",
+      "kind": "changed",
+      "headline": "Writers Guild of America — 2023 MBA, AI provisions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-06",
+      "institution": "OECD AI Principles",
+      "id": "oecd",
+      "kind": "recoded",
+      "headline": "OECD AI Principles re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-06",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "recoded",
+      "headline": "Council of Science Editors re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 11",
+      "change_type": "SUPERSEDE",
+      "disposition": "SUBSTANTIVE"
+    },
     {
       "date": "2026-08-30",
       "institution": "Society of Professional Journalists",

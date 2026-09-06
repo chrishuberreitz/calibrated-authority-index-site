@@ -21,15 +21,15 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-08-16",
+  "coded_date": "2026-09-06",
   "last_changed": "2026-08-02",
   "revision": 2,
   "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
   "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
   "provenance": {
     "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-    "verify_status": "primary-live-2026-08-16",
-    "note": "Re-verified live 2026-08-16 after the weekly scan flagged a change. Snapshot word-diff shows the flag was page furniture only, with zero change to policy text: the Federal Register page-view counter (29,204 -> 29,303) and the retrieval date stamp. Federal Register documents are immutable once published. The coded verbatim quote is still present word-for-word in the live document; scores unmoved."
+    "verify_status": "primary-live-2026-09-06",
+    "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uspto",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uspto",
     "name": "Calibrated Authority rating — USPTO — Inventorship Guidance for AI-Assisted Inventions",
-    "datePublished": "2026-08-16",
+    "datePublished": "2026-09-06",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions — public generative-AI policy",

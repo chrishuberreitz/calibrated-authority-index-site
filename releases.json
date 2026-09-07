@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06",
+  "generated": "2026-09-07",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -581,6 +581,17 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-08-09)",
       "prev_verify": "secondary-wayback-2026-06-14 (live 403; Chrome unavailable this run)"
+    },
+    {
+      "ts": "2026-09-07T11:30:00Z",
+      "date": "2026-09-07",
+      "id": "oecd",
+      "name": "OECD AI Principles",
+      "category": "move",
+      "rationale": "OECD AI Principles changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 10 -> 10, revision 1, observed 2026-09-06. URL re-anchor only: hub page never carried the principle text; moved to the Principle 1.5 page where the coded quote is verifiable. Policy unchanged, scores unchanged. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-09-06)",
+      "move_event_ts": "2026-09-06T20:21:29Z"
     }
   ]
 }

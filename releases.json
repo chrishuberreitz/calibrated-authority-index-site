@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07",
+  "generated": "2026-09-08",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -589,6 +589,17 @@
       "name": "OECD AI Principles",
       "category": "move",
       "rationale": "OECD AI Principles changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 10 -> 10, revision 1, observed 2026-09-06. URL re-anchor only: hub page never carried the principle text; moved to the Principle 1.5 page where the coded quote is verifiable. Policy unchanged, scores unchanged. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-09-06)",
+      "move_event_ts": "2026-09-06T20:21:29Z"
+    },
+    {
+      "ts": "2026-09-08T11:30:00Z",
+      "date": "2026-09-08",
+      "id": "cse",
+      "name": "Council of Science Editors",
+      "category": "move",
+      "rationale": "Council of Science Editors changed its policy and the change is re-coded: SUPERSEDE (SUBSTANTIVE), CA 10 -> 11, revision 1, observed 2026-09-06. The policy's own stated effective date is 2025-12-26. Source domain csescienceeditor.org lost to casino spam; governing text now CSE Recommendations §2.1.15 (rev. Dec 2025), which tightened editor-side human validation (D5 1->2). A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-09-06)",
       "move_event_ts": "2026-09-06T20:21:29Z"

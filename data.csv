@@ -34,7 +34,7 @@ cambridge-up,Cambridge University Press,publisher,https://www.cambridge.org/core
 oxford-up,Oxford University Press,publisher,https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,ok
 sage,SAGE Publishing,publisher,https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,primary-live-2026-08-23
 ieee,IEEE,computing-society,https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,ok
-pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences),society-publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,wayback-20260731061433
+pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences),society-publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-09-09
 jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
 nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
 wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,ok

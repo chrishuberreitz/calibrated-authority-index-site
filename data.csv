@@ -31,7 +31,7 @@ cambridge,University of Cambridge,university,https://www.educationalpolicy.admin
 ucl,University College London,university,https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment,1,2,2,1,2,1,9,Enabling,fits,Both-split,True,ok
 asu,Arizona State University,university,https://tlc.sols.asu.edu/teaching/toolkits/syllabus-and-policies-generative-ai,1,2,2,0,2,1,8,Balanced,fits,Both-split,True,ok
 cambridge-up,Cambridge University Press,publisher,https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
-oxford-up,Oxford University Press,publisher,https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,ok
+oxford-up,Oxford University Press,publisher,https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,primary-verified-2026-09-10
 sage,SAGE Publishing,publisher,https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,primary-live-2026-08-23
 ieee,IEEE,computing-society,https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,ok
 pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences),society-publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-09-09

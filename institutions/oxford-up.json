@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-09-09",
+  "version": "2026-09-10",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "oxford-up",
@@ -28,7 +28,7 @@
   "quote_label": "Author use of AI",
   "provenance": {
     "url": "https://academic.oup.com/pages/for-authors/books/author-use-of-artificial-intelligence",
-    "verify_status": "ok"
+    "verify_status": "primary-verified-2026-09-10"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -71,7 +71,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-09-09",
+      "version": "2026-09-10",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

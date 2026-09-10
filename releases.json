@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -614,6 +614,17 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-09-06)",
       "prev_verify": "wayback-20260731061433"
+    },
+    {
+      "ts": "2026-09-10T11:30:00Z",
+      "date": "2026-09-10",
+      "id": "oxford-up",
+      "name": "Oxford University Press",
+      "category": "verify",
+      "rationale": "Oxford University Press's policy page blocks automated readers (the scan's fetch is refused), so the coded verbatim was verified against the live page in a manual browser pass on 2026-09-06 and is promoted to primary-source-verified. Blocked sources are missing-not-at-random; verified observations keep the Index's coverage honest.",
+      "auto": true,
+      "selection": "ready VERIFY (chrome pass logged 2026-09-06)",
+      "prev_verify": "ok"
     }
   ]
 }

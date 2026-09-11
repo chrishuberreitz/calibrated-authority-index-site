@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-09-10",
+  "version": "2026-09-11",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "cope",
@@ -28,7 +28,7 @@
   "quote_label": "COPE position statement — Authorship and AI tools",
   "provenance": {
     "url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
-    "verify_status": "secondary-wayback-2026-02-08 (live 403; Chrome unavailable this run)"
+    "verify_status": "primary-verified-2026-09-11"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -71,7 +71,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-09-10",
+      "version": "2026-09-11",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

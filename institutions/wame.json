@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
+  "coded_date": "2026-09-13",
   "last_changed": null,
   "revision": 0,
   "quote": "In the interests of enabling scientific scrutiny, including replication and identifying falsification, the full prompt used to generate the research results, the time and date of query, and the AI tool used and its version, should be provided.",
   "quote_label": "Recommendations on chatbots & generative AI",
   "provenance": {
     "url": "https://wame.org/page3.php?id=106",
-    "verify_status": "ok"
+    "verify_status": "primary-live-2026-09-13"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,7 +36,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/wame",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/wame",
     "name": "Calibrated Authority rating — World Association of Medical Editors",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-13",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "World Association of Medical Editors — public generative-AI policy",

@@ -1,6 +1,33 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-13",
   "moves": [
+    {
+      "date": "2026-09-13",
+      "institution": "World Association of Medical Editors",
+      "id": "wame",
+      "kind": "changed",
+      "headline": "World Association of Medical Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-13",
+      "institution": "Reuters (news agency)",
+      "id": "reuters-news",
+      "kind": "changed",
+      "headline": "Reuters (news agency) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-13",
+      "institution": "Annals of Mathematics (Princeton University & IAS)",
+      "id": "annals-mathematics",
+      "kind": "changed",
+      "headline": "Annals of Mathematics (Princeton University & IAS) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
     {
       "date": "2026-09-06",
       "institution": "Council of Science Editors",

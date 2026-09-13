@@ -37,11 +37,11 @@ ieee,IEEE,computing-society,https://open.ieee.org/author-guidelines-for-artifici
 pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences),society-publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-09-09
 jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
 nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
-wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,ok
+wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-09-13
 cse,Council of Science Editors,science-editors,https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,primary-live-2026-09-06
 royal-society,The Royal Society,society-publisher,https://royalsociety.org/journals/ethics-policies/openness/,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,ok
 bbc,BBC,journalism,https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-08-16
-reuters-news,Reuters (news agency),journalism,https://handbook.reuters.com/index.php?title=Standards_and_Values,2,2,1,2,2,2,11,Balanced,fits,Evidential,False,primary-live-2026-07-26
+reuters-news,Reuters (news agency),journalism,https://handbook.reuters.com/index.php?title=Standards_and_Values,2,2,1,2,2,2,11,Balanced,fits,Evidential,False,primary-live-2026-09-13
 guardian,The Guardian,journalism,https://uploads.guim.co.uk/2026/03/03/Editorial_Code_of_Practice_Guidelines_March2026.pdf,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,ok
 nyt,The New York Times,journalism,https://www.nytco.com/press/principles-for-using-generative-a.i.-in-the-timess-newsroom/,2,2,2,2,2,2,12,Prohibitive,fits,Both-split,True,secondary-blocked
 spj,Society of Professional Journalists,journalism,https://www.spj.org/spj-code-of-ethics/,2,1,2,1,1,2,9,Balanced,fits,Evidential,False,primary-live-2026-08-09
@@ -57,7 +57,7 @@ qaa-uk,QAA (UK Quality Assurance Agency),gov-education,https://www.qaa.ac.uk/sec
 wga,"Writers Guild of America — 2023 MBA, AI provisions",labor-union,https://www.wga.org/contracts/know-your-rights/artificial-intelligence,1,2,2,2,2,0,9,Prohibitive,contradicts,Relational,False,primary-live-2026-09-06
 china-cac,Cyberspace Administration of China — Interim Measures for Generative AI Services,regulator,https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm,2,2,2,2,1,1,10,Balanced,contradicts,Neither,False,ok
 us-copyright-office,U.S. Copyright Office,regulator,https://www.copyright.gov/ai/ai_policy_guidance.pdf,1,2,2,1,0,1,7,Balanced,contradicts,Neither,False,primary-live-2026-07-26
-annals-mathematics,Annals of Mathematics (Princeton University & IAS),publisher,https://annals.math.princeton.edu/submission-guidelines,2,2,2,1,2,1,10,Balanced,contradicts,Both-split,False,primary-live-2026-08-16
+annals-mathematics,Annals of Mathematics (Princeton University & IAS),publisher,https://annals.math.princeton.edu/submission-guidelines,2,2,2,1,2,1,10,Balanced,contradicts,Both-split,False,primary-live-2026-09-13
 uk-judiciary,UK Courts and Tribunals Judiciary — AI Guidance for Judicial Office Holders,courts-legal,https://www.judiciary.uk/wp-content/uploads/2025/04/Refreshed-AI-Guidance-published-version.pdf,1,2,1,2,2,2,10,Balanced,fits,Both-split,False,ok
 nhs-england,NHS England — AI-enabled ambient scribing guidance,healthcare-provider,https://www.england.nhs.uk/long-read/guidance-on-the-use-of-ai-enabled-ambient-scribing-products-in-health-and-care-settings/,2,2,2,1,2,2,11,Balanced,fits,Both-split,False,ok
 calbar,State Bar of California — Practical Guidance for Generative AI in the Practice of Law,professional-licensing,https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf,2,2,1,2,2,2,11,Balanced,fits,Both-split,False,ok

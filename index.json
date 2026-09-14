@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-11",
+  "version": "2026-09-14",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-13T20:23:33Z",
+  "dateModified": "2026-09-14T11:30:04Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-11",
+    "version": "2026-09-14",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 73,
+    "n": 74,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-13T20:23:33Z"
+    "generated_at": "2026-09-14T11:30:04Z"
   },
   "institutions": [
     {
@@ -2212,6 +2212,35 @@
         "url": "https://www.mext.go.jp/content/20260330-mxt_shuukyo01-000030823_004.pdf",
         "verify_status": "primary-live-2026-08-23",
         "note": "Coded against MEXT's own full-text English translation (marked 'Provisional Translation — please refer to the original text for accuracy'); the authoritative Japanese original is 20241226-mxt_shuukyo02-000030823_001.pdf, and the watchlist URL was moved off the one-page summary (…20250422…_001.pdf) onto the governing document. D3=2 on unusually granular provenance: 'when citing generative AI output as part of learning tasks, it is necessary to clearly indicate the use of generative AI as a source or citation... explicitly stating the name of the AI provider used, input prompts, and the date of use,' with a suggestion to 'attach their interactions with the AI as reference material.' D4=1 rather than 2 because the fabrication rule is conditional and delegated downward: submitting AI output as one's own work 'may constitute inappropriate or fraudulent behavior depending on evaluation criteria and submission rules.' c2_fit=partially, and this is the interesting deviation: the evidential half is fully present (hallucinations named, fact-checking taught as a literacy, 'AI outputs are merely a reference and not necessarily the optimal solution'), but the reserve on the highest-stakes student work is not proof-economics at all — it is developmental. Use is gated on 'the student's developmental stage and the status of their information literacy skills' and on whether it 'contributes to the development of qualities and abilities as defined in the curriculum guidelines,' and the stated harm of AI-written coursework is that 'such actions prevent meaningful learning and personal growth.' The thing being protected is the formation of the student, not the reliability of the artifact — which is why c3=Both-split. twilight=true: 'Generative AI is constantly evolving, and the accelerating pace of its adoption across all sectors of society'; curriculum aims at 'an era of accelerating and increasingly complex societal change' and 'a future society that is difficult to predict'. Notably anti-prohibitive: 'Rigid policies that uniformly prohibit or mandate AI use are' not desirable."
+      }
+    },
+    {
+      "id": "nyc-department-of-consumer-and",
+      "name": "NYC Department of Consumer and Worker Protection — Automated Employment Decision Tools final rule (Local Law 144)",
+      "segment": "employment-regulator",
+      "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 1,
+        "D3": 2,
+        "D4": 0,
+        "D5": 0,
+        "D6": 2
+      },
+      "ca": 7,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-09-13",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Local Law 144 of 2021 prohibits employers and employment agencies from using an automated employment decision tool unless the tool has been subject to a bias audit within one year of the use of the tool, information about the bias audit is publicly available, and certain notices have been provided to employees or job candidates.",
+      "quote_label": "DCWP Notice of Adoption of Final Rule — Statement of Basis and Purpose",
+      "provenance": {
+        "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+        "verify_status": "primary-live-2026-09-13",
+        "note": "Tools may 'substantially assist or replace discretionary decision making' in hiring, including 'to use a simplified output to overrule conclusions derived from other factors including human decision-making'. No human-review requirement (D5=0); candidate recourse is limited to notice with 'instructions for how an individual can request an alternative selection process or a reasonable accommodation'. Machine judgment is permitted where proof is scarce (fitness for a job); the only check is statistical (impact ratios) -> contradicts."
       }
     }
   ]

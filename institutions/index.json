@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-11",
-    "n": 73,
+    "version": "2026-09-14",
+    "n": 74,
     "mean_ca": 9.7,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-09-13T20:23:33Z"
+    "generated_at": "2026-09-14T11:30:04Z"
   },
   "institutions": [
     {
@@ -679,6 +679,15 @@
       "url": "https://www.mext.go.jp/content/20260330-mxt_shuukyo01-000030823_004.pdf",
       "page": "/institutions/mext-japan-genai-guideline",
       "atom": "/institutions/mext-japan-genai-guideline.json"
+    },
+    {
+      "id": "nyc-department-of-consumer-and",
+      "name": "NYC Department of Consumer and Worker Protection — Automated Employment Decision Tools final rule (Local Law 144)",
+      "segment": "employment-regulator",
+      "ca": 7,
+      "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+      "page": "/institutions/nyc-department-of-consumer-and",
+      "atom": "/institutions/nyc-department-of-consumer-and.json"
     }
   ]
 }

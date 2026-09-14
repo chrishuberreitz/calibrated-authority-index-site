@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-09-14",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "nyc-department-of-consumer-and",
+  "name": "NYC Department of Consumer and Worker Protection — Automated Employment Decision Tools final rule (Local Law 144)",
+  "segment": "employment-regulator",
+  "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 0,
+    "D5": 0,
+    "D6": 2
+  },
+  "ca": 7,
+  "posture": "Enabling",
+  "c2_fit": "contradicts",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-09-13",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Local Law 144 of 2021 prohibits employers and employment agencies from using an automated employment decision tool unless the tool has been subject to a bias audit within one year of the use of the tool, information about the bias audit is publicly available, and certain notices have been provided to employees or job candidates.",
+  "quote_label": "DCWP Notice of Adoption of Final Rule — Statement of Basis and Purpose",
+  "provenance": {
+    "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+    "verify_status": "primary-live-2026-09-13",
+    "note": "Tools may 'substantially assist or replace discretionary decision making' in hiring, including 'to use a simplified output to overrule conclusions derived from other factors including human decision-making'. No human-review requirement (D5=0); candidate recourse is limited to notice with 'instructions for how an individual can request an alternative selection process or a reasonable accommodation'. Machine judgment is permitted where proof is scarce (fitness for a job); the only check is statistical (impact ratios) -> contradicts."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/nyc-department-of-consumer-and",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/nyc-department-of-consumer-and",
+    "name": "Calibrated Authority rating — NYC Department of Consumer and Worker Protection — Automated Employment Decision Tools final rule (Local Law 144)",
+    "datePublished": "2026-09-13",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "NYC Department of Consumer and Worker Protection — Automated Employment Decision Tools final rule (Local Law 144) — public generative-AI policy",
+      "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
+      "text": "Local Law 144 of 2021 prohibits employers and employment agencies from using an automated employment decision tool unless the tool has been subject to a bias audit within one year of the use of the tool, information about the bias audit is publicly available, and certain notices have been provided to employees or job candidates.",
+      "abstract": "Local Law 144 of 2021 prohibits employers and employment agencies from using an automated employment decision tool unless the tool has been subject to a bias audit within one year of the use of the tool, information about the bias audit is publicly available, and certain notices have been provided to employees or job candidates.",
+      "alternateName": "DCWP Notice of Adoption of Final Rule — Statement of Basis and Purpose"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 7,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 0; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: contradicts. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-09-14",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-14",
+  "version": "2026-09-15",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-14T11:30:04Z",
+  "dateModified": "2026-09-15T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,11 +89,11 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-14",
+    "version": "2026-09-15",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 74,
-    "mean_ca": 9.7,
+    "n": 75,
+    "mean_ca": 9.6,
     "ca_range": [
       3,
       12
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-14T11:30:04Z"
+    "generated_at": "2026-09-15T11:30:00Z"
   },
   "institutions": [
     {
@@ -2241,6 +2241,35 @@
         "url": "https://rules.cityofnewyork.us/wp-content/uploads/2023/04/DCWP-NOA-for-Use-of-Automated-Employment-Decisionmaking-Tools-2.pdf",
         "verify_status": "primary-live-2026-09-13",
         "note": "Tools may 'substantially assist or replace discretionary decision making' in hiring, including 'to use a simplified output to overrule conclusions derived from other factors including human decision-making'. No human-review requirement (D5=0); candidate recourse is limited to notice with 'instructions for how an individual can request an alternative selection process or a reasonable accommodation'. Machine judgment is permitted where proof is scarce (fitness for a job); the only check is statistical (impact ratios) -> contradicts."
+      }
+    },
+    {
+      "id": "english-wikipedia-—-writing-ar",
+      "name": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "segment": "encyclopedia-community",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
+      "scores": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 0,
+        "D4": 1,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 7,
+      "posture": "Prohibitive",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-09-13",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
+      "quote_label": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)",
+      "provenance": {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
+        "verify_status": "primary-live-2026-09-13",
+        "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.'"
       }
     }
   ]

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-09-15",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "english-wikipedia-—-writing-ar",
+  "name": "English Wikipedia — Writing articles with large language models (content guideline)",
+  "segment": "encyclopedia-community",
+  "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 7,
+  "posture": "Prohibitive",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-09-13",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
+  "quote_label": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)",
+  "provenance": {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
+    "verify_status": "primary-live-2026-09-13",
+    "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.'"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/english-wikipedia-—-writing-ar",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/english-wikipedia-—-writing-ar",
+    "name": "Calibrated Authority rating — English Wikipedia — Writing articles with large language models (content guideline)",
+    "datePublished": "2026-09-13",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "English Wikipedia — Writing articles with large language models (content guideline) — public generative-AI policy",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
+      "text": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
+      "abstract": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
+      "alternateName": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 7,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Prohibitive. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-09-15",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

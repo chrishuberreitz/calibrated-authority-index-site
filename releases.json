@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -651,6 +651,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-09-15T11:30:00Z",
+      "date": "2026-09-15",
+      "id": "english-wikipedia-—-writing-ar",
+      "name": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "category": "add",
+      "rationale": "English Wikipedia — Writing articles with large language models (content guideline) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 7/12 with a Prohibitive posture; it opens the encyclopedia-community segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
         "timeliness": 2
       }
     }

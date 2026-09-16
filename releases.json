@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -667,6 +667,23 @@
         "total": 7,
         "recognition": 1,
         "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-09-16T11:30:00Z",
+      "date": "2026-09-16",
+      "id": "monetary-authority-of-singapor",
+      "name": "Monetary Authority of Singapore — FEAT Principles (Fairness, Ethics, Accountability, Transparency) for AI and Data Analytics in Financial Services",
+      "category": "add",
+      "rationale": "Monetary Authority of Singapore — FEAT Principles (Fairness, Ethics, Accountability, Transparency) for AI and Data Analytics in Financial Services is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 1 · theory 2 · timeliness 2). CA 7/12 with a Enabling posture; it thickens the thin financial-regulator segment (only 1 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Use of AIDA in AIDA-driven decision-making is approved by an appropriate internal authority.\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 1,
         "theory": 2,
         "timeliness": 2
       }

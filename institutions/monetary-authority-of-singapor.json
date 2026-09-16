@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-09-16",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "monetary-authority-of-singapor",
+  "name": "Monetary Authority of Singapore — FEAT Principles (Fairness, Ethics, Accountability, Transparency) for AI and Data Analytics in Financial Services",
+  "segment": "financial-regulator",
+  "url": "https://www.mas.gov.sg/-/media/MAS/News-and-Publications/Monographs-and-Information-Papers/FEAT-Principles-Final.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 7,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-09-13",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Use of AIDA in AIDA-driven decision-making is approved by an appropriate internal authority.",
+  "quote_label": "MAS FEAT Principles, Principle 7 (Internal Accountability)",
+  "provenance": {
+    "url": "https://www.mas.gov.sg/-/media/MAS/News-and-Publications/Monographs-and-Information-Papers/FEAT-Principles-Final.pdf",
+    "verify_status": "primary-live-2026-09-13",
+    "note": "Human sign-off is on USE of the system, not on each decision; individual review is on request ('Data subjects are provided with channels to enquire about, submit appeals for and request reviews of AIDA-driven decisions that affect them'). Disclosure: 'use of AIDA is proactively disclosed to data subjects as part of general communication'. Validation: 'Data and models used for AIDA-driven decisions are regularly reviewed and validated for accuracy and relevance'. Live URL served a maintenance page to WebFetch; text read from the PDF via direct fetch 2026-09-13."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/monetary-authority-of-singapor",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/monetary-authority-of-singapor",
+    "name": "Calibrated Authority rating — Monetary Authority of Singapore — FEAT Principles (Fairness, Ethics, Accountability, Transparency) for AI and Data Analytics in Financial Services",
+    "datePublished": "2026-09-13",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Monetary Authority of Singapore — FEAT Principles (Fairness, Ethics, Accountability, Transparency) for AI and Data Analytics in Financial Services — public generative-AI policy",
+      "url": "https://www.mas.gov.sg/-/media/MAS/News-and-Publications/Monographs-and-Information-Papers/FEAT-Principles-Final.pdf",
+      "text": "Use of AIDA in AIDA-driven decision-making is approved by an appropriate internal authority.",
+      "abstract": "Use of AIDA in AIDA-driven decision-making is approved by an appropriate internal authority.",
+      "alternateName": "MAS FEAT Principles, Principle 7 (Internal Accountability)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 7,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-09-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

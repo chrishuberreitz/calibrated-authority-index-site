@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-15",
-    "n": 75,
+    "version": "2026-09-16",
+    "n": 76,
     "mean_ca": 9.6,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-09-15T11:30:00Z"
+    "generated_at": "2026-09-16T11:30:00Z"
   },
   "institutions": [
     {
@@ -679,6 +679,15 @@
       "url": "https://www.mext.go.jp/content/20260330-mxt_shuukyo01-000030823_004.pdf",
       "page": "/institutions/mext-japan-genai-guideline",
       "atom": "/institutions/mext-japan-genai-guideline.json"
+    },
+    {
+      "id": "monetary-authority-of-singapor",
+      "name": "Monetary Authority of Singapore — FEAT Principles (Fairness, Ethics, Accountability, Transparency) for AI and Data Analytics in Financial Services",
+      "segment": "financial-regulator",
+      "ca": 7,
+      "url": "https://www.mas.gov.sg/-/media/MAS/News-and-Publications/Monographs-and-Information-Papers/FEAT-Principles-Final.pdf",
+      "page": "/institutions/monetary-authority-of-singapor",
+      "atom": "/institutions/monetary-authority-of-singapor.json"
     },
     {
       "id": "nyc-department-of-consumer-and",

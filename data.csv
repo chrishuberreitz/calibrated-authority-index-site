@@ -36,7 +36,7 @@ sage,SAGE Publishing,publisher,https://www.sagepub.com/journals/publication-ethi
 ieee,IEEE,computing-society,https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,ok
 pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences),society-publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-09-09
 jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
-nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
+nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,primary-verified-2026-09-17
 wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-09-13
 cse,Council of Science Editors,science-editors,https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,primary-live-2026-09-06
 royal-society,The Royal Society,society-publisher,https://royalsociety.org/journals/ethics-policies/openness/,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,ok

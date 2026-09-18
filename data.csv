@@ -12,7 +12,7 @@ poynter,Poynter Institute,journalism,https://www.poynter.org/ai-ethics-journalis
 reuters-institute,Reuters Institute (Oxford),journalism-research,https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society,1,1,1,0,1,1,5,Balanced,partially,Both-split,True,ok
 columbia-tow,Columbia / Tow Center,journalism-research,https://journalism.columbia.edu/CJS2030/AI,1,2,1,1,2,1,8,Balanced,fits,Both-split,True,quote-provenance-defect-2026-09-06
 ap,Associated Press,journalism,https://ds.svcs.associatedpress.com/standards-around-generative-ai,1,2,1,2,2,2,10,Balanced,fits,Evidential,False,secondary-blocked
-harvard,Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost),university,https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard,1,2,1,1,2,1,8,Balanced,partially,Both-split,False,wayback-20260810194625
+harvard,Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost),university,https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard,1,2,1,1,2,1,8,Balanced,partially,Both-split,False,primary-verified-2026-09-18
 stanford,Stanford University,university,https://communitystandards.stanford.edu/policies-guidance,1,2,2,1,1,2,9,Balanced,fits,Both-split,True,ok
 mit,MIT,university,https://ist.mit.edu/ai-guidance,1,2,2,1,1,1,8,Balanced,fits,Evidential,True,ok
 umich,University of Michigan,university,https://genai.umich.edu/resources/faculty/course-policies,2,2,1,1,2,2,10,Enabling,fits,Evidential,True,ok

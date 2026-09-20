@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-18T11:30:00Z",
+  "dateModified": "2026-09-20T20:27:27Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-18T11:30:00Z"
+    "generated_at": "2026-09-20T20:27:27Z"
   },
   "institutions": [
     {
@@ -270,14 +270,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements. These are uniquely human responsibilities that cannot be undertaken by Generative AI tools.",
-      "quote_label": "AI policy (browser-verified 2026-06-22)",
+      "coded_date": "2026-09-20",
+      "last_changed": "2026-09-20",
+      "revision": 1,
+      "quote": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements.",
+      "quote_label": "AI policy (re-read live 2026-09-20)",
       "provenance": {
         "url": "https://taylorandfrancis.com/our-policies/ai-policy/",
-        "verify_status": "primary-verified-2026-06-22"
+        "verify_status": "primary-live-2026-09-20",
+        "note": "Re-code 2026-09-20 after the scan flagged the page as changed. Live re-read confirms every scored provision still stands: authorship bar (quoted); accountability - \"Authors are accountable for the originality, validity, and integrity of the content of their submissions, including the references\"; mandatory disclosure - \"Authors must clearly acknowledge within the article or book any use of Generative AI tools through a statement that includes: the full name of the tool used (with version number), how it was used and the reason for use\"; fabrication bar - \"Taylor & Francis does not permit the use of Generative AI in the creation or manipulation of outputs of research or clinical testing, for example, research results, clinical samples and diagnostic images\", and no \"Synthetic data generation to substitute missing data without robust methodology\"; human verification - text or code generation is barred \"without rigorous revision\"; reviewer bar - \"Peer reviewers must not use artificial intelligence tools to generate manuscript and proposal review reports\". c2_fit=fits holds: permitted uses (copyediting, language refinement, idea generation, literature classification, coding assistance, data visualisation) are all cheaply checkable against a source the author already holds, while what is reserved is the generation of results and clinical images - claims no reader can independently re-derive. No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
       }
     },
     {
@@ -1260,15 +1261,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-09-06",
-      "last_changed": "2026-09-06",
-      "revision": 1,
-      "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
-      "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, §2.1.15 Use of Generative Artificial Intelligence (Gen AI) in the Work (rev. Dec. 26, 2025)",
+      "coded_date": "2026-09-20",
+      "last_changed": "2026-09-20",
+      "revision": 2,
+      "quote": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+      "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)",
       "provenance": {
         "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
-        "verify_status": "primary-live-2026-09-06",
-        "note": "SUPERSEDED 2026-09-06. The previously coded source (csescienceeditor.org, the 2023 Science Editor article 'CSE Guidance on Machine Learning and Artificial Intelligence Tools') no longer resolves to CSE content: the domain now serves Czech-language online-casino affiliate spam ('Zahraniční casina září 2026'), redirecting all article paths to the root, and the article DOI 10.36591/SE-D-4602-72 returns 404. Treated as a domain loss, not a policy withdrawal. Re-anchored to the governing document on the parent site: CSE Recommendations §2.1.15, which absorbed the 2023 guidance (approved by the CSE Board April 6, 2023) and was revised by the Editorial Policy Committee in 2025, approved December 11, 2025, updated December 26, 2025. Re-scored from the live text. D1=2 ('disclose their use of Gen AI tools, including the name of the tool and how it was used'; journals 'may want to ask for the technical specifications (name, version, model) ... and the method of the application (query structure, syntax)'). D2=2 ('human authors must be accountable for all aspects of a manuscript'; 'the editor and authors are responsible for the final manuscript regardless of AI use'). D3=2 ('At a minimum, all stakeholders should disclose their use of Gen AI tools'). D4=1 (warns Gen AI 'can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations' but this section carries no explicit AI-cannot-be-an-author line; unchanged). D5=2, up from 1: the 2025 revision adds explicit human-validation rules for editors ('should not rely solely on Gen AI suggestions', 'should also verify reviewer recommendations made by Gen AI through other methods', and the coded triage line). D6=2 ('Until they can be applied widely, journals must rely on the author to properly disclose' — names the verification gap explicitly and reserves editor verification where checking is feasible). CA 10 -> 11; posture, c2_fit, c3, twilight unmoved."
+        "verify_status": "primary-live-2026-09-20",
+        "note": "Re-code 2026-09-20 after the scan flagged the page as changed. Live re-read confirms the scored provisions intact: disclosure - \"At a minimum, all stakeholders should disclose their use of Gen AI tools, including the name of the tool and how it was used\"; accountability - \"Ultimately, human authors must be accountable for all aspects of a manuscript, including the accuracy of the content that was created with the assistance of Gen AI\" and \"the editor and authors are responsible for the final manuscript regardless of AI use for editing and wordsmithing\"; confidentiality - \"No part of a manuscript or peer review should be entered into a publicly available chatbot or LLM tool\"; risk framing - \"Gen AI tools can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations\" (an error warning rather than a fabrication prohibition, which is why D4 stays at 1). No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
       }
     },
     {
@@ -1515,15 +1516,15 @@
       "c2_fit": "partially",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-09-06",
-      "last_changed": "2026-08-02",
-      "revision": 2,
+      "coded_date": "2026-09-20",
+      "last_changed": "2026-09-20",
+      "revision": 3,
       "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
-      "quote_label": "Guidance for generative AI in education and research (UNESCO)",
+      "quote_label": "Guidance for generative AI in education and research (UNESCO, 2023), p.1 (governing PDF re-read 2026-09-20)",
       "provenance": {
         "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-        "verify_status": "primary-live-2026-09-06",
-        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only, zero change to policy text: header nav reordered (Member States Portal / Newsroom / Calendar blocks swapped position) and the related-content carousel rotated (e.g. 'World Conference on Education for Sustainable Development' -> 'Webinar: Continuing education ... African labour markets', 'UNESCO IRAQ A YEAR in Review 2025'). The coded verbatim quote is present word-for-word in the live document; scores unmoved."
+        "verify_status": "primary-live-2026-09-20",
+        "note": "Re-code 2026-09-20. The scan flagged the UNESCO article landing page, not the guidance itself; the landing page carries only a summary. The governing 48-page PDF was retrieved and read in full on 2026-09-20 and the stored quote is verbatim on p.1. Substantive frame unchanged: the Guidance \"proposes key steps to the regulation of GenAI tool, including mandating the protection of data privacy, and setting an age limit for the independent conversations with GenAI platforms\" and \"proposes a human-agent and age-appropriate approach to the ethical validation and pedagogical design processes\"; it calls for \"Definition and enforcement of age limit\" and for developers \"to disclose the copyrighted materials they\" use. twilight=true rests on the quoted sentence, which is exactly the feedback-delay framing - regulation outpaced by release cadence. D1=1 and D6=1 hold: the document reasons about governance at the policy level and does not impose traceability or evidentiary requirements on any particular piece of work. No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
       }
     },
     {

@@ -3,7 +3,7 @@ uf-cpic,UF Center for Public Interest Communications,research-center,https://rea
 springer-nature,Springer Nature / Nature,publisher,https://www.nature.com/nature-portfolio/editorial-policies/ai,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-08-09
 elsevier,Elsevier,publisher,https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
 wiley,Wiley,publisher,https://authorservices.wiley.com/ethics-guidelines/index.html,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-live-2026-07-26
-taylor-francis,Taylor & Francis,publisher,https://taylorandfrancis.com/our-policies/ai-policy/,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-verified-2026-06-22
+taylor-francis,Taylor & Francis,publisher,https://taylorandfrancis.com/our-policies/ai-policy/,2,2,2,2,2,2,12,Enabling,fits,Both-split,True,primary-live-2026-09-20
 science-aaas,Science / AAAS,publisher,https://www.science.org/content/page/science-journals-editorial-policies,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,primary-verified-2026-09-04
 icmje,ICMJE,med-integrity,https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
 cope,COPE,pub-ethics,https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools,1,2,2,0,1,1,7,Balanced,fits,Relational,False,primary-verified-2026-09-11
@@ -38,7 +38,7 @@ pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academ
 jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
 nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,primary-verified-2026-09-17
 wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-09-13
-cse,Council of Science Editors,science-editors,https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,primary-live-2026-09-06
+cse,Council of Science Editors,science-editors,https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,primary-live-2026-09-20
 royal-society,The Royal Society,society-publisher,https://royalsociety.org/journals/ethics-policies/openness/,1,2,2,2,2,1,10,Balanced,fits,Both-split,True,ok
 bbc,BBC,journalism,https://www.bbc.co.uk/editorialguidelines/guidance/use-of-artificial-intelligence,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-08-16
 reuters-news,Reuters (news agency),journalism,https://handbook.reuters.com/index.php?title=Standards_and_Values,2,2,1,2,2,2,11,Balanced,fits,Evidential,False,primary-live-2026-09-13
@@ -47,7 +47,7 @@ nyt,The New York Times,journalism,https://www.nytco.com/press/principles-for-usi
 spj,Society of Professional Journalists,journalism,https://www.spj.org/spj-code-of-ethics/,2,1,2,1,1,2,9,Balanced,fits,Evidential,False,primary-live-2026-08-09
 arl,Association of Research Libraries,library,https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/,1,1,0,1,1,1,5,Enabling,partially,Both-split,True,ok
 educause,EDUCAUSE,edtech,https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy,0,1,1,0,0,1,3,Balanced,contradicts,Relational,True,secondary-wayback-2026-05-05 (live 403; Chrome unavailable this run)
-unesco,UNESCO — GenAI in education & research,intergov,https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research,1,2,1,2,2,1,9,Prohibitive,partially,Relational,True,primary-live-2026-09-06
+unesco,UNESCO — GenAI in education & research,intergov,https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research,1,2,1,2,2,1,9,Prohibitive,partially,Relational,True,primary-live-2026-09-20
 oecd,OECD AI Principles,intergov,https://oecd.ai/en/dashboards/ai-principles/P9,2,2,2,1,1,2,10,Enabling,fits,Evidential,False,primary-live-2026-09-06
 us-doe-oet,US Dept of Education (OET),gov-education,https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf,1,2,1,1,2,1,8,Balanced,partially,Both-split,True,ok
 uspto,USPTO — Inventorship Guidance for AI-Assisted Inventions,regulator,https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions,1,2,1,2,1,1,8,Balanced,fits,Evidential,False,primary-live-2026-09-06

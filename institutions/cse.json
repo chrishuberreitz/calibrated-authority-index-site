@@ -21,15 +21,15 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-09-06",
-  "last_changed": "2026-09-06",
-  "revision": 1,
-  "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
-  "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, §2.1.15 Use of Generative Artificial Intelligence (Gen AI) in the Work (rev. Dec. 26, 2025)",
+  "coded_date": "2026-09-20",
+  "last_changed": "2026-09-20",
+  "revision": 2,
+  "quote": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+  "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)",
   "provenance": {
     "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
-    "verify_status": "primary-live-2026-09-06",
-    "note": "SUPERSEDED 2026-09-06. The previously coded source (csescienceeditor.org, the 2023 Science Editor article 'CSE Guidance on Machine Learning and Artificial Intelligence Tools') no longer resolves to CSE content: the domain now serves Czech-language online-casino affiliate spam ('Zahraniční casina září 2026'), redirecting all article paths to the root, and the article DOI 10.36591/SE-D-4602-72 returns 404. Treated as a domain loss, not a policy withdrawal. Re-anchored to the governing document on the parent site: CSE Recommendations §2.1.15, which absorbed the 2023 guidance (approved by the CSE Board April 6, 2023) and was revised by the Editorial Policy Committee in 2025, approved December 11, 2025, updated December 26, 2025. Re-scored from the live text. D1=2 ('disclose their use of Gen AI tools, including the name of the tool and how it was used'; journals 'may want to ask for the technical specifications (name, version, model) ... and the method of the application (query structure, syntax)'). D2=2 ('human authors must be accountable for all aspects of a manuscript'; 'the editor and authors are responsible for the final manuscript regardless of AI use'). D3=2 ('At a minimum, all stakeholders should disclose their use of Gen AI tools'). D4=1 (warns Gen AI 'can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations' but this section carries no explicit AI-cannot-be-an-author line; unchanged). D5=2, up from 1: the 2025 revision adds explicit human-validation rules for editors ('should not rely solely on Gen AI suggestions', 'should also verify reviewer recommendations made by Gen AI through other methods', and the coded triage line). D6=2 ('Until they can be applied widely, journals must rely on the author to properly disclose' — names the verification gap explicitly and reserves editor verification where checking is feasible). CA 10 -> 11; posture, c2_fit, c3, twilight unmoved."
+    "verify_status": "primary-live-2026-09-20",
+    "note": "Re-code 2026-09-20 after the scan flagged the page as changed. Live re-read confirms the scored provisions intact: disclosure - \"At a minimum, all stakeholders should disclose their use of Gen AI tools, including the name of the tool and how it was used\"; accountability - \"Ultimately, human authors must be accountable for all aspects of a manuscript, including the accuracy of the content that was created with the assistance of Gen AI\" and \"the editor and authors are responsible for the final manuscript regardless of AI use for editing and wordsmithing\"; confidentiality - \"No part of a manuscript or peer review should be entered into a publicly available chatbot or LLM tool\"; risk framing - \"Gen AI tools can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations\" (an error warning rather than a fabrication prohibition, which is why D4 stays at 1). No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cse",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cse",
     "name": "Calibrated Authority rating — Council of Science Editors",
-    "datePublished": "2026-09-06",
+    "datePublished": "2026-09-20",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Council of Science Editors — public generative-AI policy",
       "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
-      "text": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
-      "abstract": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
-      "alternateName": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, §2.1.15 Use of Generative Artificial Intelligence (Gen AI) in the Work (rev. Dec. 26, 2025)"
+      "text": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+      "abstract": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+      "alternateName": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)"
     },
     "reviewRating": {
       "@type": "Rating",

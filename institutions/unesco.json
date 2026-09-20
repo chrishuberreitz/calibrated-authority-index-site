@@ -21,15 +21,15 @@
   "c2_fit": "partially",
   "c3": "Relational",
   "twilight": true,
-  "coded_date": "2026-09-06",
-  "last_changed": "2026-08-02",
-  "revision": 2,
+  "coded_date": "2026-09-20",
+  "last_changed": "2026-09-20",
+  "revision": 3,
   "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
-  "quote_label": "Guidance for generative AI in education and research (UNESCO)",
+  "quote_label": "Guidance for generative AI in education and research (UNESCO, 2023), p.1 (governing PDF re-read 2026-09-20)",
   "provenance": {
     "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-    "verify_status": "primary-live-2026-09-06",
-    "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only, zero change to policy text: header nav reordered (Member States Portal / Newsroom / Calendar blocks swapped position) and the related-content carousel rotated (e.g. 'World Conference on Education for Sustainable Development' -> 'Webinar: Continuing education ... African labour markets', 'UNESCO IRAQ A YEAR in Review 2025'). The coded verbatim quote is present word-for-word in the live document; scores unmoved."
+    "verify_status": "primary-live-2026-09-20",
+    "note": "Re-code 2026-09-20. The scan flagged the UNESCO article landing page, not the guidance itself; the landing page carries only a summary. The governing 48-page PDF was retrieved and read in full on 2026-09-20 and the stored quote is verbatim on p.1. Substantive frame unchanged: the Guidance \"proposes key steps to the regulation of GenAI tool, including mandating the protection of data privacy, and setting an age limit for the independent conversations with GenAI platforms\" and \"proposes a human-agent and age-appropriate approach to the ethical validation and pedagogical design processes\"; it calls for \"Definition and enforcement of age limit\" and for developers \"to disclose the copyrighted materials they\" use. twilight=true rests on the quoted sentence, which is exactly the feedback-delay framing - regulation outpaced by release cadence. D1=1 and D6=1 hold: the document reasons about governance at the policy level and does not impose traceability or evidentiary requirements on any particular piece of work. No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "name": "Calibrated Authority rating — UNESCO — GenAI in education & research",
-    "datePublished": "2026-09-06",
+    "datePublished": "2026-09-20",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UNESCO — GenAI in education & research — public generative-AI policy",
       "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
       "text": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
       "abstract": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
-      "alternateName": "Guidance for generative AI in education and research (UNESCO)"
+      "alternateName": "Guidance for generative AI in education and research (UNESCO, 2023), p.1 (governing PDF re-read 2026-09-20)"
     },
     "reviewRating": {
       "@type": "Rating",

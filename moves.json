@@ -1,6 +1,75 @@
 {
-  "generated": "2026-09-18",
+  "generated": "2026-09-20",
   "moves": [
+    {
+      "date": "2026-09-20",
+      "institution": "Taylor & Francis",
+      "id": "taylor-francis",
+      "kind": "changed",
+      "headline": "Taylor & Francis policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-20",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "changed",
+      "headline": "Council of Science Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-20",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-20",
+      "institution": "NHS England — AI-enabled ambient scribing guidance",
+      "id": "nhs-england",
+      "kind": "changed",
+      "headline": "NHS England — AI-enabled ambient scribing guidance policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-20",
+      "institution": "Taylor & Francis",
+      "id": "taylor-francis",
+      "kind": "recoded",
+      "headline": "Taylor & Francis re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-20",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "recoded",
+      "headline": "Council of Science Editors re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 11 → 11",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-20",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "recoded",
+      "headline": "UNESCO — GenAI in education & research re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-09-13",
       "institution": "World Association of Medical Editors",

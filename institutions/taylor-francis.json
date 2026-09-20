@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements. These are uniquely human responsibilities that cannot be undertaken by Generative AI tools.",
-  "quote_label": "AI policy (browser-verified 2026-06-22)",
+  "coded_date": "2026-09-20",
+  "last_changed": "2026-09-20",
+  "revision": 1,
+  "quote": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements.",
+  "quote_label": "AI policy (re-read live 2026-09-20)",
   "provenance": {
     "url": "https://taylorandfrancis.com/our-policies/ai-policy/",
-    "verify_status": "primary-verified-2026-06-22"
+    "verify_status": "primary-live-2026-09-20",
+    "note": "Re-code 2026-09-20 after the scan flagged the page as changed. Live re-read confirms every scored provision still stands: authorship bar (quoted); accountability - \"Authors are accountable for the originality, validity, and integrity of the content of their submissions, including the references\"; mandatory disclosure - \"Authors must clearly acknowledge within the article or book any use of Generative AI tools through a statement that includes: the full name of the tool used (with version number), how it was used and the reason for use\"; fabrication bar - \"Taylor & Francis does not permit the use of Generative AI in the creation or manipulation of outputs of research or clinical testing, for example, research results, clinical samples and diagnostic images\", and no \"Synthetic data generation to substitute missing data without robust methodology\"; human verification - text or code generation is barred \"without rigorous revision\"; reviewer bar - \"Peer reviewers must not use artificial intelligence tools to generate manuscript and proposal review reports\". c2_fit=fits holds: permitted uses (copyediting, language refinement, idea generation, literature classification, coding assistance, data visualisation) are all cheaply checkable against a source the author already holds, while what is reserved is the generation of results and clinical images - claims no reader can independently re-derive. No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/taylor-francis",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/taylor-francis",
     "name": "Calibrated Authority rating — Taylor & Francis",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-20",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Taylor & Francis — public generative-AI policy",
       "url": "https://taylorandfrancis.com/our-policies/ai-policy/",
-      "text": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements. These are uniquely human responsibilities that cannot be undertaken by Generative AI tools.",
-      "abstract": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements. These are uniquely human responsibilities that cannot be undertaken by Generative AI tools.",
-      "alternateName": "AI policy (browser-verified 2026-06-22)"
+      "text": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements.",
+      "abstract": "Generative AI tools must not be listed as an author because such tools are unable to assume responsibility for the submitted content or manage copyright and licensing agreements.",
+      "alternateName": "AI policy (re-read live 2026-09-20)"
     },
     "reviewRating": {
       "@type": "Rating",

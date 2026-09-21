@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -709,6 +709,23 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-08-02)",
       "prev_verify": "wayback-20260810194625"
+    },
+    {
+      "ts": "2026-09-21T11:30:00Z",
+      "date": "2026-09-21",
+      "id": "beijing-health-commission",
+      "name": "Beijing Municipal Health Commission",
+      "category": "add",
+      "rationale": "Beijing Municipal Health Commission is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 8/12 with a Prohibitive posture; it opens the healthcare-regulator segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"互联网诊疗医师接诊前需进行实名认证，确保由本人提供诊疗服务。其他人员、人工智能软件等不得冒用、替代医师本人提供诊疗服务。\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
     }
   ]
 }

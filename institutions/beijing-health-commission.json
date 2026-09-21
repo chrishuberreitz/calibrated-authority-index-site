@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-09-21",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "beijing-health-commission",
+  "name": "Beijing Municipal Health Commission",
+  "segment": "healthcare-regulator",
+  "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 8,
+  "posture": "Prohibitive",
+  "c2_fit": "partially",
+  "c3": "Relational",
+  "twilight": false,
+  "coded_date": "2026-09-20",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "互联网诊疗医师接诊前需进行实名认证，确保由本人提供诊疗服务。其他人员、人工智能软件等不得冒用、替代医师本人提供诊疗服务。",
+  "quote_label": "关于贯彻落实《互联网诊疗监管细则（试行）》的通知, 第五条 (issued 2023-12-29; primary page read 2026-09-20)",
+  "provenance": {
+    "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
+    "verify_status": "primary-live-2026-09-20",
+    "note": "EN gloss of the quote: Internet diagnosis physicians must complete real-name authentication before receiving patients, to ensure that the physician personally provides the diagnostic and treatment service. Other personnel, artificial-intelligence software and the like must not impersonate or substitute for the physician in providing diagnostic and treatment services. This is a short municipal implementing notice under the national 互联网诊疗监管细则（试行）, jointly issued by six Beijing bodies (health, cyberspace, market regulation, healthcare security, TCM, drug administration). D1=2: art. 5 requires institutions to upload to the municipal supervision platform the ID number, photograph, qualifications, place and scope of practice and years of clinical work of every physician practising online; art. 2 requires institutions to dock with the platform and accept supervision; art. 3 folds platform-docking and data reporting into the institutions licence verification, with joint health/insurance follow-up on refusal to report. Every online encounter is traceable to a named, authenticated individual. D2=2: 确保由本人提供诊疗服务 plus art. 4 - the physicians primary practice institution 应掌握医师互联网诊疗活动的开展情况并加强管理. D3=0: the notice says nothing about telling the patient anything - there is no disclosure or labeling provision at all. D4=2: the clause quoted is one of the most explicit anti-impersonation provisions in the corpus, naming 人工智能软件 directly. D5=1: there is no review-the-output requirement, because AI is not admitted to the loop to begin with; the human is not validating machine output, the human is the whole loop. Scored 1 rather than 2 to avoid double-counting the D4 ban - the document specifies no validation procedure for any AI-assisted output. D6=1: art. 3 commissions the municipal internet-diagnosis quality-control centre to build an evaluation mechanism, and art. 4 requires 3 or more years of independent clinical experience - but this is evidence about the practitioner, not evidence for the clinical claim. c2_fit=partially: the line lands in roughly the right place - the diagnostic encounter (proof scarce at the moment of delivery) is reserved absolutely, while art. 7 carves general health-information services that are not diagnosis out of the supervision regime entirely (cheaply checkable, low stakes). But the stated rationale is impersonation control and 防范化解互联网诊疗安全风险, not verification economics; the boundary is drawn on identity integrity and happens to coincide. c3=Relational: trust is anchored in the named, registered, real-name-authenticated physicians personal presence. The evidential elements present (credential verification, quality-control evaluation) are evidence about the person, not about the claim. twilight=false."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/beijing-health-commission",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/beijing-health-commission",
+    "name": "Calibrated Authority rating — Beijing Municipal Health Commission",
+    "datePublished": "2026-09-20",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Beijing Municipal Health Commission — public generative-AI policy",
+      "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
+      "text": "互联网诊疗医师接诊前需进行实名认证，确保由本人提供诊疗服务。其他人员、人工智能软件等不得冒用、替代医师本人提供诊疗服务。",
+      "abstract": "互联网诊疗医师接诊前需进行实名认证，确保由本人提供诊疗服务。其他人员、人工智能软件等不得冒用、替代医师本人提供诊疗服务。",
+      "alternateName": "关于贯彻落实《互联网诊疗监管细则（试行）》的通知, 第五条 (issued 2023-12-29; primary page read 2026-09-20)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Prohibitive. Verification-boundary fit: partially. Trust-logic: Relational."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-09-21",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-21",
+  "version": "2026-09-22",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-21T11:30:00Z",
+  "dateModified": "2026-09-22T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-21",
+    "version": "2026-09-22",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 77,
+    "n": 78,
     "mean_ca": 9.6,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-21T11:30:00Z"
+    "generated_at": "2026-09-22T11:30:00Z"
   },
   "institutions": [
     {
@@ -2300,6 +2300,35 @@
         "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
         "verify_status": "primary-live-2026-09-13",
         "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.'"
+      }
+    },
+    {
+      "id": "bafin",
+      "name": "BaFin (Federal Financial Supervisory Authority, Germany)",
+      "segment": "financial-regulator",
+      "url": "https://www.bafin.de/SharedDocs/Downloads/EN/Aufsichtsrecht/dl_Prinzipienpapier_BDAI_en.pdf?__blob=publicationFile&v=2",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 1,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 9,
+      "posture": "Enabling",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-09-20",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Senior management is responsible for all significant business decisions, even if they are based on algorithms. As a result, senior management must have sufficient technical expertise.",
+      "quote_label": "Big data and artificial intelligence: Principles for the use of algorithms in decision-making processes, ch. II Key principles, \"Clear management responsibility\" (primary PDF read 2026-09-20)",
+      "provenance": {
+        "url": "https://www.bafin.de/SharedDocs/Downloads/EN/Aufsichtsrecht/dl_Prinzipienpapier_BDAI_en.pdf?__blob=publicationFile&v=2",
+        "verify_status": "primary-live-2026-09-20",
+        "note": "D1=2: \"Sufficient documentation is required in order to ensure that algorithms and the underlying models can be verified - by the company itself and by auditors and supervisors\" (three mandatory documentation steps: model selection, calibration/training, validation); \"users should be able to reproduce results in a subsequent test performed by an independent third party\"; in highly risk-sensitive processes the input data \"should be saved and stored\". D2=2: quoted - accountability is institutional (senior management), not individual authorship. D3=1: no labeling duty of its own; only the cross-reference \"In particular, disclosure requirements vis-a-vis data subjects must also be observed\" under the data-protection principle. Nothing requires a customer to be told an algorithm decided. D4=0: pre-generative document - bias prevention and prohibited differentiation characteristics are covered, but there is no fabrication, hallucination or synthetic-identity provision anywhere in the paper. D5=2: an explicit named principle - \"Putting the human in the loop\": \"Employees should be sufficiently involved in the interpretation and use of algorithmic results when reaching decisions\"; involvement \"should bring real benefits and should not be limited to the mere approval of every algorithmic decision\"; plus the three-threshold approval scheme ending in a \"stopping rule\". D6=2: \"Ensuring accurate, robust and reproducible results\"; initial validation \"should always be performed or at least be examined by an independent function or individual that is not involved in the original modelling process\"; ongoing validation with ad hoc triggers. c2_fit=partially: the papers stated axis is risk magnitude, not proof scarcity - human involvement \"should depend on how mission-critical the decision-making process is and the risks this entails\". But the reproducibility principle and the sanction-screening use case (the algorithm replaces one of two independent checkers precisely because a second human cross-check remains cheap, and a third human enters on disagreement) are verification economics stated outright. Verifiability is layered on top of risk, not the organising principle. c3=Evidential: reproducibility, independent validation, documentation, audit - no relational or professional-identity trust claim anywhere. posture=Enabling: \"BaFin does not generally grant approval for algorithm-based decision-making processes per se\"; the approach is \"risk-oriented, proportional and technology-neutral\" under \"same business, same risk, same rules\". twilight=false: it names blurred calibration/validation boundaries and scaling of error, but frames them as known risk categories rather than precedent collapse."
       }
     },
     {

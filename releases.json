@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -723,6 +723,23 @@
         "total": 7,
         "recognition": 1,
         "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-09-22T11:30:00Z",
+      "date": "2026-09-22",
+      "id": "bafin",
+      "name": "BaFin (Federal Financial Supervisory Authority, Germany)",
+      "category": "add",
+      "rationale": "BaFin (Federal Financial Supervisory Authority, Germany) is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 1 · theory 2 · timeliness 2). CA 9/12 with a Enabling posture; it thickens the thin financial-regulator segment (only 2 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Senior management is responsible for all significant business decisions, even if they are based on algorithms. As a result, senior management must have sufficient technical experti…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 1,
         "theory": 2,
         "timeliness": 2
       }

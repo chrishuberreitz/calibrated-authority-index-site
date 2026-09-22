@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-21",
-    "n": 77,
+    "version": "2026-09-22",
+    "n": 78,
     "mean_ca": 9.6,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-09-21T11:30:00Z"
+    "generated_at": "2026-09-22T11:30:00Z"
   },
   "institutions": [
     {
@@ -706,6 +706,15 @@
       "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
       "page": "/institutions/english-wikipedia-—-writing-ar",
       "atom": "/institutions/english-wikipedia-—-writing-ar.json"
+    },
+    {
+      "id": "bafin",
+      "name": "BaFin (Federal Financial Supervisory Authority, Germany)",
+      "segment": "financial-regulator",
+      "ca": 9,
+      "url": "https://www.bafin.de/SharedDocs/Downloads/EN/Aufsichtsrecht/dl_Prinzipienpapier_BDAI_en.pdf?__blob=publicationFile&v=2",
+      "page": "/institutions/bafin",
+      "atom": "/institutions/bafin.json"
     },
     {
       "id": "beijing-health-commission",

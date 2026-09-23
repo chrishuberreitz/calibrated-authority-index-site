@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -743,6 +743,17 @@
         "theory": 2,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-09-23T11:30:00Z",
+      "date": "2026-09-23",
+      "id": "unesco",
+      "name": "UNESCO — GenAI in education & research",
+      "category": "move",
+      "rationale": "UNESCO — GenAI in education & research changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 9 -> 9, revision 3, observed 2026-09-20. Scan flagged a change on the UNESCO landing page on 2026-09-20; the governing document (Guidance for generative AI in education and research, 2023, UNESDOC ark:/48223/pf0000386693) was re-read in full…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-09-20)",
+      "move_event_ts": "2026-09-20T20:22:07Z"
     }
   ]
 }

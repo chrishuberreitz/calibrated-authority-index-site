@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -754,6 +754,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-09-20)",
       "move_event_ts": "2026-09-20T20:22:07Z"
+    },
+    {
+      "ts": "2026-09-24T11:30:00Z",
+      "date": "2026-09-24",
+      "id": "cse",
+      "name": "Council of Science Editors",
+      "category": "move",
+      "rationale": "Council of Science Editors changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 11 -> 11, revision 2, observed 2026-09-20. Scan flagged a page change on 2026-09-20; live re-read the same day found the stored verbatim quote still present word-for-word and no scored provision altered. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-09-20)",
+      "move_event_ts": "2026-09-20T20:21:56Z"
     }
   ]
 }

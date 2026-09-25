@@ -2,7 +2,7 @@
   "_comment": "What og.png currently SAYS. Written by ca_index.ogcard on every render; read by ca_index.sitelint to catch a card whose numbers the corpus has moved past. Do not hand-edit \u2014 regenerate: python3 ~/.local/lib/ca_index/ogcard.py --site .",
   "n": 78,
   "mean_ca": 9.6,
-  "version": "2026-09-24",
+  "version": "2026-09-25",
   "width": 1200,
   "height": 630,
   "sha256": "73ed222aae2183f2ac5020f059bac6e834c2ef36bb38236ae25b2b16e6926fff"

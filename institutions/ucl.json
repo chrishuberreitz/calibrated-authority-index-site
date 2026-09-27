@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.",
-  "quote_label": "Generative AI hub",
+  "coded_date": "2026-09-27",
+  "last_changed": "2026-09-27",
+  "revision": 1,
+  "quote": "The student should still be the author of their own work – in other words, GenAI should be limited to supporting and assisting the student in completing the assessment, and should not be completing the assessment (entirely or only in part) on the student’s behalf.",
+  "quote_label": "UCL Teaching & Learning, Generative AI Hub, Three categories of GenAI use in assessment, Category 2 (read via Wayback capture 2026-07-22)",
   "provenance": {
     "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-07-22 (live 403; Chrome unavailable this run)",
+    "note": "QUOTE FIDELITY CORRECTION 2026-09-27: the previously coded quote ('The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.') was a spliced paraphrase. It dropped 'in other words' and truncated the sentence. Replaced with the verbatim sentence. Scores unmoved. Also on the page: 'there is not yet sufficient evidence that GenAI is able to contribute effectively and without bias to the process of marking student work. As a result, staff should not use GenAI to mark student work', an evidential reserve on assessment judgment. Caveat for the validation gate: the page states 'use of the three categories is not a formal policy, but rather a resource to help staff and students communicate and understand expectations'; the binding instrument is the Academic Manual (9.2.5, 9.2.6c)."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/ucl",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/ucl",
     "name": "Calibrated Authority rating — University College London",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-27",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "University College London — public generative-AI policy",
       "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment",
-      "text": "The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.",
-      "abstract": "The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.",
-      "alternateName": "Generative AI hub"
+      "text": "The student should still be the author of their own work – in other words, GenAI should be limited to supporting and assisting the student in completing the assessment, and should not be completing the assessment (entirely or only in part) on the student’s behalf.",
+      "abstract": "The student should still be the author of their own work – in other words, GenAI should be limited to supporting and assisting the student in completing the assessment, and should not be completing the assessment (entirely or only in part) on the student’s behalf.",
+      "alternateName": "UCL Teaching & Learning, Generative AI Hub, Three categories of GenAI use in assessment, Category 2 (read via Wayback capture 2026-07-22)"
     },
     "reviewRating": {
       "@type": "Rating",

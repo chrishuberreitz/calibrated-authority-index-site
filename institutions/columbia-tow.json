@@ -21,7 +21,7 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-09-06",
+  "coded_date": "2026-09-27",
   "last_changed": null,
   "revision": 0,
   "quote": "We won't publish a story if our only source is AI — it's not a substitute for the careful review of journalists.",
@@ -29,7 +29,7 @@
   "provenance": {
     "url": "https://journalism.columbia.edu/CJS2030/AI",
     "verify_status": "quote-provenance-defect-2026-09-06",
-    "note": "PROVENANCE DEFECT flagged 2026-09-06 (not yet resolved). The coded quote ('We won't publish a story if our only source is AI ...') is NOT Columbia Journalism School policy text: web search attributes it to a Washington Post Visual Forensics reporter quoted in the Columbia Journalism Review feature 'How We're Using AI' (May 2025). The coded URL (CJS2030 Initiative on AI) is a hub/news page; a Wayback capture from 2025-11-02 carries no policy language and no version of the quote. Live page 403s to headless fetch and no Chrome tools were available this session. Scores left untouched pending a Chrome read of the school's actual guidance (candidates: the faculty 'Suggested Syllabus Language' page at profhelp.journalism.columbia.edu, or journalism.columbia.edu/ai-0). If no formal published policy exists, this record should be withdrawn from the corpus rather than re-quoted."
+    "note": "PROVENANCE DEFECT flagged 2026-09-06 (not yet resolved). The coded quote ('We won't publish a story if our only source is AI ...') is NOT Columbia Journalism School policy text: web search attributes it to a Washington Post Visual Forensics reporter quoted in the Columbia Journalism Review feature 'How We're Using AI' (May 2025). The coded URL (CJS2030 Initiative on AI) is a hub/news page; a Wayback capture from 2025-11-02 carries no policy language and no version of the quote. Live page 403s to headless fetch and no Chrome tools were available this session. Scores left untouched pending a Chrome read of the school's actual guidance (candidates: the faculty 'Suggested Syllabus Language' page at profhelp.journalism.columbia.edu, or journalism.columbia.edu/ai-0). If no formal published policy exists, this record should be withdrawn from the corpus rather than re-quoted. | RECHECK 2026-09-27: Wayback capture 2025-12-11 of the coded URL is still the CJS2030 initiative hub (event carousel, faculty news, Tow report links). It has no policy language and no version of the coded quote. Wayback has no captures of journalism.columbia.edu/ai-0 or profhelp.journalism.columbia.edu. Defect stands. Recommend withdrawal unless a Chrome read finds formal published guidance; not withdrawn this run because the record is released and withdrawal is a public-facing call for Chris."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/columbia-tow",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/columbia-tow",
     "name": "Calibrated Authority rating — Columbia / Tow Center",
-    "datePublished": "2026-09-06",
+    "datePublished": "2026-09-27",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Columbia / Tow Center — public generative-AI policy",

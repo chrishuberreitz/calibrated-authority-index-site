@@ -1,6 +1,88 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-27",
   "moves": [
+    {
+      "date": "2026-09-27",
+      "institution": "PLOS",
+      "id": "plos",
+      "kind": "changed",
+      "headline": "PLOS policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "changed",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "PLOS",
+      "id": "plos",
+      "kind": "recoded",
+      "headline": "PLOS re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 12 → 12",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "recoded",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 8 → 8",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "recoded",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 7 → 7",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "University College London",
+      "id": "ucl",
+      "kind": "recoded",
+      "headline": "University College London re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-09-27",
+      "institution": "University of Michigan",
+      "id": "umich",
+      "kind": "recoded",
+      "headline": "University of Michigan re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-09-20",
       "institution": "Taylor & Francis",

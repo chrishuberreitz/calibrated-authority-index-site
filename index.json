@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-25T14:51:54Z",
+  "dateModified": "2026-09-27T20:29:23Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-25T14:51:54Z"
+    "generated_at": "2026-09-27T20:29:23Z"
   },
   "institutions": [
     {
@@ -384,14 +384,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-09-27",
+      "last_changed": "2026-09-27",
+      "revision": 1,
       "quote": "The use of AI tools and technologies to fabricate or otherwise misrepresent primary research data is unacceptable.",
       "quote_label": "Ethical publishing practice (browser-verified)",
       "provenance": {
         "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
-        "verify_status": "primary-verified-2026-06-22"
+        "verify_status": "primary-live-2026-09-27",
+        "note": "Re-verified live 2026-09-27: Weekly scan hash moved 2026-09-27; no prior snapshot retained, so the live 'Artificial Intelligence Tools and Technologies' section was re-read in full. Coded quote present verbatim. Section now itemises author use, peer-review use ('AI tools cannot serve as peer reviewers or as decision-issuing editors'), disclosures (must include 'a description of how the user evaluated the validity of the tool’s outputs'), and PLOS's own use ('PLOS uses AI tools to support submission checks, screening, and integrity investigations'). All dimensions remain at 2; verdict unmoved."
       }
     },
     {
@@ -469,7 +470,7 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-09-06",
+      "coded_date": "2026-09-27",
       "last_changed": null,
       "revision": 0,
       "quote": "We won't publish a story if our only source is AI — it's not a substitute for the careful review of journalists.",
@@ -477,7 +478,7 @@
       "provenance": {
         "url": "https://journalism.columbia.edu/CJS2030/AI",
         "verify_status": "quote-provenance-defect-2026-09-06",
-        "note": "PROVENANCE DEFECT flagged 2026-09-06 (not yet resolved). The coded quote ('We won't publish a story if our only source is AI ...') is NOT Columbia Journalism School policy text: web search attributes it to a Washington Post Visual Forensics reporter quoted in the Columbia Journalism Review feature 'How We're Using AI' (May 2025). The coded URL (CJS2030 Initiative on AI) is a hub/news page; a Wayback capture from 2025-11-02 carries no policy language and no version of the quote. Live page 403s to headless fetch and no Chrome tools were available this session. Scores left untouched pending a Chrome read of the school's actual guidance (candidates: the faculty 'Suggested Syllabus Language' page at profhelp.journalism.columbia.edu, or journalism.columbia.edu/ai-0). If no formal published policy exists, this record should be withdrawn from the corpus rather than re-quoted."
+        "note": "PROVENANCE DEFECT flagged 2026-09-06 (not yet resolved). The coded quote ('We won't publish a story if our only source is AI ...') is NOT Columbia Journalism School policy text: web search attributes it to a Washington Post Visual Forensics reporter quoted in the Columbia Journalism Review feature 'How We're Using AI' (May 2025). The coded URL (CJS2030 Initiative on AI) is a hub/news page; a Wayback capture from 2025-11-02 carries no policy language and no version of the quote. Live page 403s to headless fetch and no Chrome tools were available this session. Scores left untouched pending a Chrome read of the school's actual guidance (candidates: the faculty 'Suggested Syllabus Language' page at profhelp.journalism.columbia.edu, or journalism.columbia.edu/ai-0). If no formal published policy exists, this record should be withdrawn from the corpus rather than re-quoted. | RECHECK 2026-09-27: Wayback capture 2025-12-11 of the coded URL is still the CJS2030 initiative hub (event carousel, faculty news, Tow report links). It has no policy language and no version of the coded quote. Wayback has no captures of journalism.columbia.edu/ai-0 or profhelp.journalism.columbia.edu. Defect stands. Recommend withdrawal unless a Chrome read finds formal published guidance; not withdrawn this run because the record is released and withdrawal is a public-facing call for Chris."
       }
     },
     {
@@ -611,14 +612,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "All data shared with U-M's AI services is private and will not be used to train AI models.",
-      "quote_label": "ITS AI services",
+      "coded_date": "2026-09-27",
+      "last_changed": "2026-09-27",
+      "revision": 1,
+      "quote": "Responsibility for content: Students are responsible for all content (ideas, facts, citations), however the work is generated.",
+      "quote_label": "U-M Generative AI, Guidance for Faculty/Instructors, Course Policies & Syllabi Statements, Syllabus Language (read via Wayback capture 2026-03-13)",
       "provenance": {
         "url": "https://genai.umich.edu/resources/faculty/course-policies",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-03-13 (live 403; Chrome unavailable this run)",
+        "note": "QUOTE PROVENANCE CORRECTION 2026-09-27: the previously coded quote ('All data shared with U-M\\'s AI services is private and will not be used to train AI models.', labelled 'ITS AI services') does not appear on the coded URL, the faculty course-policies page. It belongs to a separate ITS AI-services page. Replaced with verbatim text from the coded URL. Scores left unmoved pending a live read. Flag for review: D1=2 may have been driven by the ITS page. The course-policies page supports documentation through example syllabus language ('A portion of your term grade will evaluate your documentation of AI use') rather than an institutional traceability requirement. Also on the page: 'U-M does not currently support the use of surveillance and plagiarism detection tools as they cannot be reliably counted upon'; and 'you assert that it accurately reflects the facts and to do so you need to have verified the facts, especially if they originate from generative AI resources.'"
       }
     },
     {
@@ -979,14 +981,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.",
-      "quote_label": "Generative AI hub",
+      "coded_date": "2026-09-27",
+      "last_changed": "2026-09-27",
+      "revision": 1,
+      "quote": "The student should still be the author of their own work – in other words, GenAI should be limited to supporting and assisting the student in completing the assessment, and should not be completing the assessment (entirely or only in part) on the student’s behalf.",
+      "quote_label": "UCL Teaching & Learning, Generative AI Hub, Three categories of GenAI use in assessment, Category 2 (read via Wayback capture 2026-07-22)",
       "provenance": {
         "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-07-22 (live 403; Chrome unavailable this run)",
+        "note": "QUOTE FIDELITY CORRECTION 2026-09-27: the previously coded quote ('The student should still be the author of their own work — GenAI should be limited to supporting and assisting the student.') was a spliced paraphrase. It dropped 'in other words' and truncated the sentence. Replaced with the verbatim sentence. Scores unmoved. Also on the page: 'there is not yet sufficient evidence that GenAI is able to contribute effectively and without bias to the process of marking student work. As a result, staff should not use GenAI to mark student work', an evidential reserve on assessment judgment. Caveat for the validation gate: the page states 'use of the three categories is not a formal policy, but rather a resource to help staff and students communicate and understand expectations'; the binding instrument is the Academic Manual (9.2.5, 9.2.6c)."
       }
     },
     {
@@ -1602,15 +1605,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-09-06",
-      "last_changed": "2026-08-02",
-      "revision": 2,
+      "coded_date": "2026-09-27",
+      "last_changed": "2026-09-27",
+      "revision": 3,
       "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
       "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
       "provenance": {
         "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-        "verify_status": "primary-live-2026-09-06",
-        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved."
+        "verify_status": "primary-live-2026-09-27",
+        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved. | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: Federal Register page-view counter (29,829 -> 29,949) and retrieval date stamp only. Document text unchanged; coded quote present verbatim."
       }
     },
     {
@@ -2291,15 +2294,15 @@
       "c2_fit": "partially",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-09-13",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-09-27",
+      "last_changed": "2026-09-27",
+      "revision": 1,
       "quote": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
       "quote_label": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)",
       "provenance": {
         "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
-        "verify_status": "primary-live-2026-09-13",
-        "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.'"
+        "verify_status": "primary-live-2026-09-27",
+        "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.' | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: new revision (oldid 1375904828 -> 1376781070, last edited 26 Sept 2026) adds only a Latina interlanguage link (10 -> 11 languages). Guideline body text identical; coded quote present verbatim."
       }
     },
     {

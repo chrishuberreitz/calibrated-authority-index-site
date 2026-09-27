@@ -21,15 +21,15 @@
   "c2_fit": "partially",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-09-13",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-09-27",
+  "last_changed": "2026-09-27",
+  "revision": 1,
   "quote": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
   "quote_label": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)",
   "provenance": {
     "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
-    "verify_status": "primary-live-2026-09-13",
-    "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.'"
+    "verify_status": "primary-live-2026-09-27",
+    "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.' | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: new revision (oldid 1375904828 -> 1376781070, last edited 26 Sept 2026) adds only a Latina interlanguage link (10 -> 11 languages). Guideline body text identical; coded quote present verbatim."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/english-wikipedia-—-writing-ar",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/english-wikipedia-—-writing-ar",
     "name": "Calibrated Authority rating — English Wikipedia — Writing articles with large language models (content guideline)",
-    "datePublished": "2026-09-13",
+    "datePublished": "2026-09-27",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "English Wikipedia — Writing articles with large language models (content guideline) — public generative-AI policy",

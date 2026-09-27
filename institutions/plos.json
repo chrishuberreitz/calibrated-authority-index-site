@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
+  "coded_date": "2026-09-27",
+  "last_changed": "2026-09-27",
+  "revision": 1,
   "quote": "The use of AI tools and technologies to fabricate or otherwise misrepresent primary research data is unacceptable.",
   "quote_label": "Ethical publishing practice (browser-verified)",
   "provenance": {
     "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
-    "verify_status": "primary-verified-2026-06-22"
+    "verify_status": "primary-live-2026-09-27",
+    "note": "Re-verified live 2026-09-27: Weekly scan hash moved 2026-09-27; no prior snapshot retained, so the live 'Artificial Intelligence Tools and Technologies' section was re-read in full. Coded quote present verbatim. Section now itemises author use, peer-review use ('AI tools cannot serve as peer reviewers or as decision-issuing editors'), disclosures (must include 'a description of how the user evaluated the validity of the tool’s outputs'), and PLOS's own use ('PLOS uses AI tools to support submission checks, screening, and integrity investigations'). All dimensions remain at 2; verdict unmoved."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/plos",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/plos",
     "name": "Calibrated Authority rating — PLOS",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-27",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "PLOS — public generative-AI policy",

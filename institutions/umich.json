@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": true,
-  "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "All data shared with U-M's AI services is private and will not be used to train AI models.",
-  "quote_label": "ITS AI services",
+  "coded_date": "2026-09-27",
+  "last_changed": "2026-09-27",
+  "revision": 1,
+  "quote": "Responsibility for content: Students are responsible for all content (ideas, facts, citations), however the work is generated.",
+  "quote_label": "U-M Generative AI, Guidance for Faculty/Instructors, Course Policies & Syllabi Statements, Syllabus Language (read via Wayback capture 2026-03-13)",
   "provenance": {
     "url": "https://genai.umich.edu/resources/faculty/course-policies",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-03-13 (live 403; Chrome unavailable this run)",
+    "note": "QUOTE PROVENANCE CORRECTION 2026-09-27: the previously coded quote ('All data shared with U-M\\'s AI services is private and will not be used to train AI models.', labelled 'ITS AI services') does not appear on the coded URL, the faculty course-policies page. It belongs to a separate ITS AI-services page. Replaced with verbatim text from the coded URL. Scores left unmoved pending a live read. Flag for review: D1=2 may have been driven by the ITS page. The course-policies page supports documentation through example syllabus language ('A portion of your term grade will evaluate your documentation of AI use') rather than an institutional traceability requirement. Also on the page: 'U-M does not currently support the use of surveillance and plagiarism detection tools as they cannot be reliably counted upon'; and 'you assert that it accurately reflects the facts and to do so you need to have verified the facts, especially if they originate from generative AI resources.'"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/umich",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/umich",
     "name": "Calibrated Authority rating — University of Michigan",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-09-27",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "University of Michigan — public generative-AI policy",
       "url": "https://genai.umich.edu/resources/faculty/course-policies",
-      "text": "All data shared with U-M's AI services is private and will not be used to train AI models.",
-      "abstract": "All data shared with U-M's AI services is private and will not be used to train AI models.",
-      "alternateName": "ITS AI services"
+      "text": "Responsibility for content: Students are responsible for all content (ideas, facts, citations), however the work is generated.",
+      "abstract": "Responsibility for content: Students are responsible for all content (ideas, facts, citations), however the work is generated.",
+      "alternateName": "U-M Generative AI, Guidance for Faculty/Instructors, Course Policies & Syllabi Statements, Syllabus Language (read via Wayback capture 2026-03-13)"
     },
     "reviewRating": {
       "@type": "Rating",

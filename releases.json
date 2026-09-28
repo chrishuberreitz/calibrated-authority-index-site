@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -776,6 +776,23 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-09-20)",
       "move_event_ts": "2026-09-20T20:21:48Z"
+    },
+    {
+      "ts": "2026-09-28T11:30:00Z",
+      "date": "2026-09-28",
+      "id": "national-court-reporters-assoc",
+      "name": "National Court Reporters Association — Emerging Ethical and Legal Issues Related to the Use of AI, ASR, Voice Cloning, and Digital Audio Recording of Legal Proceedings (STRONG Committee, Nov 2023)",
+      "category": "add",
+      "rationale": "National Court Reporters Association — Emerging Ethical and Legal Issues Related to the Use of AI, ASR, Voice Cloning, and Digital Audio Recording of Legal Proceedings (STRONG Committee, Nov 2023) is the strongest coded-but-unreleased record in the queue (advisory 10/10: recognition 3 · segment gap 2 · theory 3 · timeliness 2). CA 11/12 with a Prohibitive posture; it opens the professional-certification segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Without traceability, AI should not be used in the production of certified court or deposition transcripts.\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 10/10 (bar 6)",
+      "score": {
+        "total": 10,
+        "recognition": 3,
+        "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
     }
   ]
 }

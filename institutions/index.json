@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-25",
-    "n": 78,
+    "version": "2026-09-28",
+    "n": 79,
     "mean_ca": 9.6,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-09-27T20:29:23Z"
+    "generated_at": "2026-09-28T11:30:00Z"
   },
   "institutions": [
     {
@@ -724,6 +724,15 @@
       "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
       "page": "/institutions/beijing-health-commission",
       "atom": "/institutions/beijing-health-commission.json"
+    },
+    {
+      "id": "national-court-reporters-assoc",
+      "name": "National Court Reporters Association — Emerging Ethical and Legal Issues Related to the Use of AI, ASR, Voice Cloning, and Digital Audio Recording of Legal Proceedings (STRONG Committee, Nov 2023)",
+      "segment": "professional-certification",
+      "ca": 11,
+      "url": "https://ncra.org/docs/white-paper-ai-asr",
+      "page": "/institutions/national-court-reporters-assoc",
+      "atom": "/institutions/national-court-reporters-assoc.json"
     }
   ]
 }

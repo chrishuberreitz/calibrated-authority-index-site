@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-25",
+  "version": "2026-09-28",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-27T20:29:23Z",
+  "dateModified": "2026-09-28T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-25",
+    "version": "2026-09-28",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 78,
+    "n": 79,
     "mean_ca": 9.6,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-27T20:29:23Z"
+    "generated_at": "2026-09-28T11:30:00Z"
   },
   "institutions": [
     {
@@ -2361,6 +2361,35 @@
         "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
         "verify_status": "primary-live-2026-09-20",
         "note": "EN gloss of the quote: Internet diagnosis physicians must complete real-name authentication before receiving patients, to ensure that the physician personally provides the diagnostic and treatment service. Other personnel, artificial-intelligence software and the like must not impersonate or substitute for the physician in providing diagnostic and treatment services. This is a short municipal implementing notice under the national 互联网诊疗监管细则（试行）, jointly issued by six Beijing bodies (health, cyberspace, market regulation, healthcare security, TCM, drug administration). D1=2: art. 5 requires institutions to upload to the municipal supervision platform the ID number, photograph, qualifications, place and scope of practice and years of clinical work of every physician practising online; art. 2 requires institutions to dock with the platform and accept supervision; art. 3 folds platform-docking and data reporting into the institutions licence verification, with joint health/insurance follow-up on refusal to report. Every online encounter is traceable to a named, authenticated individual. D2=2: 确保由本人提供诊疗服务 plus art. 4 - the physicians primary practice institution 应掌握医师互联网诊疗活动的开展情况并加强管理. D3=0: the notice says nothing about telling the patient anything - there is no disclosure or labeling provision at all. D4=2: the clause quoted is one of the most explicit anti-impersonation provisions in the corpus, naming 人工智能软件 directly. D5=1: there is no review-the-output requirement, because AI is not admitted to the loop to begin with; the human is not validating machine output, the human is the whole loop. Scored 1 rather than 2 to avoid double-counting the D4 ban - the document specifies no validation procedure for any AI-assisted output. D6=1: art. 3 commissions the municipal internet-diagnosis quality-control centre to build an evaluation mechanism, and art. 4 requires 3 or more years of independent clinical experience - but this is evidence about the practitioner, not evidence for the clinical claim. c2_fit=partially: the line lands in roughly the right place - the diagnostic encounter (proof scarce at the moment of delivery) is reserved absolutely, while art. 7 carves general health-information services that are not diagnosis out of the supervision regime entirely (cheaply checkable, low stakes). But the stated rationale is impersonation control and 防范化解互联网诊疗安全风险, not verification economics; the boundary is drawn on identity integrity and happens to coincide. c3=Relational: trust is anchored in the named, registered, real-name-authenticated physicians personal presence. The evidential elements present (credential verification, quality-control evaluation) are evidence about the person, not about the claim. twilight=false."
+      }
+    },
+    {
+      "id": "national-court-reporters-assoc",
+      "name": "National Court Reporters Association — Emerging Ethical and Legal Issues Related to the Use of AI, ASR, Voice Cloning, and Digital Audio Recording of Legal Proceedings (STRONG Committee, Nov 2023)",
+      "segment": "professional-certification",
+      "url": "https://ncra.org/docs/white-paper-ai-asr",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 11,
+      "posture": "Prohibitive",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": true,
+      "coded_date": "2026-09-27",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Without traceability, AI should not be used in the production of certified court or deposition transcripts.",
+      "quote_label": "NCRA white paper, Emerging Ethical and Legal Issues Related to the Use of AI, ASR, Voice Cloning, and Digital Audio Recording of Legal Proceedings, §VI Conclusion (STRONG Committee, November 2023; PDF read 2026-09-27)",
+      "provenance": {
+        "url": "https://ncra.org/docs/white-paper-ai-asr",
+        "verify_status": "primary-live-2026-09-27",
+        "note": "Adopted NCRA resolution (§VI) requires AI/ASR transcript systems be 'subject to human authority, oversight, and control to verify the chain of custody of the official record'; 'All individuals participating in legal proceedings should be duly advised if AI or ASR will be utilized in the production of transcripts ... allowed to decide whether they wish to opt in or out.' D1=2 (traceability as a precondition; chain of custody). D2=2 (FRCP 80: transcript 'certified by the person who reported it'; 'Responsible individuals and organizations should be accountable'). D3=2 (advise + opt-out). D4=1: voice cloning / deepfake impersonation of deposition participants and 'misleading \"certificate\" pages' are named as threats, but no explicit prohibition is stated. D5=2. D6=2 (ASR word-error-rate evidence by race, gender and age; FRE 901(a) authentication; forensic audio). DISCONFIRMATION PROBE RESULT (discovery-log 2026-09-20): the probe predicted a reserve-where-proof-is-cheap counter-example, on the premise that the audio is ground truth. On reading, NCRA contests that premise directly: 'Gone is the time when a transcript or evidence derived from an audiotape or videotape introduced at trial was assumed to be authentic'; audio can be altered 'nearly seamlessly' and detecting edits requires 'highly trained forensic experts.' The reservation is therefore argued in verification terms, so it is not a clean disconfirmation. c2_fit=partially rather than fits because the blanket conclusion ('automated transcription has no place') outruns its own evidence: the paper's own remedy (Washington's chain-of-custody court rule) shows proof can be made cheap again without a stenographer, and the document comes from a certifying body facing what it calls 'an existential challenge' to the profession. Occupational boundary-drawing and verification economics point the same way here and cannot be separated from this text alone. twilight=true: 'legislation and court rules have lagged behind emerging AI'; 'an inherently dynamic paper subject to future changes.'"
       }
     }
   ]

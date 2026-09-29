@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-28",
+  "version": "2026-09-29",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-28T11:30:00Z",
+  "dateModified": "2026-09-29T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-28",
+    "version": "2026-09-29",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 79,
+    "n": 80,
     "mean_ca": 9.6,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-28T11:30:00Z"
+    "generated_at": "2026-09-29T11:30:00Z"
   },
   "institutions": [
     {
@@ -2361,6 +2361,35 @@
         "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
         "verify_status": "primary-live-2026-09-20",
         "note": "EN gloss of the quote: Internet diagnosis physicians must complete real-name authentication before receiving patients, to ensure that the physician personally provides the diagnostic and treatment service. Other personnel, artificial-intelligence software and the like must not impersonate or substitute for the physician in providing diagnostic and treatment services. This is a short municipal implementing notice under the national 互联网诊疗监管细则（试行）, jointly issued by six Beijing bodies (health, cyberspace, market regulation, healthcare security, TCM, drug administration). D1=2: art. 5 requires institutions to upload to the municipal supervision platform the ID number, photograph, qualifications, place and scope of practice and years of clinical work of every physician practising online; art. 2 requires institutions to dock with the platform and accept supervision; art. 3 folds platform-docking and data reporting into the institutions licence verification, with joint health/insurance follow-up on refusal to report. Every online encounter is traceable to a named, authenticated individual. D2=2: 确保由本人提供诊疗服务 plus art. 4 - the physicians primary practice institution 应掌握医师互联网诊疗活动的开展情况并加强管理. D3=0: the notice says nothing about telling the patient anything - there is no disclosure or labeling provision at all. D4=2: the clause quoted is one of the most explicit anti-impersonation provisions in the corpus, naming 人工智能软件 directly. D5=1: there is no review-the-output requirement, because AI is not admitted to the loop to begin with; the human is not validating machine output, the human is the whole loop. Scored 1 rather than 2 to avoid double-counting the D4 ban - the document specifies no validation procedure for any AI-assisted output. D6=1: art. 3 commissions the municipal internet-diagnosis quality-control centre to build an evaluation mechanism, and art. 4 requires 3 or more years of independent clinical experience - but this is evidence about the practitioner, not evidence for the clinical claim. c2_fit=partially: the line lands in roughly the right place - the diagnostic encounter (proof scarce at the moment of delivery) is reserved absolutely, while art. 7 carves general health-information services that are not diagnosis out of the supervision regime entirely (cheaply checkable, low stakes). But the stated rationale is impersonation control and 防范化解互联网诊疗安全风险, not verification economics; the boundary is drawn on identity integrity and happens to coincide. c3=Relational: trust is anchored in the named, registered, real-name-authenticated physicians personal presence. The evidential elements present (credential verification, quality-control evaluation) are evidence about the person, not about the claim. twilight=false."
+      }
+    },
+    {
+      "id": "american-nurses-association-—-",
+      "name": "American Nurses Association — Position Statement: The Ethical Use of Artificial Intelligence in Nursing Practice",
+      "segment": "nursing-association",
+      "url": "https://www.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/the-ethical-use-of-artificial-intelligence-in-nursing-practice_bod-approved-12_20_22.pdf",
+      "scores": {
+        "D1": 1,
+        "D2": 2,
+        "D3": 0,
+        "D4": 0,
+        "D5": 2,
+        "D6": 1
+      },
+      "ca": 6,
+      "posture": "Balanced",
+      "c2_fit": "partially",
+      "c3": "Both-split",
+      "twilight": true,
+      "coded_date": "2026-09-27",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "AI does not replace a nurse’s decision-making, judgment, critical thinking, or assessment skills.",
+      "quote_label": "ANA Position Statement, The Ethical Use of Artificial Intelligence in Nursing Practice, Recommendations (ANA Center for Ethics and Human Rights; adopted by ANA Board of Directors 2022; PDF read 2026-09-27)",
+      "provenance": {
+        "url": "https://www.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/the-ethical-use-of-artificial-intelligence-in-nursing-practice_bod-approved-12_20_22.pdf",
+        "verify_status": "primary-live-2026-09-27",
+        "note": "D1=1: 'Responsibility to ensure appropriate use and outcome requires traceability to ensure ongoing evaluation' is stated as a principle with no mechanism, and the statement itself concedes that proprietary health-record algorithms make 'expectations of transparency unrealistic.' D2=2: quoting Code Interpretive Statement 4.2, 'Systems and technologies that assist in clinical practice are adjunct to, not replacements for, the nurse’s knowledge and skill. Therefore, nurses are accountable for their practice even in instances of system or technology failure.' D3=0: no requirement to tell patients AI is in use; the patient-facing duty is education ('dispel myths and alleviate fears'), not disclosure. D4=0: no synthetic-identity or fabrication provision. D5=2: 'Nurses integrating AI into their practice have a responsibility to ensure the validity of the AI, the appropriate application and use of AI, transparency in the process, and ongoing evaluation for reliability.' D6=1: a real evidential section ('The performance of AI is only as good as the data used to develop and design it and the testing that verifies it'; 'Reproducibility and external validity must be significant') but the governing frame is relational. c3=Both-split: the reserve is argued relationally ('caring and compassion as central elements in the nurse-patient relationship'; loss of 'physical touch and nurturing behaviors'), the validity duty evidentially. c2_fit=partially: judgment and assessment (scarce proof) are reserved, which fits; but the statement contemplates AI 'dispensing or titrating medication, as well as conducting diagnostics' as acceptable mechanical takeover, and its stated test for where AI must stop is relational harm, not proof cost. twilight=true: 'the ever-growing gap between fast-paced technological advancement and outpaced regulatory measures.'"
       }
     },
     {

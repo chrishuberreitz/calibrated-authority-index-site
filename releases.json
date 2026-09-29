@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -789,6 +789,23 @@
       "score": {
         "total": 10,
         "recognition": 3,
+        "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-09-29T11:30:00Z",
+      "date": "2026-09-29",
+      "id": "american-nurses-association-—-",
+      "name": "American Nurses Association — Position Statement: The Ethical Use of Artificial Intelligence in Nursing Practice",
+      "category": "add",
+      "rationale": "American Nurses Association — Position Statement: The Ethical Use of Artificial Intelligence in Nursing Practice is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 1 · segment gap 2 · theory 3 · timeliness 2). CA 6/12 with a Balanced posture; it opens the nursing-association segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"AI does not replace a nurse’s decision-making, judgment, critical thinking, or assessment skills.\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 1,
         "segment_gap": 2,
         "theory": 3,
         "timeliness": 2

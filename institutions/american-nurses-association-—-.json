@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-09-29",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "american-nurses-association-—-",
+  "name": "American Nurses Association — Position Statement: The Ethical Use of Artificial Intelligence in Nursing Practice",
+  "segment": "nursing-association",
+  "url": "https://www.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/the-ethical-use-of-artificial-intelligence-in-nursing-practice_bod-approved-12_20_22.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 0,
+    "D4": 0,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 6,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-09-27",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "AI does not replace a nurse’s decision-making, judgment, critical thinking, or assessment skills.",
+  "quote_label": "ANA Position Statement, The Ethical Use of Artificial Intelligence in Nursing Practice, Recommendations (ANA Center for Ethics and Human Rights; adopted by ANA Board of Directors 2022; PDF read 2026-09-27)",
+  "provenance": {
+    "url": "https://www.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/the-ethical-use-of-artificial-intelligence-in-nursing-practice_bod-approved-12_20_22.pdf",
+    "verify_status": "primary-live-2026-09-27",
+    "note": "D1=1: 'Responsibility to ensure appropriate use and outcome requires traceability to ensure ongoing evaluation' is stated as a principle with no mechanism, and the statement itself concedes that proprietary health-record algorithms make 'expectations of transparency unrealistic.' D2=2: quoting Code Interpretive Statement 4.2, 'Systems and technologies that assist in clinical practice are adjunct to, not replacements for, the nurse’s knowledge and skill. Therefore, nurses are accountable for their practice even in instances of system or technology failure.' D3=0: no requirement to tell patients AI is in use; the patient-facing duty is education ('dispel myths and alleviate fears'), not disclosure. D4=0: no synthetic-identity or fabrication provision. D5=2: 'Nurses integrating AI into their practice have a responsibility to ensure the validity of the AI, the appropriate application and use of AI, transparency in the process, and ongoing evaluation for reliability.' D6=1: a real evidential section ('The performance of AI is only as good as the data used to develop and design it and the testing that verifies it'; 'Reproducibility and external validity must be significant') but the governing frame is relational. c3=Both-split: the reserve is argued relationally ('caring and compassion as central elements in the nurse-patient relationship'; loss of 'physical touch and nurturing behaviors'), the validity duty evidentially. c2_fit=partially: judgment and assessment (scarce proof) are reserved, which fits; but the statement contemplates AI 'dispensing or titrating medication, as well as conducting diagnostics' as acceptable mechanical takeover, and its stated test for where AI must stop is relational harm, not proof cost. twilight=true: 'the ever-growing gap between fast-paced technological advancement and outpaced regulatory measures.'"
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/american-nurses-association-—-",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/american-nurses-association-—-",
+    "name": "Calibrated Authority rating — American Nurses Association — Position Statement: The Ethical Use of Artificial Intelligence in Nursing Practice",
+    "datePublished": "2026-09-27",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "American Nurses Association — Position Statement: The Ethical Use of Artificial Intelligence in Nursing Practice — public generative-AI policy",
+      "url": "https://www.nursingworld.org/globalassets/practiceandpolicy/nursing-excellence/ana-position-statements/the-ethical-use-of-artificial-intelligence-in-nursing-practice_bod-approved-12_20_22.pdf",
+      "text": "AI does not replace a nurse’s decision-making, judgment, critical thinking, or assessment skills.",
+      "abstract": "AI does not replace a nurse’s decision-making, judgment, critical thinking, or assessment skills.",
+      "alternateName": "ANA Position Statement, The Ethical Use of Artificial Intelligence in Nursing Practice, Recommendations (ANA Center for Ethics and Human Rights; adopted by ANA Board of Directors 2022; PDF read 2026-09-27)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 6,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-09-29",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

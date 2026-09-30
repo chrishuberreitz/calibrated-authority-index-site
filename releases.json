@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -808,6 +808,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-09-30T11:30:00Z",
+      "date": "2026-09-30",
+      "id": "adobe-stock-ai",
+      "name": "Adobe Stock — Generative-AI Content Terms",
+      "category": "add",
+      "rationale": "Adobe Stock — Generative-AI Content Terms is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 3 · segment gap 2 · theory 1 · timeliness 2). CA 8/12 with a Enabling posture; it opens the industry segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Generative AI content cannot be submitted to the Illustrative Editorial Collection (IEC) which is for editorial use only. IEC submissions must be accurate portrayals of brands in a…\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 3,
+        "segment_gap": 2,
+        "theory": 1,
         "timeliness": 2
       }
     }

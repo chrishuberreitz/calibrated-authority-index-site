@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-29",
+  "version": "2026-09-30",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-29T11:30:00Z",
+  "dateModified": "2026-09-30T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,11 +89,11 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-29",
+    "version": "2026-09-30",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 80,
-    "mean_ca": 9.6,
+    "n": 81,
+    "mean_ca": 9.5,
     "ca_range": [
       3,
       12
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-29T11:30:00Z"
+    "generated_at": "2026-09-30T11:30:00Z"
   },
   "institutions": [
     {
@@ -2419,6 +2419,35 @@
         "url": "https://ncra.org/docs/white-paper-ai-asr",
         "verify_status": "primary-live-2026-09-27",
         "note": "Adopted NCRA resolution (§VI) requires AI/ASR transcript systems be 'subject to human authority, oversight, and control to verify the chain of custody of the official record'; 'All individuals participating in legal proceedings should be duly advised if AI or ASR will be utilized in the production of transcripts ... allowed to decide whether they wish to opt in or out.' D1=2 (traceability as a precondition; chain of custody). D2=2 (FRCP 80: transcript 'certified by the person who reported it'; 'Responsible individuals and organizations should be accountable'). D3=2 (advise + opt-out). D4=1: voice cloning / deepfake impersonation of deposition participants and 'misleading \"certificate\" pages' are named as threats, but no explicit prohibition is stated. D5=2. D6=2 (ASR word-error-rate evidence by race, gender and age; FRE 901(a) authentication; forensic audio). DISCONFIRMATION PROBE RESULT (discovery-log 2026-09-20): the probe predicted a reserve-where-proof-is-cheap counter-example, on the premise that the audio is ground truth. On reading, NCRA contests that premise directly: 'Gone is the time when a transcript or evidence derived from an audiotape or videotape introduced at trial was assumed to be authentic'; audio can be altered 'nearly seamlessly' and detecting edits requires 'highly trained forensic experts.' The reservation is therefore argued in verification terms, so it is not a clean disconfirmation. c2_fit=partially rather than fits because the blanket conclusion ('automated transcription has no place') outruns its own evidence: the paper's own remedy (Washington's chain-of-custody court rule) shows proof can be made cheap again without a stenographer, and the document comes from a certifying body facing what it calls 'an existential challenge' to the profession. Occupational boundary-drawing and verification economics point the same way here and cannot be separated from this text alone. twilight=true: 'legislation and court rules have lagged behind emerging AI'; 'an inherently dynamic paper subject to future changes.'"
+      }
+    },
+    {
+      "id": "adobe-stock-ai",
+      "name": "Adobe Stock — Generative-AI Content Terms",
+      "segment": "industry",
+      "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
+      "scores": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 2,
+        "D4": 2,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Enabling",
+      "c2_fit": "fits",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-09-27",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Generative AI content cannot be submitted to the Illustrative Editorial Collection (IEC) which is for editorial use only. IEC submissions must be accurate portrayals of brands in an authentic, accurate, and unmodified manner as they are found in the real physical world.",
+      "quote_label": "Adobe Stock Contributor User Guide, Generative AI Content, §4 (page 'Last updated on Jul 17, 2024'; read via Wayback capture 2026-06-06)",
+      "provenance": {
+        "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
+        "verify_status": "secondary-wayback-2026-06-06 (live 403; Chrome unavailable this run)",
+        "note": "'Adobe Stock accepts content made using generative artificial intelligence (AI) tools as long it meets our submission standards.' D1=1: mandatory 'Created using generative AI tools' checkbox classifies the asset; model/property releases; no provenance chain beyond the label. D2=1: the contributor must hold 'all the necessary rights' and faces removal or account termination; no human-authorship requirement. D3=2: 'You must always click the \"Created using generative AI tools\" box, regardless of whether a release is required or not, for all content created with generative AI software.' D4=2: prompts, titles and keywords 'May not contain names of people' and 'May not imply the content is a depiction of an actual newsworthy event'; identifiable persons need a model release; lookalikes must be certified via 'People and Property are fictional.' D5=1: 'Check your submissions carefully' plus Adobe's review process. D6=1. c2_fit=fits: synthetic imagery is permitted where the asset makes no factual claim (illustration, concept) and barred where the image is offered as a record of the real world (editorial collection, newsworthy events). The line falls exactly where an image stops being decoration and starts being evidence. Segment note: stock licensor. Trust-bearing as a publisher and licensor of imagery that buyers rely on as depicting reality."
       }
     }
   ]

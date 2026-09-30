@@ -6,9 +6,9 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-29",
-    "n": 80,
-    "mean_ca": 9.6,
+    "version": "2026-09-30",
+    "n": 81,
+    "mean_ca": 9.5,
     "ca_range": [
       3,
       12
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-09-29T11:30:00Z"
+    "generated_at": "2026-09-30T11:30:00Z"
   },
   "institutions": [
     {
@@ -742,6 +742,15 @@
       "url": "https://ncra.org/docs/white-paper-ai-asr",
       "page": "/institutions/national-court-reporters-assoc",
       "atom": "/institutions/national-court-reporters-assoc.json"
+    },
+    {
+      "id": "adobe-stock-ai",
+      "name": "Adobe Stock — Generative-AI Content Terms",
+      "segment": "industry",
+      "ca": 8,
+      "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
+      "page": "/institutions/adobe-stock-ai",
+      "atom": "/institutions/adobe-stock-ai.json"
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-09-30",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "adobe-stock-ai",
+  "name": "Adobe Stock — Generative-AI Content Terms",
+  "segment": "industry",
+  "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "D4": 2,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 8,
+  "posture": "Enabling",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-09-27",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Generative AI content cannot be submitted to the Illustrative Editorial Collection (IEC) which is for editorial use only. IEC submissions must be accurate portrayals of brands in an authentic, accurate, and unmodified manner as they are found in the real physical world.",
+  "quote_label": "Adobe Stock Contributor User Guide, Generative AI Content, §4 (page 'Last updated on Jul 17, 2024'; read via Wayback capture 2026-06-06)",
+  "provenance": {
+    "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
+    "verify_status": "secondary-wayback-2026-06-06 (live 403; Chrome unavailable this run)",
+    "note": "'Adobe Stock accepts content made using generative artificial intelligence (AI) tools as long it meets our submission standards.' D1=1: mandatory 'Created using generative AI tools' checkbox classifies the asset; model/property releases; no provenance chain beyond the label. D2=1: the contributor must hold 'all the necessary rights' and faces removal or account termination; no human-authorship requirement. D3=2: 'You must always click the \"Created using generative AI tools\" box, regardless of whether a release is required or not, for all content created with generative AI software.' D4=2: prompts, titles and keywords 'May not contain names of people' and 'May not imply the content is a depiction of an actual newsworthy event'; identifiable persons need a model release; lookalikes must be certified via 'People and Property are fictional.' D5=1: 'Check your submissions carefully' plus Adobe's review process. D6=1. c2_fit=fits: synthetic imagery is permitted where the asset makes no factual claim (illustration, concept) and barred where the image is offered as a record of the real world (editorial collection, newsworthy events). The line falls exactly where an image stops being decoration and starts being evidence. Segment note: stock licensor. Trust-bearing as a publisher and licensor of imagery that buyers rely on as depicting reality."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/adobe-stock-ai",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/adobe-stock-ai",
+    "name": "Calibrated Authority rating — Adobe Stock — Generative-AI Content Terms",
+    "datePublished": "2026-09-27",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Adobe Stock — Generative-AI Content Terms — public generative-AI policy",
+      "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
+      "text": "Generative AI content cannot be submitted to the Illustrative Editorial Collection (IEC) which is for editorial use only. IEC submissions must be accurate portrayals of brands in an authentic, accurate, and unmodified manner as they are found in the real physical world.",
+      "abstract": "Generative AI content cannot be submitted to the Illustrative Editorial Collection (IEC) which is for editorial use only. IEC submissions must be accurate portrayals of brands in an authentic, accurate, and unmodified manner as they are found in the real physical world.",
+      "alternateName": "Adobe Stock Contributor User Guide, Generative AI Content, §4 (page 'Last updated on Jul 17, 2024'; read via Wayback capture 2026-06-06)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 2; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Enabling. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-09-30",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-01",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "treasury-board-of-canada-secre",
+  "name": "Treasury Board of Canada Secretariat — Directive on Automated Decision-Making",
+  "segment": "gov-administration",
+  "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-09-27",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "The final decision must be made by a human. Decisions cannot be made without having clearly defined human involvement during the decision-making process. Humans review the decisions or recommendations made by the system for accuracy and appropriateness.",
+  "quote_label": "Directive on Automated Decision-Making, Appendix C, Ensuring human involvement (s. 6.3.13), Level III (effective 2019-04-01; 2025 amendments; primary page read 2026-09-27)",
+  "provenance": {
+    "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+    "verify_status": "primary-live-2026-09-27",
+    "note": "Risk-tiered regime (Appendix B levels I-IV). Levels I-II: 'The system may make decisions and assessments without direct human involvement.' Levels III-IV (high / very high, 'difficult to reverse' / 'irreversible'): human makes the final decision. D1=2: publish the algorithmic impact assessment on the Open Government Portal before production (6.1.1); retain the right to 'access, test and monitor' proprietary components (6.2.6.1); document decisions (6.2.7); data 'traceable' (6.3.6). D2=2: a named ADM/senior official is responsible for every requirement; deputy-head approval to operate at levels III-IV (6.3.14). D3=2: 'Providing notice through all service delivery channels in use that the decision will be made or assisted by an automated decision system' (6.2.1) plus meaningful explanation after decisions (6.2.3). D4=0: no synthetic-identity or fabrication provision; 6.3.11 anti-tampering is about model integrity, not impersonation. D5=2: human final decision + review 'for accuracy and appropriateness' at III-IV; overrides documented (6.3.4). D6=2: pre-production testing 'for accuracy, unintended biases' (6.3.1), outcome monitoring (6.3.2), data validation (6.3.5), expert peer review published (6.3.7). c2_fit=partially: the permit/reserve line keys on impact and reversibility, not on whether the output is checkable. Reversibility is a proxy for verification economics (a reversible decision is corrected cheaply after the fact via recourse, 6.4) but the directive never asks how costly it is to prove a given output right. A clean case of a stakes-keyed rather than proof-keyed line."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/treasury-board-of-canada-secre",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/treasury-board-of-canada-secre",
+    "name": "Calibrated Authority rating — Treasury Board of Canada Secretariat — Directive on Automated Decision-Making",
+    "datePublished": "2026-09-27",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Treasury Board of Canada Secretariat — Directive on Automated Decision-Making — public generative-AI policy",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "text": "The final decision must be made by a human. Decisions cannot be made without having clearly defined human involvement during the decision-making process. Humans review the decisions or recommendations made by the system for accuracy and appropriateness.",
+      "abstract": "The final decision must be made by a human. Decisions cannot be made without having clearly defined human involvement during the decision-making process. Humans review the decisions or recommendations made by the system for accuracy and appropriateness.",
+      "alternateName": "Directive on Automated Decision-Making, Appendix C, Ensuring human involvement (s. 6.3.13), Level III (effective 2019-04-01; 2025 amendments; primary page read 2026-09-27)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-01",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

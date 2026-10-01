@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-09-30",
+  "version": "2026-10-01",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-09-30T11:30:00Z",
+  "dateModified": "2026-10-01T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-09-30",
+    "version": "2026-10-01",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 81,
+    "n": 82,
     "mean_ca": 9.5,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-09-30T11:30:00Z"
+    "generated_at": "2026-10-01T11:30:00Z"
   },
   "institutions": [
     {
@@ -2361,6 +2361,35 @@
         "url": "https://wjw.beijing.gov.cn/zwgk_20040/ylws/202401/t20240115_3535004.html",
         "verify_status": "primary-live-2026-09-20",
         "note": "EN gloss of the quote: Internet diagnosis physicians must complete real-name authentication before receiving patients, to ensure that the physician personally provides the diagnostic and treatment service. Other personnel, artificial-intelligence software and the like must not impersonate or substitute for the physician in providing diagnostic and treatment services. This is a short municipal implementing notice under the national 互联网诊疗监管细则（试行）, jointly issued by six Beijing bodies (health, cyberspace, market regulation, healthcare security, TCM, drug administration). D1=2: art. 5 requires institutions to upload to the municipal supervision platform the ID number, photograph, qualifications, place and scope of practice and years of clinical work of every physician practising online; art. 2 requires institutions to dock with the platform and accept supervision; art. 3 folds platform-docking and data reporting into the institutions licence verification, with joint health/insurance follow-up on refusal to report. Every online encounter is traceable to a named, authenticated individual. D2=2: 确保由本人提供诊疗服务 plus art. 4 - the physicians primary practice institution 应掌握医师互联网诊疗活动的开展情况并加强管理. D3=0: the notice says nothing about telling the patient anything - there is no disclosure or labeling provision at all. D4=2: the clause quoted is one of the most explicit anti-impersonation provisions in the corpus, naming 人工智能软件 directly. D5=1: there is no review-the-output requirement, because AI is not admitted to the loop to begin with; the human is not validating machine output, the human is the whole loop. Scored 1 rather than 2 to avoid double-counting the D4 ban - the document specifies no validation procedure for any AI-assisted output. D6=1: art. 3 commissions the municipal internet-diagnosis quality-control centre to build an evaluation mechanism, and art. 4 requires 3 or more years of independent clinical experience - but this is evidence about the practitioner, not evidence for the clinical claim. c2_fit=partially: the line lands in roughly the right place - the diagnostic encounter (proof scarce at the moment of delivery) is reserved absolutely, while art. 7 carves general health-information services that are not diagnosis out of the supervision regime entirely (cheaply checkable, low stakes). But the stated rationale is impersonation control and 防范化解互联网诊疗安全风险, not verification economics; the boundary is drawn on identity integrity and happens to coincide. c3=Relational: trust is anchored in the named, registered, real-name-authenticated physicians personal presence. The evidential elements present (credential verification, quality-control evaluation) are evidence about the person, not about the claim. twilight=false."
+      }
+    },
+    {
+      "id": "treasury-board-of-canada-secre",
+      "name": "Treasury Board of Canada Secretariat — Directive on Automated Decision-Making",
+      "segment": "gov-administration",
+      "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-09-27",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "The final decision must be made by a human. Decisions cannot be made without having clearly defined human involvement during the decision-making process. Humans review the decisions or recommendations made by the system for accuracy and appropriateness.",
+      "quote_label": "Directive on Automated Decision-Making, Appendix C, Ensuring human involvement (s. 6.3.13), Level III (effective 2019-04-01; 2025 amendments; primary page read 2026-09-27)",
+      "provenance": {
+        "url": "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592",
+        "verify_status": "primary-live-2026-09-27",
+        "note": "Risk-tiered regime (Appendix B levels I-IV). Levels I-II: 'The system may make decisions and assessments without direct human involvement.' Levels III-IV (high / very high, 'difficult to reverse' / 'irreversible'): human makes the final decision. D1=2: publish the algorithmic impact assessment on the Open Government Portal before production (6.1.1); retain the right to 'access, test and monitor' proprietary components (6.2.6.1); document decisions (6.2.7); data 'traceable' (6.3.6). D2=2: a named ADM/senior official is responsible for every requirement; deputy-head approval to operate at levels III-IV (6.3.14). D3=2: 'Providing notice through all service delivery channels in use that the decision will be made or assisted by an automated decision system' (6.2.1) plus meaningful explanation after decisions (6.2.3). D4=0: no synthetic-identity or fabrication provision; 6.3.11 anti-tampering is about model integrity, not impersonation. D5=2: human final decision + review 'for accuracy and appropriateness' at III-IV; overrides documented (6.3.4). D6=2: pre-production testing 'for accuracy, unintended biases' (6.3.1), outcome monitoring (6.3.2), data validation (6.3.5), expert peer review published (6.3.7). c2_fit=partially: the permit/reserve line keys on impact and reversibility, not on whether the output is checkable. Reversibility is a proxy for verification economics (a reversible decision is corrected cheaply after the fact via recourse, 6.4) but the directive never asks how costly it is to prove a given output right. A clean case of a stakes-keyed rather than proof-keyed line."
       }
     },
     {

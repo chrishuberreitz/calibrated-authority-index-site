@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-02",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "u.s.-sec-(division-of-investme",
+  "name": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers",
+  "segment": "financial-regulator",
+  "url": "https://www.sec.gov/investment/im-guidance-2017-02.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "D4": 0,
+    "D5": 0,
+    "D6": 1
+  },
+  "ca": 5,
+  "posture": "Enabling",
+  "c2_fit": "contradicts",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-09-27",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "An explanation of the degree of human involvement in the oversight and management of individual client accounts (e.g., that investment advisory personnel oversee the algorithm but may not monitor each client’s account);",
+  "quote_label": "SEC Division of Investment Management, IM Guidance Update No. 2017-02, Robo-Advisers (February 2017), §1 Substance and Presentation of Disclosures (read via Wayback capture 2026-09-13)",
+  "provenance": {
+    "url": "https://www.sec.gov/investment/im-guidance-2017-02.pdf",
+    "verify_status": "secondary-wayback-2026-09-13 (live 403; Chrome unavailable this run)",
+    "note": "DISCONFIRMATION CASE. The guidance accepts machine judgment in discretionary asset management, fiduciary suitability advice whose correctness is slow and noisy to prove, and governs it by disclosure rather than by reserving judgment to a human: robo-advisers may provide advice 'with limited, if any, direct human interaction between the client and investment advisory personnel', relying 'primarily, if not solely, on client responses to online questionnaires.' D1=1: disclose the algorithm's functions, 'assumptions and limitations', and third-party ownership; compliance policies on 'development, testing, and backtesting of the algorithmic code', but no decision-level audit trail. D2=1: the registered adviser stays a fiduciary with a designated chief compliance officer (Rule 206(4)-7). Accountability sits with the entity, with no human-authorship requirement. D3=2: 'A statement that an algorithm is used to manage individual client accounts' plus the degree of human involvement. D4=0: no synthetic-identity or fabrication provision. D5=0: human review is optional ('may wish to consider ... systems to automatically flag apparently inconsistent information ... for review or follow-up'), and personnel may 'oversee the algorithm but may not monitor each client’s account.' D6=1: test that 'the code performs as represented'; questionnaire must elicit enough to support suitability. c2_fit=contradicts: the permit line is drawn at disclosure, not at verification cost. Steelman for 'fits': model-portfolio allocation under modern portfolio theory is rule-based and backtestable, so the algorithm's step is cheap to check against its spec. The guidance itself undercuts that: the unverifiable part (whether the client's inputs support a suitable recommendation) is exactly what it leaves to the machine, noting questionnaires may not let personnel 'ask follow-up or clarifying questions ... [or] address inconsistencies.' Staff guidance, not a Commission rule. Dated 2017 and pre-generative, so it tests the pattern on algorithmic rather than generative AI."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/u.s.-sec-(division-of-investme",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/u.s.-sec-(division-of-investme",
+    "name": "Calibrated Authority rating — U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers",
+    "datePublished": "2026-09-27",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers — public generative-AI policy",
+      "url": "https://www.sec.gov/investment/im-guidance-2017-02.pdf",
+      "text": "An explanation of the degree of human involvement in the oversight and management of individual client accounts (e.g., that investment advisory personnel oversee the algorithm but may not monitor each client’s account);",
+      "abstract": "An explanation of the degree of human involvement in the oversight and management of individual client accounts (e.g., that investment advisory personnel oversee the algorithm but may not monitor each client’s account);",
+      "alternateName": "SEC Division of Investment Management, IM Guidance Update No. 2017-02, Robo-Advisers (February 2017), §1 Substance and Presentation of Disclosures (read via Wayback capture 2026-09-13)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 5,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 0; D6 Evidential-trust emphasis: 1. Posture: Enabling. Verification-boundary fit: contradicts. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-02",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

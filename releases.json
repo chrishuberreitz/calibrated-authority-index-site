@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -842,6 +842,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-10-02T11:30:00Z",
+      "date": "2026-10-02",
+      "id": "u.s.-sec-(division-of-investme",
+      "name": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers",
+      "category": "add",
+      "rationale": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 0 · theory 3 · timeliness 2). CA 5/12 with a Enabling posture; it extends the financial-regulator segment (3 already released); its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"An explanation of the degree of human involvement in the oversight and management of individual client accounts (e.g., that investment advisory personnel oversee the algorithm but…\". Coded 5 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 0,
+        "theory": 3,
         "timeliness": 2
       }
     }

@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-01",
+  "version": "2026-10-02",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-01T11:30:00Z",
+  "dateModified": "2026-10-02T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-01",
+    "version": "2026-10-02",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 82,
+    "n": 83,
     "mean_ca": 9.5,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-01T11:30:00Z"
+    "generated_at": "2026-10-02T11:30:00Z"
   },
   "institutions": [
     {
@@ -2448,6 +2448,35 @@
         "url": "https://ncra.org/docs/white-paper-ai-asr",
         "verify_status": "primary-live-2026-09-27",
         "note": "Adopted NCRA resolution (§VI) requires AI/ASR transcript systems be 'subject to human authority, oversight, and control to verify the chain of custody of the official record'; 'All individuals participating in legal proceedings should be duly advised if AI or ASR will be utilized in the production of transcripts ... allowed to decide whether they wish to opt in or out.' D1=2 (traceability as a precondition; chain of custody). D2=2 (FRCP 80: transcript 'certified by the person who reported it'; 'Responsible individuals and organizations should be accountable'). D3=2 (advise + opt-out). D4=1: voice cloning / deepfake impersonation of deposition participants and 'misleading \"certificate\" pages' are named as threats, but no explicit prohibition is stated. D5=2. D6=2 (ASR word-error-rate evidence by race, gender and age; FRE 901(a) authentication; forensic audio). DISCONFIRMATION PROBE RESULT (discovery-log 2026-09-20): the probe predicted a reserve-where-proof-is-cheap counter-example, on the premise that the audio is ground truth. On reading, NCRA contests that premise directly: 'Gone is the time when a transcript or evidence derived from an audiotape or videotape introduced at trial was assumed to be authentic'; audio can be altered 'nearly seamlessly' and detecting edits requires 'highly trained forensic experts.' The reservation is therefore argued in verification terms, so it is not a clean disconfirmation. c2_fit=partially rather than fits because the blanket conclusion ('automated transcription has no place') outruns its own evidence: the paper's own remedy (Washington's chain-of-custody court rule) shows proof can be made cheap again without a stenographer, and the document comes from a certifying body facing what it calls 'an existential challenge' to the profession. Occupational boundary-drawing and verification economics point the same way here and cannot be separated from this text alone. twilight=true: 'legislation and court rules have lagged behind emerging AI'; 'an inherently dynamic paper subject to future changes.'"
+      }
+    },
+    {
+      "id": "u.s.-sec-(division-of-investme",
+      "name": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers",
+      "segment": "financial-regulator",
+      "url": "https://www.sec.gov/investment/im-guidance-2017-02.pdf",
+      "scores": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 2,
+        "D4": 0,
+        "D5": 0,
+        "D6": 1
+      },
+      "ca": 5,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-09-27",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "An explanation of the degree of human involvement in the oversight and management of individual client accounts (e.g., that investment advisory personnel oversee the algorithm but may not monitor each client’s account);",
+      "quote_label": "SEC Division of Investment Management, IM Guidance Update No. 2017-02, Robo-Advisers (February 2017), §1 Substance and Presentation of Disclosures (read via Wayback capture 2026-09-13)",
+      "provenance": {
+        "url": "https://www.sec.gov/investment/im-guidance-2017-02.pdf",
+        "verify_status": "secondary-wayback-2026-09-13 (live 403; Chrome unavailable this run)",
+        "note": "DISCONFIRMATION CASE. The guidance accepts machine judgment in discretionary asset management, fiduciary suitability advice whose correctness is slow and noisy to prove, and governs it by disclosure rather than by reserving judgment to a human: robo-advisers may provide advice 'with limited, if any, direct human interaction between the client and investment advisory personnel', relying 'primarily, if not solely, on client responses to online questionnaires.' D1=1: disclose the algorithm's functions, 'assumptions and limitations', and third-party ownership; compliance policies on 'development, testing, and backtesting of the algorithmic code', but no decision-level audit trail. D2=1: the registered adviser stays a fiduciary with a designated chief compliance officer (Rule 206(4)-7). Accountability sits with the entity, with no human-authorship requirement. D3=2: 'A statement that an algorithm is used to manage individual client accounts' plus the degree of human involvement. D4=0: no synthetic-identity or fabrication provision. D5=0: human review is optional ('may wish to consider ... systems to automatically flag apparently inconsistent information ... for review or follow-up'), and personnel may 'oversee the algorithm but may not monitor each client’s account.' D6=1: test that 'the code performs as represented'; questionnaire must elicit enough to support suitability. c2_fit=contradicts: the permit line is drawn at disclosure, not at verification cost. Steelman for 'fits': model-portfolio allocation under modern portfolio theory is rule-based and backtestable, so the algorithm's step is cheap to check against its spec. The guidance itself undercuts that: the unverifiable part (whether the client's inputs support a suitable recommendation) is exactly what it leaves to the machine, noting questionnaires may not let personnel 'ask follow-up or clarifying questions ... [or] address inconsistencies.' Staff guidance, not a Commission rule. Dated 2017 and pre-generative, so it tests the pattern on algorithmic rather than generative AI."
       }
     },
     {

@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-02T11:30:00Z",
+  "dateModified": "2026-10-04T20:24:25Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-02T11:30:00Z"
+    "generated_at": "2026-10-04T20:24:25Z"
   },
   "institutions": [
     {
@@ -1265,9 +1265,9 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-09-20",
-      "last_changed": "2026-09-20",
-      "revision": 2,
-      "quote": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+      "last_changed": "2026-10-04",
+      "revision": 3,
+      "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
       "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)",
       "provenance": {
         "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
@@ -1520,8 +1520,8 @@
       "c3": "Relational",
       "twilight": true,
       "coded_date": "2026-09-20",
-      "last_changed": "2026-09-20",
-      "revision": 3,
+      "last_changed": "2026-10-04",
+      "revision": 4,
       "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
       "quote_label": "Guidance for generative AI in education and research (UNESCO, 2023), p.1 (governing PDF re-read 2026-09-20)",
       "provenance": {
@@ -1578,13 +1578,13 @@
       "c3": "Both-split",
       "twilight": true,
       "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
-      "quote": "A top priority with AI is to keep humans in the loop and in control.",
+      "last_changed": "2026-10-04",
+      "revision": 1,
+      "quote": "a top priority with AI is to keep humans in the loop and in control, which includes focusing on the people engaged with formative assessments: students, teachers, school leaders, families/caregivers, and others who support learners.",
       "quote_label": "AI and the Future of Teaching and Learning",
       "provenance": {
         "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-09-22 (live 403; Chrome unavailable 2026-10-04)"
       }
     },
     {

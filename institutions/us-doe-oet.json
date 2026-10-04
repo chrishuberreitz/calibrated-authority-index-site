@@ -22,13 +22,13 @@
   "c3": "Both-split",
   "twilight": true,
   "coded_date": "2026-06-22",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "A top priority with AI is to keep humans in the loop and in control.",
+  "last_changed": "2026-10-04",
+  "revision": 1,
+  "quote": "a top priority with AI is to keep humans in the loop and in control, which includes focusing on the people engaged with formative assessments: students, teachers, school leaders, families/caregivers, and others who support learners.",
   "quote_label": "AI and the Future of Teaching and Learning",
   "provenance": {
     "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
-    "verify_status": "ok"
+    "verify_status": "secondary-wayback-2026-09-22 (live 403; Chrome unavailable 2026-10-04)"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -41,8 +41,8 @@
       "@type": "CreativeWork",
       "name": "US Dept of Education (OET) — public generative-AI policy",
       "url": "https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf",
-      "text": "A top priority with AI is to keep humans in the loop and in control.",
-      "abstract": "A top priority with AI is to keep humans in the loop and in control.",
+      "text": "a top priority with AI is to keep humans in the loop and in control, which includes focusing on the people engaged with formative assessments: students, teachers, school leaders, families/caregivers, and others who support learners.",
+      "abstract": "a top priority with AI is to keep humans in the loop and in control, which includes focusing on the people engaged with formative assessments: students, teachers, school leaders, families/caregivers, and others who support learners.",
       "alternateName": "AI and the Future of Teaching and Learning"
     },
     "reviewRating": {

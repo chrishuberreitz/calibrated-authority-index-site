@@ -22,9 +22,9 @@
   "c3": "Both-split",
   "twilight": true,
   "coded_date": "2026-09-20",
-  "last_changed": "2026-09-20",
-  "revision": 2,
-  "quote": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+  "last_changed": "2026-10-04",
+  "revision": 3,
+  "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
   "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)",
   "provenance": {
     "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
@@ -42,8 +42,8 @@
       "@type": "CreativeWork",
       "name": "Council of Science Editors — public generative-AI policy",
       "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
-      "text": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
-      "abstract": "Any decisions made during editorial triage should not be based solely on Gen AI-compiled summaries or recommendations.",
+      "text": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
+      "abstract": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
       "alternateName": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)"
     },
     "reviewRating": {

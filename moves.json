@@ -1,6 +1,66 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-04",
   "moves": [
+    {
+      "date": "2026-10-04",
+      "institution": "MLA-CCCC Task Force",
+      "id": "mla-cccc",
+      "kind": "changed",
+      "headline": "MLA-CCCC Task Force policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-04",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "changed",
+      "headline": "Council of Science Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-04",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-04",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "recoded",
+      "headline": "UNESCO — GenAI in education & research re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-10-04",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "recoded",
+      "headline": "Council of Science Editors re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 11 → 11",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-10-04",
+      "institution": "US Dept of Education (OET)",
+      "id": "us-doe-oet",
+      "kind": "recoded",
+      "headline": "US Dept of Education (OET) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 8 → 8",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-09-27",
       "institution": "PLOS",

@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-02",
+  "version": "2026-10-05",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-04T20:24:25Z",
+  "dateModified": "2026-10-05T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-02",
+    "version": "2026-10-05",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 83,
+    "n": 84,
     "mean_ca": 9.5,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-04T20:24:25Z"
+    "generated_at": "2026-10-05T11:30:00Z"
   },
   "institutions": [
     {
@@ -2506,6 +2506,35 @@
         "url": "https://helpx.adobe.com/stock/contributor/help/generative-ai-content.html",
         "verify_status": "secondary-wayback-2026-06-06 (live 403; Chrome unavailable this run)",
         "note": "'Adobe Stock accepts content made using generative artificial intelligence (AI) tools as long it meets our submission standards.' D1=1: mandatory 'Created using generative AI tools' checkbox classifies the asset; model/property releases; no provenance chain beyond the label. D2=1: the contributor must hold 'all the necessary rights' and faces removal or account termination; no human-authorship requirement. D3=2: 'You must always click the \"Created using generative AI tools\" box, regardless of whether a release is required or not, for all content created with generative AI software.' D4=2: prompts, titles and keywords 'May not contain names of people' and 'May not imply the content is a depiction of an actual newsworthy event'; identifiable persons need a model release; lookalikes must be certified via 'People and Property are fictional.' D5=1: 'Check your submissions carefully' plus Adobe's review process. D6=1. c2_fit=fits: synthetic imagery is permitted where the asset makes no factual claim (illustration, concept) and barred where the image is offered as a record of the real world (editorial collection, newsworthy events). The line falls exactly where an image stops being decoration and starts being evidence. Segment note: stock licensor. Trust-bearing as a publisher and licensor of imagery that buyers rely on as depicting reality."
+      }
+    },
+    {
+      "id": "qemu-project-—-code-provenance",
+      "name": "QEMU Project — Code provenance: Use of AI-generated content",
+      "segment": "open-source-software",
+      "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 1,
+        "D4": 1,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 8,
+      "posture": "Prohibitive",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-10-04",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Current QEMU project policy is to DECLINE any contributions which are believed to include or derive from AI generated content.",
+      "quote_label": "QEMU documentation, Developer Information › Code provenance › 'Use of AI-generated content' (docs/master, read live 2026-10-04)",
+      "provenance": {
+        "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+        "verify_status": "ok (live read 2026-10-04)",
+        "note": "Disconfirmation probe (reserve-where-proof-is-cheap). D1=2: every commit carries 'Signed-off-by', asserting the Developer's Certificate of Origin; 'a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely'. D2=2: the Signed-off-by label 'is a statement that the author takes responsibility for the entire contents of the patch, including any parts that were generated or assisted by AI tools'; the name 'should not be anonymous, nor misrepresent whom you are'. D3=1: no labeling regime — the policy bans rather than discloses ('will decline any contribution if use of AI is either known or suspected'); exceptions are to be listed publicly. D4=1: identity-misrepresentation bar applies to contributors, not to synthetic content. D5=1: AI is allowed for 'researching APIs or algorithms, static analysis, or debugging, provided their output is not included in contributions' — the human authors, not validates. D6=1: trust rests on legal provenance, not on proof of correctness. c2_fit=partially: code correctness is the cheapest proof in the index (compile, test, review), yet AI output is reserved. The stated reason is that 'the copyright and license status of the output is ill-defined' — i.e. the proof that is scarce is LEGAL provenance, which cannot be verified for LLM output. The line tracks verification economics only if provenance, not quality, is the thing being verified. Probe result: half-holds; it splits the theory into two proof types."
       }
     }
   ]

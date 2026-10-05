@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-05",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "qemu-project-—-code-provenance",
+  "name": "QEMU Project — Code provenance: Use of AI-generated content",
+  "segment": "open-source-software",
+  "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 8,
+  "posture": "Prohibitive",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-10-04",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Current QEMU project policy is to DECLINE any contributions which are believed to include or derive from AI generated content.",
+  "quote_label": "QEMU documentation, Developer Information › Code provenance › 'Use of AI-generated content' (docs/master, read live 2026-10-04)",
+  "provenance": {
+    "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+    "verify_status": "ok (live read 2026-10-04)",
+    "note": "Disconfirmation probe (reserve-where-proof-is-cheap). D1=2: every commit carries 'Signed-off-by', asserting the Developer's Certificate of Origin; 'a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely'. D2=2: the Signed-off-by label 'is a statement that the author takes responsibility for the entire contents of the patch, including any parts that were generated or assisted by AI tools'; the name 'should not be anonymous, nor misrepresent whom you are'. D3=1: no labeling regime — the policy bans rather than discloses ('will decline any contribution if use of AI is either known or suspected'); exceptions are to be listed publicly. D4=1: identity-misrepresentation bar applies to contributors, not to synthetic content. D5=1: AI is allowed for 'researching APIs or algorithms, static analysis, or debugging, provided their output is not included in contributions' — the human authors, not validates. D6=1: trust rests on legal provenance, not on proof of correctness. c2_fit=partially: code correctness is the cheapest proof in the index (compile, test, review), yet AI output is reserved. The stated reason is that 'the copyright and license status of the output is ill-defined' — i.e. the proof that is scarce is LEGAL provenance, which cannot be verified for LLM output. The line tracks verification economics only if provenance, not quality, is the thing being verified. Probe result: half-holds; it splits the theory into two proof types."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/qemu-project-—-code-provenance",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/qemu-project-—-code-provenance",
+    "name": "Calibrated Authority rating — QEMU Project — Code provenance: Use of AI-generated content",
+    "datePublished": "2026-10-04",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "QEMU Project — Code provenance: Use of AI-generated content — public generative-AI policy",
+      "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
+      "text": "Current QEMU project policy is to DECLINE any contributions which are believed to include or derive from AI generated content.",
+      "abstract": "Current QEMU project policy is to DECLINE any contributions which are believed to include or derive from AI generated content.",
+      "alternateName": "QEMU documentation, Developer Information › Code provenance › 'Use of AI-generated content' (docs/master, read live 2026-10-04)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Prohibitive. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-05",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

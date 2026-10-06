@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -876,6 +876,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-10-06T11:30:00Z",
+      "date": "2026-10-06",
+      "id": "new-jersey-judiciary-—-pretria",
+      "name": "New Jersey Judiciary — Pretrial Release Recommendation Decision Making Framework (DMF) with Public Safety Assessment",
+      "category": "add",
+      "rationale": "New Jersey Judiciary — Pretrial Release Recommendation Decision Making Framework (DMF) with Public Safety Assessment is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 1 · theory 3 · timeliness 2). CA 4/12 with a Enabling posture; it thickens the thin courts-legal segment (only 2 released so far); its policy contradicts the verification-boundary pattern — deviations are the records that test the claim. In the policy's own words: \"Step 9: Apply the FTA and NCA scales to the DMF Matrix to determine preliminary recommendation.\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 1,
+        "theory": 3,
         "timeliness": 2
       }
     }

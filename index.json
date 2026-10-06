@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-05",
+  "version": "2026-10-06",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-05T11:30:00Z",
+  "dateModified": "2026-10-06T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,11 +89,11 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-05",
+    "version": "2026-10-06",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 84,
-    "mean_ca": 9.5,
+    "n": 85,
+    "mean_ca": 9.4,
     "ca_range": [
       3,
       12
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-05T11:30:00Z"
+    "generated_at": "2026-10-06T11:30:00Z"
   },
   "institutions": [
     {
@@ -2535,6 +2535,35 @@
         "url": "https://www.qemu.org/docs/master/devel/code-provenance.html",
         "verify_status": "ok (live read 2026-10-04)",
         "note": "Disconfirmation probe (reserve-where-proof-is-cheap). D1=2: every commit carries 'Signed-off-by', asserting the Developer's Certificate of Origin; 'a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely'. D2=2: the Signed-off-by label 'is a statement that the author takes responsibility for the entire contents of the patch, including any parts that were generated or assisted by AI tools'; the name 'should not be anonymous, nor misrepresent whom you are'. D3=1: no labeling regime — the policy bans rather than discloses ('will decline any contribution if use of AI is either known or suspected'); exceptions are to be listed publicly. D4=1: identity-misrepresentation bar applies to contributors, not to synthetic content. D5=1: AI is allowed for 'researching APIs or algorithms, static analysis, or debugging, provided their output is not included in contributions' — the human authors, not validates. D6=1: trust rests on legal provenance, not on proof of correctness. c2_fit=partially: code correctness is the cheapest proof in the index (compile, test, review), yet AI output is reserved. The stated reason is that 'the copyright and license status of the output is ill-defined' — i.e. the proof that is scarce is LEGAL provenance, which cannot be verified for LLM output. The line tracks verification economics only if provenance, not quality, is the thing being verified. Probe result: half-holds; it splits the theory into two proof types."
+      }
+    },
+    {
+      "id": "new-jersey-judiciary-—-pretria",
+      "name": "New Jersey Judiciary — Pretrial Release Recommendation Decision Making Framework (DMF) with Public Safety Assessment",
+      "segment": "courts-legal",
+      "url": "https://www.njcourts.gov/sites/default/files/decmakframwork.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 0,
+        "D3": 0,
+        "D4": 0,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 4,
+      "posture": "Enabling",
+      "c2_fit": "contradicts",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-10-04",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Step 9: Apply the FTA and NCA scales to the DMF Matrix to determine preliminary recommendation.",
+      "quote_label": "Pretrial Release Recommendation Decision Making Framework (DMF) [November 2024], p.3",
+      "provenance": {
+        "url": "https://www.njcourts.gov/sites/default/files/decmakframwork.pdf",
+        "verify_status": "ok (live read 2026-10-04)",
+        "note": "Disconfirmation probe (machine-permitted-where-proof-is-scarce). Actuarial, not generative AI (same class as SEC IM 2017-02). 'Step 1: Complete the PSA to generate the FTA scale, NCA scale, and NVCA flag.' D1=2: the full decision tree, statutory overrides (N.J.S.A. 2A:162-19(b), 2A:162-20(f)) and the FTA x NCA matrix are published — the instrument is fully inspectable. D2=0: the document never names who decides or who is accountable for the outcome. D3=0: no requirement to tell the defendant a scored instrument produced the recommendation. D4=0: n/a. D5=1: outputs are styled 'preliminary recommendation' / 'final recommendation', implying a judicial decision-maker, but the document states no human review step. D6=1: actuarial scales stand in for evidence. c2_fit=contradicts: a scored algorithm issues release/detention recommendations about a counterfactual (what this person would do if released) that is essentially unverifiable for any individual; the human role is left implicit rather than reserved. Caveat: the framework is an operational procedure under a statute (Criminal Justice Reform Act) that assigns the decision to the judge; the document alone under-states human reservation."
       }
     }
   ]

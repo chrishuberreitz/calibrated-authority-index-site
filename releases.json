@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -893,6 +893,23 @@
         "recognition": 1,
         "segment_gap": 1,
         "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-10-07T11:30:00Z",
+      "date": "2026-10-07",
+      "id": "duolingo-english-test-—-respon",
+      "name": "Duolingo English Test — Responsible AI Standards (DRR-26-08)",
+      "category": "add",
+      "rationale": "Duolingo English Test — Responsible AI Standards (DRR-26-08) is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 1 · theory 2 · timeliness 2). CA 8/12 with a Enabling posture; it thickens the thin testing-credentialing segment (only 1 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"In high-stakes testing, outcomes can have a significant impact on test takers’ educational opportunities. Therefore, human oversight is essential.\". Coded 3 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 1,
+        "theory": 2,
         "timeliness": 2
       }
     }

@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-06",
+  "version": "2026-10-07",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-06T11:30:00Z",
+  "dateModified": "2026-10-07T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-06",
+    "version": "2026-10-07",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 85,
+    "n": 86,
     "mean_ca": 9.4,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-06T11:30:00Z"
+    "generated_at": "2026-10-07T11:30:00Z"
   },
   "institutions": [
     {
@@ -2564,6 +2564,35 @@
         "url": "https://www.njcourts.gov/sites/default/files/decmakframwork.pdf",
         "verify_status": "ok (live read 2026-10-04)",
         "note": "Disconfirmation probe (machine-permitted-where-proof-is-scarce). Actuarial, not generative AI (same class as SEC IM 2017-02). 'Step 1: Complete the PSA to generate the FTA scale, NCA scale, and NVCA flag.' D1=2: the full decision tree, statutory overrides (N.J.S.A. 2A:162-19(b), 2A:162-20(f)) and the FTA x NCA matrix are published — the instrument is fully inspectable. D2=0: the document never names who decides or who is accountable for the outcome. D3=0: no requirement to tell the defendant a scored instrument produced the recommendation. D4=0: n/a. D5=1: outputs are styled 'preliminary recommendation' / 'final recommendation', implying a judicial decision-maker, but the document states no human review step. D6=1: actuarial scales stand in for evidence. c2_fit=contradicts: a scored algorithm issues release/detention recommendations about a counterfactual (what this person would do if released) that is essentially unverifiable for any individual; the human role is left implicit rather than reserved. Caveat: the framework is an operational procedure under a statute (Criminal Justice Reform Act) that assigns the decision to the judge; the document alone under-states human reservation."
+      }
+    },
+    {
+      "id": "duolingo-english-test-—-respon",
+      "name": "Duolingo English Test — Responsible AI Standards (DRR-26-08)",
+      "segment": "testing-credentialing",
+      "url": "https://duolingo-papers.s3.us-east-1.amazonaws.com/other/Duolingo+English+Test+Responsible+AI.pdf",
+      "scores": {
+        "D1": 2,
+        "D2": 1,
+        "D3": 1,
+        "D4": 1,
+        "D5": 1,
+        "D6": 2
+      },
+      "ca": 8,
+      "posture": "Enabling",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-10-04",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "In high-stakes testing, outcomes can have a significant impact on test takers’ educational opportunities. Therefore, human oversight is essential.",
+      "quote_label": "The Duolingo English Test Responsible AI Standards, Duolingo Research Report DRR-26-08 (September 14, 2026), 'The Duolingo English Test'",
+      "provenance": {
+        "url": "https://duolingo-papers.s3.us-east-1.amazonaws.com/other/Duolingo+English+Test+Responsible+AI.pdf",
+        "verify_status": "ok (live read 2026-10-04)",
+        "note": "Disconfirmation probe (machine-permitted-where-proof-is-scarce). The DET 'uses AI extensively for test design (e.g., automated generation of test items), measurement (e.g., item parameter estimation and automated scoring of written and spoken responses), and test security'. D1=2: Goal 4 requires documenting AI for validity argument, item creation, calibration and scoring, incl. 'explainable scoring methods'; public Transparency Report. D2=1: Accountability & Transparency principle, but 'This document should not be relied upon or considered legally binding, and may be revised by Duolingo at any time.' No named human accountable per score. D3=1: AI use documented publicly; no per-score labeling. D4=1: test-taker identity verification against impersonation. D5=1: humans are in the loop for item review and proctoring ('Human-in-the-loop AI proctoring protocols require proctor rubrics'), but scoring is validated statistically in aggregate: 'Human raters score writing and speaking samples to build a scored data set against which AI models can be evaluated.' Appeals exist only 'where there is suspicion of test-taker misconduct', not for scores. D6=2: validity-argument framing throughout. c2_fit=partially: the human is reserved for misconduct accusations (identity and behavior, where evidence is contestable per case) while the individual proficiency score — a latent construct with no per-person ground truth — is machine-issued and checked only statistically. That permits machine judgment where individual proof is scarce; it fits only if aggregate statistical validation counts as 'cheap proof'."
       }
     }
   ]

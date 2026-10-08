@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -912,6 +912,17 @@
         "theory": 2,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-10-08T11:30:00Z",
+      "date": "2026-10-08",
+      "id": "us-doe-oet",
+      "name": "US Dept of Education (OET)",
+      "category": "move",
+      "rationale": "US Dept of Education (OET) changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 8 -> 8, revision 1, observed 2026-10-04. Quote fidelity correction (coder-side): prior quote capitalized a mid-sentence fragment ('A top priority...'); replaced with verbatim text from p.47 of the Wayback capture 2026-09-22. Policy text not…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-10-04)",
+      "move_event_ts": "2026-10-04T20:22:25Z"
     }
   ]
 }

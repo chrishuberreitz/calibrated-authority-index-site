@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -923,6 +923,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-10-04)",
       "move_event_ts": "2026-10-04T20:22:25Z"
+    },
+    {
+      "ts": "2026-10-09T11:30:00Z",
+      "date": "2026-10-09",
+      "id": "cse",
+      "name": "Council of Science Editors",
+      "category": "move",
+      "rationale": "Council of Science Editors changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 11 -> 11, revision 3, observed 2026-10-04. Snapshot word-diff 09-27 vs 10-04: only an added events-sidebar item ('Advanced Short Course on Publication Management', Nov 16, 2026). Section 2.1 text identical; coded quote present verbatim on live…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-10-04)",
+      "move_event_ts": "2026-10-04T20:20:01Z"
     }
   ]
 }

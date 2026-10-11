@@ -1,6 +1,64 @@
 {
-  "generated": "2026-10-09",
+  "generated": "2026-10-11",
   "moves": [
+    {
+      "date": "2026-10-11",
+      "institution": "Stanford University",
+      "id": "stanford",
+      "kind": "changed",
+      "headline": "Stanford University policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-11",
+      "institution": "MLA-CCCC Task Force",
+      "id": "mla-cccc",
+      "kind": "changed",
+      "headline": "MLA-CCCC Task Force policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-11",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-11",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "changed",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-11",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "recoded",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 7 → 7",
+      "change_type": "VOCABULARY",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-10-11",
+      "institution": "Stanford University",
+      "id": "stanford",
+      "kind": "recoded",
+      "headline": "Stanford University re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-10-04",
       "institution": "MLA-CCCC Task Force",

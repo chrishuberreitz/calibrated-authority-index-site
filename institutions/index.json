@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-10-09T11:30:00Z"
+    "generated_at": "2026-10-11T20:31:04Z"
   },
   "institutions": [
     {
@@ -154,7 +154,7 @@
       "name": "Stanford University",
       "segment": "university",
       "ca": 9,
-      "url": "https://communitystandards.stanford.edu/policies-guidance",
+      "url": "https://communitystandards.stanford.edu/generative-ai-policy-guidance",
       "page": "/institutions/stanford",
       "atom": "/institutions/stanford.json"
     },

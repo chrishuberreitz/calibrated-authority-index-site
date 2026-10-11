@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-06-22",
+  "coded_date": "2026-10-11",
   "last_changed": null,
   "revision": 0,
-  "quote": "We and others would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
-  "quote_label": "Joint Task Force, Working Paper 3",
+  "quote": "we and others [see Furze; Warner] would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
+  "quote_label": "MLA-CCCC Joint Task Force on Writing and AI, Working Paper 3: Building a Culture for Generative AI Literacy (Nov 2024), PDF https://hcommons.org/app/uploads/sites/1003160/2024/11/MLA-CCCC-Joint-Task-Force-WP-3-Building-Culture-for-Gen-AI-Literacy.pdf",
   "provenance": {
     "url": "https://aiandwriting.hcommons.org/working-paper-1/",
-    "verify_status": "ok"
+    "verify_status": "primary-live-2026-10-11 (quote in WP3 PDF; coded URL is WP1)",
+    "note": "Re-verified 2026-10-11 after the site came back from Knowledge Commons maintenance (the 10-04 'change' was the maintenance page; 10-11 'change' is the restored WP1 page). Quote fidelity fix: the stored quote ('We and others would caution...') was not verbatim — the live WP3 text is parenthetical and carries the citation bracket '[see Furze; Warner]'; corrected. The quote is in WP3, not at the coded WP1 URL; URL left as WP1 pending Chris's call (released record). Scores unmoved."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,14 +37,14 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/mla-cccc",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/mla-cccc",
     "name": "Calibrated Authority rating — MLA-CCCC Task Force",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-10-11",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "MLA-CCCC Task Force — public generative-AI policy",
       "url": "https://aiandwriting.hcommons.org/working-paper-1/",
-      "text": "We and others would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
-      "abstract": "We and others would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
-      "alternateName": "Joint Task Force, Working Paper 3"
+      "text": "we and others [see Furze; Warner] would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
+      "abstract": "we and others [see Furze; Warner] would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
+      "alternateName": "MLA-CCCC Joint Task Force on Writing and AI, Working Paper 3: Building a Culture for Generative AI Literacy (Nov 2024), PDF https://hcommons.org/app/uploads/sites/1003160/2024/11/MLA-CCCC-Joint-Task-Force-WP-3-Building-Culture-for-Gen-AI-Literacy.pdf"
     },
     "reviewRating": {
       "@type": "Rating",

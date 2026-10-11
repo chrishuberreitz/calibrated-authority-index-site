@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-09T11:30:00Z",
+  "dateModified": "2026-10-11T20:31:04Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-09T11:30:00Z"
+    "generated_at": "2026-10-11T20:31:04Z"
   },
   "institutions": [
     {
@@ -542,7 +542,7 @@
       "id": "stanford",
       "name": "Stanford University",
       "segment": "university",
-      "url": "https://communitystandards.stanford.edu/policies-guidance",
+      "url": "https://communitystandards.stanford.edu/generative-ai-policy-guidance",
       "scores": {
         "D1": 1,
         "D2": 2,
@@ -556,14 +556,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": true,
-      "coded_date": "2026-06-22",
-      "last_changed": null,
-      "revision": 0,
+      "coded_date": "2026-10-11",
+      "last_changed": "2026-10-11",
+      "revision": 1,
       "quote": "Absent a clear statement from a course instructor, use of or consultation with generative AI shall be treated analogously to assistance from another person.",
-      "quote_label": "Office of Community Standards",
+      "quote_label": "Stanford Board on Conduct Affairs, Generative AI Policy Guidance (adopted February 16, 2023), Office of Community Standards",
       "provenance": {
-        "url": "https://communitystandards.stanford.edu/policies-guidance",
-        "verify_status": "ok"
+        "url": "https://communitystandards.stanford.edu/generative-ai-policy-guidance",
+        "verify_status": "primary-live-2026-10-11",
+        "note": "Re-verified live 2026-10-11 at the relocated URL. Coded quote present verbatim. Same page: 'Students should acknowledge the use of generative AI (other than incidental use) and default to disclosing such assistance when in doubt' (D3=2); 'using generative AI tools to substantially complete an assignment or exam (e.g. by entering exam or assignment questions) is not permitted'; instructors 'are free to set their own policies'. Additional line on the page (date of addition unknown): 'OCS recommends course instructors provide clear advance notice that they may use detection software to review work submitted for use of generative AI.'"
       }
     },
     {
@@ -670,14 +671,15 @@
       "c2_fit": "fits",
       "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-06-22",
+      "coded_date": "2026-10-11",
       "last_changed": null,
       "revision": 0,
-      "quote": "We and others would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
-      "quote_label": "Joint Task Force, Working Paper 3",
+      "quote": "we and others [see Furze; Warner] would caution against using LLMs to assess student writing or to write tailored feedback to students, given the danger of undermining trust and human connection in the classroom.",
+      "quote_label": "MLA-CCCC Joint Task Force on Writing and AI, Working Paper 3: Building a Culture for Generative AI Literacy (Nov 2024), PDF https://hcommons.org/app/uploads/sites/1003160/2024/11/MLA-CCCC-Joint-Task-Force-WP-3-Building-Culture-for-Gen-AI-Literacy.pdf",
       "provenance": {
         "url": "https://aiandwriting.hcommons.org/working-paper-1/",
-        "verify_status": "ok"
+        "verify_status": "primary-live-2026-10-11 (quote in WP3 PDF; coded URL is WP1)",
+        "note": "Re-verified 2026-10-11 after the site came back from Knowledge Commons maintenance (the 10-04 'change' was the maintenance page; 10-11 'change' is the restored WP1 page). Quote fidelity fix: the stored quote ('We and others would caution...') was not verbatim — the live WP3 text is parenthetical and carries the citation bracket '[see Furze; Warner]'; corrected. The quote is in WP3, not at the coded WP1 URL; URL left as WP1 pending Chris's call (released record). Scores unmoved."
       }
     },
     {
@@ -1605,15 +1607,15 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-09-27",
+      "coded_date": "2026-10-11",
       "last_changed": "2026-09-27",
       "revision": 3,
       "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
       "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
       "provenance": {
         "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-        "verify_status": "primary-live-2026-09-27",
-        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved. | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: Federal Register page-view counter (29,829 -> 29,949) and retrieval date stamp only. Document text unchanged; coded quote present verbatim."
+        "verify_status": "primary-live-2026-10-11",
+        "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved. | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: Federal Register page-view counter (29,829 -> 29,949) and retrieval date stamp only. Document text unchanged; coded quote present verbatim. | Re-verified live 2026-10-11: Snapshot word-diff 10-04 vs 10-11: Federal Register page-view counter (30,025 -> 30,110) and retrieval date stamp only. Document text unchanged; coded quote present verbatim."
       }
     },
     {
@@ -2294,15 +2296,15 @@
       "c2_fit": "partially",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-09-27",
-      "last_changed": "2026-09-27",
-      "revision": 1,
-      "quote": "The use of large language models (LLMs) to generate or rewrite article content is prohibited except for the uses as outlined below.",
+      "coded_date": "2026-10-11",
+      "last_changed": "2026-10-11",
+      "revision": 2,
+      "quote": "The use of large language models (LLMs) to generate or rewrite article content is strictly prohibited except for the uses as outlined below.",
       "quote_label": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)",
       "provenance": {
         "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
-        "verify_status": "primary-live-2026-09-27",
-        "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at such a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.' | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: new revision (oldid 1375904828 -> 1376781070, last edited 26 Sept 2026) adds only a Latina interlanguage link (10 -> 11 languages). Guideline body text identical; coded quote present verbatim."
+        "verify_status": "primary-live-2026-10-11",
+        "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.' | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: new revision (oldid 1375904828 -> 1376781070, last edited 26 Sept 2026) adds only a Latina interlanguage link (10 -> 11 languages). Guideline body text identical; coded quote present verbatim. | Re-verified live 2026-10-11: oldid 1378473005 (last edited 4 Oct 2026). Operative sentence now reads 'strictly prohibited' (was 'prohibited' through 09-27); 10-04 -> 10-11 diff is a hyphenation fix ('LLM generated' -> 'LLM-generated') and a moved 'Deletions' heading. Rationale quote corrected to live wording ('at a rate', not 'at such a rate')."
       }
     },
     {

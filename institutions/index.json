@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-09",
-    "n": 86,
+    "version": "2026-10-12",
+    "n": 87,
     "mean_ca": 9.4,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-10-11T20:31:04Z"
+    "generated_at": "2026-10-12T11:30:00Z"
   },
   "institutions": [
     {
@@ -796,6 +796,15 @@
       "url": "https://duolingo-papers.s3.us-east-1.amazonaws.com/other/Duolingo+English+Test+Responsible+AI.pdf",
       "page": "/institutions/duolingo-english-test-—-respon",
       "atom": "/institutions/duolingo-english-test-—-respon.json"
+    },
+    {
+      "id": "stack-overflow-—-generative-ai",
+      "name": "Stack Overflow — Generative AI content policy (Help Center)",
+      "segment": "community-knowledge",
+      "ca": 8,
+      "url": "https://stackoverflow.com/help/gen-ai-policy",
+      "page": "/institutions/stack-overflow-—-generative-ai",
+      "atom": "/institutions/stack-overflow-—-generative-ai.json"
     }
   ]
 }

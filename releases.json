@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11",
+  "generated": "2026-10-12",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -934,6 +934,23 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-10-04)",
       "move_event_ts": "2026-10-04T20:20:01Z"
+    },
+    {
+      "ts": "2026-10-12T11:30:00Z",
+      "date": "2026-10-12",
+      "id": "stack-overflow-—-generative-ai",
+      "name": "Stack Overflow — Generative AI content policy (Help Center)",
+      "category": "add",
+      "rationale": "Stack Overflow — Generative AI content policy (Help Center) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 8/12 with a Prohibitive posture; it opens the community-knowledge segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Generative artificial intelligence (a.k.a. GPT, LLM, generative AI, genAI) tools may not be used to generate content for Stack Overflow.\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-13",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "the-joint-commission-&-chai-—-",
+  "name": "The Joint Commission & CHAI — Guidance on the Responsible Use of AI in Healthcare (RUAIH)",
+  "segment": "accreditation-body",
+  "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "D4": 0,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 6,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-10-11",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "When appropriate, patients should be notified when AI directly impacts their care and how their data may be used in the context of AI.",
+  "quote_label": "Joint Commission & Coalition for Health AI, Guidance on the Responsible Use of AI in Healthcare (RUAIH), §2 Patient Privacy and Transparency (©2025)",
+  "provenance": {
+    "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2",
+    "verify_status": "ok (live read 2026-10-11)",
+    "note": "Stuck pending since 2026-08-30 (missed its NEW week); coded this run. Segment gap (healthcare accreditor). D1=1: organizational monitoring and auditing ('regularly monitoring and/or auditing AI systems to identify and address biases'), AI incidents captured 'like patient safety events', but no decision-level record. D2=1: 'governance creates accountability'; 'a designated individual(s) focused on AI quality/safety-related issues'; no clinician sign-off on AI outputs. D3=1: notification is qualified ('When appropriate'), consent 'Where and when relevant'. D4=0: none. D5=1: human judgment named only in rationale ('emphasizes the importance of keeping humans in the decision-making process'; risk that 'overreliance on AI could potentially diminish the role of human judgment'); no required human review step. D6=2: local validation, bias evaluation before and after deployment, risk-based post-deployment monitoring. Posture Enabling: written to 'fully harness the transformative potential of AI' across diagnosis, treatment planning and administration. c2_fit=partially: draws no permit-vs-reserve line by task; the governing variable is organizational risk ('risk-based and scaled to your setting'), not proof cost — scope covers 'decision support, diagnosis, treatment planning' with the same guardrails as scheduling. c3=Evidential."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/the-joint-commission-&-chai-—-",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/the-joint-commission-&-chai-—-",
+    "name": "Calibrated Authority rating — The Joint Commission & CHAI — Guidance on the Responsible Use of AI in Healthcare (RUAIH)",
+    "datePublished": "2026-10-11",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "The Joint Commission & CHAI — Guidance on the Responsible Use of AI in Healthcare (RUAIH) — public generative-AI policy",
+      "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2",
+      "text": "When appropriate, patients should be notified when AI directly impacts their care and how their data may be used in the context of AI.",
+      "abstract": "When appropriate, patients should be notified when AI directly impacts their care and how their data may be used in the context of AI.",
+      "alternateName": "Joint Commission & Coalition for Health AI, Guidance on the Responsible Use of AI in Healthcare (RUAIH), §2 Patient Privacy and Transparency (©2025)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 6,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-13",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

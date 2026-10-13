@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-12",
+  "version": "2026-10-13",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-12T11:30:00Z",
+  "dateModified": "2026-10-13T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,11 +89,11 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-12",
+    "version": "2026-10-13",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 87,
-    "mean_ca": 9.4,
+    "n": 88,
+    "mean_ca": 9.3,
     "ca_range": [
       3,
       12
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-12T11:30:00Z"
+    "generated_at": "2026-10-13T11:30:00Z"
   },
   "institutions": [
     {
@@ -2624,6 +2624,35 @@
         "url": "https://stackoverflow.com/help/gen-ai-policy",
         "verify_status": "ok (live read 2026-10-11)",
         "note": "Disconfirmation probe (reserve-where-proof-is-cheap; sibling of QEMU). D1=1: content 'must either be your own original work, or your summary of the properly referenced work of others'; no audit trail. D2=2: 'Users who ask questions on Stack Overflow expect to receive an answer authored and vetted by a human.' D3=0: no labeling route — a ban, and citing the tool does not cure it ('even if someone explicitly cites the generative artificial intelligence tool as an author in their content'). D4=1: names fabrication as a reason ('may fabricate false or misleading information'; cited sources 'may not exist at all') but no synthetic-identity provision. D5=2: human authoring and vetting is the condition of posting. D6=2: 'the person who asked a question needs a correct answer'. Enforcement: deletion with reputation, warning, suspension. c2_fit=partially: code answers are cheap to check in principle, yet reserved. The stated reasons are not code correctness: they are sourcing ('not capable of citing the sources of knowledge used up to the standards of the Stack Exchange network') and the asker's own inability to vet. The QEMU split recurs in a new form — the scarce proof is provenance and vetting capacity, not whether the code runs. c3=Evidential: the human-authorship expectation is justified on factual grounds ('This ensures that the answer is factual, relevant, and complete')."
+      }
+    },
+    {
+      "id": "the-joint-commission-&-chai-—-",
+      "name": "The Joint Commission & CHAI — Guidance on the Responsible Use of AI in Healthcare (RUAIH)",
+      "segment": "accreditation-body",
+      "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2",
+      "scores": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 1,
+        "D4": 0,
+        "D5": 1,
+        "D6": 2
+      },
+      "ca": 6,
+      "posture": "Enabling",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-10-11",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "When appropriate, patients should be notified when AI directly impacts their care and how their data may be used in the context of AI.",
+      "quote_label": "Joint Commission & Coalition for Health AI, Guidance on the Responsible Use of AI in Healthcare (RUAIH), §2 Patient Privacy and Transparency (©2025)",
+      "provenance": {
+        "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2",
+        "verify_status": "ok (live read 2026-10-11)",
+        "note": "Stuck pending since 2026-08-30 (missed its NEW week); coded this run. Segment gap (healthcare accreditor). D1=1: organizational monitoring and auditing ('regularly monitoring and/or auditing AI systems to identify and address biases'), AI incidents captured 'like patient safety events', but no decision-level record. D2=1: 'governance creates accountability'; 'a designated individual(s) focused on AI quality/safety-related issues'; no clinician sign-off on AI outputs. D3=1: notification is qualified ('When appropriate'), consent 'Where and when relevant'. D4=0: none. D5=1: human judgment named only in rationale ('emphasizes the importance of keeping humans in the decision-making process'; risk that 'overreliance on AI could potentially diminish the role of human judgment'); no required human review step. D6=2: local validation, bias evaluation before and after deployment, risk-based post-deployment monitoring. Posture Enabling: written to 'fully harness the transformative potential of AI' across diagnosis, treatment planning and administration. c2_fit=partially: draws no permit-vs-reserve line by task; the governing variable is organizational risk ('risk-based and scaled to your setting'), not proof cost — scope covers 'decision support, diagnosis, treatment planning' with the same guardrails as scheduling. c3=Evidential."
       }
     }
   ]

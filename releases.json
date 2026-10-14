@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -959,6 +959,23 @@
       "name": "The Joint Commission & CHAI — Guidance on the Responsible Use of AI in Healthcare (RUAIH)",
       "category": "add",
       "rationale": "The Joint Commission & CHAI — Guidance on the Responsible Use of AI in Healthcare (RUAIH) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 6/12 with a Enabling posture; it opens the accreditation-body segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"When appropriate, patients should be notified when AI directly impacts their care and how their data may be used in the context of AI.\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-10-14T11:30:00Z",
+      "date": "2026-10-14",
+      "id": "finra-—-regulatory-notice-24-0",
+      "name": "FINRA — Regulatory Notice 24-09: Gen AI and LLMs",
+      "category": "add",
+      "rationale": "FINRA — Regulatory Notice 24-09: Gen AI and LLMs is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 2 · theory 2 · timeliness 2). CA 4/12 with a Enabling posture; it opens the financial-sro segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"The rules apply when member firms use AI, including Gen AI or similar technologies, in the course of their business, just as they apply when member firms use any other technology o…\". Coded 3 day(s) ago.",
       "auto": true,
       "selection": "best ADD 7/10 (bar 6)",
       "score": {

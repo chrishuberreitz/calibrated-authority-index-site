@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-13",
+  "version": "2026-10-14",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-13T11:30:00Z",
+  "dateModified": "2026-10-14T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-13",
+    "version": "2026-10-14",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 88,
+    "n": 89,
     "mean_ca": 9.3,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-13T11:30:00Z"
+    "generated_at": "2026-10-14T11:30:00Z"
   },
   "institutions": [
     {
@@ -2653,6 +2653,35 @@
         "url": "https://digitalassets.jointcommission.org/api/public/content/dcfcf4f1a0cc45cdb526b3cb034c68c2",
         "verify_status": "ok (live read 2026-10-11)",
         "note": "Stuck pending since 2026-08-30 (missed its NEW week); coded this run. Segment gap (healthcare accreditor). D1=1: organizational monitoring and auditing ('regularly monitoring and/or auditing AI systems to identify and address biases'), AI incidents captured 'like patient safety events', but no decision-level record. D2=1: 'governance creates accountability'; 'a designated individual(s) focused on AI quality/safety-related issues'; no clinician sign-off on AI outputs. D3=1: notification is qualified ('When appropriate'), consent 'Where and when relevant'. D4=0: none. D5=1: human judgment named only in rationale ('emphasizes the importance of keeping humans in the decision-making process'; risk that 'overreliance on AI could potentially diminish the role of human judgment'); no required human review step. D6=2: local validation, bias evaluation before and after deployment, risk-based post-deployment monitoring. Posture Enabling: written to 'fully harness the transformative potential of AI' across diagnosis, treatment planning and administration. c2_fit=partially: draws no permit-vs-reserve line by task; the governing variable is organizational risk ('risk-based and scaled to your setting'), not proof cost — scope covers 'decision support, diagnosis, treatment planning' with the same guardrails as scheduling. c3=Evidential."
+      }
+    },
+    {
+      "id": "finra-—-regulatory-notice-24-0",
+      "name": "FINRA — Regulatory Notice 24-09: Gen AI and LLMs",
+      "segment": "financial-sro",
+      "url": "https://www.finra.org/rules-guidance/notices/24-09",
+      "scores": {
+        "D1": 1,
+        "D2": 1,
+        "D3": 0,
+        "D4": 0,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 4,
+      "posture": "Enabling",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-10-11",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "The rules apply when member firms use AI, including Gen AI or similar technologies, in the course of their business, just as they apply when member firms use any other technology or tool.",
+      "quote_label": "FINRA Regulatory Notice 24-09, 'Regulatory Obligations When Using Gen AI Tools' (June 2024)",
+      "provenance": {
+        "url": "https://www.finra.org/rules-guidance/notices/24-09",
+        "verify_status": "ok (live read 2026-10-11; 200 headless this run, previously 403)",
+        "note": "Segment gap (self-regulatory licensing body for broker-dealers); not screened for fit. 'This Notice does not create new legal or regulatory requirements or new interpretations of existing requirements.' D1=1: under Rule 3110, where Gen AI is part of the supervisory system 'its policies and procedures should address technology governance, including model risk management, data privacy and integrity, reliability and accuracy of the AI model'; no decision-level record. D2=1: the member firm stays accountable under existing rules; no human-authorship requirement. D3=0: Rule 2210 content standards 'apply whether member firms' communications are generated by a human or technology tool' — same standard, no labeling. D4=0: none (threat actors and synthetic data mentioned, no prohibition). D5=1: 'a member firm should evaluate Gen AI tools prior to deploying them'; surveillance example routes AI summaries to 'the member firm's (human) compliance personnel'. D6=1: names 'concerns about accuracy, privacy, bias, intellectual property'. Posture Enabling ('promising opportunities'; rules 'intended to be technology neutral'). c2_fit=partially: technology neutrality is a decision NOT to draw a permit-vs-reserve line, so the line can't track proof economics either way; its one worked example (machine drafts surveillance summaries, humans judge 'potential evidence of malfeasance') does fit. Contrast SEC IM 2017-02 (contradicts), which explicitly blesses machine fiduciary judgment. c3=Evidential (accuracy, reliability)."
       }
     }
   ]

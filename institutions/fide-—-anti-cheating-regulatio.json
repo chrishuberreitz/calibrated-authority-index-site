@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-15",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "fide-—-anti-cheating-regulatio",
+  "name": "FIDE — Anti-Cheating Regulations (Fair Play Commission)",
+  "segment": "sports-governing-body",
+  "url": "https://handbook.fide.com/files/handbook/ACCRegulations.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "D4": 1,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 8,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-10-11",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "There shall be a presumption of cheating if statistical analysis by a FIDE validated and approved algorithm and/or other methodology applied to a player's performance in a single game, or a series of games or tournaments in competitive play shows a Z-score (reflective of the deviation between the player's actual performance and the projected fair play for a player having comparable Elo rating) above the official Z-score threshold.",
+  "quote_label": "FIDE Handbook, Anti-Cheating Regulations, §I.5 'Assumed cheating'",
+  "provenance": {
+    "url": "https://handbook.fide.com/files/handbook/ACCRegulations.pdf",
+    "verify_status": "ok (live read 2026-10-11)",
+    "note": "Disconfirmation probe (machine-permitted-where-proof-is-scarce). Statistical/actuarial, not generative AI (same class as SEC IM 2017-02 and NJ DMF). §I.5 continues: 'the burden to rebut the presumption of cheating and show his or her innocence shall be on the player.' D1=2: the method is named ('Currently, only Dr. Kenneth W. Regan methodology is approved'; MM, EV and ASD tests) and thresholds are published with natural frequencies (online 4.25, 'one-in-almost 100,000'; over-the-board 5.00, 'one-in-almost 3.5 million'); the Investigatory Panel report must state 'the factual circumstances of the incident, the findings of the investigation, and a proposed sanction'. D2=2: human bodies decide — an Investigatory Panel of 'up to three FPL members', FPL 'decides by a majority vote', the EDC judges. D3=0: no requirement to disclose algorithmic scoring to the accused beyond the general process. D4=1: 'false identity' and 'deliberate participation in fictitious tournaments or games' are listed as cheating — human fabrication, not synthetic content. D5=1: the panel 'shall consider the presented physical and observational evidence' along with 'the statistical evidence', but the presumption itself is triggered by the algorithm alone ('These provisions apply if there is no other evidence'). D6=2: thresholds are tied to the CAS 'comfortable satisfaction' standard; accusations 'based only on emotion and/or insufficient data' are false accusations. c2_fit=partially, and the split is the finding: the line DOES slide with proof availability (5.00 with no other evidence, 'a Z-score of 2.50 or higher may be used in support' when other evidence exists), but where human-observable proof is absent the machine statistic alone establishes the presumption and reverses the burden. Humans keep the gavel; the machine carries the proof exactly where proof is scarcest. Third statistical/actuarial regime in a row that does not reserve the proof step to a human."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/fide-—-anti-cheating-regulatio",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/fide-—-anti-cheating-regulatio",
+    "name": "Calibrated Authority rating — FIDE — Anti-Cheating Regulations (Fair Play Commission)",
+    "datePublished": "2026-10-11",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "FIDE — Anti-Cheating Regulations (Fair Play Commission) — public generative-AI policy",
+      "url": "https://handbook.fide.com/files/handbook/ACCRegulations.pdf",
+      "text": "There shall be a presumption of cheating if statistical analysis by a FIDE validated and approved algorithm and/or other methodology applied to a player's performance in a single game, or a series of games or tournaments in competitive play shows a Z-score (reflective of the deviation between the player's actual performance and the projected fair play for a player having comparable Elo rating) above the official Z-score threshold.",
+      "abstract": "There shall be a presumption of cheating if statistical analysis by a FIDE validated and approved algorithm and/or other methodology applied to a player's performance in a single game, or a series of games or tournaments in competitive play shows a Z-score (reflective of the deviation between the player's actual performance and the projected fair play for a player having comparable Elo rating) above the official Z-score threshold.",
+      "alternateName": "FIDE Handbook, Anti-Cheating Regulations, §I.5 'Assumed cheating'"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-15",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-16",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "indian-council-of-medical-rese",
+  "name": "Indian Council of Medical Research — Ethical Guidelines for Application of AI in Biomedical Research and Healthcare (2023)",
+  "segment": "healthcare-research",
+  "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/Ethical-guidelines/Ethical_Guidelines_AI_Healthcare_2023.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-10-11",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Therefore, unlike other fields of AI technologies where unsupervised deployment is common, AI for health should always be appropriately supervised.",
+  "quote_label": "ICMR, Ethical Guidelines for Application of Artificial Intelligence in Biomedical Research and Healthcare (2023), §1.5(ii) Accountability and Liability",
+  "provenance": {
+    "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/Ethical-guidelines/Ethical_Guidelines_AI_Healthcare_2023.pdf",
+    "verify_status": "ok (live read 2026-10-11; 26MB official PDF, text layer); quote spans a page break (pp. 21-22), footer omitted",
+    "note": "Segment gap, non-Anglophone (India). D1=2: 'AI technologies must undergo regular internal and external audits to ensure their optimum functioning. These audit reports must be made publicly available' (§1.5); results 'should be explainable based on scientific plausibility' (§1.3(iv)). D2=2: 'the responsibility of optimal utilization of the technology is on the health professional using AI-based solutions' (§1.5(v)); responsibility to be allocated before deployment. D3=2: 'The information about the use of AI-based technology should be shared with the healthcare recipient or their legal representative' (§2.3(xiii)); patients 'should be fully informed about the use of AI technologies' with 'complete autonomy to choose or reject AI technologies' (§1.1). D4=0: no fabrication or synthetic-identity provision. D5=2: 'Human oversight and manual override mechanisms must be made compulsory for all AI technologies that have the capability to cause severe or bodily injuries' (§2.3(xii)); HITL adopted throughout (§1.5(iii)). D6=2: results 'should be in sync with standard assessment tools' (§1.3(iii)); a dedicated Validity principle (§1.10) and validation phase (§2.2). When AI and physician disagree, 'The patient should be informed about the recommendation from both the doctor(s) and the AI technology' (§1.3(v)). c2_fit=fits: machine-assisted decisions permitted under supervision, the clinical decision reserved to the professional and the patient, override mandatory where harm is severe. Note the line is tiered by harm severity as much as by proof cost. c3=Both-split: validity and explainability (evidential) plus patient autonomy and the patient-clinician relationship (relational)."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/indian-council-of-medical-rese",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/indian-council-of-medical-rese",
+    "name": "Calibrated Authority rating — Indian Council of Medical Research — Ethical Guidelines for Application of AI in Biomedical Research and Healthcare (2023)",
+    "datePublished": "2026-10-11",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Indian Council of Medical Research — Ethical Guidelines for Application of AI in Biomedical Research and Healthcare (2023) — public generative-AI policy",
+      "url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/Ethical-guidelines/Ethical_Guidelines_AI_Healthcare_2023.pdf",
+      "text": "Therefore, unlike other fields of AI technologies where unsupervised deployment is common, AI for health should always be appropriately supervised.",
+      "abstract": "Therefore, unlike other fields of AI technologies where unsupervised deployment is common, AI for health should always be appropriately supervised.",
+      "alternateName": "ICMR, Ethical Guidelines for Application of Artificial Intelligence in Biomedical Research and Healthcare (2023), §1.5(ii) Accountability and Liability"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-16",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

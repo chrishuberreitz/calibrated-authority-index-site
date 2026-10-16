@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15",
+  "generated": "2026-10-16",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1000,6 +1000,23 @@
         "recognition": 1,
         "segment_gap": 1,
         "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-10-16T11:30:00Z",
+      "date": "2026-10-16",
+      "id": "indian-council-of-medical-rese",
+      "name": "Indian Council of Medical Research — Ethical Guidelines for Application of AI in Biomedical Research and Healthcare (2023)",
+      "category": "add",
+      "rationale": "Indian Council of Medical Research — Ethical Guidelines for Application of AI in Biomedical Research and Healthcare (2023) is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 10/12 with a Balanced posture; it opens the healthcare-research segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Therefore, unlike other fields of AI technologies where unsupervised deployment is common, AI for health should always be appropriately supervised.\". Coded 5 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
         "timeliness": 2
       }
     }

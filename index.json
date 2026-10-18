@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-16T11:30:00Z",
+  "dateModified": "2026-10-18T20:27:23Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-16T11:30:00Z"
+    "generated_at": "2026-10-18T20:27:23Z"
   },
   "institutions": [
     {
@@ -601,27 +601,27 @@
       "segment": "university",
       "url": "https://genai.umich.edu/resources/faculty/course-policies",
       "scores": {
-        "D1": 2,
+        "D1": 1,
         "D2": 2,
         "D3": 1,
         "D4": 1,
         "D5": 2,
         "D6": 2
       },
-      "ca": 10,
+      "ca": 9,
       "posture": "Enabling",
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": true,
       "coded_date": "2026-09-27",
-      "last_changed": "2026-09-27",
-      "revision": 1,
+      "last_changed": "2026-10-18",
+      "revision": 2,
       "quote": "Responsibility for content: Students are responsible for all content (ideas, facts, citations), however the work is generated.",
       "quote_label": "U-M Generative AI, Guidance for Faculty/Instructors, Course Policies & Syllabi Statements, Syllabus Language (read via Wayback capture 2026-03-13)",
       "provenance": {
         "url": "https://genai.umich.edu/resources/faculty/course-policies",
-        "verify_status": "secondary-wayback-2026-03-13 (live 403; Chrome unavailable this run)",
-        "note": "QUOTE PROVENANCE CORRECTION 2026-09-27: the previously coded quote ('All data shared with U-M\\'s AI services is private and will not be used to train AI models.', labelled 'ITS AI services') does not appear on the coded URL, the faculty course-policies page. It belongs to a separate ITS AI-services page. Replaced with verbatim text from the coded URL. Scores left unmoved pending a live read. Flag for review: D1=2 may have been driven by the ITS page. The course-policies page supports documentation through example syllabus language ('A portion of your term grade will evaluate your documentation of AI use') rather than an institutional traceability requirement. Also on the page: 'U-M does not currently support the use of surveillance and plagiarism detection tools as they cannot be reliably counted upon'; and 'you assert that it accurately reflects the facts and to do so you need to have verified the facts, especially if they originate from generative AI resources.'"
+        "verify_status": "secondary-wayback-2026-10-12 (live 403 2026-10-18; Chrome unavailable)",
+        "note": "QUOTE PROVENANCE CORRECTION 2026-09-27: the previously coded quote ('All data shared with U-M\\'s AI services is private and will not be used to train AI models.', labelled 'ITS AI services') does not appear on the coded URL, the faculty course-policies page. It belongs to a separate ITS AI-services page. Replaced with verbatim text from the coded URL. Scores left unmoved pending a live read. Flag for review: D1=2 may have been driven by the ITS page. The course-policies page supports documentation through example syllabus language ('A portion of your term grade will evaluate your documentation of AI use') rather than an institutional traceability requirement. Also on the page: 'U-M does not currently support the use of surveillance and plagiarism detection tools as they cannot be reliably counted upon'; and 'you assert that it accurately reflects the facts and to do so you need to have verified the facts, especially if they originate from generative AI resources.' | RE-SCORE 2026-10-18 on the newer Wayback capture (2026-10-12) of the coded URL, closing the 09-27 flag: D1 2->1. The course-policies page puts documentation only in recommended syllabus language that instructors 'could consider including' (e.g. 'A portion of your term grade will evaluate your documentation of AI use') and in faculty example statements ('an explanatory appendix is required for each and every unique usage'). U-M itself issues no traceability requirement; the D1=2 traced to the separate ITS page. Coded quote verbatim in the capture. Open for review: D5=2 rests on the same recommended language ('you need to have verified the facts')."
       }
     },
     {
@@ -703,11 +703,11 @@
       "coded_date": "2026-07-26",
       "last_changed": "2026-07-26",
       "revision": 1,
-      "quote": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI.",
+      "quote": "When using Artificial Intelligence to assist with writing an ACM submission, ACM no longer requires the disclosure of information regarding the use of AI (as distinct from AI used in the conduct of the research itself, addressed in item 1 above).",
       "quote_label": "ACM Policy on Authorship, Use of Artificial Intelligence",
       "provenance": {
         "url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
-        "verify_status": "secondary-wayback-2026-05-31 (live 403; Chrome unavailable this run)",
+        "verify_status": "secondary-wayback-2026-05-31 (live 403 2026-10-18; Chrome unavailable; quote fidelity fixed 2026-10-18)",
         "note": "Policy updated 2026-05-14: AI writing-assistance disclosure no longer required (research-use still must be described in Methods). D3 2->1; CA 10->11."
       }
     },
@@ -1185,11 +1185,12 @@
       "coded_date": "2026-06-28",
       "last_changed": null,
       "revision": 0,
-      "quote": "Attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
-      "quote_label": "Instructions for authors",
+      "quote": "These policies preclude the inclusion of nonhuman AI tools as authors and require the transparent reporting of use of such tools in preparing manuscripts and other content and when used in research submitted for publication.",
+      "quote_label": "JAMA editorial, 'Reporting Use of AI in Research and Scholarly Publication' guidance page (jama.2023.12500), coded URL; read via Wayback capture 2026-08-27",
       "provenance": {
         "url": "https://jamanetwork.com/journals/jama/fullarticle/2807956",
-        "verify_status": "ok"
+        "verify_status": "secondary-wayback-2026-08-27 (live 403 2026-10-18; Chrome unavailable)",
+        "note": "QUOTE PROVENANCE CORRECTION 2026-10-18: the previously stored quote ('Attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.', labelled 'Instructions for authors') does not appear verbatim on the coded URL (Wayback 2026-08-27) nor on JAMA's Instructions for Authors (Wayback 2026-09-16). Replaced with verbatim text from the coded URL. The Instructions for Authors carry the operative rule verbatim: 'Nonhuman artificial intelligence, language models, machine learning, or similar technologies do not qualify for authorship. If these models or tools are used to create content or assist with writing or manuscript preparation, authors must take responsibility for the integrity of the content generated'. The coded page adds a submission-system disclosure question and 'In all such cases, authors must take responsibility for the integrity of the content generated by these models and tools.' Scores unmoved; the substance supports D2=2 and D3=2 as coded."
       }
     },
     {
@@ -1521,14 +1522,14 @@
       "c2_fit": "partially",
       "c3": "Relational",
       "twilight": true,
-      "coded_date": "2026-09-20",
-      "last_changed": "2026-10-04",
-      "revision": 4,
+      "coded_date": "2026-10-18",
+      "last_changed": "2026-10-18",
+      "revision": 5,
       "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
       "quote_label": "Guidance for generative AI in education and research (UNESCO, 2023), p.1 (governing PDF re-read 2026-09-20)",
       "provenance": {
         "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-        "verify_status": "primary-live-2026-09-20",
+        "verify_status": "primary-live-2026-10-18; coded p.1 quote also verbatim on the landing page",
         "note": "Re-code 2026-09-20. The scan flagged the UNESCO article landing page, not the guidance itself; the landing page carries only a summary. The governing 48-page PDF was retrieved and read in full on 2026-09-20 and the stored quote is verbatim on p.1. Substantive frame unchanged: the Guidance \"proposes key steps to the regulation of GenAI tool, including mandating the protection of data privacy, and setting an age limit for the independent conversations with GenAI platforms\" and \"proposes a human-agent and age-appropriate approach to the ethical validation and pedagogical design processes\"; it calls for \"Definition and enforcement of age limit\" and for developers \"to disclose the copyrighted materials they\" use. twilight=true rests on the quoted sentence, which is exactly the feedback-delay framing - regulation outpaced by release cadence. D1=1 and D6=1 hold: the document reasons about governance at the policy level and does not impose traceability or evidentiary requirements on any particular piece of work. No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
       }
     },
@@ -1550,14 +1551,14 @@
       "c2_fit": "fits",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-09-06",
-      "last_changed": "2026-09-06",
-      "revision": 1,
+      "coded_date": "2026-10-18",
+      "last_changed": "2026-10-18",
+      "revision": 2,
       "quote": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
       "quote_label": "OECD AI Principles, Principle 1.5 Accountability (OECD/LEGAL/0449, as updated May 2024)",
       "provenance": {
         "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
-        "verify_status": "primary-live-2026-09-06",
+        "verify_status": "primary-live-2026-10-18; coded Principle 1.5 quote verbatim",
         "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change on the oecd.ai/en/ai-principles hub. The hub page is an overview (principle headings, adherent list, AI-system definition) and does not carry the principle text; a Wayback capture from 2026-08-02 confirms it did not carry the coded quote then either, so the hash flip is page furniture, not policy. Re-anchored the record URL to the Principle 1.5 (Accountability) page, where the coded verbatim quote appears word-for-word: 'AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry, appropriate to the context and consistent with the state of the art.' Same Recommendation (adopted 2019, updated May 2024); scores unmoved."
       }
     },

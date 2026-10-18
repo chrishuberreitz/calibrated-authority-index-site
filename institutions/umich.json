@@ -9,27 +9,27 @@
   "segment": "university",
   "url": "https://genai.umich.edu/resources/faculty/course-policies",
   "scores": {
-    "D1": 2,
+    "D1": 1,
     "D2": 2,
     "D3": 1,
     "D4": 1,
     "D5": 2,
     "D6": 2
   },
-  "ca": 10,
+  "ca": 9,
   "posture": "Enabling",
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": true,
   "coded_date": "2026-09-27",
-  "last_changed": "2026-09-27",
-  "revision": 1,
+  "last_changed": "2026-10-18",
+  "revision": 2,
   "quote": "Responsibility for content: Students are responsible for all content (ideas, facts, citations), however the work is generated.",
   "quote_label": "U-M Generative AI, Guidance for Faculty/Instructors, Course Policies & Syllabi Statements, Syllabus Language (read via Wayback capture 2026-03-13)",
   "provenance": {
     "url": "https://genai.umich.edu/resources/faculty/course-policies",
-    "verify_status": "secondary-wayback-2026-03-13 (live 403; Chrome unavailable this run)",
-    "note": "QUOTE PROVENANCE CORRECTION 2026-09-27: the previously coded quote ('All data shared with U-M\\'s AI services is private and will not be used to train AI models.', labelled 'ITS AI services') does not appear on the coded URL, the faculty course-policies page. It belongs to a separate ITS AI-services page. Replaced with verbatim text from the coded URL. Scores left unmoved pending a live read. Flag for review: D1=2 may have been driven by the ITS page. The course-policies page supports documentation through example syllabus language ('A portion of your term grade will evaluate your documentation of AI use') rather than an institutional traceability requirement. Also on the page: 'U-M does not currently support the use of surveillance and plagiarism detection tools as they cannot be reliably counted upon'; and 'you assert that it accurately reflects the facts and to do so you need to have verified the facts, especially if they originate from generative AI resources.'"
+    "verify_status": "secondary-wayback-2026-10-12 (live 403 2026-10-18; Chrome unavailable)",
+    "note": "QUOTE PROVENANCE CORRECTION 2026-09-27: the previously coded quote ('All data shared with U-M\\'s AI services is private and will not be used to train AI models.', labelled 'ITS AI services') does not appear on the coded URL, the faculty course-policies page. It belongs to a separate ITS AI-services page. Replaced with verbatim text from the coded URL. Scores left unmoved pending a live read. Flag for review: D1=2 may have been driven by the ITS page. The course-policies page supports documentation through example syllabus language ('A portion of your term grade will evaluate your documentation of AI use') rather than an institutional traceability requirement. Also on the page: 'U-M does not currently support the use of surveillance and plagiarism detection tools as they cannot be reliably counted upon'; and 'you assert that it accurately reflects the facts and to do so you need to have verified the facts, especially if they originate from generative AI resources.' | RE-SCORE 2026-10-18 on the newer Wayback capture (2026-10-12) of the coded URL, closing the 09-27 flag: D1 2->1. The course-policies page puts documentation only in recommended syllabus language that instructors 'could consider including' (e.g. 'A portion of your term grade will evaluate your documentation of AI use') and in faculty example statements ('an explanatory appendix is required for each and every unique usage'). U-M itself issues no traceability requirement; the D1=2 traced to the separate ITS page. Coded quote verbatim in the capture. Open for review: D5=2 rests on the same recommended language ('you need to have verified the facts')."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -48,10 +48,10 @@
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 10,
+      "ratingValue": 9,
       "bestRating": 12,
       "worstRating": 0,
-      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: fits. Trust-logic: Evidential."
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: fits. Trust-logic: Evidential."
     },
     "author": {
       "@type": "Person",

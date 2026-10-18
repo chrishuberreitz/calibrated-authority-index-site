@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-10-16T11:30:00Z"
+    "generated_at": "2026-10-18T20:27:23Z"
   },
   "institutions": [
     {
@@ -171,7 +171,7 @@
       "id": "umich",
       "name": "University of Michigan",
       "segment": "university",
-      "ca": 10,
+      "ca": 9,
       "url": "https://genai.umich.edu/resources/faculty/course-policies",
       "page": "/institutions/umich",
       "atom": "/institutions/umich.json"

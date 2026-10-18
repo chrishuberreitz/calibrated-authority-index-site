@@ -21,14 +21,14 @@
   "c2_fit": "partially",
   "c3": "Relational",
   "twilight": true,
-  "coded_date": "2026-09-20",
-  "last_changed": "2026-10-04",
-  "revision": 4,
+  "coded_date": "2026-10-18",
+  "last_changed": "2026-10-18",
+  "revision": 5,
   "quote": "Publicly available generative AI (GenAI) tools are rapidly emerging, and the release of iterative versions is outpacing the adaptation of national regulatory frameworks.",
   "quote_label": "Guidance for generative AI in education and research (UNESCO, 2023), p.1 (governing PDF re-read 2026-09-20)",
   "provenance": {
     "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
-    "verify_status": "primary-live-2026-09-20",
+    "verify_status": "primary-live-2026-10-18; coded p.1 quote also verbatim on the landing page",
     "note": "Re-code 2026-09-20. The scan flagged the UNESCO article landing page, not the guidance itself; the landing page carries only a summary. The governing 48-page PDF was retrieved and read in full on 2026-09-20 and the stored quote is verbatim on p.1. Substantive frame unchanged: the Guidance \"proposes key steps to the regulation of GenAI tool, including mandating the protection of data privacy, and setting an age limit for the independent conversations with GenAI platforms\" and \"proposes a human-agent and age-appropriate approach to the ethical validation and pedagogical design processes\"; it calls for \"Definition and enforcement of age limit\" and for developers \"to disclose the copyrighted materials they\" use. twilight=true rests on the quoted sentence, which is exactly the feedback-delay framing - regulation outpaced by release cadence. D1=1 and D6=1 hold: the document reasons about governance at the policy level and does not impose traceability or evidentiary requirements on any particular piece of work. No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
   },
   "jsonld": {
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/unesco",
     "name": "Calibrated Authority rating — UNESCO — GenAI in education & research",
-    "datePublished": "2026-09-20",
+    "datePublished": "2026-10-18",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "UNESCO — GenAI in education & research — public generative-AI policy",

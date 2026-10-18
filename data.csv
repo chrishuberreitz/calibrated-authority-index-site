@@ -15,10 +15,10 @@ ap,Associated Press,journalism,https://ds.svcs.associatedpress.com/standards-aro
 harvard,Harvard University — Guidelines for Using ChatGPT and other Generative AI tools at Harvard (Office of the Provost),university,https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard,1,2,1,1,2,1,8,Balanced,partially,Both-split,False,primary-verified-2026-09-18
 stanford,Stanford University,university,https://communitystandards.stanford.edu/generative-ai-policy-guidance,1,2,2,1,1,2,9,Balanced,fits,Both-split,True,primary-live-2026-10-11
 mit,MIT,university,https://ist.mit.edu/ai-guidance,1,2,2,1,1,1,8,Balanced,fits,Evidential,True,ok
-umich,University of Michigan,university,https://genai.umich.edu/resources/faculty/course-policies,2,2,1,1,2,2,10,Enabling,fits,Evidential,True,secondary-wayback-2026-03-13 (live 403; Chrome unavailable this run)
+umich,University of Michigan,university,https://genai.umich.edu/resources/faculty/course-policies,1,2,1,1,2,2,9,Enabling,fits,Evidential,True,secondary-wayback-2026-10-12 (live 403 2026-10-18; Chrome unavailable)
 russell-group,Russell Group (UK) — Principles on the use of generative AI tools in education,university-consortium,https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education,1,1,1,1,1,2,7,Enabling,partially,Both-split,False,wayback-20260731104810
 mla-cccc,MLA-CCCC Task Force,education,https://aiandwriting.hcommons.org/working-paper-1/,2,2,2,1,2,1,10,Balanced,fits,Both-split,False,primary-live-2026-10-11 (quote in WP3 PDF; coded URL is WP1)
-acm,ACM,computing-society,https://www.acm.org/publications/policies/new-acm-policy-on-authorship,2,2,1,2,2,2,11,Balanced,fits,Both-split,False,secondary-wayback-2026-05-31 (live 403; Chrome unavailable this run)
+acm,ACM,computing-society,https://www.acm.org/publications/policies/new-acm-policy-on-authorship,2,2,1,2,2,2,11,Balanced,fits,Both-split,False,secondary-wayback-2026-05-31 (live 403 2026-10-18; Chrome unavailable; quote fidelity fixed 2026-10-18)
 apa,APA,society-publisher,https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai,2,2,2,2,2,1,11,Balanced,fits,Both-split,False,ok
 yale,Yale University,university,https://provost.yale.edu/news/guidelines-use-generative-ai-tools,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
 princeton,Princeton University,university,https://rrr.princeton.edu/students-and-university/24-academic-regulations,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,secondary-wayback-2026-07-20 (live 403; Chrome unavailable this run)
@@ -35,7 +35,7 @@ oxford-up,Oxford University Press,publisher,https://academic.oup.com/pages/for-a
 sage,SAGE Publishing,publisher,https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,primary-live-2026-08-23
 ieee,IEEE,computing-society,https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,ok
 pnas,PNAS — Editorial and Journal Policies (Proceedings of the National Academy of Sciences),society-publisher,https://www.pnas.org/author-center/editorial-and-journal-policies,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-verified-2026-09-09
-jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,ok
+jama,JAMA Network,med-journal,https://jamanetwork.com/journals/jama/fullarticle/2807956,2,2,2,1,1,2,10,Balanced,fits,Both-split,True,secondary-wayback-2026-08-27 (live 403 2026-10-18; Chrome unavailable)
 nejm,New England Journal of Medicine,med-journal,https://ai.nejm.org/about/editorial-policies,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,primary-verified-2026-09-17
 wame,World Association of Medical Editors,med-integrity,https://wame.org/page3.php?id=106,2,2,2,2,2,2,12,Balanced,fits,Both-split,True,primary-live-2026-09-13
 cse,Council of Science Editors,science-editors,https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities,2,2,2,1,2,2,11,Balanced,fits,Both-split,True,primary-live-2026-09-20
@@ -47,8 +47,8 @@ nyt,The New York Times,journalism,https://www.nytco.com/press/principles-for-usi
 spj,Society of Professional Journalists,journalism,https://www.spj.org/spj-code-of-ethics/,2,1,2,1,1,2,9,Balanced,fits,Evidential,False,primary-live-2026-08-09
 arl,Association of Research Libraries,library,https://www.arl.org/resources/research-libraries-guiding-principles-for-artificial-intelligence/,1,1,0,1,1,1,5,Enabling,partially,Both-split,True,ok
 educause,EDUCAUSE,edtech,https://er.educause.edu/articles/2023/12/cross-campus-approaches-to-building-a-generative-ai-policy,0,1,1,0,0,1,3,Balanced,contradicts,Relational,True,secondary-wayback-2026-05-05 (live 403; Chrome unavailable this run)
-unesco,UNESCO — GenAI in education & research,intergov,https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research,1,2,1,2,2,1,9,Prohibitive,partially,Relational,True,primary-live-2026-09-20
-oecd,OECD AI Principles,intergov,https://oecd.ai/en/dashboards/ai-principles/P9,2,2,2,1,1,2,10,Enabling,fits,Evidential,False,primary-live-2026-09-06
+unesco,UNESCO — GenAI in education & research,intergov,https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research,1,2,1,2,2,1,9,Prohibitive,partially,Relational,True,primary-live-2026-10-18; coded p.1 quote also verbatim on the landing page
+oecd,OECD AI Principles,intergov,https://oecd.ai/en/dashboards/ai-principles/P9,2,2,2,1,1,2,10,Enabling,fits,Evidential,False,primary-live-2026-10-18; coded Principle 1.5 quote verbatim
 us-doe-oet,US Dept of Education (OET),gov-education,https://www.ed.gov/sites/ed/files/documents/ai-report/ai-report.pdf,1,2,1,1,2,1,8,Balanced,partially,Both-split,True,secondary-wayback-2026-09-22 (live 403; Chrome unavailable 2026-10-04)
 uspto,USPTO — Inventorship Guidance for AI-Assisted Inventions,regulator,https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions,1,2,1,2,1,1,8,Balanced,fits,Evidential,False,primary-live-2026-10-11
 vatican-ddf,Vatican (DDF/DCE) — Antiqua et Nova (2025),faith-institution,https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html,0,2,1,2,2,1,8,Balanced,partially,Both-split,False,ok

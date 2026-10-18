@@ -1,6 +1,57 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-18",
   "moves": [
+    {
+      "date": "2026-10-18",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-18",
+      "institution": "OECD AI Principles",
+      "id": "oecd",
+      "kind": "changed",
+      "headline": "OECD AI Principles policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-18",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "recoded",
+      "headline": "UNESCO — GenAI in education & research re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 9 → 9",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-10-18",
+      "institution": "OECD AI Principles",
+      "id": "oecd",
+      "kind": "recoded",
+      "headline": "OECD AI Principles re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-10-18",
+      "institution": "University of Michigan",
+      "id": "umich",
+      "kind": "recoded",
+      "headline": "University of Michigan re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 9",
+      "change_type": "OTHER",
+      "disposition": "SUBSTANTIVE"
+    },
     {
       "date": "2026-10-11",
       "institution": "Stanford University",

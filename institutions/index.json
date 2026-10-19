@@ -6,9 +6,9 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-16",
-    "n": 91,
-    "mean_ca": 9.3,
+    "version": "2026-10-19",
+    "n": 92,
+    "mean_ca": 9.2,
     "ca_range": [
       3,
       12
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-10-18T20:27:23Z"
+    "generated_at": "2026-10-19T11:50:04Z"
   },
   "institutions": [
     {
@@ -841,6 +841,15 @@
       "url": "https://www.finra.org/rules-guidance/notices/24-09",
       "page": "/institutions/finra-—-regulatory-notice-24-0",
       "atom": "/institutions/finra-—-regulatory-notice-24-0.json"
+    },
+    {
+      "id": "utah-office-of-ai-policy-—-doc",
+      "name": "Utah Office of AI Policy — Doctronic Regulatory Mitigation Agreement (AI prescription renewal)",
+      "segment": "regulator",
+      "ca": 8,
+      "url": "https://commerce.utah.gov/wp-content/uploads/2026/01/Doctronic-Final-Agreement.pdf",
+      "page": "/institutions/utah-office-of-ai-policy-—-doc",
+      "atom": "/institutions/utah-office-of-ai-policy-—-doc.json"
     }
   ]
 }

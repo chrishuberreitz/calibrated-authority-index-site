@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-10-19",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "utah-office-of-ai-policy-—-doc",
+  "name": "Utah Office of AI Policy — Doctronic Regulatory Mitigation Agreement (AI prescription renewal)",
+  "segment": "regulator",
+  "url": "https://commerce.utah.gov/wp-content/uploads/2026/01/Doctronic-Final-Agreement.pdf",
+  "scores": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "D4": 0,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 8,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-10-18",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Participant may, using its artificial intelligence technology, authorize the renewal of a Utah resident’s verified prescription to a pharmacist licensed in the state under Utah Code § 58-17b.",
+  "quote_label": "Utah Office of AI Policy / Doctronic / DOPL Regulatory Mitigation Agreement, Schedule A §15(A)",
+  "provenance": {
+    "url": "https://commerce.utah.gov/wp-content/uploads/2026/01/Doctronic-Final-Agreement.pdf",
+    "verify_status": "primary-live-2026-10-18 (signed agreement PDF, headless 200)",
+    "note": "Disconfirmation probe (machine-permitted-where-proof-is-scarce), GenAI-era rather than actuarial. A state regulator forgoes enforcement so an AI system can authorize prescription renewals, and also relieves the employed physician who 'acts in reliance on Participant's artificial intelligence technology to facilitate the renewal of a prescription solely by being the named prescriber' (Sch. A §15(D)). The PDF header still reads 'DRAFT AGREEMENT' though the file is the posted final. D1=2: 'Every decision point in the AI system will be logged and available for review, ensuring full traceability of the clinical reasoning process' (Sch. B §2C), plus monthly reports of accepts/denies and 'agreement rates between Participant's AI technology and a licensed physician'. D2=1: 'Participant is fully responsible' and a physician is the named prescriber, but human authorship of the decision is expressly waived. D3=2: before engaging, Participant must disclose 'That the user is interacting with generative artificial intelligence' and users must acknowledge it; 'All AI-generated renewals will be clearly identified to pharmacists as originating from an AI system'. D4=0: no impersonation or fabrication prohibition (hallucination detection is a monitoring promise in the vendor proposal, not a rule). D5=1: physician pre-issuance review only 'For the first 250 patients', retrospective review of the next 1,000, then 'Monthly review of 5-10% of all processed renewals'; plus pharmacist, patient and automatic escalation. Human proof is per-case at first and tapers to sampling. D6=2: the whole agreement is built on evidence (concordance benchmarks, adverse-outcome reporting, results shared with the medical board). Posture Enabling. c2_fit=partially: the scope tracks verification economics. It covers renewals only of drugs 'previously prescribed by a licensed healthcare provider', so a prior human judgment is the proof. It excludes controlled substances, sits on a fixed formulary, and escalates anything novel or conflicting (a newer Surescripts record escalates). But once the 1,250-patient ramp ends, the per-case human check becomes a 5-10% sample. Whether one renewal was clinically right is hard to see and slow to surface (adverse outcomes), so the machine carries the per-case judgment exactly where individual proof is scarce, backed by evidence about the whole population. First GenAI-era regime to delegate a licensed clinical decision; compare FIDE and NJ PSA (statistical regimes). c3=Evidential."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/utah-office-of-ai-policy-—-doc",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/utah-office-of-ai-policy-—-doc",
+    "name": "Calibrated Authority rating — Utah Office of AI Policy — Doctronic Regulatory Mitigation Agreement (AI prescription renewal)",
+    "datePublished": "2026-10-18",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Utah Office of AI Policy — Doctronic Regulatory Mitigation Agreement (AI prescription renewal) — public generative-AI policy",
+      "url": "https://commerce.utah.gov/wp-content/uploads/2026/01/Doctronic-Final-Agreement.pdf",
+      "text": "Participant may, using its artificial intelligence technology, authorize the renewal of a Utah resident’s verified prescription to a pharmacist licensed in the state under Utah Code § 58-17b.",
+      "abstract": "Participant may, using its artificial intelligence technology, authorize the renewal of a Utah resident’s verified prescription to a pharmacist licensed in the state under Utah Code § 58-17b.",
+      "alternateName": "Utah Office of AI Policy / Doctronic / DOPL Regulatory Mitigation Agreement, Schedule A §15(A)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-10-19",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

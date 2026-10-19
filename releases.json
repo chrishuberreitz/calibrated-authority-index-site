@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1017,6 +1017,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 1,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-10-19T11:50:03Z",
+      "date": "2026-10-19",
+      "id": "utah-office-of-ai-policy-—-doc",
+      "name": "Utah Office of AI Policy — Doctronic Regulatory Mitigation Agreement (AI prescription renewal)",
+      "category": "add",
+      "rationale": "Utah Office of AI Policy — Doctronic Regulatory Mitigation Agreement (AI prescription renewal) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 3 · segment gap 0 · theory 2 · timeliness 2). CA 8/12 with a Enabling posture; it extends the regulator segment (3 already released); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Participant may, using its artificial intelligence technology, authorize the renewal of a Utah resident’s verified prescription to a pharmacist licensed in the state under Utah Cod…\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 3,
+        "segment_gap": 0,
+        "theory": 2,
         "timeliness": 2
       }
     }

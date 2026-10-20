@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-20",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1036,6 +1036,17 @@
         "theory": 2,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-10-20T11:30:00Z",
+      "date": "2026-10-20",
+      "id": "umich",
+      "name": "University of Michigan",
+      "category": "move",
+      "rationale": "University of Michigan changed its policy and the change is re-coded: OTHER (SUBSTANTIVE), CA 10 -> 9, revision 2, observed 2026-10-18. Verdict correction, not a policy change: D1 2->1 after a newer Wayback capture (2026-10-12) of the coded URL showed documentation only as optional recommended syllabus language; prior D1=2 traced to a…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-10-18)",
+      "move_event_ts": "2026-10-18T20:24:08Z"
     }
   ]
 }

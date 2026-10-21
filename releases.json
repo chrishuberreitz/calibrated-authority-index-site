@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1047,6 +1047,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-10-18)",
       "move_event_ts": "2026-10-18T20:24:08Z"
+    },
+    {
+      "ts": "2026-10-21T11:30:00Z",
+      "date": "2026-10-21",
+      "id": "unesco",
+      "name": "UNESCO — GenAI in education & research",
+      "category": "move",
+      "rationale": "UNESCO — GenAI in education & research changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 9 -> 9, revision 5, observed 2026-10-18. Scan hash flip is page furniture: word-diff 10-11 vs 10-18 shows only the related-publications rail (new 'Bangladesh: AI Readiness Assessment Report, 14 October 2026' item). Coded quote verbatim on li…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-10-18)",
+      "move_event_ts": "2026-10-18T20:20:04Z"
     }
   ]
 }

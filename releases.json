@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1055,6 +1055,17 @@
       "name": "UNESCO — GenAI in education & research",
       "category": "move",
       "rationale": "UNESCO — GenAI in education & research changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 9 -> 9, revision 5, observed 2026-10-18. Scan hash flip is page furniture: word-diff 10-11 vs 10-18 shows only the related-publications rail (new 'Bangladesh: AI Readiness Assessment Report, 14 October 2026' item). Coded quote verbatim on li…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-10-18)",
+      "move_event_ts": "2026-10-18T20:20:04Z"
+    },
+    {
+      "ts": "2026-10-22T11:30:00Z",
+      "date": "2026-10-22",
+      "id": "oecd",
+      "name": "OECD AI Principles",
+      "category": "move",
+      "rationale": "OECD AI Principles changed its policy and the change is re-coded: OTHER (NO-SUBSTANTIVE-CHANGE), CA 10 -> 10, revision 2, observed 2026-10-18. Scan hash flip is page furniture: word-diff vs 09-13 snapshot shows removal of an 'OECD AI Index will be a synthetic measurement framework' promo block. Principle 1.5 traceability text verbatim on liv…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-10-18)",
       "move_event_ts": "2026-10-18T20:20:04Z"

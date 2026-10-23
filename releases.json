@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1069,6 +1069,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-10-18)",
       "move_event_ts": "2026-10-18T20:20:04Z"
+    },
+    {
+      "ts": "2026-10-23T11:30:00Z",
+      "date": "2026-10-23",
+      "id": "english-wikipedia-—-writing-ar",
+      "name": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "category": "move",
+      "rationale": "English Wikipedia — Writing articles with large language models (content guideline) changed its policy and the change is re-coded: VOCABULARY (NO-SUBSTANTIVE-CHANGE), CA 7 -> 7, revision 2, observed 2026-10-11. Operative sentence tightened from 'is prohibited' to 'is strictly prohibited' (present in the 10-04 snapshot, absent 09-27; current revision oldid 1378473005, last edited 4 Oct 2026). Scope, exception…. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-10-11)",
+      "move_event_ts": "2026-10-11T20:24:18Z"
     }
   ]
 }

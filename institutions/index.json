@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-10-23T11:30:00Z"
+    "generated_at": "2026-10-25T20:23:03Z"
   },
   "institutions": [
     {
@@ -484,10 +484,10 @@
     },
     {
       "id": "uspto",
-      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "name": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
       "segment": "regulator",
       "ca": 8,
-      "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+      "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21457/revised-inventorship-guidance-for-ai-assisted-inventions",
       "page": "/institutions/uspto",
       "atom": "/institutions/uspto.json"
     },

@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-08-09",
+  "coded_date": "2026-10-25",
   "last_changed": "2026-08-09",
   "revision": 1,
   "quote": "Scholarly judgement, accountability, and responsibility always remain human.",
   "quote_label": "Nature Portfolio editorial policies — Artificial Intelligence (AI), risk-assessment framework (live 2026-08-09)",
   "provenance": {
     "url": "https://www.nature.com/nature-portfolio/editorial-policies/ai",
-    "verify_status": "primary-live-2026-08-09"
+    "verify_status": "ok"
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,7 +36,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/springer-nature",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/springer-nature",
     "name": "Calibrated Authority rating — Springer Nature / Nature",
-    "datePublished": "2026-08-09",
+    "datePublished": "2026-10-25",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Springer Nature / Nature — public generative-AI policy",

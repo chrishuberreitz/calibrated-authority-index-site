@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-10-11",
+  "coded_date": "2026-10-25",
   "last_changed": "2026-10-11",
   "revision": 1,
   "quote": "Absent a clear statement from a course instructor, use of or consultation with generative AI shall be treated analogously to assistance from another person.",
   "quote_label": "Stanford Board on Conduct Affairs, Generative AI Policy Guidance (adopted February 16, 2023), Office of Community Standards",
   "provenance": {
     "url": "https://communitystandards.stanford.edu/generative-ai-policy-guidance",
-    "verify_status": "primary-live-2026-10-11",
+    "verify_status": "ok",
     "note": "Re-verified live 2026-10-11 at the relocated URL. Coded quote present verbatim. Same page: 'Students should acknowledge the use of generative AI (other than incidental use) and default to disclosing such assistance when in doubt' (D3=2); 'using generative AI tools to substantially complete an assignment or exam (e.g. by entering exam or assignment questions) is not permitted'; instructors 'are free to set their own policies'. Additional line on the page (date of addition unknown): 'OCS recommends course instructors provide clear advance notice that they may use detection software to review work submitted for use of generative AI.'"
   },
   "jsonld": {
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/stanford",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/stanford",
     "name": "Calibrated Authority rating — Stanford University",
-    "datePublished": "2026-10-11",
+    "datePublished": "2026-10-25",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Stanford University — public generative-AI policy",

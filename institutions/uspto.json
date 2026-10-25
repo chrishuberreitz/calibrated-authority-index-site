@@ -5,9 +5,9 @@
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "uspto",
-  "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+  "name": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
   "segment": "regulator",
-  "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
+  "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21457/revised-inventorship-guidance-for-ai-assisted-inventions",
   "scores": {
     "D1": 1,
     "D2": 2,
@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-10-11",
-  "last_changed": "2026-09-27",
-  "revision": 3,
-  "quote": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
-  "quote_label": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)",
+  "coded_date": "2026-10-25",
+  "last_changed": "2026-10-25",
+  "revision": 4,
+  "quote": "The same legal standard for determining inventorship applies to all inventions, regardless of whether AI systems were used in the inventive process.",
+  "quote_label": "USPTO, Revised Inventorship Guidance for AI-Assisted Inventions, 90 FR (Nov. 28, 2025), § III Governing Legal Standards; § II rescinds the Feb. 13, 2024 guidance \"in its entirety\"",
   "provenance": {
-    "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-    "verify_status": "primary-live-2026-10-11",
+    "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21457/revised-inventorship-guidance-for-ai-assisted-inventions",
+    "verify_status": "ok",
     "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change. Snapshot word-diff (08-30 vs 09-06) shows page furniture only: the Federal Register page-view counter (29,495 -> 29,638) and the retrieval date stamp (08/30/2026 -> 09/06/2026). Federal Register documents are immutable once published. The coded verbatim quote is present word-for-word in the live document; scores unmoved. | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: Federal Register page-view counter (29,829 -> 29,949) and retrieval date stamp only. Document text unchanged; coded quote present verbatim. | Re-verified live 2026-10-11: Snapshot word-diff 10-04 vs 10-11: Federal Register page-view counter (30,025 -> 30,110) and retrieval date stamp only. Document text unchanged; coded quote present verbatim."
   },
   "jsonld": {
@@ -36,15 +36,15 @@
     "@type": "Review",
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uspto",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uspto",
-    "name": "Calibrated Authority rating — USPTO — Inventorship Guidance for AI-Assisted Inventions",
-    "datePublished": "2026-10-11",
+    "name": "Calibrated Authority rating — USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
+    "datePublished": "2026-10-25",
     "itemReviewed": {
       "@type": "CreativeWork",
-      "name": "USPTO — Inventorship Guidance for AI-Assisted Inventions — public generative-AI policy",
-      "url": "https://www.federalregister.gov/documents/2024/02/13/2024-02623/inventorship-guidance-for-ai-assisted-inventions",
-      "text": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
-      "abstract": "such inventions are not categorically unpatentable due to improper inventorship if one or more natural persons significantly contributed to the invention",
-      "alternateName": "Inventorship Guidance for AI-Assisted Inventions, 89 FR 10043 (Feb. 13, 2024)"
+      "name": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance) — public generative-AI policy",
+      "url": "https://www.federalregister.gov/documents/2025/11/28/2025-21457/revised-inventorship-guidance-for-ai-assisted-inventions",
+      "text": "The same legal standard for determining inventorship applies to all inventions, regardless of whether AI systems were used in the inventive process.",
+      "abstract": "The same legal standard for determining inventorship applies to all inventions, regardless of whether AI systems were used in the inventive process.",
+      "alternateName": "USPTO, Revised Inventorship Guidance for AI-Assisted Inventions, 90 FR (Nov. 28, 2025), § III Governing Legal Standards; § II rescinds the Feb. 13, 2024 guidance \"in its entirety\""
     },
     "reviewRating": {
       "@type": "Rating",

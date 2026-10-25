@@ -21,14 +21,14 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": true,
-  "coded_date": "2026-09-20",
+  "coded_date": "2026-10-25",
   "last_changed": "2026-10-04",
   "revision": 3,
   "quote": "Any decisions made during editorial triage should not be based solely on Gen AI–compiled summaries or recommendations.",
   "quote_label": "CSE Recommendations for Promoting Integrity in Scientific Journal Publications, 2.1 Editor Roles and Responsibilities (re-read live 2026-09-20)",
   "provenance": {
     "url": "https://www.councilscienceeditors.org/2-1-editor-roles-and-responsibilities",
-    "verify_status": "primary-live-2026-09-20",
+    "verify_status": "ok",
     "note": "Re-code 2026-09-20 after the scan flagged the page as changed. Live re-read confirms the scored provisions intact: disclosure - \"At a minimum, all stakeholders should disclose their use of Gen AI tools, including the name of the tool and how it was used\"; accountability - \"Ultimately, human authors must be accountable for all aspects of a manuscript, including the accuracy of the content that was created with the assistance of Gen AI\" and \"the editor and authors are responsible for the final manuscript regardless of AI use for editing and wordsmithing\"; confidentiality - \"No part of a manuscript or peer review should be entered into a publicly available chatbot or LLM tool\"; risk framing - \"Gen AI tools can introduce misinformation, reinforce bias, or create false or otherwise inaccurate citations\" (an error warning rather than a fabrication prohibition, which is why D4 stays at 1). No dimension moved; disposition NO-SUBSTANTIVE-CHANGE."
   },
   "jsonld": {
@@ -37,7 +37,7 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/cse",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/cse",
     "name": "Calibrated Authority rating — Council of Science Editors",
-    "datePublished": "2026-09-20",
+    "datePublished": "2026-10-25",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "Council of Science Editors — public generative-AI policy",

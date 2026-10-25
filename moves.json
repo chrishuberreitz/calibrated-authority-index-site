@@ -1,6 +1,71 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-25",
   "moves": [
+    {
+      "date": "2026-10-25",
+      "institution": "Springer Nature / Nature",
+      "id": "springer-nature",
+      "kind": "changed",
+      "headline": "Springer Nature / Nature policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-25",
+      "institution": "Stanford University",
+      "id": "stanford",
+      "kind": "changed",
+      "headline": "Stanford University policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-25",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "changed",
+      "headline": "Council of Science Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-25",
+      "institution": "USPTO — Inventorship Guidance for AI-Assisted Inventions",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Inventorship Guidance for AI-Assisted Inventions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-25",
+      "institution": "Writers Guild of America — 2023 MBA, AI provisions",
+      "id": "wga",
+      "kind": "changed",
+      "headline": "Writers Guild of America — 2023 MBA, AI provisions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-25",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "changed",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-10-25",
+      "institution": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
+      "id": "uspto",
+      "kind": "recoded",
+      "headline": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 8 → 8",
+      "change_type": "SUPERSEDE",
+      "disposition": "SUBSTANTIVE"
+    },
     {
       "date": "2026-10-18",
       "institution": "UNESCO — GenAI in education & research",

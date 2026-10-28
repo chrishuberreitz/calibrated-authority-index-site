@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1108,6 +1108,17 @@
       "auto": true,
       "selection": "ready MOVE (re-code observed 2026-10-25)",
       "move_event_ts": "2026-10-25T20:20:05Z"
+    },
+    {
+      "ts": "2026-10-28T11:30:00Z",
+      "date": "2026-10-28",
+      "id": "princeton",
+      "name": "Princeton University",
+      "category": "verify",
+      "rationale": "Princeton University's policy page blocks automated readers (the scan's fetch is refused), so the coded verbatim was verified against the live page in a manual browser pass on 2026-10-11 and is promoted to primary-source-verified. Blocked sources are missing-not-at-random; verified observations keep the Index's coverage honest.",
+      "auto": true,
+      "selection": "ready VERIFY (chrome pass logged 2026-10-11)",
+      "prev_verify": "secondary-wayback-2026-07-20 (live 403; Chrome unavailable this run)"
     }
   ]
 }

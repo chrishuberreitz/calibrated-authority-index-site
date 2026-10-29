@@ -8,7 +8,7 @@ science-aaas,Science / AAAS,publisher,https://www.science.org/content/page/scien
 icmje,ICMJE,med-integrity,https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html,2,2,2,2,2,2,12,Balanced,fits,Both-split,False,ok
 cope,COPE,pub-ethics,https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools,1,2,2,0,1,1,7,Balanced,fits,Relational,False,primary-verified-2026-09-11
 plos,PLOS,publisher,https://journals.plos.org/plosone/s/ethical-publishing-practice,2,2,2,2,2,2,12,Balanced,fits,Evidential,False,primary-live-2026-09-27
-poynter,Poynter Institute,journalism,https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,secondary-wayback-2026-07-23 → primary kit PDF (live 403; Chrome unavailable this run)
+poynter,Poynter Institute,journalism,https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/,2,2,2,2,2,2,12,Balanced,fits,Evidential,True,primary-verified-2026-10-29
 reuters-institute,Reuters Institute (Oxford),journalism-research,https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society,1,1,1,0,1,1,5,Balanced,partially,Both-split,True,ok
 columbia-tow,Columbia / Tow Center,journalism-research,https://journalism.columbia.edu/CJS2030/AI,1,2,1,1,2,1,8,Balanced,fits,Both-split,True,quote-provenance-defect-2026-09-06
 ap,Associated Press,journalism,https://ds.svcs.associatedpress.com/standards-around-generative-ai,1,2,1,2,2,2,10,Balanced,fits,Evidential,False,secondary-blocked

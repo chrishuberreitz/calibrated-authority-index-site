@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-10-28",
+  "version": "2026-10-29",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "poynter",
@@ -28,7 +28,7 @@
   "quote_label": "AI Ethics Starter Kit — public-facing generative AI policy template (2025 update)",
   "provenance": {
     "url": "https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/",
-    "verify_status": "secondary-wayback-2026-07-23 → primary kit PDF (live 403; Chrome unavailable this run)",
+    "verify_status": "primary-verified-2026-10-29",
     "note": "Guidelines page 403s automated fetch; page verified via Wayback 2026-07-09 capture - it is now a landing page for the 2025 AI Ethics Starter Kit. The kit's full policy template (published Google Doc, last updated 2025-06-01) and the public-facing PDF were fetched live and read in full; the coded quote is present verbatim in the template."
   },
   "jsonld": {
@@ -72,7 +72,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-10-28",
+      "version": "2026-10-29",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-10-28",
+  "version": "2026-10-29",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-10-28T11:30:00Z",
+  "dateModified": "2026-10-29T11:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,7 +89,7 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-10-28",
+    "version": "2026-10-29",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
     "n": 93,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-10-28T11:30:00Z"
+    "generated_at": "2026-10-29T11:30:00Z"
   },
   "institutions": [
     {
@@ -420,7 +420,7 @@
       "quote_label": "AI Ethics Starter Kit — public-facing generative AI policy template (2025 update)",
       "provenance": {
         "url": "https://www.poynter.org/ai-ethics-journalism/ai-ethics-guidelines/",
-        "verify_status": "secondary-wayback-2026-07-23 → primary kit PDF (live 403; Chrome unavailable this run)",
+        "verify_status": "primary-verified-2026-10-29",
         "note": "Guidelines page 403s automated fetch; page verified via Wayback 2026-07-09 capture - it is now a landing page for the 2025 AI Ethics Starter Kit. The kit's full policy template (published Google Doc, last updated 2025-06-01) and the public-facing PDF were fetched live and read in full; the coded quote is present verbatim in the template."
       }
     },

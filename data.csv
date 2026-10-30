@@ -23,7 +23,7 @@ apa,APA,society-publisher,https://www.apa.org/pubs/journals/resources/publishing
 yale,Yale University,university,https://provost.yale.edu/news/guidelines-use-generative-ai-tools,1,2,2,1,2,1,9,Balanced,fits,Both-split,False,ok
 princeton,Princeton University,university,https://rrr.princeton.edu/students-and-university/24-academic-regulations,2,2,2,2,1,2,11,Balanced,fits,Both-split,False,primary-verified-2026-10-28
 uc-berkeley,"University of California, Berkeley",university,https://oercs.berkeley.edu/appropriate-use-generative-ai-tools,1,1,1,1,1,1,6,Balanced,partially,Evidential,False,primary-live-2026-08-23
-cornell,Cornell University,university,https://it.cornell.edu/ai/ai-guidelines,1,2,1,1,2,1,8,Enabling,fits,Both-split,False,ok
+cornell,Cornell University,university,https://it.cornell.edu/ai/ai-guidelines,1,2,1,1,2,1,8,Enabling,fits,Both-split,False,primary-verified-2026-10-30
 carnegie-mellon,Carnegie Mellon University,university,https://www.cmu.edu/teaching/technology/aitools/academicintegrity/index.html,2,2,2,1,2,2,11,Prohibitive,fits,Both-split,False,ok
 georgia-tech,Georgia Institute of Technology,university,https://provost.gatech.edu/sites/default/files/2025-10/AI%20Policy_draft_10.14.2025%202.pdf,2,2,2,2,2,2,12,Enabling,fits,Evidential,True,ok
 u-toronto,University of Toronto,university,https://www.viceprovostundergrad.utoronto.ca/wp-content/uploads/2024/08/Syllabus-language-for-Gen-AI-2024-08-21.pdf,2,2,2,1,2,2,11,Balanced,fits,Evidential,True,ok

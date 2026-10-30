@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1130,6 +1130,17 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-10-11)",
       "prev_verify": "secondary-wayback-2026-07-23 → primary kit PDF (live 403; Chrome unavailable this run)"
+    },
+    {
+      "ts": "2026-10-30T11:30:00Z",
+      "date": "2026-10-30",
+      "id": "cornell",
+      "name": "Cornell University",
+      "category": "verify",
+      "rationale": "Cornell University's policy page blocks automated readers (the scan's fetch is refused), so the coded verbatim was verified against the live page in a manual browser pass on 2026-10-04 and is promoted to primary-source-verified. Blocked sources are missing-not-at-random; verified observations keep the Index's coverage honest.",
+      "auto": true,
+      "selection": "ready VERIFY (chrome pass logged 2026-10-04)",
+      "prev_verify": "ok"
     }
   ]
 }

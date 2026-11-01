@@ -28,7 +28,7 @@
   "quote_label": "Science journals: editorial policies, Artificial intelligence (AI)",
   "provenance": {
     "url": "https://www.science.org/content/page/science-journals-editorial-policies",
-    "verify_status": "primary-verified-2026-09-04",
+    "verify_status": "secondary-wayback-2026-06-14 (quote verbatim in capture; live 403 to browser UA 2026-11-01; Chrome unavailable; prior: primary-verified-2026-09-04)",
     "note": "Live page hard-403s automated fetch (no Chrome available this run); policy re-read in full from Wayback 2026-06-14 capture, which renders the complete editorial-policies text."
   },
   "jsonld": {

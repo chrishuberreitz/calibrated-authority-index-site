@@ -1,6 +1,42 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-11-01",
   "moves": [
+    {
+      "date": "2026-11-01",
+      "institution": "World Association of Medical Editors",
+      "id": "wame",
+      "kind": "changed",
+      "headline": "World Association of Medical Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "Reuters (news agency)",
+      "id": "reuters-news",
+      "kind": "changed",
+      "headline": "Reuters (news agency) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-01",
+      "institution": "Stack Overflow — Generative AI content policy (Help Center)",
+      "id": "stack-overflow-—-generative-ai",
+      "kind": "changed",
+      "headline": "Stack Overflow — Generative AI content policy (Help Center) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
     {
       "date": "2026-10-25",
       "institution": "Springer Nature / Nature",

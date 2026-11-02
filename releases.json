@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-02",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1141,6 +1141,23 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-10-04)",
       "prev_verify": "ok"
+    },
+    {
+      "ts": "2026-11-02T12:30:00Z",
+      "date": "2026-11-02",
+      "id": "atcoder-—-rules-against-genera",
+      "name": "AtCoder — Rules against Generative AI (ABC/ARC/AGC contests; v20261014)",
+      "category": "add",
+      "rationale": "AtCoder — Rules against Generative AI (ABC/ARC/AGC contests; v20261014) is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 1 · segment gap 2 · theory 3 · timeliness 2). CA 7/12 with a Prohibitive posture; it opens the competitive-programming segment — no released institution covers it yet; its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"The use of generative AI is generally prohibited during ongoing ABC, ARC and AGC.\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 3,
+        "timeliness": 2
+      }
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-02",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "atcoder-—-rules-against-genera",
+  "name": "AtCoder — Rules against Generative AI (ABC/ARC/AGC contests; v20261014)",
+  "segment": "competitive-programming",
+  "url": "https://info.atcoder.jp/entry/llm-rules-en",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 0,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 7,
+  "posture": "Prohibitive",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-11-01",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "The use of generative AI is generally prohibited during ongoing ABC, ARC and AGC.",
+  "quote_label": "AtCoder Rules against Generative AI v20261014, Rules; pre-contest AI code allowed only if publicly posted with a timestamp before the contest and cited by URL",
+  "provenance": {
+    "url": "https://info.atcoder.jp/entry/llm-rules-en",
+    "verify_status": "ok",
+    "note": "DISCONFIRMATION PROBE (reserve-where-proof-is-cheap). Solutions are auto-judged, so correctness is nearly free to prove — yet AI is reserved. What the rating certifies is the human competitor reasoning, whose proof is scarce: the split on proof-of-what holds (4th arrival after NetBSD). D1=2: public timestamped pre-publication as provenance proof. D3=1: URL citation required but explicitly no need to disclose AI use for pre-published code. Twilight true: rules pegged to capabilities as of October 2026, to be modified as AI changes. Trust-bearing: ratings marketed to employers (AtCoderJobs)."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/atcoder-—-rules-against-genera",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/atcoder-—-rules-against-genera",
+    "name": "Calibrated Authority rating — AtCoder — Rules against Generative AI (ABC/ARC/AGC contests; v20261014)",
+    "datePublished": "2026-11-01",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "AtCoder — Rules against Generative AI (ABC/ARC/AGC contests; v20261014) — public generative-AI policy",
+      "url": "https://info.atcoder.jp/entry/llm-rules-en",
+      "text": "The use of generative AI is generally prohibited during ongoing ABC, ARC and AGC.",
+      "abstract": "The use of generative AI is generally prohibited during ongoing ABC, ARC and AGC.",
+      "alternateName": "AtCoder Rules against Generative AI v20261014, Rules; pre-contest AI code allowed only if publicly posted with a timestamp before the contest and cited by URL"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 7,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Prohibitive. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-02",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

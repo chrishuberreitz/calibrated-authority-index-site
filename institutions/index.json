@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-02",
-    "n": 94,
+    "version": "2026-11-03",
+    "n": 95,
     "mean_ca": 9.2,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-11-02T12:30:00Z"
+    "generated_at": "2026-11-03T12:30:00Z"
   },
   "institutions": [
     {
@@ -859,6 +859,15 @@
       "url": "https://www.netbsd.org/developers/commit-guidelines.html",
       "page": "/institutions/netbsd",
       "atom": "/institutions/netbsd.json"
+    },
+    {
+      "id": "nice-(uk)-—-use-of-ai-in-evide",
+      "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+      "segment": "health-technology-assessment",
+      "ca": 10,
+      "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+      "page": "/institutions/nice-(uk)-—-use-of-ai-in-evide",
+      "atom": "/institutions/nice-(uk)-—-use-of-ai-in-evide.json"
     },
     {
       "id": "atcoder-—-rules-against-genera",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1156,6 +1156,23 @@
         "recognition": 1,
         "segment_gap": 2,
         "theory": 3,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-11-03T12:30:00Z",
+      "date": "2026-11-03",
+      "id": "nice-(uk)-—-use-of-ai-in-evide",
+      "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+      "category": "add",
+      "rationale": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11) is the strongest coded-but-unreleased record in the queue (advisory 6/10: recognition 1 · segment gap 2 · theory 1 · timeliness 2). CA 10/12 with a Balanced posture; it opens the health-technology-assessment segment — no released institution covers it yet; its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop;…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 6/10 (bar 6)",
+      "score": {
+        "total": 6,
+        "recognition": 1,
+        "segment_gap": 2,
+        "theory": 1,
         "timeliness": 2
       }
     }

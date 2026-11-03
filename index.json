@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-11-02",
+  "version": "2026-11-03",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-11-02T12:30:00Z",
+  "dateModified": "2026-11-03T12:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-02",
+    "version": "2026-11-03",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 94,
+    "n": 95,
     "mean_ca": 9.2,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-11-02T12:30:00Z"
+    "generated_at": "2026-11-03T12:30:00Z"
   },
   "institutions": [
     {
@@ -2798,6 +2798,35 @@
       "provenance": {
         "url": "https://www.netbsd.org/developers/commit-guidelines.html",
         "verify_status": "ok"
+      }
+    },
+    {
+      "id": "nice-(uk)-—-use-of-ai-in-evide",
+      "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+      "segment": "health-technology-assessment",
+      "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 0,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 10,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Evidential",
+      "twilight": false,
+      "coded_date": "2026-11-01",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
+      "quote_label": "NICE ECD11, para 1.7; also 1.8 declare use / submitter remains accountable, 1.14 causal-inference use needs sensitivity analysis + triangulation",
+      "provenance": {
+        "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+        "verify_status": "ok",
+        "note": "Coded 2026-11-01 (HTTP 200). D4=0: no fabrication/synthetic-identity clause (1.13 covers data poisoning only). c2 fits: verification burden scales with how hard the claim is to prove (1.14-1.15: higher-risk causal inference demands triangulation and independent simulation). Twilight false: 1.1 mentions rapidly evolving methods but no precedent-collapse framing."
       }
     },
     {

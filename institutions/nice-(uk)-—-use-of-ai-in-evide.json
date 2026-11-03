@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-03",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "nice-(uk)-—-use-of-ai-in-evide",
+  "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+  "segment": "health-technology-assessment",
+  "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 0,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 10,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-11-01",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
+  "quote_label": "NICE ECD11, para 1.7; also 1.8 declare use / submitter remains accountable, 1.14 causal-inference use needs sensitivity analysis + triangulation",
+  "provenance": {
+    "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+    "verify_status": "ok",
+    "note": "Coded 2026-11-01 (HTTP 200). D4=0: no fabrication/synthetic-identity clause (1.13 covers data poisoning only). c2 fits: verification burden scales with how hard the claim is to prove (1.14-1.15: higher-risk causal inference demands triangulation and independent simulation). Twilight false: 1.1 mentions rapidly evolving methods but no precedent-collapse framing."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/nice-(uk)-—-use-of-ai-in-evide",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/nice-(uk)-—-use-of-ai-in-evide",
+    "name": "Calibrated Authority rating — NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+    "datePublished": "2026-11-01",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11) — public generative-AI policy",
+      "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+      "text": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
+      "abstract": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
+      "alternateName": "NICE ECD11, para 1.7; also 1.8 declare use / submitter remains accountable, 1.14 causal-inference use needs sensitivity analysis + triangulation"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 10,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-03",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

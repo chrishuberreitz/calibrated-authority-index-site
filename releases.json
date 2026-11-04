@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1175,6 +1175,17 @@
         "theory": 1,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-11-04T12:30:00Z",
+      "date": "2026-11-04",
+      "id": "u.s.-sec-(division-of-investme",
+      "name": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers",
+      "category": "verify",
+      "rationale": "U.S. SEC (Division of Investment Management) — IM Guidance Update No. 2017-02: Robo-Advisers's policy page blocks automated readers (the scan's fetch is refused), so the coded verbatim was verified against the live page in a manual browser pass on 2026-10-04 and is promoted to primary-source-verified. Blocked sources are missing-not-at-random; verified observations keep the Index's coverage honest.",
+      "auto": true,
+      "selection": "ready VERIFY (chrome pass logged 2026-10-04)",
+      "prev_verify": "secondary-wayback-2026-10-17 (quote verbatim in capture; live 403 to browser UA 2026-11-01; Chrome unavailable; prior: secondary-wayback-2026-09-13 (live 403; Chrome unavailable this run))"
     }
   ]
 }

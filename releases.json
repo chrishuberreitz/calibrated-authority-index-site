@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1197,6 +1197,17 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-10-04)",
       "prev_verify": "secondary-wayback-2026-09-22 (live 403; Chrome unavailable 2026-10-04)"
+    },
+    {
+      "ts": "2026-11-06T12:30:00Z",
+      "date": "2026-11-06",
+      "id": "spj",
+      "name": "Society of Professional Journalists",
+      "category": "verify",
+      "rationale": "Society of Professional Journalists's policy page blocks automated readers (the scan's fetch is refused), so the coded verbatim was verified against the live page in a manual browser pass on 2026-09-20 and is promoted to primary-source-verified. Blocked sources are missing-not-at-random; verified observations keep the Index's coverage honest.",
+      "auto": true,
+      "selection": "ready VERIFY (chrome pass logged 2026-09-20)",
+      "prev_verify": "primary-live-2026-08-09"
     }
   ]
 }

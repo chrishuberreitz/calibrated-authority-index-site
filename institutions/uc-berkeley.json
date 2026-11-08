@@ -10,26 +10,26 @@
   "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
   "scores": {
     "D1": 1,
-    "D2": 1,
-    "D3": 1,
+    "D2": 2,
+    "D3": 0,
     "D4": 1,
-    "D5": 1,
+    "D5": 2,
     "D6": 1
   },
-  "ca": 6,
+  "ca": 7,
   "posture": "Balanced",
   "c2_fit": "partially",
-  "c3": "Evidential",
-  "twilight": false,
-  "coded_date": "2026-06-22",
-  "last_changed": "2026-08-23",
-  "revision": 1,
-  "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
-  "quote_label": "Appropriate use of generative AI",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-11-08",
+  "last_changed": "2026-11-08",
+  "revision": 2,
+  "quote": "High-Risk Use Cases: Use of AI that involves highly consequential automated decision-making requires extreme caution. These use cases are characterized by their potential to significantly impact individuals’ legal rights, academic standing, employment status, or well-being. Decisions of high consequence should generally be proposed, evaluated, and implemented by a human.",
+  "quote_label": "Appropriate Use of Generative and Agentic AI (UC Berkeley AI Hub guidance), section 5 High-Risk or New Use Cases; page states 'Last updated: November 5, 2026'",
   "provenance": {
     "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
-    "verify_status": "primary-live-2026-08-23",
-    "note": "Re-verified 2026-08-23. The page still carries 'Last updated: July 25, 2025' — earlier than its own 2026-06-22 coding date — so it cannot have changed since it was coded; the scan CHANGED flag is a false positive. Scores PRESERVED at 6/12, but flagged: on re-read this page scores lower (a second coder gets ~5/12), because it contains no accuracy, hallucination, or verification language anywhere — its trust logic is contractual and relational (negotiated agreements, delegated signature authority, unit heads, 'UC Berkeley's Principles of Community') rather than evidential, so the stored c3=Evidential is also suspect. Candidate for an inter-rater reliability check. The substantive content worth citing: 'Use of AI that involves highly-consequential automated decision-making requires extreme caution, and should not be employed without prior consultation,' with examples including 'Recruitment, personnel, or disciplinary decision-making' and 'Grading or assessment of student work' — a reserve drawn by consequence and confidentiality rather than by proof cost, which is why c2_fit=partially holds. twilight=false is confirmed by an explicit continuity claim quoted from UC Legal: '[AI] is a tool that calls for the same type of analysis as any other third-party service or product.'"
+    "verify_status": "primary-live-2026-11-08",
+    "note": "Re-coded 2026-11-08 after a RESCOPE: the page now covers agentic AI and adds prohibited and high-risk uses. D2=2: 'You are responsible for any activities conducted by AI tools on your behalf' and an agentic tool 'cannot be an accountable party' under PPSM-20. D5=2: 'human-in-the-loop verification' for financial actions, 'direct human review' before agents communicate for the University, consequential decisions 'implemented by a human'. D3=0: no disclosure or labeling duty survives in the new text. D4=1: agents may not give the impression of representing the University; no fabrication rule. D1=1: units deploying agents 'should maintain logs of actions taken by AI agents' (should, not must). D6=1: 'Always examine the AI's activities and output'. c3 moves Evidential to Both-split: the reserve line is argued from accountability locus (who can be an accountable party under PPSM-20, BFB-BUS-43, IS-3) as much as from data protection. c2 stays partially: reserved domains mix proof-scarce judgment (grading, hiring, discipline) with proof-cheap transactions (purchases, credential grants); the line is drawn by consequence and delegated authority, not verification cost. Twilight true: 'a living document ... updated frequently'. The page still says it 'is not itself a campus policy' but interprets UC policy. Prior note (2026-08-23) flagged that the earlier page scored lower on re-read; that concern is moot after the rescope."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -37,21 +37,21 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/uc-berkeley",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/uc-berkeley",
     "name": "Calibrated Authority rating — University of California, Berkeley",
-    "datePublished": "2026-06-22",
+    "datePublished": "2026-11-08",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "University of California, Berkeley — public generative-AI policy",
       "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
-      "text": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
-      "abstract": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
-      "alternateName": "Appropriate use of generative AI"
+      "text": "High-Risk Use Cases: Use of AI that involves highly consequential automated decision-making requires extreme caution. These use cases are characterized by their potential to significantly impact individuals’ legal rights, academic standing, employment status, or well-being. Decisions of high consequence should generally be proposed, evaluated, and implemented by a human.",
+      "abstract": "High-Risk Use Cases: Use of AI that involves highly consequential automated decision-making requires extreme caution. These use cases are characterized by their potential to significantly impact individuals’ legal rights, academic standing, employment status, or well-being. Decisions of high consequence should generally be proposed, evaluated, and implemented by a human.",
+      "alternateName": "Appropriate Use of Generative and Agentic AI (UC Berkeley AI Hub guidance), section 5 High-Risk or New Use Cases; page states 'Last updated: November 5, 2026'"
     },
     "reviewRating": {
       "@type": "Rating",
-      "ratingValue": 6,
+      "ratingValue": 7,
       "bestRating": 12,
       "worstRating": 0,
-      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Evidential."
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Both-split."
     },
     "author": {
       "@type": "Person",

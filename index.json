@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-11-06T12:30:00Z",
+  "dateModified": "2026-11-08T21:33:53Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-11-06T12:30:00Z"
+    "generated_at": "2026-11-08T21:33:53Z"
   },
   "institutions": [
     {
@@ -802,26 +802,26 @@
       "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
       "scores": {
         "D1": 1,
-        "D2": 1,
-        "D3": 1,
+        "D2": 2,
+        "D3": 0,
         "D4": 1,
-        "D5": 1,
+        "D5": 2,
         "D6": 1
       },
-      "ca": 6,
+      "ca": 7,
       "posture": "Balanced",
       "c2_fit": "partially",
-      "c3": "Evidential",
-      "twilight": false,
-      "coded_date": "2026-06-22",
-      "last_changed": "2026-08-23",
-      "revision": 1,
-      "quote": "No personal, confidential, proprietary, or otherwise sensitive information may be entered into or generated as output from models.",
-      "quote_label": "Appropriate use of generative AI",
+      "c3": "Both-split",
+      "twilight": true,
+      "coded_date": "2026-11-08",
+      "last_changed": "2026-11-08",
+      "revision": 2,
+      "quote": "High-Risk Use Cases: Use of AI that involves highly consequential automated decision-making requires extreme caution. These use cases are characterized by their potential to significantly impact individuals’ legal rights, academic standing, employment status, or well-being. Decisions of high consequence should generally be proposed, evaluated, and implemented by a human.",
+      "quote_label": "Appropriate Use of Generative and Agentic AI (UC Berkeley AI Hub guidance), section 5 High-Risk or New Use Cases; page states 'Last updated: November 5, 2026'",
       "provenance": {
         "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
-        "verify_status": "primary-live-2026-08-23",
-        "note": "Re-verified 2026-08-23. The page still carries 'Last updated: July 25, 2025' — earlier than its own 2026-06-22 coding date — so it cannot have changed since it was coded; the scan CHANGED flag is a false positive. Scores PRESERVED at 6/12, but flagged: on re-read this page scores lower (a second coder gets ~5/12), because it contains no accuracy, hallucination, or verification language anywhere — its trust logic is contractual and relational (negotiated agreements, delegated signature authority, unit heads, 'UC Berkeley's Principles of Community') rather than evidential, so the stored c3=Evidential is also suspect. Candidate for an inter-rater reliability check. The substantive content worth citing: 'Use of AI that involves highly-consequential automated decision-making requires extreme caution, and should not be employed without prior consultation,' with examples including 'Recruitment, personnel, or disciplinary decision-making' and 'Grading or assessment of student work' — a reserve drawn by consequence and confidentiality rather than by proof cost, which is why c2_fit=partially holds. twilight=false is confirmed by an explicit continuity claim quoted from UC Legal: '[AI] is a tool that calls for the same type of analysis as any other third-party service or product.'"
+        "verify_status": "primary-live-2026-11-08",
+        "note": "Re-coded 2026-11-08 after a RESCOPE: the page now covers agentic AI and adds prohibited and high-risk uses. D2=2: 'You are responsible for any activities conducted by AI tools on your behalf' and an agentic tool 'cannot be an accountable party' under PPSM-20. D5=2: 'human-in-the-loop verification' for financial actions, 'direct human review' before agents communicate for the University, consequential decisions 'implemented by a human'. D3=0: no disclosure or labeling duty survives in the new text. D4=1: agents may not give the impression of representing the University; no fabrication rule. D1=1: units deploying agents 'should maintain logs of actions taken by AI agents' (should, not must). D6=1: 'Always examine the AI's activities and output'. c3 moves Evidential to Both-split: the reserve line is argued from accountability locus (who can be an accountable party under PPSM-20, BFB-BUS-43, IS-3) as much as from data protection. c2 stays partially: reserved domains mix proof-scarce judgment (grading, hiring, discipline) with proof-cheap transactions (purchases, credential grants); the line is drawn by consequence and delegated authority, not verification cost. Twilight true: 'a living document ... updated frequently'. The page still says it 'is not itself a campus policy' but interprets UC policy. Prior note (2026-08-23) flagged that the earlier page scored lower on re-read; that concern is moot after the rescope."
       }
     },
     {
@@ -1554,11 +1554,11 @@
       "coded_date": "2026-10-18",
       "last_changed": "2026-10-18",
       "revision": 2,
-      "quote": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry.",
+      "quote": "AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system’s outputs and responses to inquiry, appropriate to the context and consistent with the state of the art.",
       "quote_label": "OECD AI Principles, Principle 1.5 Accountability (OECD/LEGAL/0449, as updated May 2024)",
       "provenance": {
         "url": "https://oecd.ai/en/dashboards/ai-principles/P9",
-        "verify_status": "primary-live-2026-10-18; coded Principle 1.5 quote verbatim",
+        "verify_status": "primary-live-2026-11-08; quote extended to the full Principle 1.5 sentence (the prior quote stopped at 'inquiry' and closed with a period the source does not have); scores unchanged, no re-code",
         "note": "Re-verified live 2026-09-06 after the weekly scan flagged a change on the oecd.ai/en/ai-principles hub. The hub page is an overview (principle headings, adherent list, AI-system definition) and does not carry the principle text; a Wayback capture from 2026-08-02 confirms it did not carry the coded quote then either, so the hash flip is page furniture, not policy. Re-anchored the record URL to the Principle 1.5 (Accountability) page, where the coded verbatim quote appears word-for-word: 'AI actors should ensure traceability, including in relation to datasets, processes and decisions made during the AI system lifecycle, to enable analysis of the AI system's outputs and responses to inquiry, appropriate to the context and consistent with the state of the art.' Same Recommendation (adopted 2019, updated May 2024); scores unmoved."
       }
     },
@@ -1808,14 +1808,14 @@
       "c2_fit": "contradicts",
       "c3": "Both-split",
       "twilight": false,
-      "coded_date": "2026-09-13",
-      "last_changed": "2026-08-16",
-      "revision": 1,
-      "quote": "Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations. AI agents cannot be named authors. If an AI tool or LLM contributed an idea, authors should describe that idea and specify its location in the paper.",
-      "quote_label": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy",
+      "coded_date": "2026-11-08",
+      "last_changed": "2026-11-08",
+      "revision": 2,
+      "quote": "All manuscripts must include an AI USE DECLARATION. If an AI tool or LLM contributed an idea or proof, authors should describe that idea or proof and specify its location in the paper. AI agents cannot be named authors. Authors must be human, and they must take full responsibility for the content of the submission, including its correctness and the integrity and accuracy of its citations.",
+      "quote_label": "Annals of Mathematics — Submission Guidelines, AI & LLM Policy (as read 2026-11-08; whitespace between sentences normalized)",
       "provenance": {
         "url": "https://annals.math.princeton.edu/submission-guidelines",
-        "verify_status": "primary-live-2026-09-13",
+        "verify_status": "primary-live-2026-11-08",
         "note": "Verbatim quote corrected 2026-08-16 to match a one-word copyedit in the source (see change history). c2_fit=contradicts is unchanged: mathematics is the cheapest-proof domain in the corpus — a proof either checks or it does not — yet the Annals reserves authorship for humans absolutely, which is the reverse of what verification economics would predict."
       }
     },
@@ -2297,14 +2297,14 @@
       "c2_fit": "partially",
       "c3": "Evidential",
       "twilight": false,
-      "coded_date": "2026-10-25",
-      "last_changed": "2026-10-11",
-      "revision": 2,
+      "coded_date": "2026-11-08",
+      "last_changed": "2026-11-08",
+      "revision": 3,
       "quote": "The use of large language models (LLMs) to generate or rewrite article content is strictly prohibited except for the uses as outlined below.",
       "quote_label": "Wikipedia:Writing articles with large language models (content guideline; RfC March 2026)",
       "provenance": {
         "url": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models",
-        "verify_status": "ok",
+        "verify_status": "primary-live-2026-11-08 (scanner snapshot carries the coded sentence verbatim)",
         "note": "Exceptions: copyedits 'after human review' limited to 'spelling, punctuation, capitalisation, grammar, and other simple mistakes' and text must remain 'supported by the sources cited'; translation under WP:LLM-assisted translation. Stated rationale is itself verification economics: LLM text 'can be produced at a rate that makes review by other editors infeasible' -> partially (per-claim proof is cheap, but review capacity is the scarce resource). No disclosure requirement in this guideline (D3=0). Enforcement: 'Persistent use of large language models outside of the above exceptions is considered disruptive and will result in an editor being blocked from editing.' | Re-verified live 2026-09-27: Snapshot word-diff 09-20 vs 09-27: new revision (oldid 1375904828 -> 1376781070, last edited 26 Sept 2026) adds only a Latina interlanguage link (10 -> 11 languages). Guideline body text identical; coded quote present verbatim. | Re-verified live 2026-10-11: oldid 1378473005 (last edited 4 Oct 2026). Operative sentence now reads 'strictly prohibited' (was 'prohibited' through 09-27); 10-04 -> 10-11 diff is a hyphenation fix ('LLM generated' -> 'LLM-generated') and a moved 'Deletions' heading. Rationale quote corrected to live wording ('at a rate', not 'at such a rate')."
       }
     },

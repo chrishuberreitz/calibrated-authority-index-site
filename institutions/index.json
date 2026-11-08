@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-11-06T12:30:00Z"
+    "generated_at": "2026-11-08T21:33:53Z"
   },
   "institutions": [
     {
@@ -234,7 +234,7 @@
       "id": "uc-berkeley",
       "name": "University of California, Berkeley",
       "segment": "university",
-      "ca": 6,
+      "ca": 7,
       "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
       "page": "/institutions/uc-berkeley",
       "atom": "/institutions/uc-berkeley.json"

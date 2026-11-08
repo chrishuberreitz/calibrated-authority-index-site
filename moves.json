@@ -1,6 +1,102 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-08",
   "moves": [
+    {
+      "date": "2026-11-08",
+      "institution": "BBC",
+      "id": "bbc",
+      "kind": "changed",
+      "headline": "BBC policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "OECD AI Principles",
+      "id": "oecd",
+      "kind": "changed",
+      "headline": "OECD AI Principles policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "University of California, Berkeley",
+      "id": "uc-berkeley",
+      "kind": "changed",
+      "headline": "University of California, Berkeley policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "Annals of Mathematics (Princeton University & IAS)",
+      "id": "annals-mathematics",
+      "kind": "changed",
+      "headline": "Annals of Mathematics (Princeton University & IAS) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "changed",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "University of California, Berkeley",
+      "id": "uc-berkeley",
+      "kind": "recoded",
+      "headline": "University of California, Berkeley re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 6 → 7",
+      "change_type": "RESCOPE",
+      "disposition": "SUBSTANTIVE"
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "Annals of Mathematics (Princeton University & IAS)",
+      "id": "annals-mathematics",
+      "kind": "recoded",
+      "headline": "Annals of Mathematics (Princeton University & IAS) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "TIGHTEN",
+      "disposition": "SUBSTANTIVE"
+    },
+    {
+      "date": "2026-11-08",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "recoded",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 7 → 7",
+      "change_type": "TIGHTEN",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-11-01",
       "institution": "World Association of Medical Editors",

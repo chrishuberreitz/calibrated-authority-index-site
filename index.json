@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-11-06",
+  "version": "2026-11-09",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-11-08T21:33:53Z",
+  "dateModified": "2026-11-09T12:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-06",
+    "version": "2026-11-09",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 95,
+    "n": 96,
     "mean_ca": 9.2,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-11-08T21:33:53Z"
+    "generated_at": "2026-11-09T12:30:00Z"
   },
   "institutions": [
     {
@@ -2856,6 +2856,35 @@
         "url": "https://info.atcoder.jp/entry/llm-rules-en",
         "verify_status": "ok",
         "note": "DISCONFIRMATION PROBE (reserve-where-proof-is-cheap). Solutions are auto-judged, so correctness is nearly free to prove — yet AI is reserved. What the rating certifies is the human competitor reasoning, whose proof is scarce: the split on proof-of-what holds (4th arrival after NetBSD). D1=2: public timestamped pre-publication as provenance proof. D3=1: URL citation required but explicitly no need to disclose AI use for pre-published code. Twilight true: rules pegged to capabilities as of October 2026, to be modified as AI changes. Trust-bearing: ratings marketed to employers (AtCoderJobs)."
+      }
+    },
+    {
+      "id": "gentoo-council-—-ai-policy-(nl",
+      "name": "Gentoo Council — AI policy (NLP-generated contributions forbidden, 2024-04-14)",
+      "segment": "open-source-software",
+      "url": "https://wiki.gentoo.org/wiki/Project:Council/AI_policy",
+      "scores": {
+        "D1": 0,
+        "D2": 2,
+        "D3": 0,
+        "D4": 1,
+        "D5": 1,
+        "D6": 1
+      },
+      "ca": 5,
+      "posture": "Prohibitive",
+      "c2_fit": "partially",
+      "c3": "Evidential",
+      "twilight": true,
+      "coded_date": "2026-11-08",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "It is expressly forbidden to contribute to Gentoo any content that has been created with the assistance of Natural Language Processing artificial intelligence tools.  This motion can be revisited, should a case be made for such a tool that does not pose copyright, ethical and quality concerns.",
+      "quote_label": "Gentoo Council AI policy, motion voted 2024-04-14 (wiki page Project:Council/AI_policy, 'The policy'); rationale section names copyright, quality and ethical concerns",
+      "provenance": {
+        "url": "https://wiki.gentoo.org/wiki/Project:Council/AI_policy",
+        "verify_status": "ok",
+        "note": "DISCONFIRMATION PROBE (reserve-where-proof-is-cheap). Prediction fails, mechanism survives: Gentoo bans AI assistance on code and docs, the cheapest artifacts to test, and names quality alongside copyright and ethics. But its stated quality reason is verification cost itself: LLM output risks 'requiring an unfair human effort from developers and users to review contributions and detect the mistakes'. The reserve line is drawn where the project judges proof to be expensive for its humans, not cheap. Fifth arrival at the proof-of-what split, and the first where the institution disputes that code is cheap to prove. D1=0: no provenance or traceability mechanism, only a pointer to 'Signs of AI writing' for detection. D3=0: no disclosure route because use is banned outright. D4=1: 'plausibly looking, but meaningless content' names fabrication risk without a fabrication rule. D5=1 and D6=1: human review is named as the burden, not mandated as a process. Twilight true: the motion 'can be revisited'. Scope: Gentoo contributions and official projects only; packaging AI software is not prohibited."
       }
     }
   ]

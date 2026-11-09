@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-06",
-    "n": 95,
+    "version": "2026-11-09",
+    "n": 96,
     "mean_ca": 9.2,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-11-08T21:33:53Z"
+    "generated_at": "2026-11-09T12:30:00Z"
   },
   "institutions": [
     {
@@ -877,6 +877,15 @@
       "url": "https://info.atcoder.jp/entry/llm-rules-en",
       "page": "/institutions/atcoder-—-rules-against-genera",
       "atom": "/institutions/atcoder-—-rules-against-genera.json"
+    },
+    {
+      "id": "gentoo-council-—-ai-policy-(nl",
+      "name": "Gentoo Council — AI policy (NLP-generated contributions forbidden, 2024-04-14)",
+      "segment": "open-source-software",
+      "ca": 5,
+      "url": "https://wiki.gentoo.org/wiki/Project:Council/AI_policy",
+      "page": "/institutions/gentoo-council-—-ai-policy-(nl",
+      "atom": "/institutions/gentoo-council-—-ai-policy-(nl.json"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1208,6 +1208,23 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-09-20)",
       "prev_verify": "primary-live-2026-08-09"
+    },
+    {
+      "ts": "2026-11-09T12:30:00Z",
+      "date": "2026-11-09",
+      "id": "gentoo-council-—-ai-policy-(nl",
+      "name": "Gentoo Council — AI policy (NLP-generated contributions forbidden, 2024-04-14)",
+      "category": "add",
+      "rationale": "Gentoo Council — AI policy (NLP-generated contributions forbidden, 2024-04-14) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 1 · segment gap 1 · theory 3 · timeliness 2). CA 5/12 with a Prohibitive posture; it thickens the thin open-source-software segment (only 2 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"It is expressly forbidden to contribute to Gentoo any content that has been created with the assistance of Natural Language Processing artificial intelligence tools.  This motion c…\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 1,
+        "segment_gap": 1,
+        "theory": 3,
+        "timeliness": 2
+      }
     }
   ]
 }

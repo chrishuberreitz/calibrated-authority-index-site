@@ -94,6 +94,28 @@ list first. An exact id always wins.</p>
 <tr><td>ca_index_methodology</td><td>The instrument definition, how to cite, license, machine-readable manifest URL.</td></tr>
 </table>
 
+<h2>Example prompts</h2>
+<p>Once the endpoint is connected, ask your agent in plain language:</p>
+<pre><code>Look up Nature in the Calibrated Authority Index and quote the
+policy line its score rests on.
+
+Compare Nature and Science on the Calibrated Authority Index.
+Which dimensions differ?
+
+Which journalism institutions does the Calibrated Authority Index
+cover, and how do their scores compare with the index mean?</code></pre>
+
+<h2>Troubleshooting</h2>
+<table>
+<tr><th>what you see</th><th>what to do</th></tr>
+<tr><td>No tools appear</td><td>Check that the URL ends in <code>/api/mcp</code> and that the transport is HTTP (Streamable HTTP). The endpoint does not offer the older SSE transport.</td></tr>
+<tr><td>"method not allowed"</td><td>Expected when you open the URL in a browser. The endpoint answers POST requests from an MCP client.</td></tr>
+<tr><td>A list of candidates</td><td>The name matched more than one institution. Ask again with the <code>id</code> of the one you mean.</td></tr>
+<tr><td>An error listing valid values</td><td>A search filter used a value the corpus does not use. Retry with one of the listed values.</td></tr>
+<tr><td>Data looks old</td><td>Compare the <code>dataset</code> block in the response with <a href="/index.json">index.json</a>. They are published together.</td></tr>
+</table>
+<p>Still stuck? See <a href="/support">support and security</a>.</p>
+
 <h2>Try it raw</h2>
 <pre><code>curl -s -X POST \
   https://calibrated-authority.chrishuberreitz.com/api/mcp \
@@ -110,5 +132,6 @@ list first. An exact id always wins.</p>
 <a href="/llms.txt">llms.txt</a>.
 License CC-BY-4.0 · DOI <a href="https://doi.org/10.5281/zenodo.21108694" target="_blank" rel="noopener">10.5281/zenodo.21108694</a> ·
 <a href="/methodology">methodology</a>.</p>
+<p class="small"><a href="/privacy">Privacy</a> · <a href="/support">Support and security</a></p>
 </body>
 </html>

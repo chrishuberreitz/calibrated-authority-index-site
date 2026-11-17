@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-17",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "pearson-—-pte-academic-test-ta",
+  "name": "Pearson — PTE Academic Test Taker Score Guide (automated scoring of speaking and writing; human review of anomalies and Content)",
+  "segment": "testing-credentialing",
+  "url": "https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "D4": 0,
+    "D5": 1,
+    "D6": 1
+  },
+  "ca": 6,
+  "posture": "Enabling",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-11-15",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "While all question types are scored by AI, some question types (Describe Image, Retell Lecture, Respond to a Situation, Summarize Group Discussion, Summarize Written Text, Write Essay and Summarize Spoken Text)) also include a human expert review of the Content before the final score for the task is finalized.",
+  "quote_label": "PTE Academic Test Taker Score Guide, §7 Scoring Criteria, note 2",
+  "provenance": {
+    "url": "https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf",
+    "verify_status": "ok",
+    "note": "DISCONFIRMATION PROBE (machine-permitted-where-proof-is-scarce). Result: partially holds. The machine is the default judge of a visa-grade credential: 'Pronunciation and Oral Fluency are only automatically scored' — no human check on the traits hardest to prove. Humans are reserved for Content (meaning) on seven item types and for anomalies 'the machine cannot reliably score', with 'a second human' breaking machine/human disagreements. The machine's authority is borrowed from human ratings ('replicating the standards established through these human ratings'), i.e. calibration-at-scale stands in for per-case proof. D3=2: open labeling ('scored by AI'). D4=0: no synthetic-identity/fabrication clause (only memorized responses scored irrelevant). No rescoring/appeal route found in the guide, D1=1. No precedent-collapse framing, twilight false."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/pearson-—-pte-academic-test-ta",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/pearson-—-pte-academic-test-ta",
+    "name": "Calibrated Authority rating — Pearson — PTE Academic Test Taker Score Guide (automated scoring of speaking and writing; human review of anomalies and Content)",
+    "datePublished": "2026-11-15",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Pearson — PTE Academic Test Taker Score Guide (automated scoring of speaking and writing; human review of anomalies and Content) — public generative-AI policy",
+      "url": "https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf",
+      "text": "While all question types are scored by AI, some question types (Describe Image, Retell Lecture, Respond to a Situation, Summarize Group Discussion, Summarize Written Text, Write Essay and Summarize Spoken Text)) also include a human expert review of the Content before the final score for the task is finalized.",
+      "abstract": "While all question types are scored by AI, some question types (Describe Image, Retell Lecture, Respond to a Situation, Summarize Group Discussion, Summarize Written Text, Write Essay and Summarize Spoken Text)) also include a human expert review of the Content before the final score for the task is finalized.",
+      "alternateName": "PTE Academic Test Taker Score Guide, §7 Scoring Criteria, note 2"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 6,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 1; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 1. Posture: Enabling. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-17",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

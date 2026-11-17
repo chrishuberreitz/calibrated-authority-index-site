@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-17",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "colorado-division-of-insurance",
+  "name": "Colorado Division of Insurance — Amended Regulation 10-1-1 (3 CCR 702-10): Governance and Risk Management Framework for insurers' use of ECDIS, algorithms and predictive models (eff. 2025-10-15)",
+  "segment": "insurance-regulator",
+  "url": "https://drive.google.com/uc?export=download&id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "D4": 0,
+    "D5": 1,
+    "D6": 2
+  },
+  "ca": 8,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": false,
+  "coded_date": "2026-11-15",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Health benefit plan insurers shall ensure that a provider acting on behalf of the insurer is ultimately responsible for the decisions made when ECDIS, or algorithms or predictive models that use ECDIS, are used to inform decisions to modify, or deny requests by a covered person or a covered person’s provider for authorization prior to, or concurrent with, the provision of health care services to a covered person.",
+  "quote_label": "3 CCR 702-10, Regulation 10-1-1, Section 5.A.5",
+  "provenance": {
+    "url": "https://drive.google.com/uc?export=download&id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y",
+    "verify_status": "ok",
+    "note": "DISCONFIRMATION PROBE (algorithms permitted in underwriting/pricing where proof of non-discrimination is scarce). Result: partially holds. The regulation does not reserve the decision for humans; it manufactures the missing proof instead — 'quantitative testing requirements established by the Division' to detect unfair discrimination, a versioned inventory, documented testing methodology and results. Humans are reserved only at one line: health prior-authorization denials, where a provider is 'ultimately responsible'. Accountability is organizational (board oversight, senior management, cross-functional governance group) rather than per-decision. D3=1: adverse-decision information for consumers ('information necessary to take meaningful action'), not AI labeling. D4=0. Officer attestation of compliance. Source URL is the Division's Google Drive export link (fragile)."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/colorado-division-of-insurance",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/colorado-division-of-insurance",
+    "name": "Calibrated Authority rating — Colorado Division of Insurance — Amended Regulation 10-1-1 (3 CCR 702-10): Governance and Risk Management Framework for insurers' use of ECDIS, algorithms and predictive models (eff. 2025-10-15)",
+    "datePublished": "2026-11-15",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Colorado Division of Insurance — Amended Regulation 10-1-1 (3 CCR 702-10): Governance and Risk Management Framework for insurers' use of ECDIS, algorithms and predictive models (eff. 2025-10-15) — public generative-AI policy",
+      "url": "https://drive.google.com/uc?export=download&id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y",
+      "text": "Health benefit plan insurers shall ensure that a provider acting on behalf of the insurer is ultimately responsible for the decisions made when ECDIS, or algorithms or predictive models that use ECDIS, are used to inform decisions to modify, or deny requests by a covered person or a covered person’s provider for authorization prior to, or concurrent with, the provision of health care services to a covered person.",
+      "abstract": "Health benefit plan insurers shall ensure that a provider acting on behalf of the insurer is ultimately responsible for the decisions made when ECDIS, or algorithms or predictive models that use ECDIS, are used to inform decisions to modify, or deny requests by a covered person or a covered person’s provider for authorization prior to, or concurrent with, the provision of health care services to a covered person.",
+      "alternateName": "3 CCR 702-10, Regulation 10-1-1, Section 5.A.5"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 1; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-17",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

@@ -1,6 +1,91 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-17",
   "moves": [
+    {
+      "date": "2026-11-15",
+      "institution": "SAGE Publishing",
+      "id": "sage",
+      "kind": "changed",
+      "headline": "SAGE Publishing policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "changed",
+      "headline": "Council of Science Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "Writers Guild of America — 2023 MBA, AI provisions",
+      "id": "wga",
+      "kind": "changed",
+      "headline": "Writers Guild of America — 2023 MBA, AI provisions policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law",
+      "id": "calbar",
+      "kind": "changed",
+      "headline": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+      "id": "nice-(uk)-—-use-of-ai-in-evide",
+      "kind": "changed",
+      "headline": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12)",
+      "id": "nice-(uk)-—-use-of-ai-in-evide",
+      "kind": "recoded",
+      "headline": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12) re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 10 → 10",
+      "change_type": "SUPERSEDE",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
+    {
+      "date": "2026-11-15",
+      "institution": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law",
+      "id": "calbar",
+      "kind": "recoded",
+      "headline": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law re-coded",
+      "detail": "Verdict moved on re-read of the live policy.",
+      "delta": "CA 11 → 11",
+      "change_type": "OTHER",
+      "disposition": "NO-SUBSTANTIVE-CHANGE"
+    },
     {
       "date": "2026-11-08",
       "institution": "BBC",

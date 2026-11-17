@@ -1,13 +1,13 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-11-09",
+  "version": "2026-11-17",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "nice-(uk)-—-use-of-ai-in-evide",
-  "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+  "name": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12)",
   "segment": "health-technology-assessment",
-  "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+  "url": "https://www.nice.org.uk/corporate/ecd20/chapter/principles-for-using-ai-in-evidence-activities",
   "scores": {
     "D1": 2,
     "D2": 2,
@@ -21,30 +21,30 @@
   "c2_fit": "fits",
   "c3": "Evidential",
   "twilight": false,
-  "coded_date": "2026-11-01",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
-  "quote_label": "NICE ECD11, para 1.7; also 1.8 declare use / submitter remains accountable, 1.14 causal-inference use needs sensitivity analysis + triangulation",
+  "coded_date": "2026-11-15",
+  "last_changed": "2026-11-15",
+  "revision": 1,
+  "quote": "Any use of AI should be based on the principle of augmentation, not replacement, of expert human involvement and judgement. Humans should retain meaningful control over how AI outputs are interpreted, accepted and reported.",
+  "quote_label": "NICE ECD20 (published and last reviewed 09 Nov 2026), Principles for using AI in evidence activities — Human oversight, Position summary",
   "provenance": {
-    "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+    "url": "https://www.nice.org.uk/corporate/ecd20/chapter/principles-for-using-ai-in-evidence-activities",
     "verify_status": "ok",
-    "note": "Coded 2026-11-01 (HTTP 200). D4=0: no fabrication/synthetic-identity clause (1.13 covers data poisoning only). c2 fits: verification burden scales with how hard the claim is to prove (1.14-1.15: higher-risk causal inference demands triangulation and independent simulation). Twilight false: 1.1 mentions rapidly evolving methods but no precedent-collapse framing."
+    "note": "SUPERSEDE: ECD11 page now reads 'This position statement has been updated and replaced by NICE's AI methods for evidence framework'; ECD20 'supersedes and builds on' ECD11 and ECD12. Re-read live. The augmentation-not-replacement line survives, sharpened ('expert human involvement and judgement'; humans 'retain meaningful control over how AI outputs are interpreted, accepted and reported'). New: two named oversight modes — human-in-the-loop (scrutinise all interim and final results) and human-at-the-helm (final results only, typical of full automation) — with oversight 'proportionate to the context of use, risks involved, and influence of the AI use', and full automation 'likely to require higher level of scrutiny and stronger demonstration'. That is the verification-cost line stated as policy, so c2 = fits. D1=2: accountability = answerability + auditability, documentation of 'initial model outputs, human changes to model outputs'. D3=2: AI declaration checklist. D4=0: still no synthetic-identity or fabrication clause. Scores unchanged at 10."
   },
   "jsonld": {
     "@context": "https://schema.org",
     "@type": "Review",
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/nice-(uk)-—-use-of-ai-in-evide",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/nice-(uk)-—-use-of-ai-in-evide",
-    "name": "Calibrated Authority rating — NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
-    "datePublished": "2026-11-01",
+    "name": "Calibrated Authority rating — NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12)",
+    "datePublished": "2026-11-15",
     "itemReviewed": {
       "@type": "CreativeWork",
-      "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11) — public generative-AI policy",
-      "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
-      "text": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
-      "abstract": "Therefore, any use of AI methods should be based on the principle of augmentation, not replacement, of human involvement (that is, having a capable and informed human in the loop; Fleurence et al. 2024).",
-      "alternateName": "NICE ECD11, para 1.7; also 1.8 declare use / submitter remains accountable, 1.14 causal-inference use needs sensitivity analysis + triangulation"
+      "name": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12) — public generative-AI policy",
+      "url": "https://www.nice.org.uk/corporate/ecd20/chapter/principles-for-using-ai-in-evidence-activities",
+      "text": "Any use of AI should be based on the principle of augmentation, not replacement, of expert human involvement and judgement. Humans should retain meaningful control over how AI outputs are interpreted, accepted and reported.",
+      "abstract": "Any use of AI should be based on the principle of augmentation, not replacement, of expert human involvement and judgement. Humans should retain meaningful control over how AI outputs are interpreted, accepted and reported.",
+      "alternateName": "NICE ECD20 (published and last reviewed 09 Nov 2026), Principles for using AI in evidence activities — Human oversight, Position summary"
     },
     "reviewRating": {
       "@type": "Rating",
@@ -72,7 +72,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-11-09",
+      "version": "2026-11-17",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-17",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "arizona-supreme-court-—-acja-§",
+  "name": "Arizona Supreme Court — ACJA § 1-509 Use of Generative AI Technology and LLMs (AO 2024-207, amended AO 2025-24)",
+  "segment": "courts-legal",
+  "url": "https://www.azcourts.gov/Portals/0/22/admorder/Orders24/2024-207.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "D4": 1,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 8,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Evidential",
+  "twilight": true,
+  "coded_date": "2026-11-08",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Court personnel must review their AI-generated material for accuracy, completeness, and potentially erroneous, incomplete, hallucinated, biased, or otherwise problematic output. Court personnel must use caution when relying on the output.",
+  "quote_label": "ACJA § 1-509(F)(4) Review of AI-Generated Material, adopted by Administrative Order No. 2024-207 (30 Oct 2024); applies to all court personnel",
+  "provenance": {
+    "url": "https://www.azcourts.gov/Portals/0/22/admorder/Orders24/2024-207.pdf",
+    "verify_status": "ok",
+    "note": "DISCONFIRMATION PROBE (synthetic identity inside a court). The Arizona judiciary publicly uses AI-generated avatar presenters for news releases; the code is silent on synthetic identity and on labeling AI presenters, so D4 stays at 1 (public-facing tools must be tested so 'false, illegal, or misleading information is not provided to the public'; hallucination named in F.4) and D3 at 1 (approval from the judicial officer before AI material is used in their work, I.1; no public labeling duty). The probe holds on paper: tolerance of synthetic presenters is consistent with a code that never names them. The permit/reserve line is drawn by confidentiality (sequestered vs non-sequestered systems, G) and by approved-tool lists (I), not by verification cost, hence c2 partially. D1=1: court-developed tools 'must document the source of the training information and generally how it works' (J); no provenance on outputs. D5=2: mandatory review (F.4), pre-deployment testing (H), judicial-officer approval (I.1). Purpose clause: 'To promote the use of Generative AI tools when it is beneficial and appropriate'. Twilight true: § L requires regular review 'to account for changes in AI technologies'. Governs court personnel, not litigants (mirror of the Singapore circular)."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/arizona-supreme-court-—-acja-§",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/arizona-supreme-court-—-acja-§",
+    "name": "Calibrated Authority rating — Arizona Supreme Court — ACJA § 1-509 Use of Generative AI Technology and LLMs (AO 2024-207, amended AO 2025-24)",
+    "datePublished": "2026-11-08",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "Arizona Supreme Court — ACJA § 1-509 Use of Generative AI Technology and LLMs (AO 2024-207, amended AO 2025-24) — public generative-AI policy",
+      "url": "https://www.azcourts.gov/Portals/0/22/admorder/Orders24/2024-207.pdf",
+      "text": "Court personnel must review their AI-generated material for accuracy, completeness, and potentially erroneous, incomplete, hallucinated, biased, or otherwise problematic output. Court personnel must use caution when relying on the output.",
+      "abstract": "Court personnel must review their AI-generated material for accuracy, completeness, and potentially erroneous, incomplete, hallucinated, biased, or otherwise problematic output. Court personnel must use caution when relying on the output.",
+      "alternateName": "ACJA § 1-509(F)(4) Review of AI-Generated Material, adopted by Administrative Order No. 2024-207 (30 Oct 2024); applies to all court personnel"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 8,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 1; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Evidential."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-17",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

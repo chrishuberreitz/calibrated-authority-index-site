@@ -6,9 +6,9 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-09",
-    "n": 96,
-    "mean_ca": 9.2,
+    "version": "2026-11-17",
+    "n": 99,
+    "mean_ca": 9.1,
     "ca_range": [
       3,
       12
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-11-09T12:30:00Z"
+    "generated_at": "2026-11-17T12:30:00Z"
   },
   "institutions": [
     {
@@ -862,10 +862,10 @@
     },
     {
       "id": "nice-(uk)-—-use-of-ai-in-evide",
-      "name": "NICE (UK) — Use of AI in evidence generation: position statement (ECD11)",
+      "name": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12)",
       "segment": "health-technology-assessment",
       "ca": 10,
-      "url": "https://www.nice.org.uk/corporate/ecd11/chapter/our-position-on-the-use-of-ai-in-evidence-generation-and-reporting",
+      "url": "https://www.nice.org.uk/corporate/ecd20/chapter/principles-for-using-ai-in-evidence-activities",
       "page": "/institutions/nice-(uk)-—-use-of-ai-in-evide",
       "atom": "/institutions/nice-(uk)-—-use-of-ai-in-evide.json"
     },
@@ -886,6 +886,33 @@
       "url": "https://wiki.gentoo.org/wiki/Project:Council/AI_policy",
       "page": "/institutions/gentoo-council-—-ai-policy-(nl",
       "atom": "/institutions/gentoo-council-—-ai-policy-(nl.json"
+    },
+    {
+      "id": "arizona-supreme-court-—-acja-§",
+      "name": "Arizona Supreme Court — ACJA § 1-509 Use of Generative AI Technology and LLMs (AO 2024-207, amended AO 2025-24)",
+      "segment": "courts-legal",
+      "ca": 8,
+      "url": "https://www.azcourts.gov/Portals/0/22/admorder/Orders24/2024-207.pdf",
+      "page": "/institutions/arizona-supreme-court-—-acja-§",
+      "atom": "/institutions/arizona-supreme-court-—-acja-§.json"
+    },
+    {
+      "id": "pearson-—-pte-academic-test-ta",
+      "name": "Pearson — PTE Academic Test Taker Score Guide (automated scoring of speaking and writing; human review of anomalies and Content)",
+      "segment": "testing-credentialing",
+      "ca": 6,
+      "url": "https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf",
+      "page": "/institutions/pearson-—-pte-academic-test-ta",
+      "atom": "/institutions/pearson-—-pte-academic-test-ta.json"
+    },
+    {
+      "id": "colorado-division-of-insurance",
+      "name": "Colorado Division of Insurance — Amended Regulation 10-1-1 (3 CCR 702-10): Governance and Risk Management Framework for insurers' use of ECDIS, algorithms and predictive models (eff. 2025-10-15)",
+      "segment": "insurance-regulator",
+      "ca": 8,
+      "url": "https://drive.google.com/uc?export=download&id=1gWvUT_zEn6npupumvYB4Sq_hvh2OZO8y",
+      "page": "/institutions/colorado-division-of-insurance",
+      "atom": "/institutions/colorado-division-of-insurance.json"
     }
   ]
 }

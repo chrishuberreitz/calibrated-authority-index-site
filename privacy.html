@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy — The Calibrated Authority Index</title>
+<meta name="description" content="What the Calibrated Authority Index collects: the agent endpoint needs no account, sets no cookies, and records only which tool was called and whether it worked." />
+<link rel="canonical" href="https://calibrated-authority.chrishuberreitz.com/privacy" />
+<style>
+:root{
+  --paper:#0d1117; --panel:#161d27; --line:#2a3543;
+  --ink:#e9e4d8; --ink-dim:#9aa5b1; --ink-faint:#5c6775;
+  --evid:#5fb7c4; --gold:#d8a64a;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:14px;line-height:1.65;padding:6vh 6vw;max-width:860px;margin:0 auto}
+h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(24px,4vw,34px);line-height:1.2;margin-bottom:.4em}
+h2{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--evid);margin:2.4em 0 .7em}
+p{color:var(--ink-dim);margin-bottom:1em;max-width:64ch}
+a{color:var(--evid);text-decoration:none;border-bottom:1px solid transparent}
+a:hover{border-bottom-color:var(--evid)}
+code{color:var(--ink)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  padding:1em 1.2em;overflow-x:auto;font-size:12.5px;line-height:1.6;margin-bottom:1em}
+table{border-collapse:collapse;width:100%;font-size:12.5px;margin-bottom:1em}
+td,th{border:1px solid var(--line);padding:.5em .8em;text-align:left;vertical-align:top}
+th{color:var(--ink-faint);font-weight:400;letter-spacing:.05em}
+td:first-child{color:var(--gold);white-space:nowrap}
+.small{font-size:12px;color:var(--ink-faint)}
+.back{display:inline-block;margin-bottom:2.5em;font-size:12px;color:var(--ink-faint)}
+ul{color:var(--ink-dim);margin:0 0 1em 1.4em;max-width:62ch}
+li{margin-bottom:.45em}
+.foot{margin-top:3em;padding-top:1.2em;border-top:1px solid var(--line);font-size:12px;color:var(--ink-faint)}
+</style>
+</head>
+<body>
+<a class="back" href="/">&larr; back to the Index</a>
+<h1>Privacy</h1>
+<p class="small">Last updated 2026-11-16</p>
+<p><strong>The short version.</strong> The Index is public data. The agent endpoint needs no
+account and sets no cookies. It records which tool was called and whether the call worked.
+It does not record what you asked.</p>
+
+<h2>The agent endpoint</h2>
+<p>This covers <code>/api/mcp</code>, the hosted MCP endpoint described on
+<a href="/agents">Connect your agent</a>.</p>
+<ul>
+<li><strong>What it receives.</strong> The request your agent sends: a tool name and its
+arguments, such as an institution name or a filter. The endpoint uses them to compute the
+answer and then discards them.</li>
+<li><strong>What it records.</strong> One log line per tool call, holding the tool name and
+the outcome (ok, error, unknown tool, or exception). Nothing else.</li>
+<li><strong>What it does not record.</strong> The arguments you sent, any text from your
+conversation, your name, your account, or which agent or client made the call.</li>
+<li><strong>What it never asks for.</strong> Conversation content, credentials, or personal
+data. The tools read a published dataset and need none of these.</li>
+</ul>
+<p>The endpoint has no sign-in, so it has no way to know who is calling.</p>
+
+<h2>The web pages</h2>
+<p>The Index pages use Google Analytics, which sets cookies, and Vercel Web Analytics, which
+does not. Both count visits in aggregate. This page and the
+<a href="/support">support page</a> load neither.</p>
+
+<h2>Who processes it</h2>
+<ul>
+<li><strong>Vercel</strong> hosts the site and the endpoint. Like any host, it handles the
+network details a web request carries, including IP address and user agent, to deliver and
+protect the service. It holds the log lines above. See
+<a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Vercel's privacy policy</a>.</li>
+<li><strong>Google</strong> processes the analytics data for the web pages. See
+<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</li>
+</ul>
+
+<h2>How I use it</h2>
+<ul>
+<li>To count how often each tool is used.</li>
+<li>To find and fix errors.</li>
+<li>Nothing else. No selling, no sharing for marketing, no advertising, and no profiles of
+the people or agents who call the endpoint.</li>
+</ul>
+
+<h2>How long it is kept</h2>
+<p>The log lines live in Vercel's logs for the limited period Vercel keeps them. I keep no
+separate copy. Analytics data is held by Google and Vercel under their own retention terms.</p>
+
+<h2>If this changes</h2>
+<p>If the endpoint ever records more than the tool name and the outcome, this page will say
+so before the change goes live.</p>
+
+<h2>Questions and requests</h2>
+<p>Write to <a href="mailto:chris@attainable.ai">chris@attainable.ai</a> to ask what is held
+or to request deletion. The Calibrated Authority Index is published by Chris Huber Reitz.</p>
+<p class="foot"><a href="/agents">Connect your agent</a> · <a href="/privacy">Privacy</a> · <a href="/support">Support and security</a> · <a href="/methodology">Methodology</a></p>
+</body>
+</html>

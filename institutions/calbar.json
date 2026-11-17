@@ -1,7 +1,7 @@
 {
   "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
   "dataset": "The Calibrated Authority Index",
-  "version": "2026-11-09",
+  "version": "2026-11-17",
   "creator": "Chris Huber Reitz",
   "license": "CC-BY-4.0",
   "id": "calbar",
@@ -21,14 +21,15 @@
   "c2_fit": "fits",
   "c3": "Both-split",
   "twilight": false,
-  "coded_date": "2026-08-02",
-  "last_changed": null,
-  "revision": 0,
-  "quote": "Critically, any use of AI must not diminish or abdicate professional judgment. A lawyer remains fully responsible for any outputs and work product generated with the assistance of AI.",
+  "coded_date": "2026-11-15",
+  "last_changed": "2026-11-15",
+  "revision": 1,
+  "quote": "Critically, any use of AI must not diminish or abdicate professional judgment. An attorney remains fully responsible for any outputs and work product generated with the assistance of AI.",
   "quote_label": "State Bar of California COPRAC, Practical Guidance for the Use of Generative AI in the Practice of Law (2026 revision), Conclusion",
   "provenance": {
     "url": "https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
-    "verify_status": "ok"
+    "verify_status": "ok",
+    "note": " | 2026-11-15 quote-fidelity fix: live PDF (approved by Board of Trustees 14 May 2026) reads 'An attorney remains fully responsible', not 'A lawyer'; stored quote corrected. The prior snapshot is unreadable binary, so whether the PDF was re-worded or the quote was mis-transcribed cannot be settled. No score change."
   },
   "jsonld": {
     "@context": "https://schema.org",
@@ -36,13 +37,13 @@
     "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/calbar",
     "url": "https://calibrated-authority.chrishuberreitz.com/institutions/calbar",
     "name": "Calibrated Authority rating — State Bar of California — Practical Guidance for Generative AI in the Practice of Law",
-    "datePublished": "2026-08-02",
+    "datePublished": "2026-11-15",
     "itemReviewed": {
       "@type": "CreativeWork",
       "name": "State Bar of California — Practical Guidance for Generative AI in the Practice of Law — public generative-AI policy",
       "url": "https://www.calbar.ca.gov/Portals/0/documents/ethics/Generative-AI-Practical-Guidance.pdf",
-      "text": "Critically, any use of AI must not diminish or abdicate professional judgment. A lawyer remains fully responsible for any outputs and work product generated with the assistance of AI.",
-      "abstract": "Critically, any use of AI must not diminish or abdicate professional judgment. A lawyer remains fully responsible for any outputs and work product generated with the assistance of AI.",
+      "text": "Critically, any use of AI must not diminish or abdicate professional judgment. An attorney remains fully responsible for any outputs and work product generated with the assistance of AI.",
+      "abstract": "Critically, any use of AI must not diminish or abdicate professional judgment. An attorney remains fully responsible for any outputs and work product generated with the assistance of AI.",
       "alternateName": "State Bar of California COPRAC, Practical Guidance for the Use of Generative AI in the Practice of Law (2026 revision), Conclusion"
     },
     "reviewRating": {
@@ -71,7 +72,7 @@
       "@type": "Dataset",
       "name": "The Calibrated Authority Index",
       "url": "https://calibrated-authority.chrishuberreitz.com",
-      "version": "2026-11-09",
+      "version": "2026-11-17",
       "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "license": "https://creativecommons.org/licenses/by/4.0/"

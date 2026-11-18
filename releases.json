@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1309,6 +1309,17 @@
         "theory": 2,
         "timeliness": 2
       }
+    },
+    {
+      "ts": "2026-11-18T12:30:00Z",
+      "date": "2026-11-18",
+      "id": "nice-(uk)-—-use-of-ai-in-evide",
+      "name": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12)",
+      "category": "move",
+      "rationale": "NICE (UK) — AI methods for evidence framework (ECD20; supersedes ECD11 and ECD12) changed its policy and the change is re-coded: SUPERSEDE (NO-SUBSTANTIVE-CHANGE), CA 10 -> 10, revision 1, observed 2026-11-15. The policy's own stated effective date is 2026-11-09. NICE ECD20 AI methods for evidence framework. A live institution's policy moving is the strongest beat the Index logs — the longitudinal record is the point.",
+      "auto": true,
+      "selection": "ready MOVE (re-code observed 2026-11-15)",
+      "move_event_ts": "2026-11-15T21:23:04Z"
     }
   ]
 }

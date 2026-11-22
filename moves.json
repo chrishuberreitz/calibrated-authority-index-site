@@ -1,6 +1,51 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-22",
   "moves": [
+    {
+      "date": "2026-11-22",
+      "institution": "World Association of Medical Editors",
+      "id": "wame",
+      "kind": "changed",
+      "headline": "World Association of Medical Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-22",
+      "institution": "Council of Science Editors",
+      "id": "cse",
+      "kind": "changed",
+      "headline": "Council of Science Editors policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-22",
+      "institution": "UNESCO — GenAI in education & research",
+      "id": "unesco",
+      "kind": "changed",
+      "headline": "UNESCO — GenAI in education & research policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-22",
+      "institution": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance)",
+      "id": "uspto",
+      "kind": "changed",
+      "headline": "USPTO — Revised Inventorship Guidance for AI-Assisted Inventions (Nov 2025; rescinds Feb 2024 guidance) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
+    {
+      "date": "2026-11-22",
+      "institution": "English Wikipedia — Writing articles with large language models (content guideline)",
+      "id": "english-wikipedia-—-writing-ar",
+      "kind": "changed",
+      "headline": "English Wikipedia — Writing articles with large language models (content guideline) policy text changed",
+      "detail": "Source text moved since last scan; re-code queued.",
+      "delta": ""
+    },
     {
       "date": "2026-11-15",
       "institution": "SAGE Publishing",

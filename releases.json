@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1342,6 +1342,23 @@
       "auto": true,
       "selection": "ready VERIFY (chrome pass logged 2026-09-17)",
       "prev_verify": "secondary-wayback-2026-05-03 (quote verbatim in capture; live 403 to browser UA 2026-11-01; Chrome unavailable; prior: primary-verified-2026-09-17)"
+    },
+    {
+      "ts": "2026-11-23T12:30:00Z",
+      "date": "2026-11-23",
+      "id": "iso-&-iec-—-guidance-on-the-us",
+      "name": "ISO & IEC — Guidance on the use of Artificial Intelligence (AI) for IEC and ISO technical committees (Version 2.0, 2026)",
+      "category": "add",
+      "rationale": "ISO & IEC — Guidance on the use of Artificial Intelligence (AI) for IEC and ISO technical committees (Version 2.0, 2026) is the strongest coded-but-unreleased record in the queue (advisory 8/10: recognition 3 · segment gap 1 · theory 2 · timeliness 2). CA 6/12 with a Balanced posture; it thickens the thin standards-body segment (only 1 released so far); its policy only partially fits the verification-boundary pattern — a boundary case worth having on the record. In the policy's own words: \"Do not use AI to substitute for your attendance, participation, or any other decision-making activity you undertake in support of writing and developing an International Standard o…\". Coded 1 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 8/10 (bar 6)",
+      "score": {
+        "total": 8,
+        "recognition": 3,
+        "segment_gap": 1,
+        "theory": 2,
+        "timeliness": 2
+      }
     }
   ]
 }

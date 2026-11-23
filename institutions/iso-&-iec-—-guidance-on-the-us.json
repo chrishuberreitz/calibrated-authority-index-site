@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-23",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "iso-&-iec-—-guidance-on-the-us",
+  "name": "ISO & IEC — Guidance on the use of Artificial Intelligence (AI) for IEC and ISO technical committees (Version 2.0, 2026)",
+  "segment": "standards-body",
+  "url": "https://webdesk.jsa.or.jp/pdf/dev/md_6949.pdf",
+  "scores": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 0,
+    "D4": 0,
+    "D5": 2,
+    "D6": 1
+  },
+  "ca": 6,
+  "posture": "Balanced",
+  "c2_fit": "partially",
+  "c3": "Both-split",
+  "twilight": false,
+  "coded_date": "2026-11-22",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "Do not use AI to substitute for your attendance, participation, or any other decision-making activity you undertake in support of writing and developing an International Standard or other publication.",
+  "quote_label": "Guidance on the use of AI for IEC and ISO technical committees, v2.0 (2026), Code of conduct for technical work – spotlight on AI, (c) Participate actively (JSA bilingual copy, © ISO 2026; read live 2026-11-22)",
+  "provenance": {
+    "url": "https://webdesk.jsa.or.jp/pdf/dev/md_6949.pdf",
+    "verify_status": "ok",
+    "note": "DISCONFIRMATION PROBE (reserve-where-proof-is-cheap). Probe result: partly holds. Consensus decision-making (scarce proof) is reserved to humans, which fits. But Annex A says 'No' to individual AI tools to 'Refine, correct, edit, or format the draft text of a standard' and 'Yes' for ISO/IEC-licensed tools: the cheapest-to-check work is gated by tool licensing, copyright and confidentiality, not by verification cost. The line follows who supplied the tool (relational), not whether output can be checked. D1=1: 'check the sources and underlying materials'; transparency is a named principle but no logging or provenance duty. D2=2: decision-making reserved; for individual tools 'users bear complete responsibility'. D3=0: no duty to disclose AI use in drafts (the meeting-recording notice is about recording, not AI). D4=0: the bar on AI-generated text/images in ISO/IEC content is a licensing rule, not an anti-fabrication rule. D5=2: 'Do verify results or outputs of generative AI'. D6=1: check sources. Twilight false ('living document', pilots marked Maybe*, but no precedent-collapse claim)."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/iso-&-iec-—-guidance-on-the-us",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/iso-&-iec-—-guidance-on-the-us",
+    "name": "Calibrated Authority rating — ISO & IEC — Guidance on the use of Artificial Intelligence (AI) for IEC and ISO technical committees (Version 2.0, 2026)",
+    "datePublished": "2026-11-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "ISO & IEC — Guidance on the use of Artificial Intelligence (AI) for IEC and ISO technical committees (Version 2.0, 2026) — public generative-AI policy",
+      "url": "https://webdesk.jsa.or.jp/pdf/dev/md_6949.pdf",
+      "text": "Do not use AI to substitute for your attendance, participation, or any other decision-making activity you undertake in support of writing and developing an International Standard or other publication.",
+      "abstract": "Do not use AI to substitute for your attendance, participation, or any other decision-making activity you undertake in support of writing and developing an International Standard or other publication.",
+      "alternateName": "Guidance on the use of AI for IEC and ISO technical committees, v2.0 (2026), Code of conduct for technical work – spotlight on AI, (c) Participate actively (JSA bilingual copy, © ISO 2026; read live 2026-11-22)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 6,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 1; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 0; D4 Synthetic-identity / fabrication prohibition: 0; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 1. Posture: Balanced. Verification-boundary fit: partially. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-23",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

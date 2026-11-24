@@ -1,0 +1,80 @@
+{
+  "$schema": "https://calibrated-authority.chrishuberreitz.com/schema.json",
+  "dataset": "The Calibrated Authority Index",
+  "version": "2026-11-24",
+  "creator": "Chris Huber Reitz",
+  "license": "CC-BY-4.0",
+  "id": "world-health-organization-—-et",
+  "name": "World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2024)",
+  "segment": "intergov",
+  "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
+  "scores": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "D4": 1,
+    "D5": 2,
+    "D6": 2
+  },
+  "ca": 11,
+  "posture": "Balanced",
+  "c2_fit": "fits",
+  "c3": "Both-split",
+  "twilight": true,
+  "coded_date": "2026-11-22",
+  "last_changed": null,
+  "revision": 0,
+  "quote": "For those functions that are considered to be higher risk, such as providing a prescription or mental health advice to a person with severe depression or use of an AI technology by a vulnerable or marginalized population, the burden of proof will be higher.",
+  "quote_label": "WHO, Ethics and governance of AI for health: Guidance on large multi-modal models (2024), government actions in the provision phase (risk-based framework) (IRIS PDF read live 2026-11-22)",
+  "provenance": {
+    "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
+    "verify_status": "ok",
+    "note": "Segment-gap pick (global health norm-setter). The permit/reserve line is drawn on proof: higher-risk clinical functions carry a higher burden of proof; LMMs regulated as devices put 'the burden of proof' on the developer 'by providing evidence that the device performs as marketed'; it repeats WHO's call for 'sound evidence obtained from prospective testing in randomized trials'. D1=2: transparency 'including source code and data inputs', third-party audits, technical documentation. D2=2: hold developers or providers responsible for false or toxic information; liability section. D3=2: 'Require developers to label AI-generated content for users'. D4=1: recommends (soft 'could') consumer-protection rules so LMMs do not use words like 'I think' that lead users to ascribe human-like qualities. D5=2: impact assessments to ensure use 'maintains humans in the loop to avoid automated decision-making'; human oversight colleges. D6=2: evidence and burden-of-proof framing throughout. c3 Both-split: evidential burden of proof plus a relational aim of 'preserving the epistemic authority of humans'. Twilight true: LMMs 'may eventually undermine the epistemic authority of humans' and 'societies may not be prepared for the consequences of computer-generated reasoning'. Guidance, not binding."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "@id": "https://calibrated-authority.chrishuberreitz.com/institutions/world-health-organization-—-et",
+    "url": "https://calibrated-authority.chrishuberreitz.com/institutions/world-health-organization-—-et",
+    "name": "Calibrated Authority rating — World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2024)",
+    "datePublished": "2026-11-22",
+    "itemReviewed": {
+      "@type": "CreativeWork",
+      "name": "World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2024) — public generative-AI policy",
+      "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
+      "text": "For those functions that are considered to be higher risk, such as providing a prescription or mental health advice to a person with severe depression or use of an AI technology by a vulnerable or marginalized population, the burden of proof will be higher.",
+      "abstract": "For those functions that are considered to be higher risk, such as providing a prescription or mental health advice to a person with severe depression or use of an AI technology by a vulnerable or marginalized population, the burden of proof will be higher.",
+      "alternateName": "WHO, Ethics and governance of AI for health: Guidance on large multi-modal models (2024), government actions in the provision phase (risk-based framework) (IRIS PDF read live 2026-11-22)"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": 11,
+      "bestRating": 12,
+      "worstRating": 0,
+      "ratingExplanation": "Composite Calibrated Authority score (sum of six 0-2 dimensions). Breakdown — D1 Traceability & inspectability: 2; D2 Human authorship & accountability: 2; D3 Disclosure & labeling: 2; D4 Synthetic-identity / fabrication prohibition: 1; D5 Human validation in loop: 2; D6 Evidential-trust emphasis: 2. Posture: Balanced. Verification-boundary fit: fits. Trust-logic: Both-split."
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com",
+      "sameAs": [
+        "https://chrishuberreitz.com",
+        "https://chrishuberreitz.com/frameworks/calibrated-authority",
+        "https://www.linkedin.com/in/chrishuberreitz"
+      ]
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Chris Huber Reitz",
+      "url": "https://chrishuberreitz.com"
+    },
+    "isPartOf": {
+      "@type": "Dataset",
+      "name": "The Calibrated Authority Index",
+      "url": "https://calibrated-authority.chrishuberreitz.com",
+      "version": "2026-11-24",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

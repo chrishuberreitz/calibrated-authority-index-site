@@ -3,7 +3,7 @@
   "@type": "Dataset",
   "name": "The Calibrated Authority Index",
   "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-  "version": "2026-11-23",
+  "version": "2026-11-24",
   "creator": {
     "@type": "Person",
     "name": "Chris Huber Reitz",
@@ -72,7 +72,7 @@
       "description": "Composite Calibrated Authority score (0-12)."
     }
   ],
-  "dateModified": "2026-11-23T12:30:00Z",
+  "dateModified": "2026-11-24T12:30:00Z",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -89,10 +89,10 @@
   "metadata": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-23",
+    "version": "2026-11-24",
     "baseline_date": "2026-06-22",
     "engine_version": "1.0.0",
-    "n": 100,
+    "n": 101,
     "mean_ca": 9.1,
     "ca_range": [
       3,
@@ -137,7 +137,7 @@
     "creator": "Chris Huber Reitz",
     "license": "CC-BY-4.0",
     "base_url": "https://calibrated-authority.chrishuberreitz.com",
-    "generated_at": "2026-11-23T12:30:00Z"
+    "generated_at": "2026-11-24T12:30:00Z"
   },
   "institutions": [
     {
@@ -3002,6 +3002,35 @@
         "url": "https://webdesk.jsa.or.jp/pdf/dev/md_6949.pdf",
         "verify_status": "ok",
         "note": "DISCONFIRMATION PROBE (reserve-where-proof-is-cheap). Probe result: partly holds. Consensus decision-making (scarce proof) is reserved to humans, which fits. But Annex A says 'No' to individual AI tools to 'Refine, correct, edit, or format the draft text of a standard' and 'Yes' for ISO/IEC-licensed tools: the cheapest-to-check work is gated by tool licensing, copyright and confidentiality, not by verification cost. The line follows who supplied the tool (relational), not whether output can be checked. D1=1: 'check the sources and underlying materials'; transparency is a named principle but no logging or provenance duty. D2=2: decision-making reserved; for individual tools 'users bear complete responsibility'. D3=0: no duty to disclose AI use in drafts (the meeting-recording notice is about recording, not AI). D4=0: the bar on AI-generated text/images in ISO/IEC content is a licensing rule, not an anti-fabrication rule. D5=2: 'Do verify results or outputs of generative AI'. D6=1: check sources. Twilight false ('living document', pilots marked Maybe*, but no precedent-collapse claim)."
+      }
+    },
+    {
+      "id": "world-health-organization-—-et",
+      "name": "World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2024)",
+      "segment": "intergov",
+      "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
+      "scores": {
+        "D1": 2,
+        "D2": 2,
+        "D3": 2,
+        "D4": 1,
+        "D5": 2,
+        "D6": 2
+      },
+      "ca": 11,
+      "posture": "Balanced",
+      "c2_fit": "fits",
+      "c3": "Both-split",
+      "twilight": true,
+      "coded_date": "2026-11-22",
+      "last_changed": null,
+      "revision": 0,
+      "quote": "For those functions that are considered to be higher risk, such as providing a prescription or mental health advice to a person with severe depression or use of an AI technology by a vulnerable or marginalized population, the burden of proof will be higher.",
+      "quote_label": "WHO, Ethics and governance of AI for health: Guidance on large multi-modal models (2024), government actions in the provision phase (risk-based framework) (IRIS PDF read live 2026-11-22)",
+      "provenance": {
+        "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
+        "verify_status": "ok",
+        "note": "Segment-gap pick (global health norm-setter). The permit/reserve line is drawn on proof: higher-risk clinical functions carry a higher burden of proof; LMMs regulated as devices put 'the burden of proof' on the developer 'by providing evidence that the device performs as marketed'; it repeats WHO's call for 'sound evidence obtained from prospective testing in randomized trials'. D1=2: transparency 'including source code and data inputs', third-party audits, technical documentation. D2=2: hold developers or providers responsible for false or toxic information; liability section. D3=2: 'Require developers to label AI-generated content for users'. D4=1: recommends (soft 'could') consumer-protection rules so LMMs do not use words like 'I think' that lead users to ascribe human-like qualities. D5=2: impact assessments to ensure use 'maintains humans in the loop to avoid automated decision-making'; human oversight colleges. D6=2: evidence and burden-of-proof framing throughout. c3 Both-split: evidential burden of proof plus a relational aim of 'preserving the epistemic authority of humans'. Twilight true: LMMs 'may eventually undermine the epistemic authority of humans' and 'societies may not be prepared for the consequences of computer-generated reasoning'. Guidance, not binding."
       }
     }
   ]

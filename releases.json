@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "releases": [
     {
       "ts": "2026-07-10T06:27:06Z",
@@ -1355,6 +1355,23 @@
       "score": {
         "total": 8,
         "recognition": 3,
+        "segment_gap": 1,
+        "theory": 2,
+        "timeliness": 2
+      }
+    },
+    {
+      "ts": "2026-11-24T12:30:00Z",
+      "date": "2026-11-24",
+      "id": "world-health-organization-—-et",
+      "name": "World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2024)",
+      "category": "add",
+      "rationale": "World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2024) is the strongest coded-but-unreleased record in the queue (advisory 7/10: recognition 2 · segment gap 1 · theory 2 · timeliness 2). CA 11/12 with a Balanced posture; it thickens the thin intergov segment (only 2 released so far); its policy independently fits the verification-boundary pattern, adding replication weight. In the policy's own words: \"For those functions that are considered to be higher risk, such as providing a prescription or mental health advice to a person with severe depression or use of an AI technology by…\". Coded 2 day(s) ago.",
+      "auto": true,
+      "selection": "best ADD 7/10 (bar 6)",
+      "score": {
+        "total": 7,
+        "recognition": 2,
         "segment_gap": 1,
         "theory": 2,
         "timeliness": 2

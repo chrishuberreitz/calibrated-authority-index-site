@@ -6,8 +6,8 @@
   "dataset": {
     "title": "The Calibrated Authority Index",
     "description": "A living corpus coding how knowledge institutions construct trust in generative AI. Each institution's public AI policy is coded on six dimensions (D1-D6) into a composite Calibrated Authority (CA) score 0-12, plus posture, verification-boundary fit, trust-logic, and twilight markers. The observational, observed-in-the-wild evidence for the trust-formation-divergence thesis: trust forms by divergent mechanisms driven by verification economics.",
-    "version": "2026-11-24",
-    "n": 101,
+    "version": "2026-11-25",
+    "n": 102,
     "mean_ca": 9.1,
     "ca_range": [
       3,
@@ -20,7 +20,7 @@
     "index_url": "https://calibrated-authority.chrishuberreitz.com/index.json",
     "schema_url": "https://calibrated-authority.chrishuberreitz.com/schema.json",
     "methodology_url": "https://calibrated-authority.chrishuberreitz.com/methodology",
-    "generated_at": "2026-11-24T12:30:00Z"
+    "generated_at": "2026-11-25T12:30:00Z"
   },
   "institutions": [
     {
@@ -931,6 +931,15 @@
       "url": "https://iris.who.int/server/api/core/bitstreams/e9e62c65-6045-481e-bd04-20e206bc5039/content",
       "page": "/institutions/world-health-organization-—-et",
       "atom": "/institutions/world-health-organization-—-et.json"
+    },
+    {
+      "id": "texas-legislature-—-sb-1188-(8",
+      "name": "Texas Legislature — SB 1188 (89R), Health & Safety Code §183.005: Artificial intelligence in electronic health records (diagnostic use)",
+      "segment": "healthcare-regulator",
+      "ca": 6,
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01188F.htm",
+      "page": "/institutions/texas-legislature-—-sb-1188-(8",
+      "atom": "/institutions/texas-legislature-—-sb-1188-(8.json"
     }
   ]
 }
